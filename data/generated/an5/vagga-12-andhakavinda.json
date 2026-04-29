@@ -1,0 +1,226 @@
+[
+  {
+    "source_ref": "AN 5.111",
+    "canonical_passage": "A mendicant with five qualities who visits families is dear and beloved, respected and admired. What five? They don’t act as though they’re close to people they hardly know. They don’t give away things they don’t own. They don’t over-associate with close friends. They don’t whisper in the ear. And they don’t ask for too much.",
+    "context_summary": "This sutta discusses the qualities that make a person likable and respected when interacting with others, particularly in family settings.",
+    "problem_summary": "People often struggle with building and maintaining respectful relationships, leading to misunderstandings and social friction.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Misunderstandings and lack of respect in social interactions can stem from inappropriate behavior and expectations.",
+    "teaching": "To be respected and admired in social interactions, one should maintain appropriate boundaries, avoid overstepping in relationships, and be mindful of their requests.",
+    "practice_actions": [
+      "Be mindful of how you interact with acquaintances; avoid acting overly familiar.",
+      "Only share what you truly own and can give without expectation.",
+      "Limit time spent with close friends to avoid neglecting other relationships.",
+      "Communicate openly without whispering or creating secrecy.",
+      "Be reasonable in your requests from others, ensuring they are not excessive."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_111_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.113",
+    "canonical_passage": "A mendicant who can endure sights, sounds, smells, tastes, and touches can enter and remain in right immersion.",
+    "context_summary": "This teaching emphasizes the importance of endurance and acceptance of sensory experiences for achieving a state of deep concentration or immersion.",
+    "problem_summary": "Many people struggle with distractions and discomfort from sensory experiences, which can hinder their ability to focus and find inner peace.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Difficulty in maintaining focus and calmness due to overwhelming sensory inputs.",
+    "teaching": "Cultivating the ability to endure and accept sensory experiences can lead to deeper concentration and a more peaceful state of mind.",
+    "practice_actions": [
+      "Practice mindfulness by observing your reactions to different sensory inputs without judgment.",
+      "Engage in meditation that focuses on breath or body sensations to build endurance against distractions.",
+      "Gradually expose yourself to challenging sensory environments while maintaining a calm and focused mind."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_113_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.114",
+    "canonical_passage": "They should be encouraged, supported, and established in restraint in the monastic code: ‘Reverends, please be ethical. Live restrained in the monastic code, conducting yourselves well and resorting for alms in suitable places.'",
+    "context_summary": "The Buddha advises on how to support new practitioners in their ethical and mindful conduct.",
+    "problem_summary": "Many people struggle with maintaining ethical behavior and mindfulness in their daily lives.",
+    "buddhist_labels": [
+      "ethical_conflict",
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Individuals may face challenges in adhering to ethical standards and being mindful in their actions.",
+    "teaching": "Encourage ethical behavior and mindfulness in daily life.",
+    "practice_actions": [
+      "Reflect on your daily actions and ensure they align with your ethical values.",
+      "Set specific times to practice mindfulness, such as during meals or while commuting.",
+      "Limit distractions and focus on being present in your interactions with others."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_114_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.114",
+    "canonical_passage": "They should be encouraged, supported, and established in sense restraint: ‘Reverends, please live with sense doors guarded, mindfully alert and on guard, with protected mind, having a heart protected by mindfulness.’",
+    "context_summary": "The Buddha emphasizes the importance of guarding the senses to maintain mental clarity and emotional stability.",
+    "problem_summary": "People often find themselves overwhelmed by sensory input, leading to distraction and emotional turmoil.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Excessive sensory stimulation can lead to distraction and emotional instability.",
+    "teaching": "Practice guarding your senses to maintain focus and emotional balance.",
+    "practice_actions": [
+      "Limit exposure to negative or overwhelming stimuli, such as news or social media.",
+      "Engage in activities that promote mindfulness, like meditation or nature walks.",
+      "Create a calm environment at home to reduce sensory overload."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_114_2",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.115",
+    "canonical_passage": "A nun with five qualities is placed in heaven as if delivered there. What five? She is not stingy with dwellings, families, material things, praise, or the teaching.",
+    "context_summary": "The sutta discusses the qualities of generosity versus stinginess and their consequences in terms of spiritual outcomes.",
+    "problem_summary": "Many people struggle with generosity and may feel isolated or unhappy due to their reluctance to share resources or praise.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Stinginess can lead to negative emotional and spiritual states, impacting one's relationships and overall well-being.",
+    "teaching": "Being generous with your resources, praise, and knowledge can lead to positive outcomes in life and relationships.",
+    "practice_actions": [
+      "Make a conscious effort to share your resources, whether it's time, money, or material goods.",
+      "Offer genuine praise and encouragement to others regularly.",
+      "Share your knowledge or skills with those who can benefit from them."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_115_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.116",
+    "canonical_passage": "A nun with five qualities is placed in heaven as if delivered there. What five? After examining and scrutinizing, she criticizes those deserving of criticism, and praises those deserving of praise.",
+    "context_summary": "The sutta discusses the qualities that lead to either a favorable or unfavorable rebirth, focusing on the importance of discernment in speech and action.",
+    "problem_summary": "People often struggle with making fair judgments about others, leading to misunderstandings and conflicts in relationships.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Misjudgment and lack of discernment in evaluating others can lead to negative consequences in relationships and personal integrity.",
+    "teaching": "Practice discernment in your judgments of others, ensuring that you praise those who deserve it and criticize those who warrant criticism.",
+    "practice_actions": [
+      "Take time to reflect before speaking about others, ensuring your comments are fair and justified.",
+      "Seek to understand the context of someone's actions before forming an opinion.",
+      "Encourage and support those who inspire you, and be honest about those who may need constructive criticism."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_116_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.117",
+    "canonical_passage": "A nun with five qualities is placed in heaven as if delivered there. What five? After examining and scrutinizing, she criticizes those deserving of criticism, and praises those deserving of praise. She is not jealous, or stingy, and doesn’t waste gifts given in faith.",
+    "context_summary": "The sutta discusses the qualities that lead to either a favorable or unfavorable rebirth, focusing on the importance of discernment in speech and attitude.",
+    "problem_summary": "People often struggle with jealousy and misjudgment in their relationships, leading to conflict and dissatisfaction.",
+    "buddhist_labels": [
+      "speech_relationships",
+      "craving_attachment"
+    ],
+    "diagnosis": "Jealousy and misjudgment can lead to negative outcomes in personal and social contexts.",
+    "teaching": "Cultivate discernment in your judgments of others, praise those who deserve it, and avoid jealousy and stinginess.",
+    "practice_actions": [
+      "Reflect on your judgments of others and ensure they are fair and based on careful consideration.",
+      "Practice praising others genuinely when they do something commendable.",
+      "Be mindful of feelings of jealousy and work to transform them into appreciation for others' successes."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_117_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.118",
+    "canonical_passage": "A nun with five qualities is placed in heaven as if delivered there. What five? After examining and scrutinizing, she criticizes those deserving of criticism, and praises those deserving of praise.",
+    "context_summary": "The sutta contrasts the qualities of individuals who have wrong views and actions with those who have right views and actions, emphasizing the consequences of these qualities.",
+    "problem_summary": "People often struggle with making fair judgments about others, leading to misunderstandings and conflicts.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Judging others without careful consideration can lead to negative outcomes for oneself and others.",
+    "teaching": "Examine and scrutinize your judgments about others before forming opinions. Praise those who deserve it and criticize those who warrant criticism.",
+    "practice_actions": [
+      "Take a moment to reflect before making judgments about others.",
+      "Seek to understand the context and reasons behind someone's actions.",
+      "Practice giving praise where it is due and providing constructive criticism when necessary."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_118_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.119",
+    "canonical_passage": "A nun with five qualities is placed in heaven as if delivered there. What five? After examining and scrutinizing, she criticizes those deserving of criticism, and praises those deserving of praise.",
+    "context_summary": "The sutta contrasts the qualities of speech and action that lead to negative or positive outcomes in one's life.",
+    "problem_summary": "People often struggle with communication and the consequences of their words and actions, leading to misunderstandings and conflicts.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Miscommunication and misjudgment can lead to negative social consequences and personal suffering.",
+    "teaching": "Practice discernment in your speech and actions by recognizing when to praise and when to criticize, ensuring that your words align with truth and appropriateness.",
+    "practice_actions": [
+      "Take time to reflect before speaking, ensuring your comments are fair and justified.",
+      "Praise others when they do something commendable, and provide constructive criticism when necessary.",
+      "Avoid making hasty judgments about others without proper understanding."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_119_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.120",
+    "canonical_passage": "After examining and scrutinizing, she criticizes those deserving of criticism, and praises those deserving of praise.",
+    "context_summary": "The sutta discusses the qualities that lead to either a favorable or unfavorable rebirth, focusing on the importance of discernment in speech and effort.",
+    "problem_summary": "People often struggle with making fair judgments about others, leading to misunderstandings and negative consequences in relationships.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Misjudging others can lead to conflict and poor relationships.",
+    "teaching": "Practice discernment in your judgments of others, ensuring that you recognize and acknowledge both strengths and weaknesses appropriately.",
+    "practice_actions": [
+      "Take time to reflect before speaking about others, considering whether your comments are fair and justified.",
+      "Make a conscious effort to praise others when they deserve it, and provide constructive criticism when necessary.",
+      "Cultivate mindfulness to ensure your efforts in communication are aligned with truth and fairness."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_120_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

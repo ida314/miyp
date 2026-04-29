@@ -1,0 +1,240 @@
+[
+  {
+    "source_ref": "AN 5.61",
+    "canonical_passage": "The perceptions of ugliness, death, drawbacks, repulsiveness of food, and dissatisfaction with the whole world.",
+    "context_summary": "The sutta discusses five perceptions that, when cultivated, lead to beneficial outcomes and freedom from death.",
+    "problem_summary": "Many people struggle with attachment to physical beauty, fear of death, and dissatisfaction with life, which can lead to suffering.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "fear_anxiety",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Attachment to beauty and life can lead to suffering and anxiety about death.",
+    "teaching": "Cultivating perceptions of ugliness, the inevitability of death, and the drawbacks of worldly pleasures can help reduce attachment and anxiety.",
+    "practice_actions": [
+      "Reflect on the impermanence of beauty and life.",
+      "Contemplate the drawbacks of excessive attachment to food and worldly pleasures.",
+      "Practice mindfulness to recognize and let go of dissatisfaction."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_61_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.62",
+    "canonical_passage": "The perceptions of impermanence, not-self, death, repulsiveness of food, and dissatisfaction with the whole world.",
+    "context_summary": "The sutta discusses five perceptions that, when cultivated, lead to significant benefits and ultimately to freedom from death.",
+    "problem_summary": "Many people struggle with attachment to life and material things, leading to suffering and dissatisfaction.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Attachment to the transient nature of life and material possessions causes suffering.",
+    "teaching": "Cultivating perceptions of impermanence, not-self, and dissatisfaction can help reduce attachment and suffering.",
+    "practice_actions": [
+      "Reflect daily on the impermanence of life and material possessions.",
+      "Meditate on the concept of not-self to understand that identity is not fixed.",
+      "Consider the nature of food and material desires, recognizing their temporary satisfaction."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_62_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.63",
+    "canonical_passage": "He grows in faith, ethics, learning, generosity, and wisdom.",
+    "context_summary": "The sutta discusses the qualities that contribute to a noble growth in a person's life.",
+    "problem_summary": "Many people struggle to find meaning and direction in their lives.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals may feel lost or lack purpose due to not focusing on essential qualities.",
+    "teaching": "Cultivating faith, ethics, learning, generosity, and wisdom leads to a more meaningful and noble life.",
+    "practice_actions": [
+      "Reflect on your values and identify areas where you can grow in faith and ethics.",
+      "Engage in learning by reading or attending workshops on topics of interest.",
+      "Practice generosity by volunteering or helping others in your community.",
+      "Seek wisdom through meditation or discussions with knowledgeable individuals."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_63_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.64",
+    "canonical_passage": "She grows in faith, ethics, learning, generosity, and wisdom.",
+    "context_summary": "The sutta discusses the qualities that contribute to the noble growth of a female disciple.",
+    "problem_summary": "Many people seek personal growth and fulfillment but may not know which qualities to develop.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Lack of direction in personal development.",
+    "teaching": "Cultivating faith, ethics, learning, generosity, and wisdom leads to noble growth.",
+    "practice_actions": [
+      "Reflect on your beliefs and strengthen your faith.",
+      "Practice ethical behavior in daily interactions.",
+      "Engage in continuous learning through reading or courses.",
+      "Be generous with your time and resources to help others.",
+      "Seek wisdom through meditation or discussions with knowledgeable individuals."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_64_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.65",
+    "canonical_passage": "A mendicant with five qualities is fit to hold a discussion with their spiritual companions.",
+    "context_summary": "This sutta outlines the qualities that make someone suitable for meaningful discussions about spiritual accomplishments.",
+    "problem_summary": "Many people struggle to engage in meaningful discussions about personal growth and spirituality, often lacking the necessary knowledge or ethical grounding.",
+    "buddhist_labels": [
+      "ethical_conflict",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals may feel unprepared or unsure about discussing spiritual matters due to a lack of personal accomplishment in key areas.",
+    "teaching": "To engage effectively in discussions about spirituality, one should cultivate personal accomplishments in ethics, immersion, wisdom, freedom, and the knowledge of freedom.",
+    "practice_actions": [
+      "Reflect on your ethical behavior and identify areas for improvement.",
+      "Practice meditation to enhance your immersion and mindfulness.",
+      "Study and contemplate wisdom teachings to deepen your understanding.",
+      "Engage in practices that promote a sense of freedom from attachments and aversions.",
+      "Seek experiences that enhance your knowledge and vision of freedom."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_65_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.66",
+    "canonical_passage": "A mendicant with five qualities is fit to share their life with their spiritual companions.",
+    "context_summary": "The sutta discusses the qualities that make a person suitable for sharing life with others in a spiritual context.",
+    "problem_summary": "Many people struggle with finding the right companions or community for personal growth and spiritual development.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "The quality of one's companions can significantly influence personal growth and ethical living.",
+    "teaching": "To engage meaningfully with others, cultivate personal accomplishments in ethics, meditation, wisdom, and freedom.",
+    "practice_actions": [
+      "Reflect on your own ethical conduct and seek to improve it.",
+      "Engage in meditation practices to deepen your immersion.",
+      "Study and apply wisdom teachings in your daily life.",
+      "Work on achieving personal freedom from attachments and aversions.",
+      "Share your insights and experiences with others to foster community."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_66_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.67",
+    "canonical_passage": "A mendicant develops the basis of psychic power that has immersion due to enthusiasm, and active effort ...",
+    "context_summary": "The sutta discusses the qualities that monks and nuns should cultivate to achieve enlightenment or non-return.",
+    "problem_summary": "Many people struggle with achieving their goals and finding deeper meaning in life.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Lack of focus and commitment can hinder personal growth and spiritual development.",
+    "teaching": "Cultivating enthusiasm, energy, mental development, inquiry, and vigor can lead to significant personal transformation.",
+    "practice_actions": [
+      "Set specific goals that inspire enthusiasm and commit to them.",
+      "Engage in regular physical and mental exercises to build energy.",
+      "Dedicate time to personal reflection and inquiry into your beliefs and values.",
+      "Practice mindfulness to enhance mental development.",
+      "Maintain a consistent routine that fosters vigor in your daily activities."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_67_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.68",
+    "canonical_passage": "I developed and cultivated five things. What five? The basis of psychic power that has immersion due to enthusiasm, and active effort ...",
+    "context_summary": "The Buddha describes the five bases of psychic power that he cultivated before his awakening, emphasizing the importance of effort and mental development.",
+    "problem_summary": "Many people struggle with motivation and focus in their personal development and spiritual practices.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Lack of consistent effort and focus can hinder personal growth and spiritual awakening.",
+    "teaching": "Cultivating enthusiasm, energy, mental development, inquiry, and sheer vigor can lead to significant personal and spiritual insights.",
+    "practice_actions": [
+      "Set specific goals for personal development and approach them with enthusiasm.",
+      "Engage in regular physical and mental exercises to build energy and focus.",
+      "Practice mindfulness and inquiry into your thoughts and actions to deepen understanding.",
+      "Commit to a daily practice that requires effort and discipline, such as meditation or study.",
+      "Reflect on your progress and adjust your efforts to maintain vigor in your pursuits."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_68_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.69",
+    "canonical_passage": "A mendicant meditates observing the ugliness of the body, perceives the repulsiveness of food, perceives dissatisfaction with the whole world, observes the impermanence of all conditions, and has well established the perception of their own death.",
+    "context_summary": "This teaching emphasizes the importance of recognizing the transient and unsatisfactory nature of worldly experiences and the body.",
+    "problem_summary": "Many people struggle with attachment to physical appearance, material possessions, and the fear of death, leading to dissatisfaction and anxiety.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "fear_anxiety",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Attachment to the body and worldly pleasures can lead to suffering and dissatisfaction.",
+    "teaching": "By cultivating awareness of the body's impermanence, the unsatisfactory nature of food, and the inevitability of death, one can develop dispassion and peace.",
+    "practice_actions": [
+      "Spend time in meditation reflecting on the impermanence of the body and all physical things.",
+      "Consider the nature of food and how it is ultimately unsatisfactory, practicing moderation in consumption.",
+      "Contemplate the reality of death and how it can motivate a more meaningful life."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_69_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.70",
+    "canonical_passage": "A mendicant meditates observing the ugliness of the body, perceives the repulsiveness of food, perceives dissatisfaction with the whole world, observes the impermanence of all conditions, and has well established the perception of their own death.",
+    "context_summary": "The sutta discusses five practices that can help in overcoming defilements and achieving a clearer state of mind.",
+    "problem_summary": "Many people struggle with attachment to physical appearance, food, and the transient nature of life, leading to dissatisfaction and suffering.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Attachment to physical beauty and material satisfaction can lead to ongoing dissatisfaction and confusion about the nature of existence.",
+    "teaching": "By reflecting on the impermanence of the body, the nature of food, and the inevitability of death, one can cultivate a deeper understanding that reduces attachment and confusion.",
+    "practice_actions": [
+      "Spend time each day reflecting on the impermanence of your body and the physical world.",
+      "Practice mindful eating by considering the nature of food and its role in your life.",
+      "Contemplate the idea of mortality to foster a sense of urgency and appreciation for the present moment."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_70_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

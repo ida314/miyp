@@ -1,0 +1,362 @@
+[
+  {
+    "id": "au_001",
+    "source_collection": "AN",
+    "source_ref": "AN 5.162",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "There are these five ways of removing annoyance... One removes annoyance by suffusing the person with loving-kindness...",
+    "context_summary": "The Buddha teaches five approaches for dealing with irritation toward others, ranging from cultivating goodwill to reflecting on kamma.",
+    "problem_summary": "anger or irritation toward another person",
+    "buddhist_labels": ["aversion_anger"],
+    "diagnosis": "Anger arises from ill will and aversion; it is sustained by attention to the disagreeable qualities of another.",
+    "teaching": "One can dissolve irritation by deliberately cultivating loving-kindness (metta) toward the irritating person, by reflecting on their good qualities, or by reflecting that each being is the heir of their own actions.",
+    "practice_actions": [
+      "When anger arises toward someone, pause and consciously direct goodwill toward them.",
+      "Reflect on one good quality or kind act of the person you feel angry toward.",
+      "Remind yourself: they are the heir of their own kamma — anger harms you more than them."
+    ],
+    "audience": "lay",
+    "confidence": 0.92,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_002",
+    "source_collection": "MN",
+    "source_ref": "MN 21",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "Even if bandits were to sever you limb from limb with a two-handled saw, one who gave rise to a mind of ill will toward them would not be carrying out my teaching.",
+    "context_summary": "The Simile of the Saw. The Buddha gives the most extreme test case for patience and non-ill-will.",
+    "problem_summary": "intense anger or desire for revenge",
+    "buddhist_labels": ["aversion_anger"],
+    "diagnosis": "Deep anger and the wish to retaliate arise from identification with the injured self and from the belief that harming back resolves the injury.",
+    "teaching": "One should train the mind so that even in the most extreme provocation, ill will does not arise. The mind can be trained like space — vast enough that nothing thrown into it can stain it.",
+    "practice_actions": [
+      "When anger feels overwhelming, recall the simile of the saw as an aspiration — not to suppress anger, but to see it is possible to not be owned by it.",
+      "Practice expanding your sense of mental space when provoked, rather than contracting.",
+      "Reflect: retaliation does not undo the harm. It multiplies suffering."
+    ],
+    "audience": "lay",
+    "confidence": 0.90,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_003",
+    "source_collection": "AN",
+    "source_ref": "AN 5.57",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "There are these five subjects for frequent recollection... I am subject to aging... I am subject to illness... I am subject to death... I must be parted and separated from everyone and everything dear and agreeable to me... I am the owner of my kamma...",
+    "context_summary": "The Five Subjects for Frequent Recollection. The Buddha encourages regular contemplation of aging, illness, death, separation, and kamma-ownership.",
+    "problem_summary": "jealousy toward others' success or clinging to status",
+    "buddhist_labels": ["craving_attachment"],
+    "diagnosis": "Suffering is intensified by attachment to status and self-view. Comparing oneself to others' achievements deepens craving and ill will.",
+    "teaching": "One should cultivate sympathetic joy (mudita) and examine attachment to praise and gain. Reflecting on impermanence loosens the grip of comparison.",
+    "practice_actions": [
+      "Notice envy as a conditioned state — name it clearly when it arises.",
+      "Reflect on impermanence of praise and status: what was envied last year?",
+      "Cultivate mudita (sympathetic joy) — deliberately wish for the other's continued success."
+    ],
+    "audience": "lay",
+    "confidence": 0.88,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_004",
+    "source_collection": "MN",
+    "source_ref": "MN 10",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "When walking, a bhikkhu understands 'I am walking'; when standing, he understands 'I am standing'... In this way he abides contemplating the body in the body...",
+    "context_summary": "The Satipatthana Sutta. Instructions on establishing mindfulness of body, feelings, mind, and dhammas.",
+    "problem_summary": "restlessness, inability to focus, or feeling scattered",
+    "buddhist_labels": ["restlessness_distraction"],
+    "diagnosis": "Restlessness (uddhacca) is one of the five hindrances. It arises from an agitated mind that cannot settle on one object. It is fed by unwise attention to mental agitation.",
+    "teaching": "Mindfulness of the body — beginning with simple awareness of posture and physical sensations — is the most direct antidote to restlessness. The practice is not to force calm but to anchor attention in what is already happening in the body.",
+    "practice_actions": [
+      "When feeling scattered, stop and note your current posture: sitting, standing, walking.",
+      "Take five slow breaths, noticing the physical sensation of each inhale and exhale.",
+      "For recurring restlessness, establish a short daily period of sitting practice — even 5 minutes."
+    ],
+    "audience": "lay",
+    "confidence": 0.93,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_005",
+    "source_collection": "AN",
+    "source_ref": "AN 3.65",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "Do not go by oral tradition, by lineage of teaching, by hearsay... But when you know for yourselves: 'These things are unwholesome... these things, if undertaken and carried out, lead to harm and suffering,' then you should abandon them.",
+    "context_summary": "The Kalama Sutta. The Buddha advises the Kalamas not to accept teachings blindly but to test them through direct experience.",
+    "problem_summary": "doubt or indecision about what is right",
+    "buddhist_labels": ["doubt_indecision", "ethical_conflict"],
+    "diagnosis": "Doubt (vicikiccha) is one of the five hindrances. It paralyzes action and creates suffering through chronic indecision. But the remedy is not blind faith — it is careful investigation.",
+    "teaching": "Test teachings and choices against direct experience and against outcomes. Ask: does this lead to harm or welfare? Does acting this way lead to regret or non-regret?",
+    "practice_actions": [
+      "When stuck in indecision, ask yourself: 'If I act on this, will I later regret it?'",
+      "Identify whether the doubt is about values (what is right) or outcomes (what will happen) — they need different responses.",
+      "Take a small, reversible step rather than waiting for certainty."
+    ],
+    "audience": "lay",
+    "confidence": 0.91,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_006",
+    "source_collection": "MN",
+    "source_ref": "MN 61",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "Whenever you want to do a bodily action, you should reflect on it: 'Would this lead to self-affliction, to the affliction of others, or to both?'",
+    "context_summary": "The Advice to Rahula at Ambalatthika. The Buddha teaches his son Rahula to reflect before, during, and after every action.",
+    "problem_summary": "ethical conflict or guilt about a decision",
+    "buddhist_labels": ["ethical_conflict"],
+    "diagnosis": "Ethical confusion often comes from acting impulsively and reflecting too late, or from applying rigid rules without examining the specific situation.",
+    "teaching": "Before acting, reflect: will this lead to my harm, others' harm, or both? If so, do not do it. If you acted and found it led to harm, acknowledge it, disclose it, and resolve to refrain in the future.",
+    "practice_actions": [
+      "Before a difficult decision, pause and ask: 'Does this lead to harm for myself, for others, or both?'",
+      "If you acted and feel guilty, name the harm clearly, share it with someone you trust, and commit to a different course.",
+      "Cultivate the habit of pre-reflection instead of post-justification."
+    ],
+    "audience": "lay",
+    "confidence": 0.90,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_007",
+    "source_collection": "AN",
+    "source_ref": "AN 5.48",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "There are these five contemplations that should often be reflected upon by a woman or a man, by a householder or one gone forth...",
+    "context_summary": "Contemplation of loss and separation as a regular reflective practice.",
+    "problem_summary": "grief over loss of a loved one or something precious",
+    "buddhist_labels": ["grief_loss", "craving_attachment"],
+    "diagnosis": "Grief arises from attachment. The deeper the attachment, the sharper the grief. This is not a failing — it is how conditioned minds work. But continuing to cling to what has changed extends suffering beyond its natural course.",
+    "teaching": "One should contemplate: 'I must be parted from everything dear and agreeable to me.' This is not meant to harden the heart but to soften the shock — to make impermanence familiar rather than devastating.",
+    "practice_actions": [
+      "Allow grief to be present without trying to fix or rush through it.",
+      "When grief becomes overwhelming, return attention to the body — feel the grief physically rather than churning through thoughts.",
+      "Reflect gently on impermanence: 'All beings are separated from what they love. This is the nature of things.'"
+    ],
+    "audience": "lay",
+    "confidence": 0.89,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_008",
+    "source_collection": "SN",
+    "source_ref": "SN 56.11",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "Now this, bhikkhus, is the noble truth of suffering: birth is suffering, aging is suffering, illness is suffering, death is suffering; union with what is displeasing is suffering; separation from what is pleasing is suffering; not to get what one wants is suffering...",
+    "context_summary": "The First Discourse: Setting in Motion the Wheel of the Dhamma. The Buddha's first teaching, including the Four Noble Truths.",
+    "problem_summary": "general sense that life is unsatisfactory or existential dissatisfaction",
+    "buddhist_labels": ["craving_attachment", "delusion_confusion"],
+    "diagnosis": "The pervasive sense of unsatisfactoriness (dukkha) is not a sign that something is uniquely wrong with you. It is the starting point of the Buddhist diagnosis: craving for experience to be other than it is generates suffering.",
+    "teaching": "The Four Noble Truths are not pessimistic but diagnostic: there is suffering, there is a cause (craving), there is cessation, and there is a path. Recognizing dukkha clearly is the first step, not the last.",
+    "practice_actions": [
+      "When dissatisfaction arises, name it simply: 'This is dukkha.'",
+      "Ask: 'What am I craving right now — for things to be different than they are?'",
+      "Study the Four Noble Truths not as doctrine but as a diagnostic question to apply to your experience."
+    ],
+    "audience": "lay",
+    "confidence": 0.95,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_009",
+    "source_collection": "AN",
+    "source_ref": "AN 4.183",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "One should speak at the right time, speak what is true, speak gently, speak what is beneficial, speak with a mind of goodwill.",
+    "context_summary": "The qualities of right speech: timely, true, gentle, beneficial, spoken with goodwill.",
+    "problem_summary": "conflict in relationships or difficulty saying the right thing",
+    "buddhist_labels": ["speech_relationships"],
+    "diagnosis": "Speech conflict often arises from speaking impulsively — before checking whether the speech is timely, true, beneficial, and motivated by goodwill. Harmful speech breeds resentment and distance.",
+    "teaching": "Right speech is not mere politeness. It is the discipline of checking five conditions before speaking: Is it the right time? Is it true? Is it gentle? Is it beneficial? Is it motivated by goodwill?",
+    "practice_actions": [
+      "Before a difficult conversation, check: Is this the right time, or am I speaking from reactive emotion?",
+      "Ask yourself: Is what I am about to say true, useful, and kind — or only one or two of these?",
+      "When you notice harsh speech arising, pause and soften the tone without losing the truth."
+    ],
+    "audience": "lay",
+    "confidence": 0.90,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_010",
+    "source_collection": "AN",
+    "source_ref": "AN 4.37",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "Bhikkhus, there are these four efforts: the effort to prevent unarisen unwholesome states, the effort to abandon arisen unwholesome states, the effort to arouse unarisen wholesome states, the effort to maintain already arisen wholesome states.",
+    "context_summary": "The Four Right Efforts — a practical framework for habit formation and self-discipline.",
+    "problem_summary": "difficulty building good habits or breaking bad ones",
+    "buddhist_labels": ["discipline_habit_formation"],
+    "diagnosis": "Habit struggle often comes from addressing only one direction — trying to suppress the bad without cultivating the good, or vice versa. The Buddhist framework addresses four dimensions: prevent, abandon, arouse, maintain.",
+    "teaching": "The Four Right Efforts provide a complete habit framework: prevent new unwholesome patterns from arising, abandon ones that have arisen, cultivate wholesome states that haven't arisen yet, and sustain ones already present.",
+    "practice_actions": [
+      "Identify one unwholesome habit: what conditions trigger it? Work on prevention at the trigger level.",
+      "Identify one wholesome habit you want to build: what small daily step would arouse it?",
+      "When a good state is already present (e.g., patience, generosity), notice and protect it deliberately."
+    ],
+    "audience": "lay",
+    "confidence": 0.91,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_011",
+    "source_collection": "MN",
+    "source_ref": "MN 2",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "He attends wisely: 'This is suffering... This is the origin of suffering... This is the cessation of suffering... This is the way leading to the cessation of suffering.'",
+    "context_summary": "The Sabbasava Sutta teaches seven methods for dealing with mental taints (asava), emphasizing wise attention.",
+    "problem_summary": "worry or anxiety about the future",
+    "buddhist_labels": ["fear_anxiety", "craving_attachment"],
+    "diagnosis": "Anxiety is often fueled by unwise attention — mental proliferation about uncertain futures, worst-case scenarios, and attempts to control the uncontrollable.",
+    "teaching": "Wise attention (yoniso manasikara) means directing the mind to the present experience and asking: 'What is arising now? What feeds it?' rather than spinning stories about what might happen.",
+    "practice_actions": [
+      "When caught in anxious thoughts, ask: 'Am I attending to what is actually happening, or to a feared future?'",
+      "Return to the body: feel your feet on the ground, the weight of your hands.",
+      "Practice naming the worry without following the story: 'Anxiety is present. This is how anxiety feels.'"
+    ],
+    "audience": "lay",
+    "confidence": 0.89,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_012",
+    "source_collection": "AN",
+    "source_ref": "AN 2.4",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "There are two things that lead to great benefit... tranquility (samatha) and insight (vipassana).",
+    "context_summary": "The Buddha teaches that both calm and insight are needed as complementary mental qualities.",
+    "problem_summary": "feeling overwhelmed or emotionally flooded",
+    "buddhist_labels": ["restlessness_distraction", "fear_anxiety"],
+    "diagnosis": "Being emotionally overwhelmed is a failure of tranquility (samatha). The mind has lost its stability and is tossed by the force of reactive feeling. Insight alone cannot help if the mind is too agitated to see clearly.",
+    "teaching": "When overwhelmed, prioritize calm before understanding. The Buddha taught samatha and vipassana as complementary: first settle the mind, then investigate.",
+    "practice_actions": [
+      "When overwhelmed, do not try to understand the emotion immediately. First, slow down.",
+      "Use the breath as an anchor: ten slow breaths with full attention on the exhale.",
+      "Once some calm returns, then gently ask: 'What is the strongest feeling right now?'"
+    ],
+    "audience": "lay",
+    "confidence": 0.87,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_013",
+    "source_collection": "MN",
+    "source_ref": "MN 135",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "Beings are owners of their kamma, heirs of their kamma; they have kamma as their origin, kamma as their relative, kamma as their resort; whatever kamma they do, good or bad, they are its heirs.",
+    "context_summary": "The Shorter Exposition of Kamma. The Buddha explains to Subha how beings' welfare is shaped by their own actions.",
+    "problem_summary": "feeling that life is unfair or dealing with resentment about circumstances",
+    "buddhist_labels": ["aversion_anger", "delusion_confusion"],
+    "diagnosis": "The sense of unfairness often arises from comparing one's situation to others' without seeing the full picture. It is fed by the delusion that outcomes should match a personal sense of entitlement.",
+    "teaching": "The teaching of kamma does not mean 'you deserve what happens.' It means: focus on what you can do now. Your actions are the one thing you truly own. Dwelling on unfairness perpetuates suffering; redirecting energy toward wholesome action is the way forward.",
+    "practice_actions": [
+      "When the mind fixates on unfairness, notice the fixation itself — is the rumination helping?",
+      "Ask: 'What is within my power to do right now that would reduce harm?'",
+      "Shift attention from 'why did this happen to me' to 'what kind of person do I want to be in response.'"
+    ],
+    "audience": "lay",
+    "confidence": 0.86,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_014",
+    "source_collection": "AN",
+    "source_ref": "AN 8.54",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "There are these four conditions for a lay person's happiness: the happiness of ownership, the happiness of enjoyment, the happiness of freedom from debt, and the happiness of blamelessness.",
+    "context_summary": "The Dighajanu Sutta. The Buddha teaches a layperson about the conditions for happiness in this life and the next.",
+    "problem_summary": "feeling guilty about wanting material success or comfort",
+    "buddhist_labels": ["craving_attachment", "ethical_conflict"],
+    "diagnosis": "Sometimes lay Buddhists feel conflicted between worldly responsibilities and spiritual ideals. The assumption that Buddhist practice requires renouncing all comfort is a misunderstanding of the lay path.",
+    "teaching": "The Buddha directly taught that lay happiness includes legitimate enjoyment of honestly earned wealth, freedom from debt, and blameless conduct. Material well-being is not inherently opposed to the spiritual path for a layperson.",
+    "practice_actions": [
+      "Check whether your guilt about comfort is based on actual harm or on an overly ascetic ideal not intended for laity.",
+      "Pursue right livelihood and enjoy its fruits without shame, while staying generous.",
+      "Ask: 'Am I earning and using this in a way that is blameless?' If so, the guilt may be unfounded."
+    ],
+    "audience": "lay",
+    "confidence": 0.88,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_015",
+    "source_collection": "SN",
+    "source_ref": "SN 22.59",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "Form is not self. For if form were self, then form would not lead to affliction... 'Let my form be thus; let my form not be thus' — such would be possible... But because form is not self, form leads to affliction.",
+    "context_summary": "The Anattalakkhana Sutta (Discourse on Non-Self). The Buddha analyzes the five aggregates and shows that none of them is self.",
+    "problem_summary": "excessive self-criticism or identity crisis",
+    "buddhist_labels": ["craving_attachment", "delusion_confusion"],
+    "diagnosis": "Self-criticism often arises from identifying too strongly with a fixed self-image. When that image fails to match reality, suffering intensifies. The problem is not that you are flawed — it is that the 'self' you are measuring against is a construct.",
+    "teaching": "The teaching of anatta (non-self) is not nihilism. It points out that the fixed 'I' you criticize does not exist in the way you imagine. What exists are changing processes. Loosening identification with a fixed self-image reduces the sting of self-criticism.",
+    "practice_actions": [
+      "When caught in self-criticism, notice: 'Who is the \\\"I\\\" being criticized? Is it fixed or changing?'",
+      "Try reframing: 'A feeling of inadequacy is present' rather than 'I am inadequate.'",
+      "Reflect that thoughts, feelings, and self-images change — they are not a permanent self."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_016",
+    "source_collection": "MN",
+    "source_ref": "MN 62",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "Rahula, develop meditation on loving-kindness. For when you develop meditation on loving-kindness, any ill will will be abandoned.",
+    "context_summary": "The Greater Discourse of Advice to Rahula. The Buddha instructs his son in various forms of meditation including metta.",
+    "problem_summary": "loneliness or feeling disconnected from others",
+    "buddhist_labels": ["aversion_anger", "grief_loss"],
+    "diagnosis": "Loneliness can be fed by subtle aversion — toward oneself, toward others who have not met one's needs, or toward the conditions of one's life. It is deepened by withdrawal and self-isolation.",
+    "teaching": "Loving-kindness (metta) meditation directly counteracts the isolation of ill will. By systematically generating goodwill — first toward oneself, then toward others — the heart opens even in solitude.",
+    "practice_actions": [
+      "Begin a simple metta practice: 'May I be well. May I be happy. May I be free from suffering.'",
+      "Extend the practice to someone you feel neutral about, then to someone difficult.",
+      "Notice whether loneliness carries any hidden resentment or judgment toward others."
+    ],
+    "audience": "lay",
+    "confidence": 0.88,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_017",
+    "source_collection": "AN",
+    "source_ref": "AN 6.19",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "There is the case where a bhikkhu has heard: 'Nothing is worth clinging to.' When he has heard that nothing is worth clinging to, he directly knows everything...",
+    "context_summary": "Teaching on non-clinging and the danger of making even spiritual progress into a source of attachment.",
+    "problem_summary": "craving or addictive behavior patterns",
+    "buddhist_labels": ["craving_attachment"],
+    "diagnosis": "Craving (tanha) manifests not only in gross addictions but in subtle patterns: reaching for the phone, for validation, for distraction. Each act of reaching reinforces the habit loop.",
+    "teaching": "Nothing is worth clinging to — not because things are bad, but because clinging distorts perception and generates dissatisfaction. The practice is not renunciation of the object but relinquishment of the grip.",
+    "practice_actions": [
+      "Identify one small craving pattern (e.g., checking phone, snacking when not hungry). Observe the urge without acting for five minutes.",
+      "Notice: what does the craving feel like in the body? What promise does it make?",
+      "After indulging, check: did the craving deliver what it promised? This builds disenchantment (nibbida) naturally."
+    ],
+    "audience": "lay",
+    "confidence": 0.87,
+    "review_status": "human_reviewed"
+  },
+  {
+    "id": "au_018",
+    "source_collection": "SN",
+    "source_ref": "SN 1.10",
+    "translator": "Bhikkhu Bodhi",
+    "canonical_passage": "In the forest, alone, with a peaceful mind, a bhikkhu finds joy that is unavailable to those who have not seen the truth. Many are the joys for one who is heedful...",
+    "context_summary": "A deva asks how to find joy. The Buddha points to heedfulness and inner peace rather than external conditions.",
+    "problem_summary": "boredom or emptiness despite having enough",
+    "buddhist_labels": ["restlessness_distraction", "craving_attachment"],
+    "diagnosis": "Boredom is a form of restlessness — the mind craves stimulation and finds present conditions insufficient. It is the opposite of contentment (santutthi) and is fed by habitual sense-seeking.",
+    "teaching": "Joy is available through heedfulness and attentiveness to what is present, not through accumulating more stimulation. Contentment is a trainable quality, not a personality trait.",
+    "practice_actions": [
+      "When bored, resist the urge to reach for stimulation. Sit with the boredom for a few minutes.",
+      "Ask: 'What am I not noticing right now?' — attention to the present often reveals richness the restless mind overlooks.",
+      "Practice contentment deliberately: at a meal, with a walk, notice satisfaction rather than scanning for the next thing."
+    ],
+    "audience": "lay",
+    "confidence": 0.84,
+    "review_status": "human_reviewed"
+  }
+]

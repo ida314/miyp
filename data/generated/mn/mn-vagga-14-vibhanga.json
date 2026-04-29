@@ -1,0 +1,407 @@
+[
+  {
+    "source_ref": "MN 131",
+    "canonical_passage": "Don’t run back to the past, don’t anticipate the future. What’s past is left behind, the future has not arrived; and any present phenomenon you clearly discern in every case.",
+    "context_summary": "The Buddha teaches the mendicants about the importance of focusing on the present moment rather than dwelling on the past or worrying about the future.",
+    "problem_summary": "Many people struggle with anxiety and regret, often getting caught up in past experiences or future uncertainties, which can hinder their ability to live fully in the present.",
+    "buddhist_labels": [
+      "fear_anxiety",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals often experience anxiety about the future and regret about the past, which distracts them from the present.",
+    "teaching": "Focus on the present moment and cultivate awareness of current experiences without attachment to past or future.",
+    "practice_actions": [
+      "Set aside time each day for mindfulness meditation, focusing on your breath and the sensations of the present moment.",
+      "When you notice your mind wandering to the past or future, gently bring your attention back to what you are currently experiencing.",
+      "Practice gratitude by reflecting on positive aspects of your current life, helping to anchor you in the present."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn131_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 132",
+    "canonical_passage": "Don’t run back to the past, don’t anticipate the future. What’s past is left behind, the future has not arrived; and any present phenomenon you clearly discern in every case.",
+    "context_summary": "The Buddha emphasizes the importance of being present and aware of the current moment rather than being distracted by past regrets or future anxieties.",
+    "problem_summary": "Many people struggle with anxiety about the future and regrets about the past, which can hinder their ability to live fully in the present.",
+    "buddhist_labels": [
+      "fear_anxiety",
+      "delusion_confusion"
+    ],
+    "diagnosis": "The tendency to dwell on past mistakes or worry about future uncertainties can lead to stress and dissatisfaction.",
+    "teaching": "Focus on the present moment and cultivate awareness of your current experiences.",
+    "practice_actions": [
+      "Set aside a few minutes each day to practice mindfulness meditation, focusing on your breath and the sensations in your body.",
+      "Whenever you notice your mind wandering to the past or future, gently bring your attention back to the present moment.",
+      "Engage in daily activities with full awareness, such as eating, walking, or listening, to enhance your connection to the present."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn132_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 133",
+    "canonical_passage": "Don’t run back to the past, don’t anticipate the future. What’s past is left behind, the future has not arrived; and any present phenomenon you clearly discern in every case.",
+    "context_summary": "The Buddha teaches about the importance of being present and not getting caught up in past regrets or future anxieties.",
+    "problem_summary": "Many people struggle with anxiety about the future and regrets about the past, which can prevent them from fully engaging with the present moment.",
+    "buddhist_labels": [
+      "fear_anxiety",
+      "delusion_confusion"
+    ],
+    "diagnosis": "People often let their minds dwell on past experiences or future possibilities, leading to stress and distraction.",
+    "teaching": "Focus on the present moment and recognize that the past is gone and the future is uncertain.",
+    "practice_actions": [
+      "Set aside a few minutes each day to practice mindfulness meditation, focusing on your breath and the sensations in your body.",
+      "Whenever you notice your mind wandering to the past or future, gently bring your attention back to the present moment.",
+      "Create a daily gratitude practice where you reflect on what you appreciate in your life right now."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn133_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 134",
+    "canonical_passage": "Don’t run back to the past, don’t anticipate the future. What’s past is left behind, the future has not arrived; and any present phenomenon you clearly discern in every case.",
+    "context_summary": "The Buddha teaches about the importance of focusing on the present moment rather than being distracted by the past or future.",
+    "problem_summary": "Many people struggle with anxiety and regret, often dwelling on past mistakes or worrying about future uncertainties.",
+    "buddhist_labels": [
+      "fear_anxiety",
+      "delusion_confusion"
+    ],
+    "diagnosis": "The tendency to ruminate on past events or to worry about future outcomes can lead to mental distress and hinder one's ability to live fully in the present.",
+    "teaching": "Focus on the present moment and recognize that both the past and future are beyond your control.",
+    "practice_actions": [
+      "Set aside time each day to practice mindfulness meditation, focusing on your breath and the sensations in your body.",
+      "Whenever you find yourself worrying about the past or future, gently bring your attention back to the present moment.",
+      "Create a daily gratitude journal where you write down things you appreciate in the present."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn134_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 135",
+    "canonical_passage": "Sentient beings are the owners of their deeds and heir to their deeds. Deeds are their womb, their relative, and their refuge.",
+    "context_summary": "The Buddha explains to Subha that the differences among people, such as being superior or inferior, are determined by their actions (deeds).",
+    "problem_summary": "People often feel confused about why some individuals seem to have better lives than others, leading to feelings of envy or inadequacy.",
+    "buddhist_labels": [
+      "ethical_conflict",
+      "doubt_indecision"
+    ],
+    "diagnosis": "Many individuals struggle with understanding the consequences of their actions and how these shape their lives and relationships.",
+    "teaching": "Our actions determine our future experiences and qualities in life. By cultivating positive deeds, we can improve our circumstances.",
+    "practice_actions": [
+      "Reflect on your daily actions and their potential consequences.",
+      "Engage in acts of kindness and generosity towards others.",
+      "Seek guidance from wise individuals on ethical living."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn135_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 136",
+    "canonical_passage": "After doing an intentional deed by way of body, speech, or mind, one feels suffering.",
+    "context_summary": "The Buddha discusses the nature of deeds and their consequences, emphasizing the importance of understanding the results of our actions.",
+    "problem_summary": "People often struggle to understand the impact of their actions and may mistakenly believe that only mental actions matter, neglecting the significance of physical and verbal deeds.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Misunderstanding the relationship between actions and their consequences can lead to harmful behaviors and suffering.",
+    "teaching": "All intentional deeds, whether through body, speech, or mind, have consequences that can lead to suffering or happiness.",
+    "practice_actions": [
+      "Reflect on your daily actions and their intentions.",
+      "Consider how your words and deeds affect yourself and others.",
+      "Practice mindfulness to become aware of the consequences of your actions."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn136_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 136",
+    "canonical_passage": "There are deeds that are ineffective and appear ineffective. There are deeds that are ineffective but appear effective. There are deeds that are effective and appear effective. And there are deeds that are effective but appear ineffective.",
+    "context_summary": "The Buddha categorizes deeds based on their effectiveness and appearance, highlighting the complexity of moral actions.",
+    "problem_summary": "Individuals may misjudge the value of their actions, thinking some good deeds are ineffective or that harmful actions have no consequences.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Confusion about the nature of deeds can lead to poor decision-making and ethical dilemmas.",
+    "teaching": "Understanding the true nature of deeds can help you make better choices and recognize the importance of both visible and invisible consequences.",
+    "practice_actions": [
+      "Evaluate your actions regularly to discern their true impact.",
+      "Seek feedback from trusted friends or mentors about your behavior.",
+      "Educate yourself on ethical principles to guide your decision-making."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn136_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 137",
+    "canonical_passage": "‘Therein, relying on this, give up that.’",
+    "context_summary": "The Buddha teaches about understanding the six sense fields and how to cultivate mindfulness.",
+    "problem_summary": "People often become attached to sensory experiences, leading to suffering when those experiences change or are lost.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Attachment to sensory experiences can lead to unhappiness and dissatisfaction.",
+    "teaching": "By understanding the impermanence of sensory experiences, one can cultivate a sense of renunciation and equanimity.",
+    "practice_actions": [
+      "Reflect on the impermanence of things you enjoy and recognize that they will change.",
+      "Practice mindfulness by observing your reactions to sensory experiences without attachment.",
+      "Cultivate gratitude for experiences while acknowledging their transient nature."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn137_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 137",
+    "canonical_passage": "‘The Noble One cultivates the establishment of mindfulness in three cases...’",
+    "context_summary": "The Buddha describes how a teacher maintains mindfulness regardless of the students' responses.",
+    "problem_summary": "People often feel affected by the reactions of others, leading to emotional ups and downs.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Emotional reactions to others' responses can disrupt one's peace of mind.",
+    "teaching": "Maintain equanimity and mindfulness regardless of external circumstances or others' reactions.",
+    "practice_actions": [
+      "Practice mindfulness meditation to develop a stable mind.",
+      "Observe your emotional responses to others without judgment.",
+      "Remind yourself that your happiness does not depend on others' actions or reactions."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn137_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 138",
+    "canonical_passage": "A mendicant should thoroughly examine such that for the examiner, if consciousness were not scattered and diffused externally, nor stuck internally, it would not be anxious because of grasping.",
+    "context_summary": "The Buddha teaches mendicants about the nature of consciousness and how it relates to anxiety and suffering.",
+    "problem_summary": "Many people experience anxiety and suffering due to attachment and distraction in their thoughts and perceptions.",
+    "buddhist_labels": [
+      "fear_anxiety",
+      "craving_attachment"
+    ],
+    "diagnosis": "Anxiety arises from grasping at external forms and internal feelings, leading to suffering.",
+    "teaching": "To alleviate anxiety and suffering, one should cultivate awareness of consciousness, ensuring it is neither scattered externally nor stuck internally.",
+    "practice_actions": [
+      "Practice mindfulness to observe your thoughts and feelings without attachment.",
+      "Engage in meditation to develop focus and clarity, preventing your mind from being scattered.",
+      "Reflect on the impermanence of thoughts and feelings to reduce attachment and anxiety."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn138_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 139",
+    "canonical_passage": "Don’t indulge in sensual pleasure, which is low, crude, ordinary, ignoble, and pointless. And don’t indulge in self-mortification, which is painful, ignoble, and pointless. Avoiding these two extremes, the Realized One understood the middle way of practice, which gives vision and knowledge, and leads to peace, direct knowledge, awakening, and extinguishment.",
+    "context_summary": "The Buddha teaches about avoiding the extremes of sensual indulgence and self-mortification, advocating for a balanced approach to life that leads to peace and understanding.",
+    "problem_summary": "Many people struggle with finding balance in their lives, often swinging between excessive indulgence in pleasures and harsh self-denial, leading to stress and dissatisfaction.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Indulging in sensual pleasures or engaging in self-mortification can lead to suffering and confusion.",
+    "teaching": "Seek a balanced approach to life that avoids extremes, focusing on practices that cultivate inner peace and understanding.",
+    "practice_actions": [
+      "Reflect on your daily habits and identify areas where you may be indulging excessively or denying yourself too harshly.",
+      "Set aside time for meditation or mindfulness practices that help you cultivate inner peace.",
+      "Engage in activities that promote well-being without falling into the trap of excessive pleasure or self-punishment."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn139_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 139",
+    "canonical_passage": "Don’t talk behind people’s backs, and don’t speak sharply in their presence.",
+    "context_summary": "The Buddha emphasizes the importance of mindful speech, advising against gossip and harsh words.",
+    "problem_summary": "Many individuals face challenges in their relationships due to unkind speech, gossip, or misunderstandings.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Engaging in gossip or speaking harshly can damage relationships and create unnecessary conflict.",
+    "teaching": "Practice mindful communication by speaking truthfully and kindly, both in private and in public.",
+    "practice_actions": [
+      "Before speaking, consider whether your words are true, beneficial, and necessary.",
+      "Practice active listening to understand others better and respond thoughtfully.",
+      "Avoid discussing others when they are not present, focusing instead on constructive conversations."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn139_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 139",
+    "canonical_passage": "Don’t speak hurriedly. When not speaking hurriedly, your body doesn’t get tired, your mind doesn’t get stressed, your voice doesn’t get stressed, your throat doesn’t get sore, and your words are clear and easy to understand.",
+    "context_summary": "The Buddha advises against hurried speech, highlighting its negative effects on clarity and well-being.",
+    "problem_summary": "In a fast-paced world, many people struggle with stress and communication issues due to hurried speech.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Speaking hurriedly can lead to misunderstandings and increased stress for both the speaker and the listener.",
+    "teaching": "Cultivate a habit of speaking slowly and clearly to enhance communication and reduce stress.",
+    "practice_actions": [
+      "Practice taking a deep breath before speaking to calm your mind and body.",
+      "Set a personal rule to pause and think before responding in conversations.",
+      "Engage in activities that promote relaxation and mindfulness, such as yoga or meditation, to help reduce the urge to rush."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn139_3",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 140",
+    "canonical_passage": "‘Do not neglect wisdom; preserve truth; foster generosity; and train only for peace.’",
+    "context_summary": "The Buddha teaches Pukkusāti about the importance of wisdom, truth, generosity, and peace as foundational elements for spiritual development.",
+    "problem_summary": "Many people struggle with finding a sense of purpose and peace in their lives, often feeling overwhelmed by desires and conflicts.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "ethical_conflict",
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Individuals may be caught in cycles of craving and attachment, leading to dissatisfaction and conflict in their lives.",
+    "teaching": "To cultivate a more peaceful and fulfilling life, one should prioritize wisdom, uphold truth, practice generosity, and focus on training for inner peace.",
+    "practice_actions": [
+      "Set aside time each day to reflect on a personal value or truth that guides your actions.",
+      "Engage in acts of kindness or generosity towards others, no matter how small.",
+      "Practice mindfulness or meditation to develop a sense of inner peace and clarity."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn140_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 141",
+    "canonical_passage": "The noble truth of the origin of suffering? It’s the craving that leads to future lives, mixed up with relishing and greed...",
+    "context_summary": "The Buddha teaches about the Four Noble Truths, emphasizing the nature of suffering and its origins.",
+    "problem_summary": "Many people struggle with dissatisfaction and unfulfilled desires, leading to suffering in their lives.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Craving and attachment to desires lead to ongoing suffering and dissatisfaction.",
+    "teaching": "Recognizing that craving is the source of suffering can help individuals let go of attachments and reduce their suffering.",
+    "practice_actions": [
+      "Reflect on your desires and identify which ones lead to suffering.",
+      "Practice mindfulness to observe your cravings without acting on them.",
+      "Engage in activities that promote letting go of attachment, such as meditation or volunteering."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn141_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 141",
+    "canonical_passage": "And what is the noble truth of the practice that leads to the cessation of suffering? It is simply this noble eightfold path...",
+    "context_summary": "The Buddha outlines the Eightfold Path as a practical guide to overcoming suffering.",
+    "problem_summary": "People often feel lost or unsure about how to improve their lives and reduce suffering.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Without a clear path or guidance, individuals may struggle to find effective ways to alleviate their suffering.",
+    "teaching": "Following the Eightfold Path provides a structured approach to personal development and reducing suffering.",
+    "practice_actions": [
+      "Study and reflect on the Eightfold Path: right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration.",
+      "Set small, achievable goals related to each aspect of the Eightfold Path.",
+      "Join a community or group that practices these teachings to gain support and encouragement."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn141_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 142",
+    "canonical_passage": "When someone has enabled you to refrain from killing, stealing, sexual misconduct, lying, and beer, wine, and liquor intoxicants, it’s not easy to repay them ...",
+    "context_summary": "The Buddha discusses the importance of giving and the significance of the recipients of such gifts, emphasizing the ethical implications of donations.",
+    "problem_summary": "Many people struggle with how to express gratitude and repay those who have positively influenced their lives, especially in ethical ways.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "People often feel indebted to those who have helped them, leading to confusion about how to appropriately express gratitude.",
+    "teaching": "Expressing gratitude can be done through ethical actions and donations, especially to those who have guided you towards ethical living.",
+    "practice_actions": [
+      "Reflect on someone who has positively influenced your life and consider how you can express your gratitude through ethical actions.",
+      "Make a donation or perform a kind act in honor of that person, focusing on ethical recipients.",
+      "Practice ethical living by refraining from harmful actions, as a way to honor those who have guided you."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn142_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 142",
+    "canonical_passage": "When an ethical person with trusting heart gives a proper gift to unethical persons, trusting in the ample fruit of deeds, that offering is purified by the giver.",
+    "context_summary": "The Buddha explains how the ethical character of the giver can influence the value of a donation, regardless of the recipient's character.",
+    "problem_summary": "Individuals may feel hesitant to give to those they perceive as unethical, worrying about the impact of their donations.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "People often struggle with the moral implications of giving to those they consider unethical.",
+    "teaching": "Your ethical character can purify your donations, making them meaningful even if the recipient is not ethical.",
+    "practice_actions": [
+      "Consider making a donation to a cause or individual you believe in, regardless of their perceived ethical standing.",
+      "Focus on your intention and ethical character when giving, rather than solely on the recipient's actions.",
+      "Engage in discussions about ethics and giving with friends or community members to explore different perspectives."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn142_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

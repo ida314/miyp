@@ -1,0 +1,362 @@
+[
+  {
+    "source_ref": "MN 21",
+    "canonical_passage": "When others criticize you, they may do so in any of these ways. If that happens, you should train like this: ‘Our minds will not degenerate. We will blurt out no bad words. We will remain full of sympathy, with a heart of love and no secret hate.’",
+    "context_summary": "The Buddha addresses the issue of how to respond to criticism and anger, emphasizing the importance of maintaining a compassionate and loving mindset.",
+    "problem_summary": "People often face criticism and negative comments from others, which can lead to anger and resentment.",
+    "buddhist_labels": [
+      "aversion_anger",
+      "speech_relationships"
+    ],
+    "diagnosis": "Criticism can provoke negative emotions and reactions, leading to conflict and deterioration of relationships.",
+    "teaching": "Train your mind to remain calm and loving in the face of criticism, avoiding negative speech and fostering sympathy.",
+    "practice_actions": [
+      "When criticized, take a deep breath and remind yourself to stay calm.",
+      "Practice loving-kindness meditation, focusing on sending love to the critic and then expanding that love to all beings.",
+      "Reflect on the impermanence of criticism and how it does not define your worth."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn21_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 21",
+    "canonical_passage": "You should train yourselves: ‘We will be easy to admonish purely because we honor, respect, revere, worship, and venerate the teaching.’",
+    "context_summary": "The Buddha encourages the mendicants to be open to feedback and criticism as a way to grow and improve.",
+    "problem_summary": "Many individuals struggle with accepting feedback or criticism, which can hinder personal growth and relationships.",
+    "buddhist_labels": [
+      "doubt_indecision",
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Resistance to feedback can lead to stagnation and conflict in personal and professional relationships.",
+    "teaching": "Cultivate an attitude of openness to feedback, viewing it as an opportunity for growth rather than a personal attack.",
+    "practice_actions": [
+      "Ask for feedback from trusted friends or colleagues and approach it with an open mind.",
+      "Reflect on past criticisms and identify any valuable lessons learned from them.",
+      "Practice gratitude for those who provide constructive criticism, recognizing their role in your growth."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn21_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 22",
+    "canonical_passage": "Giving up what isn’t yours will be for your lasting welfare and happiness.",
+    "context_summary": "The Buddha emphasizes the importance of recognizing what is not truly ours, including our physical form, feelings, perceptions, and consciousness, and encourages letting go of these attachments.",
+    "problem_summary": "People often cling to their identities, feelings, and possessions, leading to suffering and dissatisfaction.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Attachment to self and possessions causes suffering.",
+    "teaching": "Recognize that form, feeling, perception, choices, and consciousness are not truly yours and let go of these attachments.",
+    "practice_actions": [
+      "Reflect on the impermanence of your possessions and feelings.",
+      "Practice mindfulness to observe your thoughts and feelings without attachment.",
+      "Engage in activities that promote generosity and letting go of material possessions."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn22_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 22",
+    "canonical_passage": "If others abuse, attack, harass, and trouble you, don’t make yourselves resentful, bitter, and emotionally exasperated.",
+    "context_summary": "The Buddha advises maintaining equanimity in the face of praise or blame, suggesting that one should not be swayed by external opinions.",
+    "problem_summary": "People often react emotionally to criticism or praise, leading to stress and anxiety.",
+    "buddhist_labels": [
+      "fear_anxiety",
+      "aversion_anger"
+    ],
+    "diagnosis": "Emotional reactions to external validation or criticism can lead to suffering.",
+    "teaching": "Maintain a balanced mind regardless of how others treat you.",
+    "practice_actions": [
+      "Practice self-reflection to understand your emotional triggers.",
+      "Develop a daily meditation practice focused on equanimity.",
+      "Remind yourself that others' opinions do not define your worth."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn22_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 23",
+    "canonical_passage": "‘Bullfrog’ is a term for anger and distress. ‘Throw out the bullfrog’ means ‘give up anger and distress’ …",
+    "context_summary": "The Buddha explains various symbols from a riddle presented by a deity, relating them to human experiences and mental states.",
+    "problem_summary": "Many people struggle with feelings of anger and distress, which can negatively impact their lives and relationships.",
+    "buddhist_labels": [
+      "aversion_anger"
+    ],
+    "diagnosis": "Anger and distress can cloud judgment and lead to suffering.",
+    "teaching": "To alleviate suffering, one should actively work to let go of anger and distress.",
+    "practice_actions": [
+      "Identify situations that trigger your anger or distress.",
+      "Practice mindfulness to observe your feelings without judgment.",
+      "Engage in calming activities such as meditation or deep breathing when you feel anger rising.",
+      "Reflect on the impermanence of situations that cause distress to gain perspective."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn23_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 23",
+    "canonical_passage": "‘Forked path’ is a term for doubt. ‘Throw out the forked path’ means ‘give up doubt’ …",
+    "context_summary": "The Buddha provides insight into overcoming doubt, which can hinder personal growth and decision-making.",
+    "problem_summary": "Doubt can lead to indecision and prevent individuals from taking action in their lives.",
+    "buddhist_labels": [
+      "doubt_indecision"
+    ],
+    "diagnosis": "Doubt can create confusion and prevent progress in personal and spiritual development.",
+    "teaching": "To move forward, one should work on letting go of doubt.",
+    "practice_actions": [
+      "Identify areas in your life where you feel uncertain.",
+      "Seek knowledge or guidance from trusted sources to clarify your doubts.",
+      "Practice making small decisions to build confidence in your judgment.",
+      "Reflect on past experiences where doubt was unfounded to reinforce trust in yourself."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn23_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 25",
+    "canonical_passage": "‘Seed’ is a term for the five kinds of sensual stimulation. ‘Sower’ is a term for Māra the Wicked.",
+    "context_summary": "The Buddha uses the metaphor of deer and a sower to illustrate how beings can become ensnared by sensual pleasures and worldly attachments, leading to negligence and indulgence.",
+    "problem_summary": "People often struggle with the temptation of sensual pleasures and the resulting negligence in their spiritual or ethical lives.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Indulgence in sensual pleasures can lead to a loss of spiritual focus and ethical behavior.",
+    "teaching": "To avoid being ensnared by worldly pleasures, one should cultivate awareness and practice moderation.",
+    "practice_actions": [
+      "Reflect on the nature of sensual pleasures and their temporary satisfaction.",
+      "Set boundaries for indulgence in sensory experiences, such as limiting time spent on entertainment or social media.",
+      "Engage in mindfulness practices to enhance awareness of cravings and attachments."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn25_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 26",
+    "canonical_passage": "Mendicants, what were you sitting talking about just now? What conversation was left unfinished? ... It’s appropriate for gentlemen like you, who have gone forth out of faith from the lay life to homelessness, to sit together and talk about the teaching.",
+    "context_summary": "The Buddha encourages mendicants to engage in discussions about the teachings of the Dhamma when they gather together.",
+    "problem_summary": "People often struggle with finding meaningful conversations and connections in their social interactions.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Many individuals engage in trivial or unproductive conversations that do not contribute to their spiritual growth or understanding.",
+    "teaching": "Engage in discussions that deepen your understanding of spiritual teachings or practice noble silence when such discussions are not possible.",
+    "practice_actions": [
+      "Seek out friends or groups who are interested in discussing spiritual or philosophical topics.",
+      "Set aside time for meaningful conversations about teachings that inspire you.",
+      "Practice noble silence when in gatherings where discussions do not align with your values."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn26_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 26",
+    "canonical_passage": "And what is the noble quest? It’s when someone who is themselves liable to be reborn, understanding the drawbacks in being liable to be reborn, seeks that which is free of rebirth, the supreme sanctuary from the yoke, extinguishment.",
+    "context_summary": "The Buddha contrasts the ignoble quest of seeking worldly attachments with the noble quest of seeking liberation from suffering.",
+    "problem_summary": "Many people are caught in the cycle of seeking temporary pleasures and attachments, leading to suffering and dissatisfaction.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Individuals often pursue material possessions and relationships that ultimately lead to suffering due to their impermanent nature.",
+    "teaching": "Recognize the drawbacks of worldly attachments and strive to seek deeper, lasting peace and liberation from suffering.",
+    "practice_actions": [
+      "Reflect on the impermanence of your attachments and how they contribute to your suffering.",
+      "Set intentions to focus on spiritual growth rather than material gain.",
+      "Engage in practices that promote inner peace, such as meditation or mindfulness."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn26_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 27",
+    "canonical_passage": "They give up killing living creatures, renouncing the rod and the sword. They’re scrupulous and kind, living full of sympathy for all living beings.",
+    "context_summary": "The Buddha discusses the qualities and practices of a mendicant who has gone forth from lay life, emphasizing ethical conduct and compassion.",
+    "problem_summary": "Many people struggle with ethical dilemmas and the impact of their actions on others, leading to feelings of guilt or conflict.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals often face challenges in aligning their actions with their values, particularly regarding harm to others.",
+    "teaching": "Practicing kindness and compassion by refraining from harming living beings can lead to a more ethical and fulfilling life.",
+    "practice_actions": [
+      "Reflect on your daily actions and identify any that may cause harm to others.",
+      "Commit to a practice of kindness, such as volunteering or helping those in need.",
+      "Cultivate a mindset of compassion by regularly meditating on loving-kindness."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn27_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 27",
+    "canonical_passage": "They give up stealing. They take only what’s given, and expect only what’s given.",
+    "context_summary": "The Buddha outlines the ethical practices of a mendicant, including refraining from stealing and being content with what is provided.",
+    "problem_summary": "In a consumer-driven society, many struggle with greed and dissatisfaction, leading to stress and unhappiness.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "People often feel unfulfilled due to a constant desire for more, which can lead to unethical behavior.",
+    "teaching": "Practicing contentment and gratitude for what you have can reduce feelings of greed and increase happiness.",
+    "practice_actions": [
+      "Keep a gratitude journal to regularly acknowledge what you have.",
+      "Set limits on consumption, such as a budget for non-essential purchases.",
+      "Practice generosity by sharing with others what you have."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn27_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 27",
+    "canonical_passage": "They’re honest and dependable, and don’t trick the world with their words.",
+    "context_summary": "The Buddha emphasizes the importance of honesty and integrity in speech as part of ethical conduct.",
+    "problem_summary": "Many people face challenges in communication, leading to misunderstandings and damaged relationships.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Dishonesty or unclear communication can lead to conflicts and a lack of trust in relationships.",
+    "teaching": "Being truthful and clear in your communication fosters trust and strengthens relationships.",
+    "practice_actions": [
+      "Practice active listening to ensure you understand others before responding.",
+      "Commit to speaking truthfully, even in difficult situations.",
+      "Reflect on your communication style and identify areas for improvement."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn27_3",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 28",
+    "canonical_passage": "This should be truly seen with right understanding like this: ‘This is not mine, I am not this, this is not my self.’",
+    "context_summary": "Sāriputta explains the nature of the five grasping aggregates and emphasizes the importance of understanding them as impermanent and not self.",
+    "problem_summary": "Many people struggle with attachment to their identity and physical existence, leading to suffering when faced with loss or change.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals often identify too closely with their physical form and experiences, which leads to suffering when these are challenged or lost.",
+    "teaching": "Recognize that your body and experiences are not your true self; they are impermanent and subject to change.",
+    "practice_actions": [
+      "Reflect daily on the impermanence of your body and feelings.",
+      "Practice mindfulness to observe thoughts and feelings without attachment.",
+      "Use affirmations like 'This is not mine, I am not this, this is not my self' to cultivate detachment."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn28_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 28",
+    "canonical_passage": "Even if low-down bandits were to sever you limb from limb with a two-handed saw, anyone who had a malevolent thought on that account would not be following my instructions.",
+    "context_summary": "Sāriputta discusses how to maintain equanimity and mindfulness even in the face of extreme physical harm or abuse.",
+    "problem_summary": "People often react with anger or resentment when faced with aggression or harm from others, which can lead to further suffering.",
+    "buddhist_labels": [
+      "aversion_anger"
+    ],
+    "diagnosis": "In moments of aggression or harm, individuals may struggle to maintain a peaceful mind and may react with anger or hatred.",
+    "teaching": "Cultivate a mindset of non-reactivity and compassion, even in the face of harm.",
+    "practice_actions": [
+      "Practice loving-kindness meditation to develop compassion for those who harm you.",
+      "When faced with aggression, consciously choose to respond with calmness instead of anger.",
+      "Reflect on the impermanence of all experiences, including negative ones, to reduce their emotional impact."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn28_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 29",
+    "canonical_passage": "This spiritual life is not lived for the sake of possessions, honor, and popularity, or for accomplishment in ethics, or for accomplishment in immersion, or for knowledge and vision. It is this unshakable freedom of heart that is the goal of the spiritual life, the core and the final end.",
+    "context_summary": "The Buddha discusses the pitfalls of seeking possessions, honor, and popularity in the spiritual life, emphasizing that true spiritual achievement lies in attaining unshakable freedom of heart.",
+    "problem_summary": "Many people pursue superficial achievements and accolades, leading to dissatisfaction and neglect of deeper spiritual goals.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals often confuse material success and social recognition with true spiritual fulfillment, leading to a cycle of craving and disappointment.",
+    "teaching": "Focus on cultivating inner freedom and understanding rather than seeking external validation or accomplishments.",
+    "practice_actions": [
+      "Reflect on your motivations for pursuing goals and ensure they align with deeper values.",
+      "Engage in practices that promote inner peace and freedom, such as meditation or mindfulness.",
+      "Regularly assess your achievements and ask if they contribute to your overall well-being and spiritual growth."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn29_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 30",
+    "canonical_passage": "This spiritual life is not lived for the sake of possessions, honor, and popularity, or for accomplishment in ethics, or for accomplishment in immersion, or for knowledge and vision. It is this unshakable freedom of heart that is the goal of the spiritual life, the core and the final end.",
+    "context_summary": "The Buddha discusses the importance of understanding what truly matters in the spiritual life, contrasting superficial achievements with deeper spiritual freedom.",
+    "problem_summary": "Many people pursue superficial goals such as wealth, status, or even ethical accomplishments, but these do not lead to true fulfillment or freedom from suffering.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "People often mistake temporary achievements for lasting happiness and spiritual fulfillment.",
+    "teaching": "Focus on cultivating inner freedom and understanding rather than getting caught up in external achievements or recognition.",
+    "practice_actions": [
+      "Reflect on your motivations for pursuing goals in life.",
+      "Prioritize practices that promote inner peace and understanding, such as meditation or mindfulness.",
+      "Let go of the need for external validation and focus on personal growth and ethical living."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn30_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

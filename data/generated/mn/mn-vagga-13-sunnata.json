@@ -1,0 +1,250 @@
+[
+  {
+    "source_ref": "MN 121",
+    "canonical_passage": "You should train like this: ‘We will enter and remain in the pure, ultimate, supreme emptiness.’",
+    "context_summary": "The Buddha teaches Ānanda about the practice of meditation on emptiness, emphasizing the importance of focusing on the essence of perception and letting go of distractions.",
+    "problem_summary": "Many people struggle with stress and distractions from their environment and thoughts, which can lead to feelings of overwhelm and confusion.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Individuals often find themselves caught up in the perceptions and distractions of daily life, leading to stress and a lack of clarity.",
+    "teaching": "By practicing meditation on emptiness and focusing on the essence of perception, one can cultivate a sense of peace and clarity.",
+    "practice_actions": [
+      "Set aside time each day for meditation focused on the concept of emptiness.",
+      "During meditation, consciously let go of thoughts related to your surroundings and focus on the essence of your experience.",
+      "Reflect on the impermanence of thoughts and feelings, recognizing that they do not define your reality."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn121_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 122",
+    "canonical_passage": "A mendicant doesn’t shine who enjoys company and groups, who loves them and likes to enjoy them. It is quite impossible that such a mendicant will get the pleasure of renunciation, the pleasure of seclusion, the pleasure of peace, the pleasure of awakening when they want, without trouble or difficulty.",
+    "context_summary": "The Buddha discusses the importance of solitude and seclusion for spiritual development, emphasizing that those who are overly attached to social interactions will struggle to attain deeper states of peace and awakening.",
+    "problem_summary": "Many people today feel overwhelmed by social obligations and distractions, which can hinder personal growth and inner peace.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Excessive attachment to social interactions can lead to a lack of inner peace and spiritual progress.",
+    "teaching": "To cultivate spiritual growth, one should seek solitude and limit social distractions.",
+    "practice_actions": [
+      "Set aside regular time for solitude each week to reflect and meditate.",
+      "Limit social media and social engagements to reduce distractions.",
+      "Create a personal space for meditation or quiet reflection."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn122_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 122",
+    "canonical_passage": "While a mendicant is practicing such a meditation, if their mind inclines to thinking, they think: ‘I will not think the kind of thought that is low, crude, ordinary, ignoble, and pointless... But I will think the kind of thought that is noble and emancipating, and brings one who practices it to the complete ending of suffering.",
+    "context_summary": "The Buddha instructs on the importance of cultivating wholesome thoughts during meditation, steering clear of unskillful thinking.",
+    "problem_summary": "People often struggle with negative or unproductive thoughts that can lead to stress and unhappiness.",
+    "buddhist_labels": [
+      "delusion_confusion",
+      "grief_loss"
+    ],
+    "diagnosis": "Negative thinking patterns can perpetuate suffering and hinder personal development.",
+    "teaching": "Focus on cultivating positive and uplifting thoughts to promote mental well-being.",
+    "practice_actions": [
+      "Practice mindfulness to become aware of negative thoughts as they arise.",
+      "Replace negative thoughts with positive affirmations or intentions.",
+      "Engage in activities that promote positive thinking, such as reading uplifting literature or practicing gratitude."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn122_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 125",
+    "canonical_passage": "A mendicant who meditates diligently, keenly, and resolutely can experience unification of mind.",
+    "context_summary": "The Buddha discusses the importance of diligent meditation and renunciation for achieving mental clarity and understanding.",
+    "problem_summary": "Many people struggle with distractions and the overwhelming nature of modern life, making it difficult to find mental peace and clarity.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Individuals are often consumed by thoughts of sensual pleasures and distractions, preventing them from achieving mental unification and clarity.",
+    "teaching": "To achieve mental clarity and peace, one must practice diligent meditation and renounce distractions.",
+    "practice_actions": [
+      "Set aside time each day for meditation, focusing on your breath and letting go of distracting thoughts.",
+      "Identify and reduce engagement with activities that lead to excessive sensual pleasure or distraction.",
+      "Practice mindfulness throughout the day, paying attention to your thoughts and feelings without judgment."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn125_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 126",
+    "canonical_passage": "If you lead the spiritual life irrationally, you can’t win the fruit, regardless of whether you make a wish, you don’t make a wish, you both do and do not make a wish, or you neither do nor don’t make a wish.",
+    "context_summary": "Venerable Bhūmija discusses the importance of rationality in leading a spiritual life with Prince Jayasena, emphasizing that irrational approaches will not yield positive results.",
+    "problem_summary": "Many people struggle with achieving their goals or finding fulfillment in life due to unclear intentions or irrational approaches.",
+    "buddhist_labels": [
+      "doubt_indecision"
+    ],
+    "diagnosis": "Irrational approaches to life and spiritual practice lead to frustration and lack of progress.",
+    "teaching": "To achieve meaningful outcomes in life, one must approach their goals with rationality and clarity.",
+    "practice_actions": [
+      "Reflect on your current goals and intentions to ensure they are clear and rational.",
+      "Evaluate your daily actions to see if they align with your goals and adjust them as necessary.",
+      "Seek guidance or teachings that promote rational thinking and practical approaches to achieving your aspirations."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn126_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 127",
+    "canonical_passage": "The limitless release of the heart... they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will.",
+    "context_summary": "Venerable Anuruddha explains the concepts of limitless and expansive release of the heart to Pañcakaṅga, emphasizing the importance of cultivating love and compassion.",
+    "problem_summary": "Many people struggle with feelings of anger, resentment, or isolation and seek ways to cultivate love and compassion in their lives.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger"
+    ],
+    "diagnosis": "Individuals often experience negative emotions that hinder their relationships and overall well-being.",
+    "teaching": "Cultivating a limitless heart involves actively spreading love and compassion to all beings without exception.",
+    "practice_actions": [
+      "Set aside time each day to meditate on sending love and compassion to different groups of people, starting with loved ones and gradually including acquaintances, strangers, and even those you may have conflicts with.",
+      "Visualize your heart expanding with love and compassion, encompassing the entire world.",
+      "Practice forgiveness and understanding towards those who have wronged you, recognizing their humanity."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn127_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 128",
+    "canonical_passage": "For never is hatred laid to rest by hate, it’s laid to rest by love: this is an ancient teaching.",
+    "context_summary": "The Buddha addresses a situation where mendicants are quarreling and fighting, emphasizing the importance of resolving conflicts through love rather than hatred.",
+    "problem_summary": "People often find themselves in conflicts or disputes, leading to ongoing resentment and negativity.",
+    "buddhist_labels": [
+      "aversion_anger",
+      "speech_relationships"
+    ],
+    "diagnosis": "Conflicts arise from holding grudges and responding to negativity with more negativity.",
+    "teaching": "To resolve conflicts and reduce hatred, one should respond with love and understanding.",
+    "practice_actions": [
+      "When feeling anger or resentment, consciously choose to respond with kindness.",
+      "Practice empathy by trying to understand the other person's perspective.",
+      "Engage in open and honest communication to address misunderstandings."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn128_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 128",
+    "canonical_passage": "If you find an alert companion, an attentive friend to live happily together, then, overcoming all adversities, wander with them, joyful and mindful.",
+    "context_summary": "The Buddha advises on the importance of companionship and support in overcoming life's challenges.",
+    "problem_summary": "Many people feel isolated or struggle to cope with life's difficulties alone.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "ethical_conflict"
+    ],
+    "diagnosis": "Isolation can lead to increased stress and difficulty in managing life's challenges.",
+    "teaching": "Seek out supportive relationships that foster joy and mindfulness.",
+    "practice_actions": [
+      "Identify friends or family members who uplift you and spend more time with them.",
+      "Join community groups or activities that align with your interests to meet new people.",
+      "Practice being a supportive friend to others, creating a reciprocal relationship."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn128_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 129",
+    "canonical_passage": "An astute person thinks well, speaks well, and acts well.",
+    "context_summary": "The Buddha contrasts the characteristics of fools and astute individuals, emphasizing the importance of good thoughts, speech, and actions.",
+    "problem_summary": "Many people struggle with negative thoughts, harmful speech, and unethical actions, which can lead to personal suffering and negative consequences.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Engaging in harmful behavior leads to suffering and negative outcomes in life.",
+    "teaching": "To cultivate a better life, focus on thinking positively, speaking kindly, and acting ethically.",
+    "practice_actions": [
+      "Reflect daily on your thoughts and intentions, aiming to replace negative thoughts with positive ones.",
+      "Practice mindful speech by being aware of the impact of your words and choosing to speak kindly and truthfully.",
+      "Engage in actions that are beneficial to yourself and others, such as volunteering or helping someone in need."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn129_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 129",
+    "canonical_passage": "When an astute person is resting on a chair or a bed or on the ground, their past good deeds settle down upon them.",
+    "context_summary": "The Buddha explains that astute individuals find peace and happiness in reflecting on their good deeds.",
+    "problem_summary": "People often feel anxious or regretful about their past actions, leading to stress and unhappiness.",
+    "buddhist_labels": [
+      "fear_anxiety"
+    ],
+    "diagnosis": "Anxiety about past actions can prevent individuals from experiencing peace and happiness.",
+    "teaching": "Reflecting on your positive actions can bring a sense of peace and assurance about your life.",
+    "practice_actions": [
+      "Set aside time each week to reflect on your positive actions and the good you have done.",
+      "Keep a gratitude journal where you write down good deeds you have performed and positive experiences.",
+      "Meditate on your intentions and actions, focusing on the positive impact you have made in your life and the lives of others."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn129_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 130",
+    "canonical_passage": "When warned by the gods’ messengers, the good and true persons here never neglect the teaching of the Noble One. Seeing the danger in grasping, the origin of birth and death, the unattached are freed with the ending of birth and death.",
+    "context_summary": "The Buddha discusses the consequences of actions and the importance of being mindful of one's deeds in the context of rebirth and moral responsibility.",
+    "problem_summary": "People often neglect to consider the consequences of their actions, leading to regret and suffering in life and beyond.",
+    "buddhist_labels": [
+      "ethical_conflict",
+      "craving_attachment"
+    ],
+    "diagnosis": "Negligence in recognizing the impact of one's actions can lead to negative outcomes and suffering.",
+    "teaching": "Be mindful of your actions and their consequences; cultivate good deeds through body, speech, and mind to avoid future suffering.",
+    "practice_actions": [
+      "Reflect daily on your actions and their potential consequences.",
+      "Engage in acts of kindness and compassion towards others.",
+      "Practice mindfulness to become more aware of your thoughts and actions."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn130_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

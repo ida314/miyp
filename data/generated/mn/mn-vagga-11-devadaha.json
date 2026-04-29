@@ -1,0 +1,317 @@
+[
+  {
+    "source_ref": "MN 101",
+    "canonical_passage": "When I actively strive I become dispassionate towards this source of suffering. But when I develop equanimity I become dispassionate towards this other source of suffering.",
+    "context_summary": "The Buddha discusses the importance of active striving and developing equanimity in overcoming suffering, contrasting this with the Jain belief that past deeds solely determine one's experiences.",
+    "problem_summary": "Many people struggle with suffering and emotional distress, often feeling overwhelmed by their circumstances or past actions.",
+    "buddhist_labels": [
+      "fear_anxiety",
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Suffering can arise from attachment to desires and aversions, leading to emotional turmoil.",
+    "teaching": "Active striving and developing equanimity are essential practices for overcoming suffering and achieving peace.",
+    "practice_actions": [
+      "Identify a source of suffering in your life and actively strive to change your relationship with it.",
+      "Practice mindfulness and meditation to cultivate equanimity towards situations that cause distress.",
+      "Reflect on how your desires and aversions contribute to your suffering and work on letting them go."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn101_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 101",
+    "canonical_passage": "When I live as I please, unskillful qualities grow and skillful qualities decline. But when I strive painfully, unskillful qualities decline and skillful qualities grow.",
+    "context_summary": "The Buddha emphasizes the need for effort and discipline in cultivating positive qualities and reducing negative ones.",
+    "problem_summary": "People often find it challenging to maintain good habits and let go of negative behaviors, leading to a cycle of unskillfulness.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Without effort, negative habits can take over, making it difficult to cultivate positive qualities.",
+    "teaching": "Striving and discipline are necessary to foster skillful qualities and diminish unskillful ones.",
+    "practice_actions": [
+      "Set specific goals for personal growth and commit to daily practices that support these goals.",
+      "Create a routine that includes time for reflection and self-discipline to reinforce positive behaviors.",
+      "Seek support from friends or community to help maintain accountability in your efforts."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn101_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 103",
+    "canonical_passage": "As you train in harmony, appreciating each other, without dispute, one of the mendicants might commit an offense or transgression. In such a case, you should not be in a hurry to accuse them.",
+    "context_summary": "The Buddha encourages his followers to train in harmony and to approach disagreements with understanding rather than conflict.",
+    "problem_summary": "People often struggle with conflicts and disagreements in relationships, leading to disputes and misunderstandings.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Disagreements can escalate into conflicts if not handled with care and understanding.",
+    "teaching": "Approach conflicts with a mindset of harmony and understanding, rather than rushing to accuse or blame others.",
+    "practice_actions": [
+      "Pause before reacting to a disagreement.",
+      "Consider the other person's perspective and feelings.",
+      "Communicate openly and kindly to resolve misunderstandings."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn103_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 103",
+    "canonical_passage": "If the Ascetic knew about this, would he criticize it? Answering rightly, the mendicant should say: ‘Yes, reverend, he would.’ ‘But without giving that up, reverend, can one realize extinguishment?’",
+    "context_summary": "The Buddha emphasizes the importance of letting go of settled issues and grievances to achieve peace and understanding.",
+    "problem_summary": "Holding onto past grievances can prevent personal growth and inner peace.",
+    "buddhist_labels": [
+      "grief_loss"
+    ],
+    "diagnosis": "Clinging to past issues can hinder spiritual progress and create ongoing conflict.",
+    "teaching": "Let go of settled issues and grievances to foster a peaceful and harmonious environment.",
+    "practice_actions": [
+      "Reflect on any past grievances you may be holding onto.",
+      "Practice forgiveness towards those who have wronged you.",
+      "Focus on the present and what can be done to improve relationships."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn103_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 104",
+    "canonical_passage": "These six warm-hearted qualities make for fondness and respect, conducing to inclusion, harmony, and unity, without quarreling.",
+    "context_summary": "The Buddha discusses the importance of harmony and unity among spiritual companions and identifies qualities that foster positive relationships.",
+    "problem_summary": "People often experience conflicts and disputes in their relationships, leading to division and unhappiness.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Disputes arise from negative qualities such as irritability, jealousy, and attachment to one's own views.",
+    "teaching": "Cultivating warm-hearted qualities can help maintain harmony and prevent disputes.",
+    "practice_actions": [
+      "Treat others with kindness in your actions, words, and thoughts.",
+      "Share resources generously with those around you.",
+      "Adhere to shared ethical principles and views that promote unity."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn104_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 105",
+    "canonical_passage": "Understanding that attachment is the root of suffering, they are freed with the ending of attachments.",
+    "context_summary": "The Buddha discusses the nature of attachment and how it leads to suffering, emphasizing the importance of restraint in the six fields of contact.",
+    "problem_summary": "Many people struggle with attachment to worldly pleasures, which can lead to suffering and dissatisfaction in life.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Attachment to sensory pleasures can lead to ongoing suffering and dissatisfaction.",
+    "teaching": "To alleviate suffering, one should practice restraint regarding sensory experiences and understand the nature of attachment.",
+    "practice_actions": [
+      "Reflect on what attachments you have in your life and how they affect your happiness.",
+      "Practice mindfulness by observing your thoughts and feelings about sensory pleasures without acting on them.",
+      "Engage in conversations or activities that promote understanding and detachment from worldly pleasures."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn105_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 106",
+    "canonical_passage": "Sensual pleasures are impermanent, hollow, false, and deceptive. This is made by illusion, mendicants, lamented by fools.",
+    "context_summary": "The Buddha teaches about the nature of sensual pleasures and their impermanence, emphasizing the importance of understanding this to avoid unskillful thoughts and actions.",
+    "problem_summary": "People often get caught up in the pursuit of temporary pleasures, leading to dissatisfaction and negative emotions.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "The attachment to sensual pleasures creates a cycle of desire and suffering.",
+    "teaching": "Recognize the impermanence and deceptive nature of sensual pleasures to cultivate a more expansive and peaceful mind.",
+    "practice_actions": [
+      "Reflect on the temporary nature of pleasures and how they lead to suffering.",
+      "Engage in meditation focused on developing an expansive heart and stabilizing the mind.",
+      "Practice letting go of attachments to sensual experiences."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn106_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 106",
+    "canonical_passage": "This is empty of a self or what belongs to a self.",
+    "context_summary": "The Buddha encourages reflection on the concept of self and ownership to foster equanimity and reduce attachment.",
+    "problem_summary": "Many individuals struggle with feelings of ownership and identity, which can lead to anxiety and conflict.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Clinging to the idea of self and possessions creates a source of anxiety and conflict.",
+    "teaching": "Understanding the emptiness of self and possessions can lead to greater peace and freedom.",
+    "practice_actions": [
+      "Spend time in quiet reflection or meditation in nature or a peaceful setting.",
+      "Contemplate the idea that nothing truly belongs to you and that you are not defined by your possessions.",
+      "Practice gratitude for experiences rather than attachment to material things."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn106_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 107",
+    "canonical_passage": "‘Come, mendicant, guard your sense doors... practice restraint, protect the faculty of mind, and achieve its restraint.’",
+    "context_summary": "The Buddha provides a structured approach to training and ethical conduct, emphasizing the importance of guarding one's senses and practicing moderation.",
+    "problem_summary": "Many people struggle with distractions and unwholesome thoughts that arise from unguarded senses and lack of mindfulness.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "craving_attachment"
+    ],
+    "diagnosis": "Individuals often become overwhelmed by sensory experiences, leading to negative emotions and distractions.",
+    "teaching": "Practice guarding your senses and maintaining mindfulness to cultivate a more peaceful and focused mind.",
+    "practice_actions": [
+      "Be mindful of what you see, hear, and think; avoid getting caught up in distractions.",
+      "Set aside time each day for meditation to develop focus and clarity.",
+      "Reflect on your eating habits and practice moderation in consumption."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn107_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 107",
+    "canonical_passage": "‘Come, mendicant, eat in moderation... to sustain this body, to avoid harm, and to support spiritual practice.’",
+    "context_summary": "The Buddha advises on the importance of moderation in eating as part of a broader ethical and spiritual practice.",
+    "problem_summary": "Many individuals struggle with overeating or unhealthy eating habits that can lead to physical and mental discomfort.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Excessive indulgence in food can lead to physical discomfort and distract from spiritual goals.",
+    "teaching": "Adopt a mindful approach to eating, focusing on nourishment rather than indulgence.",
+    "practice_actions": [
+      "Before each meal, set an intention to eat mindfully and in moderation.",
+      "Reflect on the purpose of eating and choose foods that support your well-being.",
+      "Avoid distractions (like screens) while eating to enhance mindfulness."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn107_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 109",
+    "canonical_passage": "You should truly see any kind of form at all... with right understanding: ‘This is not mine, I am not this, this is not my self.’",
+    "context_summary": "The Buddha teaches about the nature of the five aggregates and how understanding them can lead to liberation from suffering.",
+    "problem_summary": "People often cling to their identities and experiences, leading to suffering and dissatisfaction.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Attachment to the self and its experiences causes ongoing suffering.",
+    "teaching": "Recognizing that the aggregates (form, feeling, perception, choices, consciousness) are not the self can help reduce attachment and suffering.",
+    "practice_actions": [
+      "Reflect on your experiences and identify moments when you feel attached to your identity or experiences.",
+      "Practice saying to yourself, 'This is not mine, I am not this, this is not my self' when you notice attachment arising.",
+      "Engage in mindfulness meditation to observe your thoughts and feelings without identifying with them."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn109_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 109",
+    "canonical_passage": "Seeing this, a learned noble disciple grows disillusioned with form, feeling, perception, choices, and consciousness.",
+    "context_summary": "The Buddha explains that understanding the impermanence and suffering inherent in the aggregates leads to disillusionment and freedom.",
+    "problem_summary": "People often seek lasting happiness in transient experiences, leading to disappointment and suffering.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "The pursuit of happiness through impermanent things results in ongoing dissatisfaction.",
+    "teaching": "Disillusionment with the impermanent nature of experiences can lead to the fading of desire and ultimately to liberation.",
+    "practice_actions": [
+      "Contemplate the impermanence of your daily experiences and how they change over time.",
+      "Keep a journal to track moments of attachment and how they lead to suffering.",
+      "Practice gratitude for the present moment without clinging to it."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn109_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 110",
+    "canonical_passage": "A true person has good qualities, is devoted to true persons, and has the intentions, counsel, speech, actions, views, and giving of a true person.",
+    "context_summary": "The Buddha discusses the characteristics of true and untrue persons, emphasizing the qualities that define each.",
+    "problem_summary": "People often struggle to discern who is trustworthy and who is not, leading to poor relationships and decisions.",
+    "buddhist_labels": [
+      "speech_relationships",
+      "ethical_conflict"
+    ],
+    "diagnosis": "Many individuals may find themselves surrounded by untrustworthy people, which can lead to harmful choices and actions.",
+    "teaching": "To cultivate trust and positive relationships, one should embody the qualities of a true person, such as being faithful, conscientious, and mindful.",
+    "practice_actions": [
+      "Reflect on your own qualities and identify areas for improvement.",
+      "Surround yourself with individuals who exhibit good qualities and support your growth.",
+      "Practice speaking truthfully and kindly, avoiding harmful speech."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn110_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 110",
+    "canonical_passage": "It’s when a true person gives a gift carefully, with their own hand, and thoughtfully.",
+    "context_summary": "The Buddha highlights the importance of how gifts are given, linking it to one's character.",
+    "problem_summary": "People may give gifts thoughtlessly, which can lead to misunderstandings and lack of appreciation.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Thoughtless giving can result in negative feelings and relationships, as gifts may not be received as intended.",
+    "teaching": "Giving should be done with care and consideration to foster positive connections and respect.",
+    "practice_actions": [
+      "When giving a gift, take time to consider what the recipient truly values.",
+      "Make the act of giving personal by presenting the gift yourself.",
+      "Reflect on the intention behind your gift and ensure it aligns with goodwill."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn110_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

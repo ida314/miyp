@@ -1,0 +1,68 @@
+[
+  {
+    "source_ref": "AN 5.254",
+    "canonical_passage": "The most contemptible of these five kinds of stinginess is stinginess with the teaching.",
+    "context_summary": "The sutta discusses different forms of stinginess and highlights the importance of sharing teachings.",
+    "problem_summary": "Many people struggle with sharing knowledge and resources, which can hinder personal growth and community support.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Stinginess can lead to isolation and a lack of support in personal and communal development.",
+    "teaching": "Generosity in sharing teachings and knowledge is crucial for personal and communal well-being.",
+    "practice_actions": [
+      "Share a valuable lesson or insight you have learned with someone else.",
+      "Engage in discussions where you can offer your knowledge to help others.",
+      "Be open to learning from others and encourage a culture of sharing in your community."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_254_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.255",
+    "canonical_passage": "The spiritual life is lived to give up and cut out these five kinds of stinginess.",
+    "context_summary": "The sutta discusses the importance of overcoming stinginess in various aspects of life.",
+    "problem_summary": "Many people struggle with being overly possessive or unwilling to share resources, which can lead to isolation and dissatisfaction.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Stinginess can create barriers in relationships and hinder personal growth.",
+    "teaching": "To cultivate a more fulfilling life, one should practice generosity and let go of stinginess in areas such as housing, family support, material possessions, praise, and sharing knowledge.",
+    "practice_actions": [
+      "Identify one area where you tend to be stingy (e.g., sharing resources or giving compliments) and make a conscious effort to be more generous.",
+      "Volunteer your time or resources to help others in your community.",
+      "Practice giving praise or recognition to others without expecting anything in return."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_255_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.256",
+    "canonical_passage": "Without giving up these five qualities you can’t enter and remain in the first absorption. What five? Stinginess with dwellings, families, material things, praise, and the teachings.",
+    "context_summary": "The sutta discusses the qualities that hinder one from achieving a meditative state known as the first absorption.",
+    "problem_summary": "People often struggle with attachment to material possessions, recognition, and teachings, which can prevent them from achieving deeper states of meditation and inner peace.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Attachment to material possessions and recognition can create mental barriers to achieving tranquility and focus.",
+    "teaching": "Let go of stinginess and attachment to material things, praise, and even teachings to achieve deeper meditative states.",
+    "practice_actions": [
+      "Reflect on areas where you feel stingy or attached, such as your home or relationships.",
+      "Practice generosity by sharing resources or praise with others.",
+      "Engage in meditation focusing on letting go of attachments and cultivating a sense of abundance."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_256_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

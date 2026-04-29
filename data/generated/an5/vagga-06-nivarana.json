@@ -1,0 +1,193 @@
+[
+  {
+    "source_ref": "AN 5.51",
+    "canonical_passage": "Mendicants, there are these five obstacles and hindrances, parasites of the mind that weaken wisdom. What five? Sensual desire … Ill will … Dullness and drowsiness … Restlessness and remorse … Doubt.",
+    "context_summary": "The Buddha identifies five mental obstacles that hinder wisdom and understanding.",
+    "problem_summary": "People often struggle with distractions and negative emotions that cloud their judgment and decision-making.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "aversion_anger",
+      "delusion_confusion",
+      "fear_anxiety",
+      "doubt_indecision"
+    ],
+    "diagnosis": "These obstacles prevent individuals from making wise decisions and understanding what is beneficial for themselves and others.",
+    "teaching": "To cultivate wisdom, one must recognize and overcome these five mental obstacles.",
+    "practice_actions": [
+      "Reflect on your desires and identify any that are excessive or distracting.",
+      "Practice mindfulness to become aware of feelings of ill will or anger, and work on letting them go.",
+      "Establish a regular routine to combat dullness and drowsiness, such as getting enough sleep and engaging in stimulating activities.",
+      "Engage in meditation or mindfulness practices to reduce restlessness and remorse.",
+      "Challenge doubts by seeking knowledge and clarity on issues that concern you."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_51_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.52",
+    "canonical_passage": "For these five hindrances are entirely a heap of the unskillful.",
+    "context_summary": "The sutta discusses the five hindrances that obstruct personal growth and skillfulness.",
+    "problem_summary": "People often struggle with distractions and negative emotions that hinder their personal development and well-being.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "The presence of hindrances such as desire, ill will, and doubt can prevent individuals from achieving clarity and focus.",
+    "teaching": "Recognize and address the five hindrances in your life to cultivate skillfulness and clarity.",
+    "practice_actions": [
+      "Identify moments when you feel distracted or hindered by negative emotions.",
+      "Reflect on the specific hindrance you are experiencing (e.g., desire, ill will, doubt).",
+      "Practice mindfulness or meditation to observe these hindrances without judgment and gradually let them go."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_52_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.53",
+    "canonical_passage": "It’s when a mendicant has faith in the Realized One’s awakening... They live with energy roused up for giving up unskillful qualities and embracing skillful qualities.",
+    "context_summary": "This passage outlines the essential factors that support effective meditation practice.",
+    "problem_summary": "Many people struggle with maintaining focus and commitment in their meditation practice, often feeling unmotivated or distracted.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Lack of commitment and clarity in meditation practice.",
+    "teaching": "To support your meditation practice, cultivate faith in the teachings, maintain good health, be honest, energize your efforts to abandon unskillful habits, and develop wisdom.",
+    "practice_actions": [
+      "Reflect on the qualities of a wise teacher or mentor to strengthen your faith.",
+      "Prioritize your physical health by maintaining a balanced diet and regular exercise.",
+      "Practice honesty in your interactions and seek guidance from trusted friends or mentors.",
+      "Set specific goals for your meditation practice and commit to a regular schedule.",
+      "Engage in learning about the nature of impermanence to deepen your understanding and wisdom."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_53_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.54",
+    "canonical_passage": "There are five times that are good for meditation... Firstly, a mendicant is a youth, young, with pristine black hair, blessed with youth, in the prime of life.",
+    "context_summary": "The sutta discusses conditions that affect the suitability of meditation, highlighting both unfavorable and favorable times.",
+    "problem_summary": "People often struggle to find the right conditions for meditation and may feel discouraged when circumstances are not ideal.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Meditation may be ineffective during times of physical decline, illness, or social discord.",
+    "teaching": "Seek out favorable conditions for meditation, such as good health, harmony in relationships, and a supportive environment.",
+    "practice_actions": [
+      "Assess your current physical and mental health before meditating.",
+      "Create a peaceful environment by resolving conflicts and fostering good relationships.",
+      "Choose times for meditation when you feel physically well and mentally clear."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_54_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.55",
+    "canonical_passage": "Sentient beings are lustful, greedy, tied, infatuated, and attached to the sight of a woman.",
+    "context_summary": "The Buddha discusses the dangers of attachment and lust, particularly in close relationships, using the example of a mother and son who succumb to their desires.",
+    "problem_summary": "People often struggle with attachment and lust in close relationships, which can lead to harmful consequences.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Attachment and lust can cloud judgment and lead to actions that are contrary to one's values.",
+    "teaching": "Understanding the nature of sensual pleasures and their potential to lead to suffering can help individuals navigate relationships more wisely.",
+    "practice_actions": [
+      "Reflect on the nature of attachment and how it affects your relationships.",
+      "Set boundaries in close relationships to maintain clarity and prevent inappropriate attachments.",
+      "Practice mindfulness to recognize when desires arise and learn to respond without acting on them."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_55_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.56",
+    "canonical_passage": "So you should train like this: ‘I will guard my sense doors, eat in moderation, be dedicated to wakefulness, discern skillful qualities, and pursue the development of the qualities on the side of awakening in the evening and toward dawn.’",
+    "context_summary": "A mendicant expresses feelings of dullness and dissatisfaction in his spiritual life, prompting the Buddha to provide guidance on how to overcome these challenges.",
+    "problem_summary": "Many people experience feelings of disorientation, dissatisfaction, and lack of focus in their lives, which can hinder personal growth and spiritual development.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "doubt_indecision"
+    ],
+    "diagnosis": "The individual is struggling with a lack of clarity and engagement in their spiritual practice, leading to feelings of confusion and doubt.",
+    "teaching": "To overcome these feelings, one should guard their senses, eat moderately, stay awake and alert, discern what is skillful, and actively pursue personal development, especially during quiet times.",
+    "practice_actions": [
+      "Limit distractions by being mindful of what you expose your senses to (e.g., media, conversations).",
+      "Practice moderation in eating to maintain physical and mental clarity.",
+      "Set aside time for reflection and mindfulness, especially in the early morning or evening.",
+      "Identify and focus on positive qualities and actions that contribute to your growth.",
+      "Engage in regular self-assessment of your spiritual and personal development."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_56_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.57",
+    "canonical_passage": "‘I am liable to grow old, I am not exempt from old age.’ ... ‘I must be parted and separated from all I hold dear and beloved.’ ... ‘I am the owner of my deeds and heir to my deeds.’",
+    "context_summary": "The sutta discusses the importance of regularly reflecting on the inevitabilities of aging, sickness, death, separation from loved ones, and the ownership of one's actions.",
+    "problem_summary": "People often live in denial of life's impermanence, leading to poor choices and attachment to transient things.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "grief_loss",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Individuals may struggle with attachment to youth, health, and loved ones, which can lead to negative actions and emotional distress.",
+    "teaching": "Regularly reflecting on the impermanence of life and the consequences of one's actions can help reduce attachment and promote ethical living.",
+    "practice_actions": [
+      "Set aside time each week to reflect on the inevitability of aging, sickness, and death.",
+      "Consider the transient nature of relationships and material possessions.",
+      "Contemplate the impact of your actions and take responsibility for them."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_57_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.58",
+    "canonical_passage": "You can expect only growth, not decline, when you find these five qualities in any gentleman—whether he’s an anointed aristocratic king, an appointed or hereditary official, an army general, a village chief, a guild chief, or a ruler of his own clan.",
+    "context_summary": "The Buddha discusses the qualities that lead to personal growth and positive relationships within a community.",
+    "problem_summary": "Many people struggle with maintaining healthy relationships and fostering respect within their families and communities.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "People often neglect the importance of honoring and respecting those around them, leading to strained relationships.",
+    "teaching": "To foster growth and positive relationships, one should honor and respect family, employees, and community members using legitimate means.",
+    "practice_actions": [
+      "Make a conscious effort to show appreciation to family members through kind words or small acts of service.",
+      "Engage in respectful communication with coworkers and employees, acknowledging their contributions.",
+      "Participate in community service or support local businesses to build goodwill in your neighborhood."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_58_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

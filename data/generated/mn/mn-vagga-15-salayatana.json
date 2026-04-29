@@ -1,0 +1,366 @@
+[
+  {
+    "source_ref": "MN 143",
+    "canonical_passage": "You should train like this: ‘I shall not grasp the eye, and there shall be no consciousness of mine dependent on the eye.’",
+    "context_summary": "Anāthapiṇḍika, a householder, is gravely ill and receives advice from Venerable Sāriputta on how to train the mind amidst suffering.",
+    "problem_summary": "People often struggle with physical pain and suffering, leading to attachment to sensations and experiences that can exacerbate their distress.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "fear_anxiety"
+    ],
+    "diagnosis": "The tendency to cling to sensory experiences and the resulting consciousness can intensify suffering.",
+    "teaching": "Train the mind to not grasp at sensory experiences, which can help reduce suffering and promote peace.",
+    "practice_actions": [
+      "When experiencing pain, consciously remind yourself not to cling to the sensations.",
+      "Practice mindfulness by observing sensations without attachment or aversion.",
+      "Engage in meditation focused on letting go of sensory experiences."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn143_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 144",
+    "canonical_passage": "For the dependent there is agitation. For the independent there’s no agitation. When there’s no agitation there is tranquility.",
+    "context_summary": "In this passage, Venerable Sāriputta and Mahācunda visit Venerable Channa, who is gravely ill and contemplating suicide. They advise him to reflect on the nature of dependence and independence to find tranquility.",
+    "problem_summary": "Many people struggle with overwhelming pain and suffering, leading to feelings of despair and thoughts of giving up on life.",
+    "buddhist_labels": [
+      "fear_anxiety",
+      "grief_loss"
+    ],
+    "diagnosis": "The suffering experienced by individuals can lead to a sense of agitation and despair, particularly in the face of severe illness or emotional distress.",
+    "teaching": "By understanding the nature of dependence and cultivating a sense of independence, one can find tranquility amidst suffering.",
+    "practice_actions": [
+      "Reflect on what aspects of your life create agitation and how they are dependent on external factors.",
+      "Practice mindfulness to cultivate a sense of independence from your thoughts and feelings.",
+      "Engage in activities that promote tranquility, such as meditation or spending time in nature."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn144_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 145",
+    "canonical_passage": "If a mendicant doesn’t approve, welcome, and keep clinging to them, relishing ceases. When relishing ceases, suffering ceases, I say.",
+    "context_summary": "The Buddha teaches Puṇṇa about the nature of sensory experiences and how clinging to them leads to suffering.",
+    "problem_summary": "People often struggle with attachment to pleasurable experiences, which can lead to suffering when those experiences are lost or change.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Clinging to sensory pleasures creates a cycle of craving and suffering.",
+    "teaching": "To reduce suffering, one should practice non-attachment to sensory experiences.",
+    "practice_actions": [
+      "Observe your reactions to pleasurable experiences without clinging to them.",
+      "Practice mindfulness by acknowledging sensations without judgment or attachment.",
+      "Reflect on the impermanence of pleasurable experiences to cultivate a sense of detachment."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn145_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 145",
+    "canonical_passage": "If they abuse and insult you, what will you think of them? ... I will think: ‘These people of Sunāparanta are gracious, truly gracious, since they don’t hit me with their fists.’",
+    "context_summary": "The Buddha encourages Puṇṇa to maintain a positive perspective in the face of adversity and insults.",
+    "problem_summary": "People often face criticism or hostility from others, which can lead to anger or resentment.",
+    "buddhist_labels": [
+      "aversion_anger"
+    ],
+    "diagnosis": "Negative reactions to others' hostility can lead to increased anger and suffering.",
+    "teaching": "Cultivate a mindset of gratitude and understanding, even when faced with negativity.",
+    "practice_actions": [
+      "When criticized, remind yourself of the positive aspects of the situation.",
+      "Practice reframing negative interactions by focusing on what could be worse.",
+      "Develop compassion for those who insult you, recognizing their own struggles."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn145_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 146",
+    "canonical_passage": "‘This is mine, I am this, this is my self’?",
+    "context_summary": "In this teaching, the Buddha emphasizes the impermanence of the senses and consciousness, guiding the nuns to understand that attachment to these is misguided.",
+    "problem_summary": "Many people struggle with attachment to their identities and experiences, leading to suffering when those experiences change or fade.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Attachment to impermanent aspects of life causes suffering and confusion about the self.",
+    "teaching": "Recognize that all sensory experiences and consciousness are impermanent and not truly 'self'.",
+    "practice_actions": [
+      "Reflect on the impermanence of your thoughts and feelings.",
+      "Practice mindfulness to observe how sensations arise and pass away.",
+      "Let go of identifying with your experiences as 'mine' or 'self'."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn146_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 146",
+    "canonical_passage": "by developing and cultivating these seven awakening factors...",
+    "context_summary": "The Buddha outlines seven awakening factors that lead to freedom from defilements and suffering.",
+    "problem_summary": "People often feel stuck or unfulfilled in their personal growth and spiritual development.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Lack of cultivation of positive mental qualities can hinder personal and spiritual growth.",
+    "teaching": "Cultivate the seven awakening factors to achieve insight and freedom.",
+    "practice_actions": [
+      "Incorporate mindfulness into your daily routine.",
+      "Engage in regular reflection and investigation of your thoughts and actions.",
+      "Set aside time for practices that promote tranquility and equanimity."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn146_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 147",
+    "canonical_passage": "Seeing this, a learned noble disciple grows disillusioned with the eye, sights, eye consciousness, and eye contact. And they grow disillusioned with anything included in feeling, perception, choices, and consciousness that arises dependent on eye contact.",
+    "context_summary": "The Buddha teaches Rāhula about the impermanence of sensory experiences and the importance of disillusionment with them.",
+    "problem_summary": "People often cling to their sensory experiences and identities, leading to suffering and dissatisfaction.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Clinging to impermanent experiences causes ongoing suffering.",
+    "teaching": "Recognizing the impermanence of sensory experiences can lead to disillusionment and a reduction in desire, ultimately resulting in freedom from suffering.",
+    "practice_actions": [
+      "Reflect on the impermanence of your thoughts and feelings throughout the day.",
+      "Practice mindfulness by observing your sensory experiences without attachment.",
+      "Engage in meditation focused on letting go of identification with your thoughts and feelings."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn147_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 148",
+    "canonical_passage": "Mendicants, without giving up the underlying tendency to greed for pleasant feeling, without dispelling the underlying tendency to aversion towards painful feeling, without eradicating ignorance in the case of neutral feeling, without giving up ignorance and without giving rise to knowledge, it is quite impossible to make an end of suffering in this very life.",
+    "context_summary": "The Buddha teaches about understanding the nature of feelings and the tendencies that arise from them, emphasizing the importance of addressing greed, aversion, and ignorance.",
+    "problem_summary": "People often struggle with their reactions to pleasant, painful, and neutral experiences, leading to ongoing suffering.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals may cling to pleasant feelings, react negatively to painful feelings, or remain ignorant of neutral feelings, perpetuating their suffering.",
+    "teaching": "To alleviate suffering, one must recognize and let go of greed for pleasant feelings, aversion towards painful feelings, and ignorance regarding neutral feelings.",
+    "practice_actions": [
+      "Reflect on your reactions to pleasant experiences and practice not clinging to them.",
+      "When faced with painful feelings, consciously choose not to react with sorrow or anger.",
+      "Cultivate awareness and understanding of neutral feelings, exploring their origins and implications."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn148_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 149",
+    "canonical_passage": "When you do truly know and see the eye, sights, eye consciousness, eye contact, and what is felt as pleasant, painful, or neutral that arises dependent on eye contact, you’re not aroused by these things.",
+    "context_summary": "The Buddha teaches about the importance of understanding the six sense fields and how awareness can lead to liberation from craving and suffering.",
+    "problem_summary": "Many people struggle with being overly attached to sensory experiences, leading to stress and dissatisfaction.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "People often react to sensory experiences without understanding them, which leads to increased craving and suffering.",
+    "teaching": "By cultivating awareness and understanding of sensory experiences, one can reduce attachment and suffering.",
+    "practice_actions": [
+      "Practice mindfulness by observing your sensory experiences without judgment.",
+      "Reflect on how different sensations make you feel and recognize the impermanent nature of these feelings.",
+      "Engage in meditation focused on the breath to develop concentration and awareness of the present moment."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn149_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 149",
+    "canonical_passage": "These are the things that should be developed by direct knowledge: Serenity and discernment.",
+    "context_summary": "The Buddha emphasizes the development of serenity and discernment as essential qualities for overcoming suffering.",
+    "problem_summary": "In a fast-paced world, many individuals find it challenging to cultivate inner peace and clarity.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Lack of serenity and discernment can lead to confusion and anxiety in daily life.",
+    "teaching": "Developing serenity and discernment can help individuals navigate life's challenges with greater ease.",
+    "practice_actions": [
+      "Incorporate daily meditation practices that focus on calming the mind and fostering clarity.",
+      "Engage in reflective practices, such as journaling, to enhance self-awareness and discernment.",
+      "Set aside time each day for quiet contemplation or nature walks to cultivate a sense of peace."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn149_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 150",
+    "canonical_passage": "There are ascetics and brahmins who are free of greed, hate, and delusion for sights known by the eye, who are peaceful inside, and who conduct themselves well by way of body, speech, and mind. They deserve honor, respect, reverence, and veneration.",
+    "context_summary": "The Buddha discusses the qualities that make an ascetic or brahmin worthy of respect and honor, emphasizing the importance of being free from negative qualities such as greed, hate, and delusion.",
+    "problem_summary": "People often struggle to discern who is truly worthy of respect and admiration, especially in spiritual or religious contexts.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Many individuals may find themselves confused about whom to honor or respect based on superficial qualities rather than deeper ethical conduct.",
+    "teaching": "Honor those who demonstrate genuine ethical conduct and inner peace, rather than those who merely hold a title or position.",
+    "practice_actions": [
+      "Reflect on the qualities of individuals you respect and consider their ethical conduct and inner peace.",
+      "Seek out and support those who embody positive qualities such as kindness, compassion, and wisdom.",
+      "Engage in self-reflection to identify and reduce your own greed, hate, and delusion."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn150_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 151",
+    "canonical_passage": "A mendicant might wish: ‘May I usually practice the meditation on emptiness.’ So they should reflect: ‘Along the path that I went for alms, was there any desire or greed or hate or delusion or aversion in my heart for sights known by the eye?’",
+    "context_summary": "The Buddha advises Sāriputta on the practice of meditation, particularly focusing on the concept of emptiness and the importance of self-reflection.",
+    "problem_summary": "People often struggle with negative emotions such as desire, greed, and aversion, which can lead to dissatisfaction and unhappiness.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Negative emotions can cloud judgment and lead to unskillful actions.",
+    "teaching": "Regularly reflect on your thoughts and feelings to identify and let go of unskillful qualities.",
+    "practice_actions": [
+      "Set aside time each day for self-reflection.",
+      "Ask yourself if you have experienced any negative emotions in your interactions.",
+      "Make a conscious effort to let go of any identified negative feelings."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn151_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 151",
+    "canonical_passage": "Suppose that, upon checking, a mendicant knows that there was such desire or greed or hate or delusion or aversion in their heart, they should make an effort to give up those unskillful qualities.",
+    "context_summary": "The Buddha emphasizes the importance of recognizing and addressing negative qualities in oneself.",
+    "problem_summary": "Individuals may find it challenging to overcome unhelpful habits and emotions that hinder personal growth.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Awareness of negative qualities is the first step toward personal transformation.",
+    "teaching": "If you identify negative qualities in yourself, actively work to let them go.",
+    "practice_actions": [
+      "Keep a journal to track your emotions and thoughts.",
+      "Identify specific negative qualities you want to change.",
+      "Create a plan with actionable steps to address these qualities."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn151_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 151",
+    "canonical_passage": "But suppose that, upon checking, a mendicant knows that there was no such desire or greed or hate or delusion or aversion in their heart, they should meditate with rapture and joy, training day and night in skillful qualities.",
+    "context_summary": "The Buddha encourages cultivating positive qualities and joy when one is free from negative emotions.",
+    "problem_summary": "People often overlook the importance of nurturing positive qualities and joy in their lives.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Fostering positive emotions can enhance overall well-being.",
+    "teaching": "When you recognize the absence of negative emotions, focus on cultivating joy and skillful qualities.",
+    "practice_actions": [
+      "Engage in activities that bring you joy and fulfillment.",
+      "Practice gratitude by listing things you appreciate in your life.",
+      "Incorporate mindfulness or meditation practices that focus on positive qualities."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn151_3",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 152",
+    "canonical_passage": "When a mendicant sees a sight with their eyes, in them arises what is agreeable, what is disagreeable, and what is both agreeable and disagreeable. They understand: ‘What is agreeable, what is disagreeable, and what is both agreeable and disagreeable have arisen in me. That’s conditioned, crude, and dependently originated. But this is peaceful and sublime, namely equanimity.’",
+    "context_summary": "The Buddha explains the difference between the development of faculties as taught by a brahmin and the supreme development of faculties in the training of the Noble One, emphasizing the importance of equanimity.",
+    "problem_summary": "People often struggle with emotional reactions to pleasant and unpleasant experiences, leading to stress and dissatisfaction.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Individuals may find themselves overwhelmed by their reactions to sensory experiences, leading to a lack of peace and stability.",
+    "teaching": "Recognize that your reactions to sensory experiences (pleasant, unpleasant, or neutral) are conditioned and transient. Cultivating equanimity allows for a more peaceful state of mind.",
+    "practice_actions": [
+      "When you encounter a pleasant or unpleasant experience, take a moment to pause and acknowledge your feelings without judgment.",
+      "Remind yourself that these feelings are temporary and conditioned by circumstances.",
+      "Practice meditation focused on equanimity, allowing sensations to arise and pass without attachment or aversion."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn152_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 152",
+    "canonical_passage": "If they wish: ‘May I meditate perceiving the unrepulsive in the repulsive,’ that’s what they do.",
+    "context_summary": "The Buddha encourages the development of faculties through meditation, specifically by transforming perceptions of experiences.",
+    "problem_summary": "People often find it difficult to deal with unpleasant experiences or thoughts, leading to aversion and avoidance.",
+    "buddhist_labels": [
+      "aversion_anger"
+    ],
+    "diagnosis": "Individuals may struggle with aversion to negative experiences, which can lead to increased stress and avoidance behaviors.",
+    "teaching": "Use meditation to change your perception of unpleasant experiences, seeing them as opportunities for growth and understanding.",
+    "practice_actions": [
+      "Engage in meditation where you intentionally focus on finding positive aspects in experiences you typically find unpleasant.",
+      "Practice mindfulness by observing your thoughts and feelings about unpleasant experiences without reacting to them.",
+      "Create a daily reflection practice where you write down one unpleasant experience and identify any lessons or insights gained from it."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn152_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

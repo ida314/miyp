@@ -1,0 +1,273 @@
+[
+  {
+    "source_ref": "AN 5.41",
+    "canonical_passage": "Firstly, with his legitimate wealth... a noble disciple makes himself happy and pleased, keeping himself properly happy.",
+    "context_summary": "The Buddha outlines the reasons for acquiring wealth and how it can be used to create happiness for oneself and others.",
+    "problem_summary": "Many people struggle with how to use their wealth meaningfully and may feel regret about their financial decisions.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "People often seek wealth without understanding its purpose or how to use it ethically.",
+    "teaching": "Wealth should be earned legitimately and used to create happiness for oneself and others, ensuring that it serves a greater purpose.",
+    "practice_actions": [
+      "Reflect on how your wealth can benefit your family and friends.",
+      "Consider making donations to those in need or supporting ethical causes.",
+      "Establish a budget that allows for both personal enjoyment and contributions to others."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_41_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.41",
+    "canonical_passage": "Furthermore, with his legitimate wealth he protects himself against losses from such things as fire, water, kings, bandits, or unloved heirs.",
+    "context_summary": "The Buddha emphasizes the importance of using wealth to safeguard oneself against potential losses.",
+    "problem_summary": "People often face anxiety about financial security and potential losses.",
+    "buddhist_labels": [
+      "fear_anxiety"
+    ],
+    "diagnosis": "Financial insecurity can lead to stress and fear about the future.",
+    "teaching": "Wealth can be a tool for protection and security, helping to mitigate risks in life.",
+    "practice_actions": [
+      "Invest in insurance or savings to protect against unforeseen events.",
+      "Create an emergency fund to cover unexpected expenses.",
+      "Evaluate your financial situation regularly to ensure you are prepared for potential losses."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_41_2",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.41",
+    "canonical_passage": "Furthermore, with his legitimate wealth he establishes an uplifting religious donation for ascetics and brahmins...",
+    "context_summary": "The Buddha encourages using wealth to support spiritual practitioners and contribute to the community.",
+    "problem_summary": "Individuals may feel disconnected from their community or lack a sense of purpose in their financial contributions.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "People often struggle to find meaningful ways to use their resources for the benefit of others.",
+    "teaching": "Contributing to spiritual and ethical causes can enhance one's sense of purpose and community connection.",
+    "practice_actions": [
+      "Identify local charities or spiritual organizations that resonate with your values.",
+      "Set aside a portion of your income for donations to support these causes.",
+      "Volunteer your time or skills to help organizations that align with your ethical beliefs."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_41_3",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.42",
+    "canonical_passage": "A true person is born in a family for the benefit, welfare, and happiness of the people.",
+    "context_summary": "The sutta discusses the qualities of a 'true person' and their role in society, emphasizing ethical conduct and the importance of contributing to the welfare of others.",
+    "problem_summary": "Many people struggle with finding purpose and meaning in their lives, especially in how they relate to and support their families and communities.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may feel disconnected from their responsibilities or unsure of how to positively impact those around them.",
+    "teaching": "To be a true person, one should focus on ethical conduct and contribute to the welfare and happiness of others.",
+    "practice_actions": [
+      "Reflect on how your actions can benefit your family and community.",
+      "Engage in acts of kindness or service to support those around you.",
+      "Practice ethical behavior in daily life, ensuring your actions align with principles of honesty and integrity."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_42_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.43",
+    "canonical_passage": "A noble disciple who wants to live long ought not pray for it, or hope for it, or pine for it. Instead, they should practice the way that leads to long life.",
+    "context_summary": "The Buddha teaches that desirable qualities such as long life, beauty, happiness, fame, and heaven cannot be attained through mere wishing or supplication but require diligent practice.",
+    "problem_summary": "People often seek happiness, beauty, and success through wishing rather than through actionable steps, leading to frustration and disappointment.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Many individuals struggle with the desire for positive qualities and outcomes without understanding the need for effort and practice.",
+    "teaching": "To attain desirable qualities like long life, beauty, happiness, and fame, one must engage in practices that cultivate these attributes rather than simply wishing for them.",
+    "practice_actions": [
+      "Identify one quality you desire (e.g., happiness or beauty).",
+      "Research and implement daily practices that promote this quality (e.g., mindfulness for happiness, skincare for beauty).",
+      "Reflect on your progress regularly and adjust your practices as needed."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_43_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.44",
+    "canonical_passage": "The giver of the agreeable gets the agreeable, enthusiastically giving clothing, bedding, food and drink, and various requisites to those of sincere conduct.",
+    "context_summary": "The Buddha praises the act of giving and emphasizes the positive outcomes of generosity.",
+    "problem_summary": "Many people struggle with feelings of dissatisfaction and lack in their lives, often due to a focus on what they do not have.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "A tendency to focus on personal desires and attachments can lead to dissatisfaction.",
+    "teaching": "Generosity and giving to others can lead to positive outcomes and fulfillment in life.",
+    "practice_actions": [
+      "Identify something you can give to someone else, whether it's time, resources, or kindness.",
+      "Make a habit of giving regularly, even in small ways, to cultivate a sense of generosity.",
+      "Reflect on the joy and satisfaction that comes from giving rather than receiving."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_44_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.45",
+    "canonical_passage": "When a mendicant enters and remains in a limitless immersion of heart while using a robe … almsfood … lodging … bed and chair … medicines and supplies for the sick, the overflowing of merit for the donor is limitless.",
+    "context_summary": "The sutta discusses the concept of overflowing merit and goodness that arises from generosity and the proper use of resources.",
+    "problem_summary": "Many people struggle with finding happiness and fulfillment in their lives, often feeling disconnected or unfulfilled.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "The pursuit of material possessions and self-centered desires can lead to dissatisfaction and a lack of true happiness.",
+    "teaching": "Engaging in acts of generosity and using resources mindfully can create a profound sense of happiness and fulfillment.",
+    "practice_actions": [
+      "Practice generosity by donating food, clothing, or other resources to those in need.",
+      "Reflect on the positive impact of your contributions on others' lives.",
+      "Cultivate a mindset of gratitude and appreciation for what you have, using it to help others."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_45_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.46",
+    "canonical_passage": "Accomplishment in faith, ethics, learning, generosity, and wisdom.",
+    "context_summary": "The sutta outlines five key areas of accomplishment that contribute to success in life.",
+    "problem_summary": "People often seek guidance on how to achieve success and fulfillment in their lives.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "A lack of direction or understanding of what constitutes true success.",
+    "teaching": "Focus on developing faith, ethical behavior, continuous learning, generosity, and wisdom to achieve success.",
+    "practice_actions": [
+      "Reflect on your beliefs and strengthen your faith in positive values.",
+      "Practice ethical behavior by being honest and kind in your interactions.",
+      "Commit to lifelong learning by reading, taking courses, or engaging in discussions.",
+      "Engage in acts of generosity, whether through volunteering or helping others.",
+      "Cultivate wisdom by reflecting on your experiences and seeking deeper understanding."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_46_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.47",
+    "canonical_passage": "These are the five kinds of wealth: the wealth of faith, ethics, learning, generosity, and wisdom.",
+    "context_summary": "The sutta outlines five types of wealth that contribute to a prosperous and meaningful life, emphasizing spiritual and ethical development.",
+    "problem_summary": "Many people seek fulfillment and prosperity but may focus solely on material wealth, neglecting spiritual and ethical dimensions.",
+    "buddhist_labels": [
+      "ethical_conflict",
+      "craving_attachment"
+    ],
+    "diagnosis": "A focus on material wealth can lead to dissatisfaction and ethical dilemmas.",
+    "teaching": "True wealth includes faith, ethical conduct, learning, generosity, and wisdom, which contribute to a fulfilling life.",
+    "practice_actions": [
+      "Cultivate faith by learning about and reflecting on the teachings of the Buddha.",
+      "Practice ethical behavior by avoiding harmful actions like lying, stealing, and substance abuse.",
+      "Engage in learning by studying spiritual texts and discussing them with others.",
+      "Be generous by sharing resources and helping those in need.",
+      "Develop wisdom through meditation and contemplation on the nature of existence."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_47_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.48",
+    "canonical_passage": "Sorrowing and lamenting doesn’t do even a little bit of good. When they know that you’re sad, your enemies are encouraged.",
+    "context_summary": "The sutta discusses the inevitability of aging, sickness, and death, emphasizing that lamenting these realities is unproductive and can lead to further suffering.",
+    "problem_summary": "People often struggle with the inevitability of aging, sickness, and death, leading to sorrow and lamentation that can negatively impact their lives.",
+    "buddhist_labels": [
+      "grief_loss",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Lamenting the natural processes of life can lead to emotional distress and hinder one's ability to function effectively.",
+    "teaching": "Instead of sorrowing over the inevitable aspects of life, one should accept them and focus on what can be done in the present moment.",
+    "practice_actions": [
+      "Reflect on the universality of aging, sickness, and death to reduce personal sorrow.",
+      "Practice acceptance of life's impermanence and focus on constructive actions.",
+      "Cultivate a mindset that prioritizes resilience and emotional stability in the face of adversity."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_48_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.49",
+    "canonical_passage": "Sorrowing and lamenting doesn’t do even a little bit of good ... ‘The deed is powerful. What can I do now?’",
+    "context_summary": "King Pasenadi is grieving the loss of his wife, Queen Mallikā, and is in a state of deep sadness.",
+    "problem_summary": "Dealing with grief and loss can leave individuals feeling helpless and overwhelmed.",
+    "buddhist_labels": [
+      "grief_loss"
+    ],
+    "diagnosis": "Grief can lead to a sense of despair and inaction.",
+    "teaching": "Instead of lamenting over loss, focus on what can be done in the present moment.",
+    "practice_actions": [
+      "Acknowledge your feelings of grief without judgment.",
+      "Identify one small action you can take to honor the memory of the lost loved one.",
+      "Practice mindfulness to stay present and reduce feelings of helplessness."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_49_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.50",
+    "canonical_passage": "Sorrowing and lamenting doesn’t do even a little bit of good. When they know that you’re sad, your enemies are encouraged.",
+    "context_summary": "Venerable Nārada teaches King Muṇḍa about the futility of sorrow and lamentation in the face of loss, emphasizing the importance of acceptance and moving forward.",
+    "problem_summary": "People often struggle with grief and sorrow after losing loved ones, which can lead to neglect of self-care and responsibilities.",
+    "buddhist_labels": [
+      "grief_loss"
+    ],
+    "diagnosis": "Grieving individuals may become overwhelmed by sorrow, leading to a decline in their well-being and productivity.",
+    "teaching": "Instead of succumbing to sorrow, recognize that grief is a universal experience and focus on acceptance and moving forward.",
+    "practice_actions": [
+      "Reflect on the shared nature of loss and aging, recognizing that it affects everyone.",
+      "Engage in self-care practices, such as bathing and eating well, even during times of grief.",
+      "Shift focus from sorrow to constructive actions that honor the memory of the lost loved one."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_50_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

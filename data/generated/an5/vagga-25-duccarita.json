@@ -1,0 +1,90 @@
+[
+  {
+    "source_ref": "AN 5.241",
+    "canonical_passage": "You don’t blame yourself. After examination, sensible people praise you. You get a good reputation.",
+    "context_summary": "The sutta discusses the consequences of good and bad conduct, highlighting the drawbacks of bad behavior and the benefits of good behavior.",
+    "problem_summary": "People often struggle with feelings of guilt and the fear of negative judgment from others due to their actions.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Engaging in bad conduct leads to self-blame, criticism from others, and a negative reputation.",
+    "teaching": "Practicing good conduct leads to self-acceptance, praise from others, and a positive reputation.",
+    "practice_actions": [
+      "Reflect on your actions and their impact on yourself and others.",
+      "Make a conscious effort to act ethically and kindly in daily interactions.",
+      "Seek feedback from trusted friends or mentors about your behavior."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_241_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.245",
+    "canonical_passage": "You don’t blame yourself. After examination, sensible people praise you. You get a good reputation.",
+    "context_summary": "The sutta discusses the consequences of good and bad conduct, highlighting the impact on self-perception and reputation.",
+    "problem_summary": "People often struggle with feelings of guilt and the desire for social acceptance, which can be influenced by their actions.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Engaging in bad conduct leads to self-blame and negative social feedback, while good conduct fosters self-acceptance and positive recognition.",
+    "teaching": "Practicing good conduct can lead to a positive self-image and a good reputation among others.",
+    "practice_actions": [
+      "Reflect on your actions and their alignment with your values.",
+      "Seek feedback from trusted friends or mentors about your behavior.",
+      "Make a conscious effort to act in ways that are ethical and beneficial to yourself and others."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_245_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.249",
+    "canonical_passage": "To start with, an individual has filthy conduct by way of body, speech, and mind.",
+    "context_summary": "The sutta compares individuals with poor conduct to a charnel ground, highlighting the negative impact of such behavior on oneself and others.",
+    "problem_summary": "People often struggle with maintaining ethical behavior, which can lead to social isolation and a negative reputation.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Filthy conduct can lead to a bad reputation and social alienation.",
+    "teaching": "To avoid being like a charnel ground, one should strive for clean conduct in body, speech, and mind.",
+    "practice_actions": [
+      "Reflect on your actions and words daily to ensure they are kind and ethical.",
+      "Seek feedback from trusted friends or mentors about your behavior.",
+      "Engage in mindfulness practices to cultivate awareness of your thoughts and actions."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_249_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.250",
+    "canonical_passage": "Mendicants, there are these five drawbacks of placing faith in an individual.",
+    "context_summary": "The sutta discusses the drawbacks of placing faith in a single individual, particularly in the context of spiritual teachers or mentors.",
+    "problem_summary": "Relying too heavily on one person for guidance can lead to disappointment and a loss of faith when that person fails or is no longer available.",
+    "buddhist_labels": [
+      "doubt_indecision"
+    ],
+    "diagnosis": "Placing faith in a single individual can lead to disillusionment and a disconnection from broader teachings.",
+    "teaching": "It is important to maintain a balanced perspective and not to rely solely on one individual for spiritual guidance.",
+    "practice_actions": [
+      "Seek teachings from multiple sources to gain a well-rounded understanding.",
+      "Engage with a community of practitioners rather than focusing on one individual.",
+      "Reflect on the impermanence of all individuals and be prepared for changes in relationships."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_250_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

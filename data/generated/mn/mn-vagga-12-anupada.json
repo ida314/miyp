@@ -1,0 +1,312 @@
+[
+  {
+    "source_ref": "MN 112",
+    "canonical_passage": "I gave up killing living creatures, renouncing the rod and the sword. I was scrupulous and kind, living full of sympathy for all living beings.",
+    "context_summary": "The Buddha discusses the ethical conduct of a mendicant who has achieved enlightenment, emphasizing the importance of compassion and non-violence.",
+    "problem_summary": "Many people struggle with ethical dilemmas and the impact of their actions on others, leading to feelings of guilt or conflict.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals often face challenges in aligning their actions with their values, particularly regarding harm to others.",
+    "teaching": "Practice compassion and kindness by refraining from harming living beings and being scrupulous in your actions.",
+    "practice_actions": [
+      "Reflect on your daily actions and identify any that may cause harm to others.",
+      "Commit to a practice of non-violence, whether in thought, word, or deed.",
+      "Engage in acts of kindness towards others, such as volunteering or helping those in need."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn112_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 112",
+    "canonical_passage": "I became chaste, set apart, avoiding the vulgar act of sex.",
+    "context_summary": "The Buddha highlights the importance of ethical conduct, including sexual restraint, as part of the path to enlightenment.",
+    "problem_summary": "People often struggle with desires and attachments that can lead to unhealthy relationships and emotional turmoil.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Desires and attachments can create suffering and distract individuals from their spiritual goals.",
+    "teaching": "Practice restraint in your desires, particularly regarding sexual conduct, to cultivate a clearer mind.",
+    "practice_actions": [
+      "Set personal boundaries regarding relationships and sexual conduct.",
+      "Reflect on how your desires impact your emotional well-being and relationships.",
+      "Engage in mindfulness practices to observe and understand your cravings without acting on them."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn112_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 112",
+    "canonical_passage": "I acted with situational awareness when going out and coming back; when looking ahead and aside; when bending and extending the limbs.",
+    "context_summary": "The Buddha emphasizes the importance of mindfulness and situational awareness in daily life as part of ethical living.",
+    "problem_summary": "In a fast-paced world, many individuals struggle with distractions and a lack of presence in their daily activities.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Distractions can lead to a lack of focus and fulfillment in daily life.",
+    "teaching": "Cultivate mindfulness in your daily activities to enhance your awareness and presence.",
+    "practice_actions": [
+      "Practice mindfulness by paying attention to your actions and surroundings during daily tasks.",
+      "Set aside time each day to engage in mindful meditation or breathing exercises.",
+      "Limit distractions (like phone use) during meals or conversations to foster deeper connections."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn112_3",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 113",
+    "canonical_passage": "A true person reflects: ‘It’s not because of one’s eminent family that thoughts of greed, hate, or delusion come to an end. Even if someone has not gone forth from an eminent family, if they practice in line with the teaching, practice properly, and live in line with the teaching, they are worthy of honor and praise for that.’",
+    "context_summary": "The Buddha contrasts the qualities of true and untrue persons, emphasizing humility and the importance of practice over social status.",
+    "problem_summary": "People often feel superior or inferior based on their background, wealth, or achievements, leading to division and conflict.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "The tendency to judge oneself and others based on external factors like family background or material possessions can lead to feelings of superiority, envy, and conflict.",
+    "teaching": "True worth comes from one's actions and adherence to ethical teachings, not from social status or material possessions.",
+    "practice_actions": [
+      "Reflect on your own actions and values rather than comparing yourself to others.",
+      "Practice humility by recognizing the value in others, regardless of their background.",
+      "Focus on personal growth and ethical living instead of seeking validation through status."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn113_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 114",
+    "canonical_passage": "You should not cultivate the kind of bodily behavior which causes unskillful qualities to grow while skillful qualities decline. And you should cultivate the kind of bodily behavior which causes unskillful qualities to decline while skillful qualities grow.",
+    "context_summary": "The Buddha teaches about the importance of cultivating behaviors that promote skillful qualities and reduce unskillful ones.",
+    "problem_summary": "People often struggle with making choices that lead to personal growth and ethical living.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may engage in harmful actions that lead to negative consequences for themselves and others.",
+    "teaching": "Focus on cultivating positive actions that enhance your character and well-being.",
+    "practice_actions": [
+      "Reflect on your daily actions and identify any that may cause harm to yourself or others.",
+      "Make a conscious effort to replace harmful actions with positive ones, such as acts of kindness or generosity.",
+      "Seek to understand the impact of your actions on your own mental state and the well-being of others."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn114_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 114",
+    "canonical_passage": "You should not cultivate the kind of verbal behavior which causes unskillful qualities to grow while skillful qualities decline. And you should cultivate the kind of verbal behavior which causes unskillful qualities to decline while skillful qualities grow.",
+    "context_summary": "The Buddha emphasizes the significance of speech and its impact on personal and communal harmony.",
+    "problem_summary": "Many individuals face challenges in communication that can lead to misunderstandings and conflict.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "People often engage in harmful speech that can damage relationships and create discord.",
+    "teaching": "Be mindful of your speech and strive to communicate in ways that foster understanding and connection.",
+    "practice_actions": [
+      "Practice active listening and ensure your responses are thoughtful and constructive.",
+      "Avoid gossip and negative talk about others; instead, speak positively and supportively.",
+      "Use language that promotes harmony and understanding, especially in conflicts."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn114_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 114",
+    "canonical_passage": "You should not cultivate the acquisition of views which causes unskillful qualities to grow while skillful qualities decline. And you should cultivate the acquisition of views which causes unskillful qualities to decline while skillful qualities grow.",
+    "context_summary": "The Buddha discusses the importance of cultivating beneficial views and beliefs.",
+    "problem_summary": "Individuals often hold beliefs that may lead to suffering or hinder personal growth.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "Misguided views can lead to harmful actions and a lack of understanding of oneself and others.",
+    "teaching": "Cultivate views that promote compassion, understanding, and ethical behavior.",
+    "practice_actions": [
+      "Examine your beliefs and consider how they affect your actions and relationships.",
+      "Seek knowledge and perspectives that challenge your views and promote growth.",
+      "Engage in discussions with others to explore different viewpoints and deepen your understanding."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn114_3",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 115",
+    "canonical_passage": "Whatever dangers there are, all come from the foolish, not from the astute. So you should train like this: ‘We shall be astute, we shall be inquirers.’",
+    "context_summary": "The Buddha emphasizes the importance of wisdom and inquiry in avoiding dangers and perils in life.",
+    "problem_summary": "People often face dangers and challenges due to unwise actions or decisions. Cultivating wisdom can help mitigate these risks.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "Many individuals act without understanding the consequences of their actions, leading to harmful situations.",
+    "teaching": "To be astute and avoid dangers, one should cultivate wisdom and inquiry.",
+    "practice_actions": [
+      "Reflect on past decisions and their outcomes to learn from mistakes.",
+      "Engage in discussions or study to deepen understanding of various life situations.",
+      "Practice mindfulness to become more aware of thoughts and actions before making decisions."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn115_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 117",
+    "canonical_passage": "Right view produces right purpose. Right purpose produces right speech. Right speech produces right action. Right action produces right livelihood. Right livelihood produces right effort. Right effort produces right mindfulness.",
+    "context_summary": "The Buddha explains the importance of right view and its role in leading to a series of right actions and states of mind that contribute to spiritual development.",
+    "problem_summary": "Many people struggle with making ethical decisions and understanding the consequences of their actions in daily life.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals often face dilemmas about what is right and wrong, leading to confusion and potential regret in their choices.",
+    "teaching": "To cultivate a moral and fulfilling life, one should develop right view, which will naturally lead to right purpose, speech, action, and livelihood.",
+    "practice_actions": [
+      "Reflect on your beliefs and ensure they align with ethical principles.",
+      "Practice mindfulness to become aware of your speech and actions.",
+      "Make a conscious effort to engage in right livelihood that does not harm others."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn117_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 118",
+    "canonical_passage": "Mindfulness of breathing, when developed and cultivated, fulfills the four kinds of mindfulness meditation.",
+    "context_summary": "The Buddha emphasizes the importance of mindfulness of breathing as a foundational practice that leads to deeper meditation and spiritual development.",
+    "problem_summary": "Many people struggle with stress, anxiety, and distraction in their daily lives.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Individuals often feel overwhelmed and disconnected from the present moment, leading to increased anxiety and distraction.",
+    "teaching": "Developing mindfulness of breathing can help cultivate awareness and presence, leading to greater peace and clarity.",
+    "practice_actions": [
+      "Find a quiet place to sit comfortably.",
+      "Focus on your breath, noticing the sensations of inhaling and exhaling.",
+      "Practice being aware of your breath for a few minutes each day, gradually increasing the duration."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn118_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 118",
+    "canonical_passage": "Whenever a mendicant knows that they breathe heavily, or lightly, or experiencing the whole body, or stilling the physical process—at that time they’re meditating by observing an aspect of the body.",
+    "context_summary": "The Buddha teaches that awareness of the breath and body can lead to deeper insights and mindfulness.",
+    "problem_summary": "People often lack awareness of their bodies and feelings, leading to disconnection and stress.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "A lack of awareness can result in confusion and a disconnection from one's own experiences.",
+    "teaching": "By observing the breath and bodily sensations, one can cultivate mindfulness and clarity.",
+    "practice_actions": [
+      "During moments of stress, pause and take a few deep breaths.",
+      "Notice whether your breathing is heavy or light and how it feels in your body.",
+      "Practice this observation regularly to enhance your mindfulness."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn118_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 119",
+    "canonical_passage": "When a mendicant is walking they know ‘I am walking’. When standing they know ‘I am standing’. When sitting they know ‘I am sitting’. And when lying down they know ‘I am lying down’. Whatever posture their body is in, they know it.",
+    "context_summary": "The Buddha explains how mindfulness of the body can be developed through awareness of one's physical posture and actions.",
+    "problem_summary": "Many people struggle with being present and aware of their bodies in daily life, leading to stress and disconnection.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Lack of mindfulness can lead to feelings of anxiety and disconnection from the present moment.",
+    "teaching": "Develop mindfulness by being aware of your body and its movements throughout the day.",
+    "practice_actions": [
+      "Take a few moments during your day to pause and check in with your body.",
+      "When walking, consciously acknowledge 'I am walking' and feel the sensations in your legs and feet.",
+      "When sitting, notice the contact of your body with the chair and say to yourself 'I am sitting'."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn119_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 119",
+    "canonical_passage": "As they meditate like this—diligent, keen, and resolute—memories and thoughts tied to domestic life are given up. Their mind becomes stilled internally; it settles, unifies, and becomes immersed in samādhi.",
+    "context_summary": "The Buddha describes how cultivating mindfulness leads to a still and unified mind, free from distractions.",
+    "problem_summary": "People often find themselves overwhelmed by thoughts and memories that distract them from the present.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Overthinking and distractions can lead to a lack of focus and inner peace.",
+    "teaching": "Mindfulness practice can help quiet the mind and reduce distractions.",
+    "practice_actions": [
+      "Set aside time each day for mindfulness meditation, focusing on your breath and bodily sensations.",
+      "When distractions arise, gently bring your focus back to your breath or the present moment.",
+      "Practice being present during daily activities, such as eating or walking, to cultivate a sense of calm."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn119_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 120",
+    "canonical_passage": "They think: ‘If only I might realize the undefiled freedom of heart and freedom by wisdom in this very life, and live having realized it with my own insight due to the ending of defilements.’",
+    "context_summary": "The Buddha teaches about the importance of cultivating thoughts and meditations that lead to positive rebirth or realization of freedom from defilements.",
+    "problem_summary": "Many people struggle with feelings of dissatisfaction and seek lasting happiness or freedom from negative states of mind.",
+    "buddhist_labels": [
+      "delusion_confusion",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Individuals often feel trapped in cycles of craving and suffering, leading to anxiety about their future and dissatisfaction with their current state.",
+    "teaching": "By focusing on positive thoughts and cultivating wisdom, one can achieve a state of freedom and insight in this life, rather than being reborn into suffering.",
+    "practice_actions": [
+      "Set aside time each day for meditation focused on positive thoughts and the realization of inner freedom.",
+      "Reflect on your values and ethics, and how they align with your actions to cultivate a sense of peace.",
+      "Engage in acts of generosity and kindness to foster a sense of connection and reduce feelings of anxiety."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn120_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

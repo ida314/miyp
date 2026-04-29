@@ -1,0 +1,335 @@
+[
+  {
+    "source_ref": "MN 41",
+    "canonical_passage": "Unprincipled and immoral conduct is the reason why some sentient beings, when their body breaks up, after death, are reborn in a place of loss, a bad place, the underworld, hell. Principled and moral conduct is the reason why some sentient beings, when their body breaks up, after death, are reborn in a good place, a heavenly realm.",
+    "context_summary": "The Buddha explains the consequences of moral and immoral conduct, detailing how actions influence rebirth.",
+    "problem_summary": "People often struggle with understanding the impact of their actions on their future and the concept of moral conduct.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Many individuals may engage in harmful behaviors without realizing the long-term consequences for themselves and others.",
+    "teaching": "Moral conduct leads to positive outcomes in life and after death, while immoral conduct leads to negative consequences.",
+    "practice_actions": [
+      "Reflect on your daily actions and identify any that may be harmful to others.",
+      "Commit to practicing kindness and honesty in your interactions.",
+      "Engage in community service or acts of generosity to cultivate moral conduct."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn41_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 41",
+    "canonical_passage": "This is how principled and moral conduct is threefold by way of body, fourfold by way of speech, and threefold by way of mind.",
+    "context_summary": "The Buddha categorizes moral conduct into actions of body, speech, and mind, providing a framework for ethical living.",
+    "problem_summary": "Individuals may find it challenging to understand how to live ethically in various aspects of their lives.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "People often lack clear guidelines on how to align their actions, speech, and thoughts with ethical principles.",
+    "teaching": "Moral conduct can be systematically approached by examining actions, speech, and thoughts.",
+    "practice_actions": [
+      "Create a personal code of ethics based on the principles of non-harm, honesty, and kindness.",
+      "Practice mindfulness to become aware of your thoughts and intentions.",
+      "Engage in discussions about ethics with friends or community members to deepen understanding."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn41_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 42",
+    "canonical_passage": "Unprincipled and immoral conduct is the reason why some sentient beings, when their body breaks up, after death, are reborn in a place of loss, a bad place, the underworld, hell. Principled and moral conduct is the reason why some sentient beings, when their body breaks up, after death, are reborn in a good place, a heavenly realm.",
+    "context_summary": "The Buddha explains the consequences of moral and immoral conduct in relation to rebirth.",
+    "problem_summary": "People often struggle with understanding the impact of their actions on their future and the moral implications of their behavior.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may engage in unprincipled behavior without realizing the long-term consequences of their actions.",
+    "teaching": "Moral conduct leads to positive outcomes, while immoral conduct leads to negative consequences.",
+    "practice_actions": [
+      "Reflect on your daily actions and their moral implications.",
+      "Commit to practicing honesty and integrity in your interactions.",
+      "Engage in self-reflection to identify areas where you can improve your conduct."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn42_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 43",
+    "canonical_passage": "They’re called wise because they understand. And what do they understand? They understand: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering.’",
+    "context_summary": "The Buddha discusses the definitions of wisdom and ignorance, emphasizing the importance of understanding suffering and its cessation.",
+    "problem_summary": "Many people struggle with understanding the nature of their suffering and how to overcome it.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "grief_loss",
+      "fear_anxiety"
+    ],
+    "diagnosis": "People often lack clarity on the sources of their suffering and the paths to alleviate it.",
+    "teaching": "To be wise, one must understand the nature of suffering, its origins, and the practices that can lead to its cessation.",
+    "practice_actions": [
+      "Reflect on your own experiences of suffering and identify their sources.",
+      "Learn about the Four Noble Truths and how they apply to your life.",
+      "Engage in practices such as meditation or mindfulness to cultivate awareness of suffering and its cessation."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn43_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 43",
+    "canonical_passage": "When right view is supported by five factors it has freedom of heart and freedom by wisdom as its fruit and benefit.",
+    "context_summary": "The Buddha explains the conditions that support the development of right view, which leads to freedom of heart and wisdom.",
+    "problem_summary": "People often feel trapped by their thoughts and emotions, lacking clarity and peace.",
+    "buddhist_labels": [
+      "doubt_indecision",
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Individuals may struggle to find clarity and peace due to a lack of supportive conditions for right understanding.",
+    "teaching": "Right view can be cultivated through the support of ethics, learning, discussion, serenity, and discernment.",
+    "practice_actions": [
+      "Engage in ethical behavior and reflect on your actions.",
+      "Participate in discussions about spiritual or philosophical topics to enhance your understanding.",
+      "Practice mindfulness and meditation to cultivate serenity and discernment."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn43_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 44",
+    "canonical_passage": "The practice that leads to the cessation of substantial reality that the Buddha spoke of is simply this noble eightfold path, that is: right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion.",
+    "context_summary": "Visākha seeks understanding from the nun Dhammadinnā about the Buddha's teachings on substantial reality and the path to its cessation.",
+    "problem_summary": "Many people struggle with understanding the nature of their desires and how to overcome them, leading to dissatisfaction in life.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "The root of suffering is often found in craving and attachment to the five aggregates of existence.",
+    "teaching": "The Noble Eightfold Path provides a practical framework for overcoming craving and achieving a deeper understanding of reality.",
+    "practice_actions": [
+      "Reflect on your current desires and how they affect your happiness.",
+      "Identify areas in your life where you can practice right speech, right action, and right livelihood.",
+      "Engage in mindfulness practices to cultivate awareness of your thoughts and feelings."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn44_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 44",
+    "canonical_passage": "The underlying tendency for greed underlies pleasant feeling. The underlying tendency for aversion underlies painful feeling. The underlying tendency for ignorance underlies neutral feeling.",
+    "context_summary": "Dhammadinnā explains the underlying tendencies that influence our feelings and how they can lead to suffering.",
+    "problem_summary": "People often experience emotional ups and downs due to unrecognized underlying tendencies, leading to confusion and distress.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "Unawareness of the underlying tendencies can cause individuals to react to feelings in unhelpful ways.",
+    "teaching": "Recognizing and addressing the underlying tendencies of greed, aversion, and ignorance can help in managing emotional responses.",
+    "practice_actions": [
+      "Keep a journal to track your feelings and identify patterns related to greed, aversion, and ignorance.",
+      "Practice self-reflection to understand how these tendencies influence your reactions.",
+      "Seek to cultivate knowledge and awareness to counteract ignorance."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn44_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 45",
+    "canonical_passage": "There is a way of taking up practices that is pleasant now but results in future pain.",
+    "context_summary": "The Buddha discusses different ways of engaging in practices and their consequences, emphasizing the importance of understanding the long-term effects of our actions.",
+    "problem_summary": "People often seek immediate gratification through sensual pleasures without considering the potential negative consequences for their future.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Engaging in sensual pleasures can lead to suffering and negative outcomes in the future.",
+    "teaching": "Be mindful of the long-term effects of your actions, especially when it comes to seeking pleasure.",
+    "practice_actions": [
+      "Reflect on your daily choices and consider how they may affect your future well-being.",
+      "Limit indulgence in immediate pleasures that may lead to negative consequences.",
+      "Cultivate awareness of your cravings and seek healthier, more sustainable sources of joy."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn45_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 45",
+    "canonical_passage": "This is called the way of taking up practices that is painful now but results in future pleasure.",
+    "context_summary": "The Buddha highlights that some practices may be difficult or painful in the present but can lead to positive outcomes in the future.",
+    "problem_summary": "People often avoid challenging practices that may lead to personal growth and future happiness.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Avoiding difficult practices can hinder personal development and future happiness.",
+    "teaching": "Embrace practices that may be challenging now, as they can lead to greater fulfillment later.",
+    "practice_actions": [
+      "Identify a challenging practice or habit you have been avoiding and commit to starting it.",
+      "Set small, achievable goals to gradually incorporate this practice into your life.",
+      "Reflect on the potential long-term benefits of enduring short-term discomfort."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn45_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 46",
+    "canonical_passage": "Mendicants, there are these four ways of taking up practices. What four? There is a way of taking up practices that is painful now and results in future pain. There is a way of taking up practices that is pleasant now but results in future pain. There is a way of taking up practices that is painful now but results in future pleasure. There is a way of taking up practices that is pleasant now and results in future pleasure.",
+    "context_summary": "The Buddha explains the consequences of different practices and how they affect future outcomes, emphasizing the importance of understanding the long-term effects of our actions.",
+    "problem_summary": "People often pursue immediate gratification without considering the long-term consequences of their actions, leading to future suffering.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals may lack awareness of how their current choices impact their future well-being.",
+    "teaching": "To cultivate a wise approach to life, one should learn to discern which practices lead to future happiness and which lead to suffering.",
+    "practice_actions": [
+      "Reflect on your daily choices and their potential long-term effects.",
+      "Seek knowledge from wise individuals or teachings that can guide you in making better decisions.",
+      "Prioritize practices that may be challenging now but will lead to greater happiness in the future."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn46_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 47",
+    "canonical_passage": "Mendicants, a mendicant who is an inquirer, unable to encompass another’s mind, should scrutinize the Realized One for two things—things that can be seen and heard: ‘Can anything corrupt be seen or heard in the Realized One or not?’",
+    "context_summary": "The Buddha teaches mendicants about the importance of scrutinizing a teacher to determine their authenticity and the purity of their teachings.",
+    "problem_summary": "People often struggle to find trustworthy guidance and may be misled by those who lack integrity or genuine understanding.",
+    "buddhist_labels": [
+      "doubt_indecision"
+    ],
+    "diagnosis": "Doubt about the authenticity of spiritual teachers can lead to confusion and misdirection in one's practice.",
+    "teaching": "To develop confidence in a teacher, one should critically examine their qualities and teachings, ensuring they are free from corruption and possess genuine wisdom.",
+    "practice_actions": [
+      "Reflect on the qualities of your spiritual teachers and assess whether they embody integrity and wisdom.",
+      "Engage in discussions with your teacher about their teachings to deepen your understanding.",
+      "Seek evidence of the teacher's authenticity through their actions and the impact of their teachings on others."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn47_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 48",
+    "canonical_passage": "When you’re fighting, quarreling, and disputing, continually wounding each other with barbed words, are you treating your spiritual companions with kindness by way of body, speech, and mind, both in public and in private?",
+    "context_summary": "The Buddha addresses a group of mendicants who are engaged in conflict and disputes, highlighting the importance of kindness and harmony among spiritual companions.",
+    "problem_summary": "People often find themselves in conflicts and arguments that harm relationships and create suffering.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Conflict and unkind speech lead to suffering and disharmony.",
+    "teaching": "Cultivating kindness in body, speech, and mind towards others fosters harmony and unity.",
+    "practice_actions": [
+      "Reflect on your interactions with others and identify moments of unkindness.",
+      "Practice speaking kindly and respectfully, even in disagreements.",
+      "Engage in active listening to understand others' perspectives without arguing."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn48_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 48",
+    "canonical_passage": "These six warm-hearted qualities make for fondness and respect, conducing to inclusion, harmony, and unity, without quarreling.",
+    "context_summary": "The Buddha outlines six qualities that promote kindness and harmony among individuals.",
+    "problem_summary": "In modern life, fostering positive relationships can be challenging due to misunderstandings and conflicts.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Lack of kindness and understanding leads to division and conflict.",
+    "teaching": "Emphasizing warm-hearted qualities can help build stronger, more respectful relationships.",
+    "practice_actions": [
+      "Identify and practice the six warm-hearted qualities in your daily interactions.",
+      "Share resources and support with others to foster a sense of community.",
+      "Commit to living by ethical principles that promote harmony."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn48_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 50",
+    "canonical_passage": "Come, all of you mendicants, meditate spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will.",
+    "context_summary": "The Buddha instructs his followers to cultivate loving-kindness and compassion in the face of adversity and negativity from others.",
+    "problem_summary": "People often face negativity and hostility from others, which can lead to feelings of anger or resentment.",
+    "buddhist_labels": [
+      "aversion_anger"
+    ],
+    "diagnosis": "Experiencing negative emotions due to external hostility can disrupt inner peace and well-being.",
+    "teaching": "Cultivating loving-kindness and compassion can help counteract negative feelings and promote a sense of peace.",
+    "practice_actions": [
+      "Set aside time each day to meditate on loving-kindness, focusing on sending love and goodwill to yourself and others.",
+      "Visualize expanding your heart's love to encompass all beings, including those who may have wronged you.",
+      "Practice responding to negativity with compassion rather than anger, reminding yourself of the shared human experience."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn50_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 50",
+    "canonical_passage": "Come, all you mendicants, meditate observing the ugliness of the body, perceiving the repulsiveness of food, perceiving dissatisfaction with the whole world, and observing the impermanence of all conditions.",
+    "context_summary": "The Buddha advises his followers to reflect on the nature of the body and the impermanence of all things to cultivate detachment.",
+    "problem_summary": "People often become overly attached to their bodies and material possessions, leading to dissatisfaction and suffering.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Attachment to physical appearance and material goods can lead to suffering and dissatisfaction.",
+    "teaching": "Reflecting on the impermanence and unattractiveness of the body and worldly possessions can help reduce attachment.",
+    "practice_actions": [
+      "Engage in regular reflection on the impermanence of life and the body, perhaps through journaling or meditation.",
+      "Practice mindfulness while eating, focusing on the nature of food and the temporary satisfaction it provides.",
+      "Consider decluttering your living space to reduce attachment to material possessions and promote a simpler lifestyle."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn50_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

@@ -1,0 +1,339 @@
+[
+  {
+    "source_ref": "MN 61",
+    "canonical_passage": "You should train like this: ‘I will not tell a lie, even for a joke.’ ... When you want to act with the body, you should check on that same deed: ‘Does this act with the body that I want to do lead to hurting myself, hurting others, or hurting both?",
+    "context_summary": "The Buddha is teaching Venerable Rāhula about the importance of honesty and the impact of actions on oneself and others.",
+    "problem_summary": "People often struggle with honesty and the consequences of their actions, leading to harm to themselves and others.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Many individuals may not consider the ramifications of their words and actions, leading to unintentional harm.",
+    "teaching": "One should always check the impact of their actions and strive to act honestly and skillfully.",
+    "practice_actions": [
+      "Commit to not telling lies, even in jest.",
+      "Before acting, ask yourself if the action will harm yourself or others.",
+      "After acting, reflect on the consequences of your actions and confess any wrongdoings to a trusted person."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn61_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 62",
+    "canonical_passage": "Meditate on love. For when you meditate on love any ill will will be given up.",
+    "context_summary": "The Buddha instructs Rāhula on various meditation practices that help cultivate positive mental states and detach from negative emotions.",
+    "problem_summary": "Many people struggle with negative emotions such as ill will, anger, and discontent, which can lead to unhappiness and conflict in relationships.",
+    "buddhist_labels": [
+      "aversion_anger",
+      "speech_relationships"
+    ],
+    "diagnosis": "Negative emotions can cloud judgment and lead to suffering in oneself and others.",
+    "teaching": "Meditating on love, compassion, rejoicing, and equanimity can help overcome negative feelings and promote a more peaceful state of mind.",
+    "practice_actions": [
+      "Set aside time each day to meditate on feelings of love and compassion towards yourself and others.",
+      "Visualize someone you care about and cultivate feelings of love and kindness towards them.",
+      "Practice mindfulness by observing your thoughts and feelings without judgment, allowing negative emotions to pass without attachment."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn62_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 62",
+    "canonical_passage": "Develop mindfulness of breathing. When mindfulness of breathing is developed and cultivated it’s very fruitful and beneficial.",
+    "context_summary": "The Buddha emphasizes the importance of mindfulness of breathing as a foundational practice for mental clarity and emotional stability.",
+    "problem_summary": "In a fast-paced modern life, many individuals experience stress and distraction, making it difficult to maintain focus and calm.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Distraction and anxiety can hinder personal well-being and clarity of thought.",
+    "teaching": "Mindfulness of breathing is a powerful technique to cultivate awareness and calmness, helping to manage stress and anxiety.",
+    "practice_actions": [
+      "Find a quiet space to sit comfortably and focus on your breath for a few minutes each day.",
+      "Notice the sensations of breathing in and out, and gently bring your focus back to your breath whenever your mind wanders.",
+      "Gradually increase the duration of your practice as you become more comfortable with the technique."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn62_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 63",
+    "canonical_passage": "I have declared the following: ‘this is suffering,’ ‘this is the origin of suffering,’ ‘this is the cessation of suffering,’ ‘this is the practice that leads to the cessation of suffering.’",
+    "context_summary": "The Buddha explains to Māluṅkyaputta that he has not declared certain metaphysical views because they are not beneficial for spiritual practice. Instead, he emphasizes the importance of understanding suffering and the path to its cessation.",
+    "problem_summary": "Many people get caught up in existential questions and metaphysical debates that distract them from addressing their immediate suffering and finding peace.",
+    "buddhist_labels": [
+      "delusion_confusion",
+      "grief_loss"
+    ],
+    "diagnosis": "Individuals often focus on abstract philosophical questions instead of practical steps to alleviate their suffering.",
+    "teaching": "Focus on understanding and addressing your suffering rather than getting lost in unanswerable metaphysical questions.",
+    "practice_actions": [
+      "Reflect on your own experiences of suffering and identify its sources.",
+      "Learn about the Four Noble Truths and how they apply to your life.",
+      "Engage in practices that promote mindfulness and compassion to alleviate suffering."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn63_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 64",
+    "canonical_passage": "There is a path and a practice for giving up the five lower fetters.",
+    "context_summary": "The Buddha explains the concept of the five lower fetters and how they can be overcome through a specific path and practice.",
+    "problem_summary": "Many people struggle with attachment, doubt, and negative emotions that hinder their personal growth and happiness.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "doubt_indecision",
+      "aversion_anger"
+    ],
+    "diagnosis": "Individuals may feel trapped by their desires, doubts, and ill will, which can lead to suffering and dissatisfaction.",
+    "teaching": "To overcome these lower fetters, one must engage in a disciplined practice that includes meditation and contemplation of impermanence.",
+    "practice_actions": [
+      "Set aside time for daily meditation to cultivate mindfulness and awareness.",
+      "Contemplate the impermanence of thoughts and feelings, recognizing that they are transient.",
+      "Practice letting go of attachments and negative emotions through reflection and meditation."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn64_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 65",
+    "canonical_passage": "Mendicants, I eat my food in one sitting per day. Doing so, I find that I’m healthy and well, nimble, strong, and living comfortably. You too should eat your food in one sitting per day.",
+    "context_summary": "The Buddha advises his followers on the benefits of eating in moderation, specifically recommending one meal a day for health and well-being.",
+    "problem_summary": "Many people struggle with unhealthy eating habits and the consequences of overindulgence, leading to poor health and discomfort.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Eating habits can significantly impact physical and mental health, and moderation is key to maintaining well-being.",
+    "teaching": "Eating in moderation can lead to better health and a more comfortable life.",
+    "practice_actions": [
+      "Try to eat only one meal a day or limit meals to a specific time frame.",
+      "Focus on the quality of food consumed during that meal, prioritizing nutritious options.",
+      "Be mindful while eating, paying attention to hunger cues and stopping when satisfied."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn65_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 65",
+    "canonical_passage": "Indeed, Bhaddāli, you made a mistake. It was foolish, stupid, and unskillful of you that, as this rule was being laid down by the Buddha and the Saṅgha was undertaking it, you announced you would not try to keep it.",
+    "context_summary": "The Buddha emphasizes the importance of recognizing and admitting mistakes as part of personal growth.",
+    "problem_summary": "People often struggle with acknowledging their mistakes, which can hinder personal development and relationships.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Avoiding responsibility for one's actions can lead to stagnation and conflict in personal and communal life.",
+    "teaching": "Recognizing and admitting mistakes is essential for growth and improvement.",
+    "practice_actions": [
+      "Reflect on recent decisions and identify any mistakes made.",
+      "Practice humility by admitting mistakes to oneself and others.",
+      "Commit to making amends and learning from those mistakes to avoid repeating them."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn65_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 66",
+    "canonical_passage": "The Buddha has rid us of so many things that bring suffering and gifted us so many things that bring happiness!",
+    "context_summary": "Venerable Udāyī reflects on the teachings of the Buddha regarding giving up unskillful habits and attachments.",
+    "problem_summary": "Many people struggle with letting go of habits or attachments that bring temporary pleasure but ultimately lead to suffering.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Individuals often cling to attachments, viewing them as trivial, which prevents them from experiencing true freedom and happiness.",
+    "teaching": "Recognize that letting go of attachments, even seemingly trivial ones, is essential for reducing suffering and achieving happiness.",
+    "practice_actions": [
+      "Identify one small attachment or habit that you can let go of this week.",
+      "Reflect on how this attachment affects your happiness and well-being.",
+      "Practice mindfulness to observe your thoughts and feelings about this attachment without judgment."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn66_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 67",
+    "canonical_passage": "In the same way, an individual gone forth from the lay life to homelessness in this teaching and training should anticipate four dangers.",
+    "context_summary": "The Buddha discusses the challenges faced by those who leave lay life for monastic life, using metaphors of dangers in water to illustrate potential pitfalls.",
+    "problem_summary": "People often face challenges and temptations when trying to change their lifestyle or pursue a spiritual path, which can lead to setbacks or abandoning their goals.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "craving_attachment"
+    ],
+    "diagnosis": "Individuals may struggle with distractions, cravings, and the fear of returning to old habits when attempting to adopt a new way of living.",
+    "teaching": "Be aware of the potential challenges and distractions that may arise when pursuing a new lifestyle or spiritual path, and prepare to face them with mindfulness and determination.",
+    "practice_actions": [
+      "Identify specific distractions or temptations that may arise in your life.",
+      "Develop a mindfulness practice to help you stay focused on your goals.",
+      "Create a support system with friends or mentors who can guide you through challenges."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn67_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 68",
+    "canonical_passage": "I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, mired in suffering. Hopefully I can make an end to this entire mass of suffering.",
+    "context_summary": "The Buddha discusses the importance of recognizing the nature of suffering and the motivation behind renouncing lay life for spiritual pursuits.",
+    "problem_summary": "Many people feel overwhelmed by life's challenges, including suffering, loss, and the cycle of rebirth. They seek a way to alleviate this suffering.",
+    "buddhist_labels": [
+      "grief_loss",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Individuals often feel trapped in a cycle of suffering and seek ways to escape it.",
+    "teaching": "Recognize the pervasive nature of suffering and cultivate a desire to end it through spiritual practice.",
+    "practice_actions": [
+      "Reflect on the nature of suffering in your life and how it affects you.",
+      "Set aside time for meditation or mindfulness to explore your feelings of suffering.",
+      "Consider engaging in spiritual practices or community support that align with your values."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn68_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 68",
+    "canonical_passage": "Recollecting that monk’s faith, ethics, learning, generosity, and wisdom, he applies his mind to that end.",
+    "context_summary": "The Buddha emphasizes the importance of remembering the qualities of those who have passed away to inspire oneself towards ethical living and spiritual growth.",
+    "problem_summary": "People often struggle to find motivation and inspiration in their spiritual or ethical lives.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may lack role models or inspiration to guide their ethical and spiritual development.",
+    "teaching": "Use the qualities of wise and ethical individuals as a source of inspiration for your own life.",
+    "practice_actions": [
+      "Identify individuals in your life or history who embody qualities you admire.",
+      "Reflect on their actions and how you can incorporate similar qualities into your own life.",
+      "Share stories of these individuals with others to reinforce their positive impact."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn68_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 69",
+    "canonical_passage": "A wilderness monk who has come to stay in the Saṅgha should be easy to admonish, with good friends.",
+    "context_summary": "The Buddha emphasizes the importance of respect, mindfulness, and community among monks, highlighting behaviors that should be cultivated.",
+    "problem_summary": "In modern life, people often struggle with maintaining healthy relationships and being receptive to feedback.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Difficulty in accepting criticism and maintaining supportive relationships can lead to isolation and misunderstandings.",
+    "teaching": "Cultivate openness to feedback and surround yourself with supportive friends.",
+    "practice_actions": [
+      "Seek constructive feedback from trusted friends or family.",
+      "Practice active listening during conversations.",
+      "Reflect on feedback without defensiveness."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn69_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 69",
+    "canonical_passage": "A wilderness monk should guard the sense doors.",
+    "context_summary": "The Buddha advises monks to be mindful of their senses to avoid distractions and maintain focus.",
+    "problem_summary": "In today's world, distractions from technology and sensory overload can lead to decreased focus and mindfulness.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Excessive distractions can hinder personal growth and mindfulness.",
+    "teaching": "Be mindful of what you expose yourself to through your senses.",
+    "practice_actions": [
+      "Limit time spent on social media and electronic devices.",
+      "Engage in activities that promote mindfulness, such as meditation or nature walks.",
+      "Be conscious of the environments you choose to spend time in."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn69_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 69",
+    "canonical_passage": "A wilderness monk should eat in moderation.",
+    "context_summary": "The Buddha teaches the importance of moderation in consumption for monks, which is applicable to all.",
+    "problem_summary": "Many people struggle with overeating or unhealthy eating habits, impacting their health and well-being.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Poor eating habits can lead to physical and mental health issues.",
+    "teaching": "Practice moderation in your eating habits to promote better health.",
+    "practice_actions": [
+      "Plan meals to include balanced portions of food.",
+      "Practice mindful eating by savoring each bite and recognizing hunger cues.",
+      "Avoid eating while distracted, such as watching TV or using your phone."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn69_3",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 70",
+    "canonical_passage": "Mendicants, I abstain from eating at night. Doing so, I find that I’m healthy and well, nimble, strong, and living comfortably. You too should abstain from eating at night.",
+    "context_summary": "The Buddha advises his followers on the benefits of abstaining from eating at night, emphasizing health and well-being.",
+    "problem_summary": "Many people struggle with maintaining a healthy lifestyle and managing their eating habits, especially in the evening.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Eating late at night can lead to health issues and discomfort, impacting overall well-being.",
+    "teaching": "Abstaining from eating at night can lead to better health and comfort.",
+    "practice_actions": [
+      "Set a specific time in the evening to stop eating.",
+      "Plan meals earlier in the day to avoid late-night snacking.",
+      "Focus on healthy eating habits throughout the day to reduce cravings at night."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn70_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

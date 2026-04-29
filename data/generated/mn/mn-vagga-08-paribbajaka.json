@@ -1,0 +1,360 @@
+[
+  {
+    "source_ref": "MN 73",
+    "canonical_passage": "Greed is unskillful, contentment is skillful. Hate is unskillful, love is skillful. Delusion is unskillful, understanding is skillful.",
+    "context_summary": "The Buddha teaches Vacchagotta about skillful and unskillful actions, emphasizing the importance of cultivating positive qualities.",
+    "problem_summary": "Many people struggle with negative emotions and behaviors such as greed, hatred, and confusion, which can lead to unhappiness and conflict.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals often find themselves caught in cycles of negative emotions and actions that hinder their well-being.",
+    "teaching": "Cultivating contentment, love, and understanding leads to skillful living and greater happiness.",
+    "practice_actions": [
+      "Practice gratitude daily to foster contentment.",
+      "Engage in acts of kindness and compassion towards others.",
+      "Reflect on your thoughts and beliefs to develop clearer understanding."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn73_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 73",
+    "canonical_passage": "Refraining from killing living creatures, stealing, and sexual misconduct; refraining from speech that’s false, backbiting, harsh, or nonsensical; contentment, kind-heartedness, and right view: these things are skillful.",
+    "context_summary": "The Buddha outlines specific actions that are considered skillful and unskillful, providing clear guidance on ethical conduct.",
+    "problem_summary": "People often face ethical dilemmas and conflicts in their daily lives, leading to feelings of guilt or confusion about right and wrong.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may struggle with making ethical choices that align with their values and lead to harmonious relationships.",
+    "teaching": "Adhering to ethical conduct and refraining from harmful actions fosters a peaceful and harmonious life.",
+    "practice_actions": [
+      "Commit to honesty in your speech and interactions.",
+      "Avoid gossip and negative talk about others.",
+      "Reflect on your actions to ensure they align with ethical principles."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn73_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 74",
+    "canonical_passage": "You should see it as impermanent, as suffering, as diseased, as a boil, as a dart, as gloom, as an affliction, as alien, as breaking apart, as empty, as not-self.",
+    "context_summary": "The Buddha discusses different views on acceptance and how they relate to attachment and suffering.",
+    "problem_summary": "People often cling to rigid beliefs or views, which can lead to conflict and suffering in their lives.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Clinging to fixed views can cause distress and hinder personal growth.",
+    "teaching": "Recognizing the impermanence and suffering inherent in our views can help us let go of attachment and reduce conflict.",
+    "practice_actions": [
+      "Reflect on your beliefs and views, considering how they may lead to conflict.",
+      "Practice seeing your thoughts and feelings as temporary and not defining your identity.",
+      "Engage in mindfulness to observe your reactions to different situations without clinging to a specific view."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn74_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 74",
+    "canonical_passage": "Seeing this, a learned noble disciple grows disillusioned with pleasant, painful, and neutral feelings.",
+    "context_summary": "The Buddha explains how understanding the nature of feelings can lead to disillusionment and freedom from desire.",
+    "problem_summary": "People often become attached to their feelings, whether pleasant or painful, which can lead to ongoing dissatisfaction.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Attachment to feelings can create cycles of desire and suffering.",
+    "teaching": "By recognizing the transient nature of feelings, one can cultivate disillusionment and reduce attachment.",
+    "practice_actions": [
+      "Practice mindfulness to observe your feelings without judgment or attachment.",
+      "Acknowledge that all feelings are temporary and will change.",
+      "Reflect on how your attachment to feelings influences your happiness and decisions."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn74_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 75",
+    "canonical_passage": "Health is the ultimate blessing; extinguishment, the ultimate happiness.",
+    "context_summary": "The Buddha discusses the nature of health and happiness with Māgaṇḍiya, emphasizing the importance of understanding the true nature of sensual pleasures and the path to liberation.",
+    "problem_summary": "People often chase after fleeting pleasures and desires, leading to dissatisfaction and suffering.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals are misled by their cravings for sensory pleasures, mistaking them for true happiness.",
+    "teaching": "True health and happiness come from understanding the nature of suffering and letting go of cravings.",
+    "practice_actions": [
+      "Reflect on the nature of your desires and how they lead to suffering.",
+      "Engage in mindfulness practices to observe your cravings without attachment.",
+      "Seek out teachings or communities that promote understanding and liberation from cravings."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn75_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 75",
+    "canonical_passage": "When my grasping ceases, continued existence ceases. When continued existence ceases, rebirth ceases.",
+    "context_summary": "The Buddha explains the cycle of craving and rebirth, emphasizing the importance of letting go of attachment to end suffering.",
+    "problem_summary": "Many people feel trapped in cycles of desire and dissatisfaction, leading to a sense of hopelessness.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "The cycle of craving leads to continuous suffering and rebirth.",
+    "teaching": "To end suffering, one must understand and cease grasping at desires.",
+    "practice_actions": [
+      "Identify areas in your life where you feel attached or grasping.",
+      "Practice letting go of these attachments through meditation or reflection.",
+      "Cultivate a sense of contentment with what you have, rather than seeking external validation."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn75_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 76",
+    "canonical_passage": "A sensible person would, to the best of their ability, not practice such spiritual paths, and if they did practice them, they wouldn’t succeed in the system of the skillful teaching.",
+    "context_summary": "Venerable Ānanda explains to Sandaka the four ways that negate the spiritual life and the importance of choosing a reliable spiritual path.",
+    "problem_summary": "People often encounter misleading teachings that can lead them away from genuine spiritual growth.",
+    "buddhist_labels": [
+      "doubt_indecision"
+    ],
+    "diagnosis": "Many individuals struggle with discerning which spiritual teachings are beneficial and which are detrimental.",
+    "teaching": "Be discerning about the spiritual paths you choose to follow, avoiding those that promote harmful views or practices.",
+    "practice_actions": [
+      "Reflect on the teachings you encounter and evaluate their alignment with ethical and compassionate principles.",
+      "Seek guidance from reputable teachers who embody the qualities of wisdom and ethical conduct.",
+      "Engage in discussions with others about spiritual teachings to gain different perspectives and insights."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn76_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 76",
+    "canonical_passage": "A mendicant who is perfected can’t deliberately take the life of a living creature, take something with the intention to steal, have sex, tell a deliberate lie, or store up goods for their own enjoyment like they used to as a layperson.",
+    "context_summary": "Ānanda discusses the ethical conduct expected of those who have achieved spiritual perfection.",
+    "problem_summary": "Individuals often struggle with ethical dilemmas and the temptation to act against their values.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "People face challenges in maintaining ethical behavior in their daily lives.",
+    "teaching": "Adhere to ethical principles that promote non-harming, honesty, and generosity.",
+    "practice_actions": [
+      "Establish a personal code of ethics based on compassion and integrity.",
+      "Practice mindfulness to become aware of your actions and their impact on others.",
+      "Engage in community service or acts of kindness to reinforce ethical living."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn76_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 77",
+    "canonical_passage": "The Buddha eats little and praises eating little. This is the first such quality I see in the Buddha.",
+    "context_summary": "The Buddha discusses the qualities that lead his disciples to honor and respect him, highlighting the importance of moderation and contentment.",
+    "problem_summary": "Many people struggle with overindulgence and dissatisfaction with their lives, leading to a lack of fulfillment.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Excessive craving for food and material possessions can lead to unhappiness and a lack of spiritual growth.",
+    "teaching": "Practicing moderation in consumption and being content with what one has can lead to greater happiness and fulfillment.",
+    "practice_actions": [
+      "Try to eat smaller portions during meals and appreciate the food you have.",
+      "Reflect on what you truly need versus what you desire.",
+      "Practice gratitude for what you have instead of focusing on what you lack."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn77_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 77",
+    "canonical_passage": "Furthermore, the Buddha is content with any kind of robe, and praises such contentment.",
+    "context_summary": "The Buddha emphasizes the value of being content with simple clothing and possessions.",
+    "problem_summary": "People often feel pressured to acquire more possessions or wear expensive clothing to feel valued or accepted.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Attachment to material possessions can lead to stress and dissatisfaction.",
+    "teaching": "Finding contentment in simplicity can lead to a more peaceful and fulfilling life.",
+    "practice_actions": [
+      "Evaluate your wardrobe and consider donating items you no longer wear or need.",
+      "Choose to wear simpler, more comfortable clothing that you feel good in, rather than what is trendy or expensive.",
+      "Practice mindfulness when shopping, focusing on needs rather than wants."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn77_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 77",
+    "canonical_passage": "Furthermore, I have explained to my disciples a practice that they use to develop the four kinds of mindfulness meditation.",
+    "context_summary": "The Buddha teaches his disciples about mindfulness meditation as a way to cultivate awareness and insight.",
+    "problem_summary": "Many individuals experience stress and distraction in their daily lives, making it difficult to focus and find inner peace.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "A lack of mindfulness can lead to increased anxiety and difficulty in managing daily stressors.",
+    "teaching": "Mindfulness meditation can help individuals cultivate awareness and reduce stress.",
+    "practice_actions": [
+      "Set aside a few minutes each day to practice mindfulness meditation, focusing on your breath or bodily sensations.",
+      "Incorporate mindfulness into daily activities, such as eating or walking, by paying full attention to the experience.",
+      "Join a local meditation group or use guided meditation apps to support your practice."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn77_3",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 78",
+    "canonical_passage": "When an individual person has four qualities I describe them as an invincible ascetic—accomplished in the skillful, excelling in the skillful, attained to the highest attainment. What four? It’s when they do no bad deeds with their body; speak no bad words; think no bad thoughts; and don’t earn a living by bad livelihood.",
+    "context_summary": "The Buddha discusses the qualities that define a truly accomplished individual, contrasting them with the innocence of a baby.",
+    "problem_summary": "Many people struggle with ethical behavior and the impact of their actions, words, and thoughts on their lives and relationships.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "People often engage in unskillful behaviors that lead to negative consequences in their lives and relationships.",
+    "teaching": "To be truly accomplished, one should refrain from bad deeds, harmful speech, negative thoughts, and unethical livelihood.",
+    "practice_actions": [
+      "Reflect on your daily actions and identify any harmful behaviors you may engage in.",
+      "Practice mindfulness to become aware of your speech and thoughts, aiming to cultivate kindness and positivity.",
+      "Seek to earn a living in a way that aligns with ethical principles, avoiding harm to others."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn78_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 78",
+    "canonical_passage": "Someone practicing like this is practicing for the cessation of unskillful behaviors.",
+    "context_summary": "The Buddha emphasizes the importance of effort and practice in overcoming unskillful behaviors and cultivating skillful ones.",
+    "problem_summary": "Individuals often find it challenging to change ingrained habits and behaviors that are unhelpful or harmful.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Changing unskillful habits requires consistent effort and mindfulness.",
+    "teaching": "Engage in dedicated practice to overcome unskillful behaviors and develop positive qualities.",
+    "practice_actions": [
+      "Set specific goals for reducing negative behaviors and increasing positive ones.",
+      "Create a daily routine that includes mindfulness practices to help reinforce positive habits.",
+      "Join a community or group that supports ethical living and personal development."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn78_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 79",
+    "canonical_passage": "‘There is a world of perfect happiness. And there is a grounded practice for realizing a world of perfect happiness.’",
+    "context_summary": "The Buddha discusses the concept of a 'world of perfect happiness' and the practices that lead to it.",
+    "problem_summary": "Many people seek happiness but are unsure of how to achieve it or what practices lead to a truly fulfilling life.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "People often chase fleeting pleasures and external validations, leading to dissatisfaction.",
+    "teaching": "To realize a world of perfect happiness, one must engage in ethical practices such as refraining from harm, stealing, sexual misconduct, and lying.",
+    "practice_actions": [
+      "Reflect on your actions and identify any harmful behaviors you can stop.",
+      "Commit to honesty in your speech and actions.",
+      "Engage in acts of kindness and generosity towards others."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn79_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 79",
+    "canonical_passage": "‘When this exists, this comes to be; due to the arising of this, this arises. When this doesn’t exist, that doesn’t come to be; due to the cessation of this, that ceases.’",
+    "context_summary": "The Buddha teaches about the principle of dependent origination, explaining how things come into existence based on conditions.",
+    "problem_summary": "People often feel overwhelmed by life's complexities and may struggle to understand the causes of their suffering.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "Many individuals are confused about the nature of their experiences and the interdependent nature of reality.",
+    "teaching": "Understanding that all phenomena arise due to specific conditions can help clarify the nature of suffering and happiness.",
+    "practice_actions": [
+      "Practice mindfulness to observe how your thoughts and feelings arise and pass away.",
+      "Reflect on the causes of your current challenges and consider how changing those conditions might lead to different outcomes.",
+      "Engage in discussions or study about the concept of dependent origination to deepen your understanding."
+    ],
+    "audience": "lay",
+    "confidence": 0.7,
+    "id": "au_mn79_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 80",
+    "canonical_passage": "From the senses comes sensual pleasure. Beyond sensual pleasure is the pleasure that surmounts the sensual, which is said to be the best of these.",
+    "context_summary": "The Buddha discusses the nature of sensual pleasure and the deeper, more fulfilling pleasures that can be experienced beyond mere sensory experiences.",
+    "problem_summary": "Many people seek happiness through sensory pleasures, but often find these fleeting and unsatisfactory.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "People often become attached to sensory pleasures, mistaking them for true happiness.",
+    "teaching": "True fulfillment comes from understanding and transcending sensory pleasures, leading to deeper, more lasting happiness.",
+    "practice_actions": [
+      "Reflect on the nature of your desires and the temporary satisfaction they provide.",
+      "Engage in mindfulness practices to become aware of your cravings and how they affect your happiness.",
+      "Explore activities that promote inner peace and joy beyond sensory experiences, such as meditation or acts of kindness."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn80_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

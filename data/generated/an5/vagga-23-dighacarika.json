@@ -1,0 +1,157 @@
+[
+  {
+    "source_ref": "AN 5.221",
+    "canonical_passage": "You learn new things. You clarify what you’ve learned. You have confidence in some things you have learned.",
+    "context_summary": "The sutta discusses the drawbacks of excessive wandering and the benefits of a balanced approach to exploration.",
+    "problem_summary": "Many people feel lost or aimless in their pursuits, leading to a lack of learning and connection.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Excessive aimless wandering can lead to stagnation in personal growth and relationships.",
+    "teaching": "Engaging in a reasonable amount of exploration can enhance learning, build confidence, and foster friendships.",
+    "practice_actions": [
+      "Set specific goals for your explorations, whether they are physical journeys or intellectual pursuits.",
+      "Reflect on what you learn from each experience to clarify your understanding.",
+      "Make an effort to connect with others during your explorations to build friendships."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_221_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.222",
+    "canonical_passage": "You don’t achieve the unachieved. What you have achieved falls away. You lose confidence in some things you’ve achieved.",
+    "context_summary": "The sutta discusses the drawbacks of excessive wandering and the benefits of a balanced approach to exploration.",
+    "problem_summary": "People often feel lost or unfulfilled when they wander aimlessly in life, leading to a lack of achievement and confidence.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "Aimless wandering can lead to missed opportunities and a decline in personal achievements.",
+    "teaching": "Engage in a reasonable amount of exploration or wandering to maintain achievements and build confidence.",
+    "practice_actions": [
+      "Set specific goals for your explorations, whether they are physical journeys or personal growth.",
+      "Reflect on your achievements regularly to reinforce your confidence.",
+      "Limit aimless wandering by scheduling time for focused activities that contribute to your goals."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_222_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.223",
+    "canonical_passage": "There are these five drawbacks of overstaying... These are the five benefits of staying for a reasonable length of time.",
+    "context_summary": "The sutta discusses the drawbacks and benefits of overstaying in a monastery, emphasizing the importance of moderation in commitments and social interactions.",
+    "problem_summary": "Many people struggle with overcommitment and the burden of excessive responsibilities, leading to stress and dissatisfaction.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Overcommitting to responsibilities and social obligations can lead to feelings of being overwhelmed and disconnected.",
+    "teaching": "Staying for a reasonable length of time in any commitment can help maintain balance and prevent feelings of attachment or loss.",
+    "practice_actions": [
+      "Evaluate your current commitments and responsibilities to identify any that may be excessive.",
+      "Set clear boundaries for how much time and energy you will dedicate to socializing and responsibilities.",
+      "Practice letting go of attachments to places or roles that may be causing stress or longing."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_223_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.224",
+    "canonical_passage": "You become stingy with dwellings, families, material things, praise, and the teaching.",
+    "context_summary": "The sutta discusses the drawbacks of overstaying in one place and the benefits of staying for a reasonable length of time.",
+    "problem_summary": "People may struggle with generosity and sharing due to overstaying in one place, leading to a sense of stinginess.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Overstaying can lead to a mindset of scarcity and possessiveness.",
+    "teaching": "Staying for a reasonable length of time encourages generosity and openness.",
+    "practice_actions": [
+      "Evaluate how long you stay in one place and consider if it's time to move on.",
+      "Practice sharing resources or praise with others to cultivate generosity.",
+      "Reflect on the benefits of being open and generous rather than holding onto things tightly."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_224_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.226",
+    "canonical_passage": "You often see members of the opposite sex. Seeing them, you become close. Being so close, you become intimate. Being intimate, lust overcomes you.",
+    "context_summary": "The sutta discusses the potential pitfalls for mendicants who spend too much time in close contact with families, particularly regarding the arising of lust and its consequences.",
+    "problem_summary": "Spending too much time in close relationships can lead to feelings of lust and distraction from one's spiritual goals.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Excessive intimacy can lead to attachment and distraction from spiritual practice.",
+    "teaching": "Be mindful of the time spent in close relationships to avoid the arising of lust and maintain focus on spiritual goals.",
+    "practice_actions": [
+      "Set boundaries on how much time you spend with friends or family to maintain focus on your personal goals.",
+      "Engage in self-reflection to recognize when feelings of attachment or lust arise.",
+      "Practice mindfulness to stay aware of your thoughts and feelings in social situations."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_226_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.227",
+    "canonical_passage": "There are these five drawbacks of riches... and they enable you to establish an uplifting religious donation for ascetics and brahmins that’s conducive to heaven.",
+    "context_summary": "The sutta discusses both the drawbacks and benefits of wealth, highlighting the importance of using riches wisely.",
+    "problem_summary": "People often seek wealth without considering its potential drawbacks and the responsibilities that come with it.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "ethical_conflict"
+    ],
+    "diagnosis": "Wealth can lead to attachment and ethical dilemmas if not managed properly.",
+    "teaching": "Wealth should be used to create happiness for oneself and others, and to support spiritual practices.",
+    "practice_actions": [
+      "Reflect on the potential drawbacks of wealth and how it can lead to attachment.",
+      "Use a portion of your wealth to support charitable causes or spiritual practices.",
+      "Focus on creating happiness for yourself and those around you with the resources you have."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_227_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.228",
+    "canonical_passage": "There are these five drawbacks for a family who takes their meals late in the day... There are these five benefits for a family who takes their meals at a proper time.",
+    "context_summary": "The sutta discusses the consequences of eating meals late versus at proper times, highlighting both drawbacks and benefits.",
+    "problem_summary": "Eating meals at irregular times can lead to neglect of duties and poor nutrition.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Irregular meal times can disrupt family dynamics and individual health.",
+    "teaching": "Eating meals at proper times promotes better relationships and health.",
+    "practice_actions": [
+      "Establish a regular meal schedule for yourself and your family.",
+      "Plan meals in advance to ensure they are served on time.",
+      "Encourage family members to eat together at designated times."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_228_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

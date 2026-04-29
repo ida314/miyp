@@ -1,0 +1,214 @@
+[
+  {
+    "source_ref": "AN 5.1",
+    "canonical_passage": "Mendicants, there are these five powers of a trainee. What five? The powers of faith, conscience, prudence, energy, and wisdom.",
+    "context_summary": "The Buddha teaches the mendicants about the five essential qualities that contribute to personal development and training.",
+    "problem_summary": "Many people struggle with personal growth and self-improvement, often feeling lost or lacking direction.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Individuals may lack the necessary qualities to effectively pursue personal development.",
+    "teaching": "Cultivating the powers of faith, conscience, prudence, energy, and wisdom can guide you in your personal growth.",
+    "practice_actions": [
+      "Reflect on your beliefs and strengthen your faith in your goals.",
+      "Develop a sense of conscience by regularly evaluating your actions and their impact on others.",
+      "Practice prudence by making thoughtful decisions and considering the consequences.",
+      "Increase your energy by setting specific, achievable goals and maintaining motivation.",
+      "Seek knowledge and understanding to enhance your wisdom through reading, learning, and reflection."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_1_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.2",
+    "canonical_passage": "These are the five powers of a trainee: faith, conscience, prudence, energy, and wisdom.",
+    "context_summary": "The sutta outlines five essential qualities that contribute to personal development and ethical living.",
+    "problem_summary": "Many people struggle with maintaining ethical behavior and personal growth in their daily lives.",
+    "buddhist_labels": [
+      "ethical_conflict",
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Individuals often lack the necessary qualities to navigate ethical dilemmas and personal challenges effectively.",
+    "teaching": "Cultivating the powers of faith, conscience, prudence, energy, and wisdom can help individuals lead a more skillful and ethical life.",
+    "practice_actions": [
+      "Reflect on your beliefs and strengthen your faith in positive values.",
+      "Be mindful of your actions and their impact on yourself and others.",
+      "Consider the consequences of your choices before acting.",
+      "Commit to developing positive habits and skills through consistent effort.",
+      "Seek knowledge and understanding to enhance your wisdom."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_2_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.3",
+    "canonical_passage": "When a mendicant has five qualities they live happily in this very life—without distress, anguish, or fever... It’s when a mendicant is faithful, conscientious, prudent, energetic, and wise.",
+    "context_summary": "The sutta contrasts two sets of qualities that influence a person's happiness in life and their rebirth after death.",
+    "problem_summary": "Many people struggle with unhappiness and dissatisfaction in life, often feeling distressed or anxious about their future.",
+    "buddhist_labels": [
+      "fear_anxiety",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Unhappiness and anxiety can stem from lacking certain positive qualities in one's character.",
+    "teaching": "Cultivating qualities such as faithfulness, conscientiousness, prudence, energy, and wisdom leads to a happier life and better outcomes after death.",
+    "practice_actions": [
+      "Reflect on your current qualities and identify areas for improvement.",
+      "Set specific goals to become more faithful in your commitments.",
+      "Practice being more conscientious in your daily tasks and responsibilities.",
+      "Engage in activities that require prudence, such as planning and decision-making.",
+      "Develop a routine that encourages energy and activity, such as regular exercise or pursuing hobbies.",
+      "Seek knowledge and wisdom through reading, learning, and engaging in discussions."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_3_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.4",
+    "canonical_passage": "A mendicant with five qualities is placed in hell as if delivered there... A mendicant with five qualities is placed in heaven as if delivered there.",
+    "context_summary": "The sutta discusses the qualities that lead to negative or positive outcomes in one's life, comparing them to being placed in hell or heaven.",
+    "problem_summary": "People often struggle with making choices that lead to positive outcomes in their lives and may feel lost or directionless.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Lack of positive qualities can lead to negative life experiences.",
+    "teaching": "Cultivating qualities such as faithfulness, conscientiousness, prudence, energy, and wisdom can lead to a more fulfilling and positive life.",
+    "practice_actions": [
+      "Reflect on your current habits and identify areas where you can be more faithful and conscientious.",
+      "Set specific goals to increase your energy and prudence in daily tasks.",
+      "Engage in learning activities that enhance your wisdom and understanding."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_4_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.6",
+    "canonical_passage": "You don’t become unskillful as long as faith is established in skillful qualities.",
+    "context_summary": "The sutta discusses the importance of maintaining faith and other skillful qualities to avoid becoming unskillful.",
+    "problem_summary": "People often struggle with maintaining positive qualities and may find themselves acting unskillfully when they lose faith or wisdom.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Loss of faith and wisdom can lead to unskillful actions.",
+    "teaching": "Cultivating and maintaining faith, conscience, prudence, energy, and wisdom helps prevent unskillful behavior.",
+    "practice_actions": [
+      "Reflect on and identify your core values and beliefs to strengthen your faith.",
+      "Engage in regular self-reflection to assess your conscience and decision-making.",
+      "Practice mindfulness to enhance your awareness and energy in daily activities.",
+      "Seek knowledge and wisdom through reading, discussions, or meditation."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_6_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.7",
+    "canonical_passage": "Mendicants, sentient beings are mostly charmed by sensual pleasures.",
+    "context_summary": "The passage discusses the nature of sensual pleasures and the importance of developing qualities like faith and wisdom to navigate them.",
+    "problem_summary": "Many people struggle with being overly attracted to sensual pleasures, which can lead to neglecting personal growth and responsibilities.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Individuals may find themselves distracted by immediate pleasures, hindering their personal development and well-being.",
+    "teaching": "One should cultivate qualities such as faith, conscience, and wisdom to manage the allure of sensual pleasures effectively.",
+    "practice_actions": [
+      "Reflect on what truly brings lasting happiness versus temporary pleasure.",
+      "Set aside time for personal development activities, such as meditation or learning.",
+      "Practice mindfulness to become aware of cravings and how they influence your decisions."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_7_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.8",
+    "canonical_passage": "A mendicant with five qualities doesn’t fail, and establishes themselves in the true teaching. What five? A mendicant who is faithful … conscientious … prudent … energetic … wise doesn’t fail, and establishes themselves in the true teaching.",
+    "context_summary": "The sutta discusses the qualities that lead to success or failure in establishing oneself in the true teaching.",
+    "problem_summary": "Many people struggle to find direction and purpose in their lives, often feeling lost or unsuccessful.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Lack of essential qualities such as faith, conscientiousness, prudence, energy, and wisdom can lead to failure in personal growth.",
+    "teaching": "Cultivating qualities like faith, conscientiousness, prudence, energy, and wisdom can help individuals succeed in their personal and spiritual development.",
+    "practice_actions": [
+      "Reflect on your beliefs and strengthen your faith in your values.",
+      "Be mindful and conscientious in your daily actions and decisions.",
+      "Practice prudence by thinking ahead and considering the consequences of your actions.",
+      "Set specific goals to increase your energy and motivation in pursuing your interests.",
+      "Seek knowledge and wisdom through reading, learning, and engaging in discussions."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_8_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.9",
+    "canonical_passage": "A respectful and reverent mendicant with five qualities doesn’t fail, and establishes themselves in the true teaching. What five? A respectful and reverent mendicant who is faithful … conscientious … prudent … energetic … wise doesn’t fail, and establishes themselves in the true teaching.",
+    "context_summary": "The sutta discusses the qualities that lead to success in establishing oneself in the true teaching, contrasting respectful and irreverent attitudes.",
+    "problem_summary": "People often struggle to find direction and success in their personal or spiritual lives due to negative qualities such as laziness and lack of faith.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Failure to cultivate positive qualities can lead to a lack of progress in personal development.",
+    "teaching": "Cultivating respect, faith, conscientiousness, prudence, energy, and wisdom is essential for establishing oneself in a meaningful path.",
+    "practice_actions": [
+      "Reflect on your attitude towards teachings and practices; strive to be respectful and open.",
+      "Develop a daily habit of mindfulness to enhance conscientiousness and prudence.",
+      "Set specific goals to increase your energy and engagement in personal growth activities.",
+      "Seek knowledge and wisdom through reading, discussions, or meditation."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_9_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.10",
+    "canonical_passage": "A respectful and reverent mendicant with five qualities can achieve growth, improvement, and maturity in this teaching and training.",
+    "context_summary": "The sutta discusses the qualities that lead to personal growth and maturity in the context of spiritual training.",
+    "problem_summary": "Many people struggle with personal growth and self-improvement due to negative traits such as disrespect, laziness, and lack of faith.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Disrespect and irreverence hinder personal development and spiritual progress.",
+    "teaching": "Cultivating respect, faith, conscientiousness, energy, and wisdom can lead to significant personal growth.",
+    "practice_actions": [
+      "Reflect on and cultivate respect for others and the teachings you follow.",
+      "Practice being conscientious in your daily actions and decisions.",
+      "Set specific goals to increase your energy and motivation in pursuing personal development.",
+      "Engage in learning to enhance your wisdom and understanding."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_10_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

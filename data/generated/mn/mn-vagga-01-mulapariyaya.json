@@ -1,0 +1,365 @@
+[
+  {
+    "source_ref": "MN 1",
+    "canonical_passage": "He directly knows extinguishment as extinguishment. Having directly known extinguishment as extinguishment, he does not conceive it to be extinguishment, he does not conceive it in extinguishment, he does not conceive it as extinguishment, he does not conceive that ‘extinguishment is mine’, he does not approve extinguishment.",
+    "context_summary": "The Buddha teaches about the nature of perception and understanding, emphasizing the importance of seeing things as they truly are without attachment or approval.",
+    "problem_summary": "People often cling to their perceptions and concepts, leading to suffering and misunderstanding of reality.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals struggle with attachment to their perceptions and concepts, which can lead to suffering.",
+    "teaching": "To overcome suffering, one must understand the nature of things without attachment or approval.",
+    "practice_actions": [
+      "Practice mindfulness to observe your thoughts and perceptions without attachment.",
+      "Reflect on the impermanence of things you cling to and how they contribute to your suffering.",
+      "Engage in meditation focused on letting go of concepts and approvals related to your experiences."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn1_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 2",
+    "canonical_passage": "When you apply the mind irrationally, defilements arise, and once arisen they grow. When you apply the mind rationally, defilements don’t arise, and those that have already arisen are given up.",
+    "context_summary": "The Buddha teaches about the importance of applying the mind rationally to avoid and give up defilements.",
+    "problem_summary": "Many people struggle with negative thoughts and behaviors that lead to suffering and dissatisfaction in life.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Irrational thinking leads to the growth of negative mental states and suffering.",
+    "teaching": "Apply your mind rationally to avoid unhelpful thoughts and behaviors, and focus on what leads to peace and understanding.",
+    "practice_actions": [
+      "Reflect on your thoughts and identify which ones are unhelpful or harmful.",
+      "Practice mindfulness to become aware of when your mind wanders into negative thinking.",
+      "Redirect your focus to positive and constructive thoughts that promote well-being."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn2_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 2",
+    "canonical_passage": "These are the things that, when the mind is applied to them, do not give rise to unarisen defilements and give up arisen defilements: the defilements of sensual desire, desire to be reborn, and ignorance.",
+    "context_summary": "The Buddha explains the importance of knowing what to focus on to prevent the arising of defilements.",
+    "problem_summary": "People often find themselves caught in cycles of desire and ignorance, leading to dissatisfaction and suffering.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Focusing on sensual desires and ignorance perpetuates suffering.",
+    "teaching": "Focus on understanding and letting go of desires and ignorance to cultivate a more peaceful mind.",
+    "practice_actions": [
+      "Engage in activities that promote understanding and wisdom, such as reading or discussing spiritual teachings.",
+      "Practice letting go of attachments to material possessions and desires.",
+      "Reflect on the impermanence of life to reduce clinging and enhance clarity."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn2_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 3",
+    "canonical_passage": "So, mendicants, be my heirs in the teaching, not in things of the flesh.",
+    "context_summary": "The Buddha emphasizes the importance of prioritizing spiritual teachings over material possessions.",
+    "problem_summary": "Many people today struggle with the balance between material desires and spiritual growth.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "People often focus on accumulating material wealth and possessions, which can distract from spiritual development.",
+    "teaching": "Prioritize spiritual teachings and practices over material concerns to cultivate a more meaningful life.",
+    "practice_actions": [
+      "Reflect on your values and identify areas where you may be overly focused on material possessions.",
+      "Set aside time each day for spiritual practices such as meditation or reading spiritual texts.",
+      "Engage in acts of generosity or service to shift focus from self-centered desires to the well-being of others."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn3_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 3",
+    "canonical_passage": "This is that middle way of practice, which gives vision and knowledge, and leads to peace, direct knowledge, awakening, and extinguishment.",
+    "context_summary": "The Buddha outlines the Noble Eightfold Path as a guide for ethical and mental development.",
+    "problem_summary": "Individuals often feel lost or confused about how to achieve personal growth and inner peace.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "Many people lack clear guidance on how to cultivate a balanced and fulfilling life.",
+    "teaching": "Follow the Noble Eightfold Path to develop ethical conduct, mental discipline, and wisdom.",
+    "practice_actions": [
+      "Study the Noble Eightfold Path and identify which aspects you can incorporate into your daily life.",
+      "Practice mindfulness in your actions and speech to cultivate awareness and reduce confusion.",
+      "Join a community or group that focuses on spiritual growth to gain support and insights from others."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn3_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 5",
+    "canonical_passage": "Take the case of the individual who has a blemish and does understand it. You can expect that they will generate enthusiasm, make an effort, and rouse up energy to give up that blemish.",
+    "context_summary": "Sāriputta explains the importance of self-awareness regarding one's flaws and the effort to overcome them.",
+    "problem_summary": "Many people struggle with self-awareness and the motivation to improve themselves, often ignoring their flaws.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Lack of self-awareness leads to stagnation and unskillful behavior.",
+    "teaching": "Recognizing and understanding your flaws is crucial for personal growth and overcoming negative traits.",
+    "practice_actions": [
+      "Reflect on your personal flaws or negative habits.",
+      "Set specific goals to address these flaws.",
+      "Create a plan to actively work on improving yourself, such as seeking feedback from trusted friends."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn5_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 5",
+    "canonical_passage": "Take the case of the individual who doesn’t have a blemish and does understand it. You can expect that they won’t focus on the feature of beauty, and because of that, lust won’t infect their mind.",
+    "context_summary": "Sāriputta discusses the importance of understanding one's own state of mind to avoid negative influences.",
+    "problem_summary": "People often become distracted by superficial desires and lose sight of what truly matters.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Distraction by superficial desires can lead to dissatisfaction and unskillful behavior.",
+    "teaching": "Understanding your own mind and focusing on deeper values can help you avoid being swayed by superficial attractions.",
+    "practice_actions": [
+      "Practice mindfulness to become aware of your thoughts and desires.",
+      "Engage in activities that promote deeper connections and values, such as volunteering or learning.",
+      "Limit exposure to media or environments that emphasize superficial beauty."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn5_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 6",
+    "canonical_passage": "Mendicants, live by the ethical precepts and the monastic code. Live restrained in the monastic code, conducting yourselves well and resorting for alms in suitable places.",
+    "context_summary": "The Buddha addresses mendicants, emphasizing the importance of ethical conduct and adherence to precepts.",
+    "problem_summary": "Many people struggle with maintaining ethical behavior and self-discipline in their daily lives.",
+    "buddhist_labels": [
+      "ethical_conflict",
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "The tendency to stray from ethical guidelines can lead to personal and relational issues.",
+    "teaching": "Living by ethical precepts and maintaining self-restraint is essential for inner peace and harmony with others.",
+    "practice_actions": [
+      "Identify and commit to a set of ethical guidelines or principles to follow in daily life.",
+      "Reflect on your actions regularly to ensure they align with your ethical commitments.",
+      "Create a routine that includes moments of self-reflection and mindfulness to strengthen your discipline."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn6_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 6",
+    "canonical_passage": "Seeing danger in the slightest fault, keep the rules you’ve undertaken.",
+    "context_summary": "The Buddha advises being vigilant about even minor ethical lapses.",
+    "problem_summary": "People often overlook small ethical missteps, which can accumulate and lead to larger issues.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Ignoring small faults can lead to a gradual erosion of ethical standards.",
+    "teaching": "Be mindful of even minor ethical breaches and strive to correct them promptly.",
+    "practice_actions": [
+      "Keep a journal to note any small ethical lapses and reflect on how to avoid them in the future.",
+      "Discuss ethical challenges with a trusted friend or mentor to gain perspective and accountability.",
+      "Set reminders for yourself to check in on your ethical commitments throughout the day."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn6_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 7",
+    "canonical_passage": "In the same way, when the mind isn’t corrupt, a good destiny is to be expected.",
+    "context_summary": "The Buddha explains the importance of a pure mind and how it influences one's destiny, using the analogy of dyeing cloth.",
+    "problem_summary": "People often struggle with negative thoughts and emotions that lead to undesirable outcomes in their lives.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "The mind can be corrupted by negative emotions such as greed, anger, and jealousy, which can lead to a negative life experience.",
+    "teaching": "To achieve a good destiny, one must cultivate a pure mind by letting go of corruptions such as greed and ill will.",
+    "practice_actions": [
+      "Reflect on your thoughts and identify any negative emotions you may be holding onto.",
+      "Practice letting go of these negative emotions through meditation or mindfulness.",
+      "Cultivate positive qualities such as love, compassion, and equanimity towards yourself and others."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn7_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 7",
+    "canonical_passage": "For the pure in heart it’s always the spring festival or the sabbath.",
+    "context_summary": "The Buddha emphasizes that true purity comes from within and is not dependent on external rituals or locations.",
+    "problem_summary": "Many individuals believe that external actions or rituals can cleanse their negative actions, leading to a misunderstanding of true purity.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "People often seek external validation or purification through rituals rather than focusing on their internal state.",
+    "teaching": "True purity and ethical living come from maintaining a pure heart and mind, rather than relying on external rituals.",
+    "practice_actions": [
+      "Focus on ethical behavior in daily life, such as honesty, non-harm, and generosity.",
+      "Engage in self-reflection to assess your intentions and actions.",
+      "Create a personal practice of mindfulness to cultivate a pure heart."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn7_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 8",
+    "canonical_passage": "‘Others will be cruel, but here we will not be cruel.’ ‘Others will kill living creatures, but here we will not kill living creatures.’ ... ‘Others will be attached to their own views, holding them tight, and refusing to let go, but here we will not be attached to our own views, not holding them tight, but will let them go easily.’",
+    "context_summary": "The Buddha teaches about self-effacement and how to cultivate skillful qualities in contrast to unskillful ones.",
+    "problem_summary": "People often struggle with negative behaviors and unhelpful beliefs that lead to conflict and suffering.",
+    "buddhist_labels": [
+      "ethical_conflict",
+      "craving_attachment"
+    ],
+    "diagnosis": "Individuals may find themselves caught in harmful behaviors and rigid beliefs that create suffering for themselves and others.",
+    "teaching": "To cultivate a better life, one should consciously choose to act with kindness, refrain from harm, and let go of rigid attachments to personal views.",
+    "practice_actions": [
+      "Reflect on your actions and choose to act kindly, even when others do not.",
+      "Practice non-violence by avoiding harm to all living beings.",
+      "Identify and challenge your own rigid beliefs, allowing yourself to be open to new perspectives."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn8_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 8",
+    "canonical_passage": "If you’re sinking in the mud yourself, Cunda, it is quite impossible for you to pull out someone else who is sinking in the mud.",
+    "context_summary": "The Buddha emphasizes the importance of personal development before helping others.",
+    "problem_summary": "People often want to help others without first addressing their own issues, which can lead to ineffective support.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may feel compelled to assist others while neglecting their own personal growth and well-being.",
+    "teaching": "Before trying to help others, ensure that you have addressed your own challenges and cultivated your own well-being.",
+    "practice_actions": [
+      "Engage in self-care practices that promote your own mental and emotional health.",
+      "Reflect on your own challenges and work on resolving them before offering help to others.",
+      "Seek personal growth through meditation, learning, or therapy to better support those around you."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn8_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 9",
+    "canonical_passage": "A noble disciple understands the unskillful and its root, and the skillful and its root.",
+    "context_summary": "Sāriputta explains the concept of right view and how a noble disciple understands the distinction between skillful and unskillful actions.",
+    "problem_summary": "People often struggle with making ethical decisions and understanding the consequences of their actions.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may not recognize the impact of their actions on themselves and others, leading to unskillful behavior.",
+    "teaching": "Understanding what constitutes skillful and unskillful actions can guide individuals toward better choices.",
+    "practice_actions": [
+      "Reflect on your daily actions and categorize them as skillful or unskillful.",
+      "Identify the roots of your actions, such as greed, hate, or delusion, and work on addressing these underlying tendencies.",
+      "Commit to practicing skillful actions, such as kindness, honesty, and contentment."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn9_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 9",
+    "canonical_passage": "The practice that leads to the cessation of suffering is simply this noble eightfold path.",
+    "context_summary": "Sāriputta emphasizes the importance of the Noble Eightfold Path as a practical guide to end suffering.",
+    "problem_summary": "Many people experience suffering and dissatisfaction in life but may not know how to alleviate it.",
+    "buddhist_labels": [
+      "grief_loss",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Individuals often feel overwhelmed by suffering and lack a clear path to overcome it.",
+    "teaching": "Following the Noble Eightfold Path can help individuals understand and reduce their suffering.",
+    "practice_actions": [
+      "Study and familiarize yourself with the Noble Eightfold Path: right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration.",
+      "Set small, achievable goals to incorporate aspects of the Eightfold Path into your daily life.",
+      "Regularly reflect on your progress and adjust your actions to align more closely with the path."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn9_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 10",
+    "canonical_passage": "The four kinds of mindfulness meditation are the path to convergence. They are in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness.",
+    "context_summary": "The Buddha teaches the importance of mindfulness meditation as a means to overcome suffering and achieve enlightenment.",
+    "problem_summary": "Many people struggle with emotional pain, sadness, and distractions in their daily lives.",
+    "buddhist_labels": [
+      "grief_loss",
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Individuals often feel overwhelmed by their emotions and find it difficult to focus or find peace.",
+    "teaching": "Engaging in mindfulness meditation can help individuals observe their thoughts, feelings, and bodily sensations, leading to greater awareness and emotional clarity.",
+    "practice_actions": [
+      "Set aside time each day for mindfulness meditation, focusing on your breath and bodily sensations.",
+      "Practice being aware of your feelings as they arise, acknowledging them without judgment.",
+      "Incorporate mindfulness into daily activities, such as eating or walking, by paying full attention to the experience."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn10_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

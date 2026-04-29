@@ -1,0 +1,381 @@
+[
+  {
+    "source_ref": "MN 51",
+    "canonical_passage": "They meditate observing an aspect of the body—keen, aware, and mindful, rid of covetousness and displeasure for the world.",
+    "context_summary": "The Buddha discusses the importance of mindfulness meditation and how it can lead to a purer state of being.",
+    "problem_summary": "Many people struggle with distractions and negative emotions, which can lead to dissatisfaction and unhappiness.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Individuals often find themselves overwhelmed by their thoughts and feelings, leading to a lack of peace and clarity.",
+    "teaching": "Practicing mindfulness meditation can help individuals become more aware of their bodies, feelings, and thoughts, leading to a reduction in negative emotions.",
+    "practice_actions": [
+      "Set aside a few minutes each day to sit quietly and focus on your breath.",
+      "Observe your body sensations, feelings, and thoughts without judgment.",
+      "Practice being present in the moment, letting go of distractions and negative emotions."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn51_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 51",
+    "canonical_passage": "They’re scrupulous and kind, living full of sympathy for all living beings.",
+    "context_summary": "The Buddha emphasizes the importance of ethical conduct and kindness towards all beings.",
+    "problem_summary": "People often struggle with ethical dilemmas and conflicts in their relationships with others.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may face challenges in their interactions with others, leading to feelings of guilt or conflict.",
+    "teaching": "Living with kindness and sympathy towards others can lead to a more harmonious life and reduce ethical conflicts.",
+    "practice_actions": [
+      "Make a conscious effort to perform at least one act of kindness each day.",
+      "Practice empathy by trying to understand others' perspectives and feelings.",
+      "Reflect on your actions and their impact on others, striving to act with compassion."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn51_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 52",
+    "canonical_passage": "Householder, it’s when a mendicant, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion...",
+    "context_summary": "Venerable Ānanda explains to the householder Dasama the practice of meditation and its benefits in achieving freedom from defilements.",
+    "problem_summary": "Many people struggle with distractions and unskillful qualities that prevent them from experiencing peace and happiness.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "craving_attachment"
+    ],
+    "diagnosis": "Individuals often find themselves overwhelmed by sensory pleasures and unproductive thoughts, leading to dissatisfaction.",
+    "teaching": "By practicing meditation and focusing on seclusion from sensual pleasures and unskillful qualities, one can experience deeper states of joy and ultimately achieve freedom from suffering.",
+    "practice_actions": [
+      "Set aside time each day for meditation, focusing on calming the mind and body.",
+      "Practice mindfulness to become aware of and reduce distractions and cravings.",
+      "Reflect on the impermanence of thoughts and feelings during meditation to cultivate detachment."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn52_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 52",
+    "canonical_passage": "Furthermore, a mendicant meditates spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth...",
+    "context_summary": "Ānanda describes the practice of loving-kindness meditation as a means to cultivate compassion and connection with all beings.",
+    "problem_summary": "People often experience feelings of isolation or negativity towards others, which can lead to unhappiness.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Negative feelings towards others can create barriers in relationships and contribute to personal suffering.",
+    "teaching": "Practicing loving-kindness meditation can help foster a sense of connection and compassion towards oneself and others, reducing feelings of isolation.",
+    "practice_actions": [
+      "Engage in loving-kindness meditation by silently repeating phrases of goodwill towards yourself and others.",
+      "Gradually expand your focus to include friends, acquaintances, and even those you have conflicts with.",
+      "Make a conscious effort to act with kindness and compassion in daily interactions."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn52_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 53",
+    "canonical_passage": "A noble disciple is accomplished in ethics, guards the sense doors, eats in moderation, and is dedicated to wakefulness.",
+    "context_summary": "The Buddha discusses the qualities of a noble disciple and the practices that lead to spiritual development.",
+    "problem_summary": "Many people struggle with maintaining ethical behavior, managing their desires, and finding balance in their lives.",
+    "buddhist_labels": [
+      "ethical_conflict",
+      "craving_attachment",
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "People often face challenges in adhering to ethical standards, controlling their senses, and practicing moderation.",
+    "teaching": "To cultivate a noble character, one should focus on ethics, guard their senses, eat moderately, and remain dedicated to mindfulness.",
+    "practice_actions": [
+      "Reflect on your daily actions and ensure they align with ethical principles.",
+      "Practice mindfulness by being aware of what you see, hear, and think, avoiding distractions.",
+      "Set specific meal times and portions to practice moderation in eating."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn53_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 53",
+    "canonical_passage": "They have seven good qualities, and they get the four absorptions—blissful meditations in this life that belong to the higher mind—when they want, without trouble or difficulty.",
+    "context_summary": "The Buddha outlines the qualities and practices that enable a disciple to achieve deep meditative states.",
+    "problem_summary": "Individuals often seek peace and clarity but find it difficult to achieve deep states of meditation and mindfulness.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Many struggle with distractions and find it hard to enter states of deep meditation.",
+    "teaching": "By cultivating good qualities and practicing meditation, one can achieve blissful states of mind.",
+    "practice_actions": [
+      "Engage in daily meditation practice, focusing on breath and letting go of distractions.",
+      "Develop qualities such as mindfulness, energy, and wisdom through consistent practice.",
+      "Set aside time each day for quiet reflection and meditation to deepen your practice."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn53_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 54",
+    "canonical_passage": "Killing living creatures should be given up, relying on not killing living creatures. Stealing should be given up, relying on not stealing. Lying should be given up, relying on speaking the truth.",
+    "context_summary": "The Buddha teaches Potaliya about the true meaning of cutting off business in the noble one's training, emphasizing ethical conduct.",
+    "problem_summary": "Many people struggle with ethical dilemmas and the consequences of harmful actions in their daily lives.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "People often engage in harmful behaviors without recognizing the long-term consequences on themselves and others.",
+    "teaching": "To cultivate a life of integrity, one should refrain from harmful actions such as killing, stealing, and lying, and instead embrace ethical behavior.",
+    "practice_actions": [
+      "Reflect on your daily actions and identify any that may cause harm to others.",
+      "Make a commitment to refrain from actions like lying, stealing, or causing harm.",
+      "Practice honesty and kindness in your interactions with others."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn54_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 54",
+    "canonical_passage": "Greed and lust should be given up, relying on not being greedy and lustful. Blaming and insulting should be given up, relying on not blaming and not insulting.",
+    "context_summary": "The Buddha outlines the importance of letting go of negative emotions and behaviors that lead to suffering.",
+    "problem_summary": "People often experience distress due to negative emotions like greed, anger, and blame, which can harm relationships and personal well-being.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger"
+    ],
+    "diagnosis": "Negative emotions can lead to conflict and dissatisfaction in life, affecting both personal happiness and relationships.",
+    "teaching": "To achieve peace and happiness, one should cultivate non-attachment and refrain from negative emotions such as greed and anger.",
+    "practice_actions": [
+      "Identify situations where you feel greedy or angry, and practice letting go of those feelings.",
+      "Engage in mindfulness practices to become aware of your emotions and reactions.",
+      "Cultivate compassion towards others to reduce feelings of blame and anger."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn54_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 55",
+    "canonical_passage": "In three cases I say that meat may not be eaten: it’s seen, heard, or suspected. In three cases I say that meat may be eaten: it’s not seen, heard, or suspected.",
+    "context_summary": "The Buddha clarifies the conditions under which eating meat is permissible, emphasizing the importance of intention and awareness in dietary choices.",
+    "problem_summary": "Many people struggle with ethical eating and the implications of their food choices, particularly regarding meat consumption.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Confusion about the morality of eating meat and the impact of one's dietary choices on living beings.",
+    "teaching": "Consider the source and circumstances of your food. If you are unaware of harm being done to animals for your meal, and you eat without attachment or greed, it is permissible.",
+    "practice_actions": [
+      "Reflect on the sources of your food and the impact of your choices on living beings.",
+      "Practice mindfulness while eating, focusing on gratitude and the intention behind your meals.",
+      "Choose to support ethical food sources that align with your values."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn55_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 55",
+    "canonical_passage": "They meditate spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of love to the whole world—abundant, expansive, limitless, free of enmity and ill will.",
+    "context_summary": "The Buddha teaches the importance of cultivating love and compassion towards all beings, which can influence one's actions and choices.",
+    "problem_summary": "People often experience negativity and conflict in their relationships and interactions with others.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Struggles with negative emotions and conflicts in relationships can lead to harmful actions and thoughts.",
+    "teaching": "Cultivate a heart full of love and compassion towards all beings, which can help reduce enmity and ill will.",
+    "practice_actions": [
+      "Engage in loving-kindness meditation, focusing on sending love to yourself and then to others.",
+      "Practice compassion by volunteering or helping those in need.",
+      "Make a conscious effort to speak kindly and act with goodwill towards others."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn55_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 56",
+    "canonical_passage": "Householder, you should act after careful consideration. It’s good for well-known people such as yourself to act after careful consideration.",
+    "context_summary": "The Buddha advises Upāli to act thoughtfully and consider the implications of his actions, especially given his status in society.",
+    "problem_summary": "In a world filled with competing beliefs and pressures, individuals often face the challenge of making decisions that align with their values and understanding.",
+    "buddhist_labels": [
+      "doubt_indecision"
+    ],
+    "diagnosis": "People may struggle with indecision or pressure to conform to societal expectations, leading to choices that may not reflect their true beliefs.",
+    "teaching": "Take time to reflect on your decisions and ensure they align with your values and understanding.",
+    "practice_actions": [
+      "Before making a significant decision, write down your thoughts and feelings about it.",
+      "Discuss your decision with trusted friends or mentors to gain different perspectives.",
+      "Set aside time for meditation or quiet reflection to clarify your thoughts."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn56_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 56",
+    "canonical_passage": "Everything that is liable to arise is liable to cease.",
+    "context_summary": "The Buddha teaches Upāli about the nature of existence and the impermanence of all things.",
+    "problem_summary": "Many people struggle with attachment to things, relationships, or ideas, leading to suffering when those things change or end.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Individuals often cling to transient experiences, causing distress when faced with loss or change.",
+    "teaching": "Recognize that all things are temporary and learn to let go of attachments to reduce suffering.",
+    "practice_actions": [
+      "Reflect on a recent loss or change and write about how it has affected you.",
+      "Practice mindfulness to become aware of your attachments and how they influence your emotions.",
+      "Engage in activities that promote letting go, such as decluttering your space or forgiving someone."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn56_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 57",
+    "canonical_passage": "For your deeds determine your rebirth, and when you’re reborn contacts strike you. This is why I say that sentient beings are heirs to their deeds.",
+    "context_summary": "The Buddha explains the consequences of actions (kamma) and how they influence rebirth, emphasizing that one's ethical choices shape their future experiences.",
+    "problem_summary": "People often struggle with understanding the long-term consequences of their actions and how they affect their lives and future.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may engage in harmful behaviors without realizing the negative impact these choices have on their future well-being.",
+    "teaching": "Your actions have consequences that shape your future experiences; making ethical choices leads to positive outcomes.",
+    "practice_actions": [
+      "Reflect on your daily actions and their potential consequences.",
+      "Make a conscious effort to choose actions that are kind and beneficial to yourself and others.",
+      "Regularly evaluate your intentions and motivations behind your actions."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn57_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 58",
+    "canonical_passage": "The Realized One knows the right time to speak so as to explain what he knows to be true, correct, and beneficial, but which is disliked by others.",
+    "context_summary": "In a conversation between Prince Abhaya and the Buddha, the Buddha explains the importance of speaking truthfully and beneficially, even when it may not be well-received.",
+    "problem_summary": "People often struggle with how to communicate difficult truths without causing conflict or being disliked.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Many individuals face challenges in navigating conversations that involve uncomfortable truths or necessary criticisms.",
+    "teaching": "It is important to speak truthfully and beneficially, considering the timing and the impact of your words on others.",
+    "practice_actions": [
+      "Reflect on the potential impact of your words before speaking.",
+      "Practice delivering difficult messages with compassion and care.",
+      "Seek to understand the right timing for your communications."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn58_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 59",
+    "canonical_passage": "This being so, you can expect that those who do concede, approve, or agree with what has been well spoken will live in harmony, appreciating each other, without quarreling, blending like milk and water, and regarding each other with kindly eyes.",
+    "context_summary": "The Buddha discusses the nature of feelings and the importance of agreement and harmony in relationships.",
+    "problem_summary": "People often engage in disputes and conflicts due to differing opinions and interpretations, leading to disharmony in relationships.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Disagreements can lead to conflict and hurt feelings, which disrupt harmony in personal and social relationships.",
+    "teaching": "Living in harmony and appreciating each other can prevent conflicts and promote peaceful relationships.",
+    "practice_actions": [
+      "Practice active listening to understand differing viewpoints.",
+      "Seek common ground in discussions to foster agreement.",
+      "Approach disagreements with kindness and a willingness to appreciate others' perspectives."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn59_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 60",
+    "canonical_passage": "A sensible person reflects on this matter in this way: ‘If there is no other world, when this individual person’s body breaks up they will keep themselves safe. And if there is another world, when their body breaks up, after death, they will be reborn in a place of loss, a bad place, the underworld, hell.'",
+    "context_summary": "The Buddha discusses the importance of understanding the consequences of one's actions and beliefs, particularly regarding ethical conduct and the existence of an afterlife.",
+    "problem_summary": "Many people struggle with ethical dilemmas and the consequences of their actions, often questioning the impact of their beliefs on their behavior and future.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may lack clarity on the moral implications of their actions and the potential consequences in this life and beyond.",
+    "teaching": "Reflect on the potential outcomes of your beliefs and actions, considering both immediate and long-term consequences.",
+    "practice_actions": [
+      "Contemplate the ethical implications of your actions and how they align with your beliefs about the afterlife.",
+      "Engage in discussions about morality and ethics with others to gain different perspectives.",
+      "Make a conscious effort to act in ways that are consistent with a belief in ethical conduct leading to positive outcomes."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn60_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 60",
+    "canonical_passage": "A sensible person reflects on this matter in this way: ‘If there is effective action, when this individual’s body breaks up, after death, they will be reborn in a good place, a heavenly realm.'",
+    "context_summary": "The Buddha emphasizes the importance of recognizing the effectiveness of one's actions and the moral responsibility that comes with it.",
+    "problem_summary": "People often feel uncertain about the impact of their actions and whether they lead to positive or negative outcomes.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may struggle with understanding the relationship between their actions and the consequences they face in life and after death.",
+    "teaching": "Understand that your actions have consequences, and strive to engage in good conduct to ensure positive outcomes.",
+    "practice_actions": [
+      "Reflect on your daily actions and their potential consequences for yourself and others.",
+      "Practice kindness and ethical behavior in your interactions with others.",
+      "Seek to understand the principles of cause and effect in your actions, and how they relate to your beliefs about morality."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn60_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

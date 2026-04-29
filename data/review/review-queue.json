@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-04-29T09:31:17.305Z",
+  "instructions": [
+    "Review each flagged unit below.",
+    "Fix issues and set review_status to 'human_reviewed' when done.",
+    "Delete units that are not worth keeping.",
+    "Move reviewed units to the appropriate vagga file in data/generated/an5/."
+  ],
+  "summary": {
+    "flagged_count": 0,
+    "rejected_count": 1
+  },
+  "flagged": [],
+  "rejected": [
+    {
+      "source_ref": "AN 5.207",
+      "canonical_passage": "It wards off hunger, quenches thirst, settles the wind, cleans the bladder, and helps digestion.",
+      "context_summary": "The sutta discusses the benefits of consuming porridge, highlighting its nutritional advantages.",
+      "problem_summary": "Many people struggle with maintaining a balanced diet and managing hunger and thirst effectively.",
+      "buddhist_labels": [],
+      "diagnosis": "A lack of understanding about simple, nutritious foods that can support health.",
+      "teaching": "Consuming porridge can provide essential benefits for health and well-being.",
+      "practice_actions": [
+        "Incorporate porridge into your daily meals as a nutritious option.",
+        "Experiment with different ingredients to enhance the flavor and nutritional value of porridge.",
+        "Use porridge as a healthy alternative to more processed breakfast options."
+      ],
+      "audience": "lay",
+      "confidence": 0.8,
+      "id": "au_an5_207_1",
+      "source_collection": "AN",
+      "translator": "Bhikkhu Sujato",
+      "review_status": "auto",
+      "_review_reasons": [
+        "no buddhist_labels assigned"
+      ],
+      "_review_action": "REJECTED — fix or delete"
+    }
+  ]
+}

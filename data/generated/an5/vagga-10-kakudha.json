@@ -1,0 +1,184 @@
+[
+  {
+    "source_ref": "AN 5.91",
+    "canonical_passage": "Mendicants, there are five accomplishments. What five? Accomplishment in faith, ethics, learning, generosity, and wisdom.",
+    "context_summary": "The sutta outlines five key areas of personal development that are considered accomplishments in the Buddhist tradition.",
+    "problem_summary": "Many people struggle with personal growth and fulfillment in their lives.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "A lack of focus on personal development can lead to feelings of stagnation and dissatisfaction.",
+    "teaching": "Focusing on developing faith, ethics, learning, generosity, and wisdom can lead to a more fulfilling life.",
+    "practice_actions": [
+      "Reflect on your beliefs and strengthen your faith in something meaningful.",
+      "Practice ethical behavior by being honest and kind in your interactions.",
+      "Commit to lifelong learning by reading books or taking courses.",
+      "Engage in acts of generosity, such as volunteering or donating to those in need.",
+      "Cultivate wisdom through meditation and reflection on your experiences."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_91_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.92",
+    "canonical_passage": "Mendicants, there are five accomplishments. What five? Accomplishment in ethics, immersion, wisdom, freedom, and the knowledge and vision of freedom.",
+    "context_summary": "The sutta outlines five key areas of accomplishment that are important for personal development and spiritual growth.",
+    "problem_summary": "Many people struggle with personal development and finding a sense of purpose or direction in life.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Individuals may feel lost or unfulfilled without clear goals or accomplishments in their lives.",
+    "teaching": "Focus on developing accomplishments in ethics, immersion in practices, wisdom, and understanding freedom.",
+    "practice_actions": [
+      "Reflect on your ethical values and strive to live by them.",
+      "Engage in mindfulness or meditation practices to cultivate immersion.",
+      "Seek knowledge and wisdom through reading, learning, and self-reflection.",
+      "Explore what freedom means to you and take steps towards achieving it."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_92_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.95",
+    "canonical_passage": "It’s when a mendicant has attained the textual analysis of meaning, text, definition, and eloquence, and they review the extent of their mind’s freedom.",
+    "context_summary": "The passage discusses the qualities that lead to a deep understanding and stability in one's practice.",
+    "problem_summary": "People often struggle with uncertainty and lack of clarity in their understanding of life and their beliefs.",
+    "buddhist_labels": [
+      "doubt_indecision",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Uncertainty and confusion can lead to instability in one's beliefs and actions.",
+    "teaching": "Attaining a clear understanding of concepts and reflecting on one's mental freedom can lead to a more stable and unshakable state of mind.",
+    "practice_actions": [
+      "Engage in studying and reflecting on meaningful texts or teachings.",
+      "Practice articulating your understanding of these concepts to enhance clarity.",
+      "Regularly assess your mental state and the freedom you feel in your thoughts and actions."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_95_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.96",
+    "canonical_passage": "A mendicant cultivating mindfulness of breathing who has few obligations and duties, and is unburdensome and contented with life’s necessities...",
+    "context_summary": "This passage emphasizes the importance of mindfulness and simplicity in life for spiritual development.",
+    "problem_summary": "Many people feel overwhelmed by responsibilities and distractions, making it difficult to focus on personal growth and mindfulness.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Overcommitment and distraction hinder personal development and mindfulness.",
+    "teaching": "Cultivating mindfulness and simplifying your life can lead to greater clarity and spiritual insight.",
+    "practice_actions": [
+      "Reduce your obligations and commitments to focus on what truly matters.",
+      "Practice mindfulness of breathing to enhance your awareness and presence.",
+      "Limit your food intake to what is necessary, avoiding overeating.",
+      "Engage in regular review and reflection on what you have learned."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_96_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.97",
+    "canonical_passage": "A mendicant developing mindfulness of breathing who has few concerns and duties, and is unburdensome and contented with life’s necessities... will soon penetrate the unshakable.",
+    "context_summary": "The passage discusses the qualities that support a mendicant's practice of mindfulness of breathing, emphasizing simplicity and contentment.",
+    "problem_summary": "Many people struggle with feeling overwhelmed by responsibilities and desires, leading to stress and dissatisfaction.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Excessive concerns and desires can lead to a restless mind and hinder personal growth.",
+    "teaching": "Cultivating contentment and reducing unnecessary burdens can lead to greater mental clarity and peace.",
+    "practice_actions": [
+      "Identify and reduce unnecessary commitments in your life.",
+      "Practice gratitude for what you have to foster contentment.",
+      "Engage in discussions that promote personal growth and self-awareness."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_97_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.98",
+    "canonical_passage": "A mendicant practicing mindfulness of breathing who has few obligations and duties, and is unburdensome and contented with life’s necessities... will soon penetrate the unshakable.",
+    "context_summary": "This passage emphasizes the importance of simplicity and mindfulness in achieving mental clarity and stability.",
+    "problem_summary": "Many people feel overwhelmed by their responsibilities and distractions, leading to stress and a lack of mental clarity.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Excessive obligations and distractions can hinder mental peace and clarity.",
+    "teaching": "Cultivating a simple life with fewer obligations and practicing mindfulness can lead to greater mental stability.",
+    "practice_actions": [
+      "Identify and reduce unnecessary commitments in your life.",
+      "Practice mindfulness techniques, such as mindful breathing, to enhance focus and clarity.",
+      "Limit consumption and practice contentment with what you have."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_98_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.99",
+    "canonical_passage": "When the Realized One teaches the monks … nuns … laymen … laywomen … or ordinary people—even food-carriers and hunters—he teaches them carefully, not carelessly.",
+    "context_summary": "The passage compares the carefulness of a lion in hunting to the carefulness of the Buddha in teaching.",
+    "problem_summary": "In a fast-paced world, people often rush through tasks and communications, leading to misunderstandings and missed opportunities.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Carelessness in actions and communication can lead to negative outcomes.",
+    "teaching": "Approach your tasks and interactions with care and mindfulness, just as a lion is careful in its hunt.",
+    "practice_actions": [
+      "Take a moment to pause and reflect before responding in conversations.",
+      "Plan your tasks carefully, ensuring you understand what needs to be done.",
+      "Practice mindfulness in daily activities, focusing fully on the task at hand."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_99_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.100",
+    "canonical_passage": "These are the five teachers found in the world. But Moggallāna, I have pure ethical conduct, and I claim: ‘I am pure in ethical conduct. My ethical conduct is pure, bright, uncorrupted.’ My disciples don’t cover up my conduct, and I don’t expect them to.",
+    "context_summary": "The Buddha discusses the characteristics of teachers and the importance of integrity in their conduct, contrasting them with those who misrepresent their ethical standards.",
+    "problem_summary": "People often struggle with identifying trustworthy leaders or mentors due to discrepancies between their claims and actual behavior.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Many individuals may find themselves in situations where they must discern the integrity of those in positions of authority or guidance.",
+    "teaching": "Seek out and support leaders who demonstrate genuine ethical conduct and integrity, rather than those who merely claim to possess these qualities.",
+    "practice_actions": [
+      "Reflect on the ethical conduct of your mentors or leaders.",
+      "Engage in discussions about ethics and integrity with peers to raise awareness.",
+      "Support and promote individuals who demonstrate true ethical behavior in your community."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_100_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

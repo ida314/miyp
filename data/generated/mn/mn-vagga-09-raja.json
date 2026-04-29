@@ -1,0 +1,248 @@
+[
+  {
+    "source_ref": "MN 82",
+    "canonical_passage": "‘The world is unstable and swept away.’ This is the first summary. ‘The world has no shelter and no savior.’ This is the second summary. ‘The world has no owner—you must leave it all behind and pass on.’ This is the third summary. ‘The world is wanting, insatiable, the slave of craving.’ This is the fourth summary.",
+    "context_summary": "Raṭṭhapāla reflects on the Buddha's teachings about the nature of the world and the futility of attachment to worldly things, leading him to seek a life of renunciation.",
+    "problem_summary": "Many people struggle with the dissatisfaction and impermanence of life, often feeling trapped by their desires and attachments to material possessions.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "People often cling to worldly possessions and relationships, leading to suffering and discontent.",
+    "teaching": "Recognize the impermanent and unsatisfactory nature of worldly life, which can help in letting go of attachments and cravings.",
+    "practice_actions": [
+      "Reflect daily on the impermanence of life and material possessions.",
+      "Practice gratitude for what you have while recognizing that it is not permanent.",
+      "Engage in mindfulness meditation to observe your thoughts and feelings about attachment."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn82_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 83",
+    "canonical_passage": "‘You all should keep up this good practice that I have founded. Do not be my final men.’",
+    "context_summary": "The Buddha recounts the story of King Maghadeva and his lineage, emphasizing the importance of maintaining a good practice that leads to spiritual awakening.",
+    "problem_summary": "People often get caught up in worldly pleasures and neglect their spiritual development, leading to a lack of deeper fulfillment.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals may prioritize temporary pleasures over long-term spiritual growth.",
+    "teaching": "Engage in the noble eightfold path to cultivate insight and peace, rather than merely seeking worldly success.",
+    "practice_actions": [
+      "Reflect on your life goals and ensure they align with spiritual growth.",
+      "Incorporate practices from the noble eightfold path into your daily routine, such as mindfulness and ethical living.",
+      "Regularly assess your actions and intentions to ensure they contribute to your spiritual development."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn83_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 84",
+    "canonical_passage": "‘Only brahmins are the best class; other classes are inferior. Only brahmins are the light class; other classes are dark.’ ... ‘Certainly, worthy Kaccāna, in this case these four classes are equal. I can’t see any difference between them.’",
+    "context_summary": "In a dialogue between King Avantiputta and Mahākaccāna, the king questions the superiority of the brahmin class over others. Mahākaccāna explains that social class does not determine moral worth or spiritual potential.",
+    "problem_summary": "People often feel superior or inferior based on social class or background, leading to discrimination and inequality.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "The belief in the superiority of one social class over another can lead to division and conflict.",
+    "teaching": "Moral character and actions are what truly define a person, not their social class or background.",
+    "practice_actions": [
+      "Reflect on your own biases regarding social status and class.",
+      "Engage with people from different backgrounds without prejudice.",
+      "Focus on the actions and character of individuals rather than their social labels."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn84_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 85",
+    "canonical_passage": "Pleasure is not gained through pleasure; pleasure is gained through pain.",
+    "context_summary": "Prince Bodhi reflects on the nature of pleasure and pain, leading to a discussion with the Buddha about the path to awakening.",
+    "problem_summary": "Many people seek pleasure and avoid pain, but this can lead to dissatisfaction and a lack of deeper fulfillment.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "The pursuit of immediate pleasures often distracts from the deeper, more meaningful experiences that come from overcoming challenges.",
+    "teaching": "True pleasure and fulfillment come from facing and overcoming difficulties rather than seeking comfort and pleasure alone.",
+    "practice_actions": [
+      "Reflect on past experiences where overcoming a challenge led to a sense of achievement or joy.",
+      "Engage in activities that may be uncomfortable but lead to personal growth, such as volunteering or learning a new skill.",
+      "Practice mindfulness to appreciate the deeper satisfaction that comes from effort and perseverance."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn85_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 85",
+    "canonical_passage": "These are the five factors that support meditation. It’s when a noble disciple has faith in the Realized One’s awakening... They’re wise.",
+    "context_summary": "The Buddha outlines the five factors that support meditation and the conditions necessary for realizing the spiritual path.",
+    "problem_summary": "Many individuals struggle to maintain a consistent meditation practice due to lack of faith, health issues, or lack of energy and wisdom.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "A lack of the necessary conditions can hinder one's ability to meditate effectively and realize spiritual goals.",
+    "teaching": "To support your meditation practice, cultivate faith, maintain good health, be honest, stay energetic, and develop wisdom.",
+    "practice_actions": [
+      "Establish a daily meditation routine that includes time for reflection on your faith and intentions.",
+      "Prioritize physical health through balanced nutrition and regular exercise to support your meditation practice.",
+      "Engage in honest self-reflection and seek to cultivate energy and enthusiasm for your spiritual practice."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn85_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 86",
+    "canonical_passage": "He who once was heedless, but turned to heedfulness, lights up the world, like the moon freed from clouds.",
+    "context_summary": "This passage reflects on the transformation of Aṅgulimāla from a violent bandit to a peaceful monk, emphasizing the power of mindfulness and heedfulness.",
+    "problem_summary": "Many people struggle with harmful habits or negative behaviors that affect their lives and relationships. This teaching addresses the possibility of change and personal growth.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Individuals may feel trapped in negative patterns or behaviors, leading to unhappiness and conflict.",
+    "teaching": "By cultivating mindfulness and heedfulness, one can transform their life and positively impact the world around them.",
+    "practice_actions": [
+      "Reflect on your current habits and identify any negative behaviors you wish to change.",
+      "Set aside time each day for mindfulness practice, such as meditation or mindful breathing.",
+      "Commit to small, positive actions that align with your values and contribute to your personal growth."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn86_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 86",
+    "canonical_passage": "Don’t devote yourself to negligence, or delight in erotic intimacy. For if you’re diligent and practice absorption, you’ll attain abundant happiness.",
+    "context_summary": "Aṅgulimāla advises against negligence and distractions, promoting diligence and focused practice as keys to happiness.",
+    "problem_summary": "In a world filled with distractions and temptations, many people find it challenging to stay focused on what truly matters for their well-being.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "People often struggle with maintaining focus and diligence in their pursuits, leading to dissatisfaction.",
+    "teaching": "Prioritizing diligence and focused effort can lead to greater happiness and fulfillment.",
+    "practice_actions": [
+      "Identify areas in your life where you tend to be negligent or distracted.",
+      "Create a daily schedule that includes dedicated time for focused work or practice.",
+      "Limit distractions by setting boundaries around technology and social media use."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn86_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 87",
+    "canonical_passage": "For our loved ones are a source of sorrow, lamentation, pain, sadness, and distress.",
+    "context_summary": "The Buddha discusses the nature of attachment to loved ones and the inevitable suffering that arises from loss.",
+    "problem_summary": "People often experience deep grief and distress when they lose loved ones, leading to an inability to function normally.",
+    "buddhist_labels": [
+      "grief_loss"
+    ],
+    "diagnosis": "Attachment to loved ones can lead to profound sorrow and mental instability when they are lost.",
+    "teaching": "Recognizing that attachment to loved ones can lead to suffering may help in processing grief and loss.",
+    "practice_actions": [
+      "Reflect on the impermanence of life and relationships.",
+      "Practice mindfulness to acknowledge feelings of grief without becoming overwhelmed.",
+      "Engage in supportive conversations with friends or a community about loss and attachment."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn87_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 88",
+    "canonical_passage": "Bodily behavior that leads to pleasing yourself, pleasing others, and pleasing both, and which makes unskillful qualities decline while skillful qualities grow. That kind of bodily behavior is not faulted by sensible ascetics and brahmins.",
+    "context_summary": "In a conversation between King Pasenadi and Venerable Ānanda, the nature of skillful and unskillful behavior is discussed, emphasizing the importance of actions that lead to happiness and the decline of unskillful qualities.",
+    "problem_summary": "People often struggle with understanding what actions lead to happiness and positive relationships, sometimes engaging in behaviors that cause suffering instead.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Many individuals may engage in behaviors that are harmful to themselves and others, often without realizing the consequences of their actions.",
+    "teaching": "Engage in behaviors that are pleasing to yourself and others, which promote happiness and reduce unskillful qualities.",
+    "practice_actions": [
+      "Reflect on your daily actions and assess whether they lead to happiness for yourself and others.",
+      "Choose to engage in acts of kindness and generosity that benefit both yourself and those around you.",
+      "Practice mindfulness to become aware of unskillful behaviors and consciously work to replace them with skillful ones."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn88_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 89",
+    "canonical_passage": "‘The Blessed One is a fully awakened Buddha. The teaching is well explained. The Saṅgha is practicing well.’",
+    "context_summary": "King Pasenadi expresses his admiration for the Buddha and the monastic community, highlighting their dedication and harmony.",
+    "problem_summary": "Many people struggle to find genuine spiritual guidance and community in their lives, often feeling disconnected or dissatisfied with superficial practices.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "The king observes that true spiritual fulfillment comes from a committed practice and a supportive community, contrasting it with the superficiality he sees elsewhere.",
+    "teaching": "Seek out teachings and communities that embody genuine spiritual practice and harmony.",
+    "practice_actions": [
+      "Identify a spiritual community or group that resonates with your values.",
+      "Engage in regular practices that deepen your understanding and connection to the teachings.",
+      "Reflect on the qualities of harmony and dedication in your own life and relationships."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn89_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 90",
+    "canonical_passage": "There are these five factors that support meditation. What five? It’s when a mendicant has faith in the Realized One’s awakening: ‘That Blessed One is perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those fit for training, teacher of gods and humans, awakened, blessed.’ They are rarely ill or unwell. Their stomach digests well, being neither too hot nor too cold, but just right, and fit for meditation. They’re not devious or deceitful. They reveal themselves honestly to the Teacher or sensible spiritual companions. They live with energy roused up for giving up unskillful qualities and embracing skillful qualities. They’re strong, staunchly vigorous, not slacking off when it comes to developing skillful qualities. They’re wise.",
+    "context_summary": "The Buddha discusses the qualities that support meditation and the importance of effort in spiritual practice.",
+    "problem_summary": "Many people struggle with maintaining focus and commitment in their personal growth and meditation practices.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "A lack of commitment to personal development and meditation can hinder spiritual progress.",
+    "teaching": "To cultivate a successful meditation practice, one should develop faith, maintain good health, be honest, exert energy in overcoming unskillful habits, and seek wisdom.",
+    "practice_actions": [
+      "Establish a daily meditation routine to build consistency.",
+      "Focus on maintaining physical health through balanced nutrition and exercise.",
+      "Practice honesty in your interactions and self-reflection.",
+      "Set specific goals for personal development and track your progress.",
+      "Engage with wise and supportive individuals who can guide your practice."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn90_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

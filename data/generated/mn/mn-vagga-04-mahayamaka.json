@@ -1,0 +1,363 @@
+[
+  {
+    "source_ref": "MN 31",
+    "canonical_passage": "I consistently treat these venerables with kindness by way of body, speech, and mind, both in public and in private.",
+    "context_summary": "The Buddha discusses with his disciples how they live in harmony and treat each other with kindness.",
+    "problem_summary": "Many people struggle with maintaining harmonious relationships and effective communication in their daily lives.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "The tendency to let personal ideas and conflicts disrupt relationships.",
+    "teaching": "Cultivating kindness and setting aside personal ideas can enhance harmony in relationships.",
+    "practice_actions": [
+      "Make a conscious effort to treat others with kindness in your interactions.",
+      "Practice active listening and try to understand others' perspectives.",
+      "Set aside your own opinions occasionally to support group decisions."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn31_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 31",
+    "canonical_passage": "We live diligently, keen, and resolute.",
+    "context_summary": "The Buddha encourages his disciples to live diligently and describes their practices.",
+    "problem_summary": "Many people find it challenging to maintain focus and diligence in their daily tasks and spiritual practices.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "A lack of structure and commitment can lead to distractions and unfulfilled intentions.",
+    "teaching": "Establishing a routine and supporting each other in tasks can foster diligence and focus.",
+    "practice_actions": [
+      "Create a daily schedule that includes time for important tasks and spiritual practices.",
+      "Work together with friends or family to support each other's goals.",
+      "Reflect on your progress regularly to stay motivated."
+    ],
+    "audience": "lay",
+    "confidence": 0.7,
+    "id": "au_mn31_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 32",
+    "canonical_passage": "It’s a mendicant who, after the meal, returns from almsround, sits down cross-legged, sets their body straight, and brings mindfulness to the present, thinking: ‘I will not break this sitting posture until my mind is freed from the defilements by not grasping!’",
+    "context_summary": "The Buddha discusses the qualities of a mendicant who would grace a beautiful park, emphasizing the importance of mastering the mind and maintaining mindfulness.",
+    "problem_summary": "Many people struggle with distractions and the inability to focus their minds, leading to feelings of restlessness and dissatisfaction.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "The tendency to be easily distracted and not fully present in the moment can lead to a lack of peace and clarity.",
+    "teaching": "To cultivate a calm and focused mind, one should practice mindfulness and commit to maintaining a meditative posture until achieving mental clarity.",
+    "practice_actions": [
+      "After meals, find a quiet place to sit comfortably.",
+      "Set your body straight and close your eyes.",
+      "Focus on your breath and bring your attention to the present moment.",
+      "Commit to staying in this posture until you feel a sense of mental clarity and freedom from distractions."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn32_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 33",
+    "canonical_passage": "A mendicant with these eleven qualities can achieve growth, improvement, and maturity in this teaching and training.",
+    "context_summary": "The Buddha compares the qualities necessary for a cowherd to maintain a herd of cattle with the qualities needed for a mendicant to grow in their spiritual practice.",
+    "problem_summary": "Many people struggle with personal growth and improvement in their spiritual or ethical lives due to a lack of understanding or practice of essential qualities.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Without proper understanding and practice of key qualities, individuals may find it difficult to progress in their spiritual journey.",
+    "teaching": "To achieve growth and maturity in your spiritual practice, cultivate qualities such as understanding the nature of form, practicing restraint, and showing respect to those with more experience.",
+    "practice_actions": [
+      "Reflect on and understand the nature of your thoughts and actions.",
+      "Practice mindfulness and restraint in your sensory experiences to avoid being overwhelmed by negative qualities.",
+      "Seek guidance from those who are more experienced in your spiritual community."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn33_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 34",
+    "canonical_passage": "Just like the intelligent cowherd inspected both shores before driving the cattle across at a ford.",
+    "context_summary": "The Buddha uses the analogy of a cowherd who inspects the river before crossing to illustrate the importance of being skilled and knowledgeable in navigating life's challenges.",
+    "problem_summary": "Many people make decisions without proper understanding or preparation, leading to negative consequences.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "Lack of awareness and understanding can lead to poor decision-making.",
+    "teaching": "Before making significant decisions, take the time to assess the situation thoroughly.",
+    "practice_actions": [
+      "Reflect on important decisions and gather relevant information before acting.",
+      "Consider potential outcomes and risks associated with your choices.",
+      "Seek advice from knowledgeable individuals when faced with uncertainty."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn34_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 35",
+    "canonical_passage": "‘Form, feeling, perception, choices, and consciousness are impermanent. Form, feeling, perception, choices, and consciousness are not-self. All conditions are impermanent. All things are not-self.’",
+    "context_summary": "The Buddha explains to Saccaka how he guides his disciples, emphasizing the impermanence and non-self nature of all phenomena.",
+    "problem_summary": "People often cling to their identities and experiences, leading to suffering and confusion about the self.",
+    "buddhist_labels": [
+      "delusion_confusion",
+      "craving_attachment"
+    ],
+    "diagnosis": "Individuals may struggle with attachment to their physical form, feelings, perceptions, choices, and consciousness, mistaking them for their true self.",
+    "teaching": "Recognize that all aspects of existence are impermanent and not truly 'self'. This understanding can help alleviate suffering and confusion.",
+    "practice_actions": [
+      "Reflect daily on the impermanence of your thoughts and feelings.",
+      "Practice mindfulness to observe how your perceptions change over time.",
+      "Engage in meditation focused on the concept of non-self to cultivate a deeper understanding."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn35_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 35",
+    "canonical_passage": "‘This is not mine, I am not this, this is not my self.’",
+    "context_summary": "The Buddha teaches that true understanding involves recognizing that our experiences and identities do not define us.",
+    "problem_summary": "Many individuals identify too strongly with their experiences, leading to attachment and suffering.",
+    "buddhist_labels": [
+      "delusion_confusion",
+      "craving_attachment"
+    ],
+    "diagnosis": "People often experience distress due to their attachment to personal identity and experiences.",
+    "teaching": "By understanding that experiences are not the self, one can reduce attachment and suffering.",
+    "practice_actions": [
+      "Create a mantra or affirmation based on the phrase 'This is not mine, I am not this, this is not my self' and repeat it during meditation.",
+      "Journal about your feelings and experiences, then reflect on how they do not define who you are.",
+      "Discuss with a friend or in a group about the nature of self and identity to gain different perspectives."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn35_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 36",
+    "canonical_passage": "Anyone whose mind is occupied by both pleasant and painful feelings like this is undeveloped both in physical endurance and in mind.",
+    "context_summary": "The Buddha discusses the importance of developing both physical endurance and mental clarity, emphasizing that neglecting either can lead to suffering and confusion.",
+    "problem_summary": "Many people struggle with being overwhelmed by their emotions, whether positive or negative, leading to confusion and distress.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "People often react to feelings of pleasure and pain without understanding their nature, leading to emotional turmoil.",
+    "teaching": "To cultivate a balanced mind, one must develop both physical endurance and mental clarity, allowing for a more stable emotional experience.",
+    "practice_actions": [
+      "Engage in regular physical exercise to build endurance.",
+      "Practice mindfulness meditation to observe thoughts and feelings without attachment.",
+      "Reflect on the transient nature of both pleasant and painful experiences."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn36_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 36",
+    "canonical_passage": "But even such painful feeling did not occupy my mind.",
+    "context_summary": "The Buddha illustrates how he maintained equanimity despite experiencing intense physical and mental discomfort during his spiritual practices.",
+    "problem_summary": "People often find it difficult to maintain calmness and clarity in the face of physical or emotional pain.",
+    "buddhist_labels": [
+      "fear_anxiety",
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Many individuals struggle with anxiety and distraction when faced with discomfort, leading to a loss of focus and peace.",
+    "teaching": "By developing mental resilience, one can experience discomfort without being overwhelmed by it.",
+    "practice_actions": [
+      "Practice deep breathing exercises during moments of discomfort.",
+      "Engage in meditation focused on observing sensations without judgment.",
+      "Gradually expose yourself to discomfort in a controlled manner to build resilience."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn36_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 37",
+    "canonical_passage": "When they experience any kind of feeling—pleasant, unpleasant, or neutral—they meditate observing impermanence, dispassion, cessation, and letting go in those feelings.",
+    "context_summary": "The Buddha explains to Sakka how a mendicant achieves freedom through the ending of craving by understanding the nature of feelings.",
+    "problem_summary": "People often struggle with attachment to feelings, leading to anxiety and dissatisfaction.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Attachment to feelings can cause anxiety and prevent personal peace.",
+    "teaching": "By observing feelings with an understanding of impermanence and letting go, one can reduce anxiety and find peace.",
+    "practice_actions": [
+      "When experiencing a strong feeling, take a moment to pause and observe it without judgment.",
+      "Reflect on the impermanence of that feeling, recognizing that it will change.",
+      "Practice letting go of the need to cling to or push away that feeling."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn37_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 38",
+    "canonical_passage": "When they see a sight with their eyes, if it’s pleasant they desire it, but if it’s unpleasant they dislike it. They live with mindfulness of the body unestablished and their heart stunted. And they don’t truly understand the freedom of heart and freedom by wisdom where those arisen bad, unskillful qualities cease without remainder.",
+    "context_summary": "The Buddha discusses the importance of understanding consciousness and the nature of craving, emphasizing how attachment to pleasant experiences and aversion to unpleasant ones leads to suffering.",
+    "problem_summary": "People often get caught up in their desires and aversions, leading to emotional suffering and dissatisfaction in life.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger"
+    ],
+    "diagnosis": "Attachment to pleasant experiences and aversion to unpleasant experiences can lead to a stunted emotional state and ongoing suffering.",
+    "teaching": "By practicing mindfulness and understanding the nature of feelings, one can cultivate a sense of freedom from craving and aversion.",
+    "practice_actions": [
+      "Practice mindfulness by observing your feelings without judgment, recognizing when you desire or dislike something.",
+      "Engage in meditation to develop awareness of your thoughts and feelings, allowing them to arise and pass without clinging.",
+      "Reflect on the impermanent nature of experiences, reminding yourself that both pleasant and unpleasant feelings will change."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn38_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 38",
+    "canonical_passage": "When ignorance fades away and ceases with no residue left behind, choices cease. When choices cease, consciousness ceases. When consciousness ceases, name and form cease.",
+    "context_summary": "The Buddha explains the chain of causation leading to suffering, emphasizing the role of ignorance in perpetuating cycles of craving and existence.",
+    "problem_summary": "Ignorance about the nature of reality and our own minds can lead to unwise choices and continued suffering.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "Ignorance leads to unwise choices, which perpetuate suffering and dissatisfaction in life.",
+    "teaching": "Understanding the nature of ignorance and its role in our choices can help break the cycle of suffering.",
+    "practice_actions": [
+      "Educate yourself about the nature of suffering and the Four Noble Truths through reading or attending teachings.",
+      "Engage in self-reflection to identify areas of ignorance in your life and seek to understand them better.",
+      "Discuss your insights with others to deepen your understanding and challenge your misconceptions."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn38_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 39",
+    "canonical_passage": "You should train like this: ‘We will undertake and follow the things that make one an ascetic and a brahmin... You who seek to be true ascetics, do not lose sight of the goal of the ascetic life while there is still more to do.’",
+    "context_summary": "The Buddha instructs mendicants on how to live as true ascetics and brahmins, emphasizing the importance of continual self-improvement and adherence to ethical conduct.",
+    "problem_summary": "Many people struggle with maintaining ethical behavior and self-discipline in their daily lives, often becoming complacent after achieving some level of moral conduct.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Individuals may feel satisfied with their current level of ethical behavior and stop striving for further improvement.",
+    "teaching": "Continually strive for ethical conduct and self-discipline, recognizing that there is always more to learn and improve upon.",
+    "practice_actions": [
+      "Reflect on your daily actions and identify areas for improvement in ethical behavior.",
+      "Set specific goals for self-discipline, such as practicing mindfulness or reducing harmful habits.",
+      "Engage in regular self-reflection to assess your progress and recommit to your ethical goals."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn39_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 39",
+    "canonical_passage": "You should train yourselves like this: ‘We will not eat too much... only to sustain this body, to avoid harm, and to support spiritual practice.’",
+    "context_summary": "The Buddha advises on the importance of moderation in eating and the intention behind consumption.",
+    "problem_summary": "In modern society, many people struggle with overeating or eating for pleasure rather than nourishment, which can lead to health issues.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "People often eat mindlessly or for reasons other than sustenance, leading to negative health outcomes.",
+    "teaching": "Practice mindful eating by reflecting on the purpose of food and consuming it in moderation.",
+    "practice_actions": [
+      "Before meals, take a moment to reflect on the purpose of eating and set an intention to eat mindfully.",
+      "Pay attention to portion sizes and avoid distractions while eating to enhance awareness of your body's hunger signals.",
+      "Consider keeping a food journal to track your eating habits and identify patterns that may need adjustment."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn39_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 40",
+    "canonical_passage": "Any mendicant who has given up covetousness, ill will, irritability, acrimony, disdain, contempt, jealousy, stinginess, deviousness, deceit, corrupt wishes, and wrong view is practicing in the way that is proper for an ascetic, I say.",
+    "context_summary": "The Buddha emphasizes the importance of inner qualities over external labels or appearances in the practice of asceticism.",
+    "problem_summary": "People often struggle with negative emotions and unwholesome qualities that hinder their personal growth and relationships.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Many individuals may identify with certain roles or labels but fail to cultivate the inner qualities that truly define those roles.",
+    "teaching": "To truly embody the qualities of an ascetic, one must work on letting go of negative emotions and unwholesome traits.",
+    "practice_actions": [
+      "Reflect on and identify any negative emotions you experience regularly.",
+      "Practice mindfulness to observe these emotions without judgment.",
+      "Engage in loving-kindness meditation to cultivate positive qualities like love, compassion, and equanimity."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn40_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 40",
+    "canonical_passage": "They meditate spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth.",
+    "context_summary": "The Buddha describes the practice of spreading love and compassion to all beings as a way to cultivate inner peace.",
+    "problem_summary": "Individuals often feel disconnected or experience negative feelings towards others, which can lead to isolation and unhappiness.",
+    "buddhist_labels": [
+      "aversion_anger",
+      "speech_relationships"
+    ],
+    "diagnosis": "Negative feelings towards others can create barriers in relationships and personal well-being.",
+    "teaching": "Cultivating love and compassion towards all beings can help overcome negative feelings and foster a sense of connection.",
+    "practice_actions": [
+      "Set aside time each day for loving-kindness meditation, focusing on sending love to yourself, loved ones, acquaintances, and even those you find difficult.",
+      "Visualize each group of people as you extend your wishes for their happiness and well-being.",
+      "Reflect on the interconnectedness of all beings to deepen your sense of compassion."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn40_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

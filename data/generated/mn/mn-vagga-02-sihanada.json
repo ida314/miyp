@@ -1,0 +1,324 @@
+[
+  {
+    "source_ref": "MN 11",
+    "canonical_passage": "We have confidence in the Teacher, we have confidence in the teaching, and we have fulfilled the precepts. And we have love and affection for those who share our path, both laypeople and renunciates.",
+    "context_summary": "The Buddha emphasizes the importance of confidence in the Teacher and the teaching, fulfilling precepts, and fostering love and affection among practitioners.",
+    "problem_summary": "Many people struggle with finding a supportive community and maintaining confidence in their beliefs, which can lead to feelings of isolation or doubt.",
+    "buddhist_labels": [
+      "doubt_indecision",
+      "speech_relationships"
+    ],
+    "diagnosis": "Lack of community support and confidence in one's spiritual path can lead to uncertainty and disengagement.",
+    "teaching": "Cultivating confidence in your spiritual teacher and teachings, adhering to ethical precepts, and nurturing relationships with fellow practitioners can enhance your spiritual journey.",
+    "practice_actions": [
+      "Join a local meditation group or spiritual community to connect with others on a similar path.",
+      "Regularly reflect on and reaffirm your confidence in your spiritual beliefs and practices.",
+      "Engage in acts of kindness and support towards fellow practitioners to strengthen your community ties."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn11_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 11",
+    "canonical_passage": "When that mendicant has given up ignorance and given rise to knowledge, with the fading away of ignorance and the arising of knowledge they don’t grasp at sensual pleasures, views, precepts and observances, or theories of a self.",
+    "context_summary": "The Buddha describes the process of overcoming ignorance and achieving knowledge, which leads to freedom from grasping and anxiety.",
+    "problem_summary": "People often feel trapped by their desires and attachments, leading to anxiety and dissatisfaction in life.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "fear_anxiety"
+    ],
+    "diagnosis": "Grasping at desires and attachments creates a cycle of anxiety and suffering.",
+    "teaching": "By cultivating knowledge and understanding, one can let go of attachments and reduce anxiety.",
+    "practice_actions": [
+      "Engage in regular mindfulness meditation to develop awareness of your thoughts and feelings.",
+      "Study and reflect on teachings that promote understanding of the nature of craving and attachment.",
+      "Practice letting go of one small attachment or desire each week to experience the freedom that comes with non-grasping."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn11_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 13",
+    "canonical_passage": "But reverends, what’s the gratification, the drawback, and the escape when it comes to sensual pleasures?",
+    "context_summary": "The Buddha discusses the nature of sensual pleasures and their implications, emphasizing the importance of understanding their gratification, drawbacks, and the escape from them.",
+    "problem_summary": "People often pursue sensual pleasures without recognizing the suffering and drawbacks associated with them, leading to dissatisfaction and conflict.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals may become attached to sensual pleasures, leading to suffering and ethical dilemmas in their relationships and actions.",
+    "teaching": "Understanding the gratification, drawbacks, and escape from sensual pleasures can help individuals make more mindful choices.",
+    "practice_actions": [
+      "Reflect on the temporary nature of sensual pleasures and their potential drawbacks.",
+      "Engage in mindfulness practices to observe your cravings and attachments to sensual experiences.",
+      "Consider the ethical implications of your actions related to sensual pleasures and strive to act with compassion."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn13_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 13",
+    "canonical_passage": "Removing and giving up desire and greed for sensual pleasures: this is the escape from sensual pleasures.",
+    "context_summary": "The Buddha teaches that the way to escape the suffering caused by sensual pleasures is to relinquish desire and greed for them.",
+    "problem_summary": "Desire and greed for sensual pleasures can lead to ongoing dissatisfaction and suffering.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "The pursuit of sensual pleasures often results in a cycle of craving and disappointment.",
+    "teaching": "Letting go of desire for sensual pleasures can lead to greater peace and contentment.",
+    "practice_actions": [
+      "Identify specific desires related to sensual pleasures that cause you distress.",
+      "Practice letting go of these desires through meditation or mindful breathing.",
+      "Cultivate gratitude for what you have, focusing on non-sensual sources of happiness."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn13_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 14",
+    "canonical_passage": "Sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks.",
+    "context_summary": "The Buddha explains to Mahānāma that despite understanding the corruptions of the mind, one may still be attached to sensual pleasures, which lead to suffering.",
+    "problem_summary": "People often struggle with attachment to sensual pleasures, which can lead to dissatisfaction and suffering in their lives.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Attachment to sensual pleasures can cause ongoing mental distress and dissatisfaction.",
+    "teaching": "Recognizing the drawbacks of sensual pleasures can help one to let go of attachments and seek deeper, more fulfilling experiences.",
+    "practice_actions": [
+      "Reflect on the temporary nature of sensual pleasures and their associated suffering.",
+      "Engage in mindfulness practices to cultivate awareness of cravings and attachments.",
+      "Seek out and cultivate experiences that provide deeper joy and fulfillment beyond sensual pleasures."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn14_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 15",
+    "canonical_passage": "A mendicant who knows this should give rise to the thought: ‘I will not fall under the sway of corrupt wishes.’ ... A mendicant should check themselves like this: ‘Do I have corrupt wishes? Have I fallen under the sway of corrupt wishes?’",
+    "context_summary": "Venerable Mahāmoggallāna discusses the qualities that make individuals hard or easy to admonish, emphasizing the importance of self-reflection and the willingness to let go of unskillful qualities.",
+    "problem_summary": "People often struggle with self-awareness and the tendency to cling to negative thoughts or behaviors, which can hinder personal growth and relationships.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Individuals may be unaware of their corrupt wishes or stubborn attachment to their views, which can lead to conflict and hinder their ability to learn from others.",
+    "teaching": "Regularly check in with yourself to identify any corrupt wishes or attachments to your views, and make a conscious effort to let them go.",
+    "practice_actions": [
+      "Set aside time each day for self-reflection to assess your thoughts and feelings.",
+      "Identify any negative patterns or corrupt wishes you may have and consciously decide to let them go.",
+      "Practice mindfulness and meditation to cultivate awareness and joy in your personal growth."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn15_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 16",
+    "canonical_passage": "When a mendicant has not given up five kinds of hard-heartedness and severed five shackles of the heart, it’s not possible for them to achieve growth, improvement, or maturity in this teaching and training.",
+    "context_summary": "The Buddha discusses the importance of overcoming hard-heartedness and severing shackles of the heart for personal growth and spiritual development.",
+    "problem_summary": "Many people struggle with self-doubt, attachment, and negative emotions that hinder their personal growth and relationships.",
+    "buddhist_labels": [
+      "doubt_indecision",
+      "craving_attachment",
+      "aversion_anger"
+    ],
+    "diagnosis": "Individuals may feel stuck or unfulfilled due to unresolved doubts and emotional attachments.",
+    "teaching": "To achieve personal growth and maturity, one must overcome doubts about oneself and others, as well as sever attachments and negative emotions.",
+    "practice_actions": [
+      "Reflect on your beliefs about your teachers and teachings; seek clarity and confidence.",
+      "Identify and work on any feelings of resentment or anger towards others.",
+      "Practice moderation in desires and consumption to reduce attachment to sensual pleasures."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn16_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 17",
+    "canonical_passage": "That mendicant should reflect: ‘While living close by this jungle thicket, my mindfulness does not become established … But the necessities of life are easy to come by.’ … That mendicant should, after appraisal, leave that jungle thicket; they should not stay there.",
+    "context_summary": "The Buddha discusses the importance of mindfulness and the conditions under which a mendicant should choose to stay or leave their environment based on their spiritual progress and the availability of necessities.",
+    "problem_summary": "People often find themselves in environments that are not conducive to their personal growth or well-being, yet they may hesitate to leave due to comfort or convenience.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Staying in an unhelpful environment can hinder mindfulness and personal development.",
+    "teaching": "Evaluate your surroundings and make choices that support your mindfulness and personal growth.",
+    "practice_actions": [
+      "Reflect on your current environment and its impact on your mental state.",
+      "Identify aspects of your life that distract you from mindfulness and consider making changes.",
+      "If your environment is not supportive of your growth, take steps to change it."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn17_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 17",
+    "canonical_passage": "That mendicant should reflect: ‘While living supported by this individual, my mindfulness becomes established … And the necessities of life are easy to come by.’ … That mendicant should follow that individual for the rest of their life; they should not leave them, even if driven away.",
+    "context_summary": "The Buddha emphasizes the importance of being in a supportive environment that fosters mindfulness and spiritual growth.",
+    "problem_summary": "Individuals may struggle to find supportive relationships or communities that enhance their mindfulness and well-being.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Being in a supportive relationship can significantly enhance one's mindfulness and spiritual journey.",
+    "teaching": "Seek and maintain relationships that nurture your mindfulness and personal development.",
+    "practice_actions": [
+      "Identify individuals in your life who support your mindfulness and growth.",
+      "Cultivate and strengthen these relationships by spending more time with them.",
+      "Commit to maintaining these supportive connections, even in challenging times."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn17_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 18",
+    "canonical_passage": "Judgments driven by proliferating perceptions beset a person. If they don’t find anything worth approving, welcoming, or getting attached to in the source from which these arise, just this is the end of the underlying tendencies to desire, aversion, views, doubt, conceit, the desire for continued existence, and ignorance.",
+    "context_summary": "The Buddha teaches that judgments based on proliferating perceptions can lead to various negative mental states. By not getting attached to these perceptions, one can overcome desires and aversions.",
+    "problem_summary": "People often struggle with negative thoughts and feelings driven by their perceptions, leading to stress, anxiety, and conflict.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Judgments and attachments to perceptions create mental suffering.",
+    "teaching": "To overcome negative mental states, one should not attach to or get caught up in proliferating perceptions.",
+    "practice_actions": [
+      "Practice mindfulness to observe your thoughts and feelings without judgment.",
+      "Identify and let go of attachments to specific perceptions or outcomes.",
+      "Engage in meditation to cultivate a sense of detachment from thoughts."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn18_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 19",
+    "canonical_passage": "Whatever a mendicant frequently thinks about and considers becomes their heart’s inclination.",
+    "context_summary": "The Buddha discusses the importance of recognizing and managing one's thoughts, categorizing them into skillful and unskillful types, and how this affects one's mental state and actions.",
+    "problem_summary": "People often struggle with negative thoughts that lead to harmful behaviors and emotional distress.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Frequent engagement with unskillful thoughts can lead to a negative mindset and harmful actions.",
+    "teaching": "By consciously directing your thoughts towards positive and skillful qualities, you can cultivate a more beneficial mindset.",
+    "practice_actions": [
+      "Identify and categorize your thoughts as either skillful (like good will and harmlessness) or unskillful (like sensuality and malice).",
+      "Practice mindfulness by regularly reflecting on the impact of your thoughts on yourself and others.",
+      "Engage in meditation focused on cultivating positive thoughts and intentions."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn19_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 19",
+    "canonical_passage": "So I stilled, settled, unified, and immersed my mind internally.",
+    "context_summary": "The Buddha emphasizes the importance of calming the mind to achieve deeper states of meditation and understanding.",
+    "problem_summary": "Many people experience stress and distraction, making it difficult to focus and find inner peace.",
+    "buddhist_labels": [
+      "restlessness_distraction",
+      "fear_anxiety"
+    ],
+    "diagnosis": "A restless mind can hinder personal growth and lead to anxiety.",
+    "teaching": "Calming and focusing the mind is essential for achieving clarity and tranquility.",
+    "practice_actions": [
+      "Set aside time each day for meditation to practice calming your mind.",
+      "Use techniques such as deep breathing or focusing on a single point to help settle your thoughts.",
+      "Create a peaceful environment for meditation to minimize distractions."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn19_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 20",
+    "canonical_passage": "A mendicant committed to the higher mind should focus on five subjects from time to time... they should examine the drawbacks of those thoughts: ‘So these thoughts are unskillful, they’re blameworthy, and they result in suffering.’",
+    "context_summary": "The Buddha teaches mendicants how to deal with unskillful thoughts related to desire, hate, and delusion, emphasizing the importance of focusing on skillful subjects and examining the drawbacks of negative thoughts.",
+    "problem_summary": "People often struggle with negative thoughts that lead to suffering, such as desires and aversions, which can disrupt their peace of mind.",
+    "buddhist_labels": [
+      "craving_attachment",
+      "aversion_anger",
+      "delusion_confusion"
+    ],
+    "diagnosis": "Negative thoughts can arise frequently and lead to emotional distress and confusion.",
+    "teaching": "To manage negative thoughts, one should focus on positive subjects, examine the drawbacks of negative thoughts, and practice letting go of them.",
+    "practice_actions": [
+      "Identify a positive subject to focus on when negative thoughts arise.",
+      "Reflect on the negative consequences of your unskillful thoughts to understand their impact.",
+      "Practice mindfulness by acknowledging negative thoughts without engaging with them, allowing them to pass."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn20_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 20",
+    "canonical_passage": "They should focus on stopping the formation of thoughts... with teeth clenched and tongue pressed against the roof of the mouth, they should squeeze, squash, and crush mind with mind.",
+    "context_summary": "The Buddha provides a metaphorical approach to controlling thoughts, suggesting physical techniques to help focus the mind.",
+    "problem_summary": "Individuals may find it difficult to control their thoughts, leading to a lack of mental clarity and focus.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Restlessness and distraction can prevent individuals from achieving mental stillness and clarity.",
+    "teaching": "To gain control over your thoughts, use physical techniques to help focus your mind and reduce distractions.",
+    "practice_actions": [
+      "When feeling distracted, practice clenching your teeth and pressing your tongue against the roof of your mouth to create a physical anchor.",
+      "Take a moment to breathe deeply and consciously focus on calming your thoughts.",
+      "Regularly practice mindfulness meditation to strengthen your ability to control your thoughts."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn20_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

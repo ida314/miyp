@@ -1,0 +1,398 @@
+[
+  {
+    "source_ref": "MN 91",
+    "canonical_passage": "He eats food thinking of eight reasons: ‘Not for fun, indulgence, adornment, or decoration, but only to sustain this body, to avoid harm, and to support spiritual practice.'",
+    "context_summary": "The Buddha teaches about mindful eating and the purpose behind consuming food.",
+    "problem_summary": "Many people struggle with overeating or eating for pleasure rather than nourishment, leading to health issues and lack of mindfulness.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Eating can often be driven by cravings and desires rather than necessity.",
+    "teaching": "Approach eating with mindfulness and a clear intention focused on nourishment and spiritual practice.",
+    "practice_actions": [
+      "Before each meal, take a moment to reflect on the purpose of eating.",
+      "Set an intention to eat only for nourishment and to support your well-being.",
+      "Avoid distractions while eating, such as screens or multitasking, to fully engage with the experience."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn91_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 91",
+    "canonical_passage": "He has no intention to hurt himself, hurt others, or hurt both. He only wishes for the welfare of himself, of others, of both, and of the whole world.",
+    "context_summary": "The Buddha emphasizes the importance of having good intentions and wishing for the welfare of all beings.",
+    "problem_summary": "People often act out of selfishness or harm others unintentionally, leading to conflict and suffering.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Actions driven by selfish intentions can lead to harm and suffering for oneself and others.",
+    "teaching": "Cultivate intentions that promote the well-being of yourself and others.",
+    "practice_actions": [
+      "Before making decisions or taking actions, pause to consider how they will affect others.",
+      "Practice kindness and compassion in daily interactions.",
+      "Engage in acts of service or kindness to foster a sense of connection and goodwill."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn91_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 92",
+    "canonical_passage": "The spiritual life is well explained, apparent in the present life, immediately effective. Here the going forth isn’t in vain for one who trains with diligence.",
+    "context_summary": "In this passage, the Buddha emphasizes the importance of the spiritual life and its immediate benefits for those who are diligent in their practice.",
+    "problem_summary": "Many people seek meaning and fulfillment in life but may feel lost or unsure about how to pursue a spiritual path.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Individuals often struggle with finding a clear and effective path to spiritual growth and fulfillment.",
+    "teaching": "The Buddha teaches that the spiritual life is accessible and beneficial in the present moment, encouraging diligent practice.",
+    "practice_actions": [
+      "Set aside time each day for meditation or mindfulness practice.",
+      "Engage in self-reflection to understand your spiritual goals.",
+      "Seek out teachings or communities that support your spiritual growth."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn92_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 93",
+    "canonical_passage": "‘But do you know whether your birth mother only had relations with a brahmin and not with a non-brahmin?’ ‘We don’t know that.’",
+    "context_summary": "In a debate about social class and purity, the Buddha challenges the brahmins' beliefs about superiority based on birth, emphasizing that true worth is not determined by lineage.",
+    "problem_summary": "People often cling to social hierarchies and prejudices based on birth or class, leading to discrimination and a lack of understanding of true human value.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "The belief in superiority based on social class or birth leads to division and misunderstanding among people.",
+    "teaching": "True worth and purity are not determined by birth or social class but by one's actions and character.",
+    "practice_actions": [
+      "Reflect on your own beliefs about social class and consider how they may influence your interactions with others.",
+      "Engage with people from different backgrounds to understand their experiences and perspectives.",
+      "Practice kindness and compassion towards all individuals, regardless of their social status."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn93_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 94",
+    "canonical_passage": "They give up killing living creatures, renouncing the rod and the sword. They’re scrupulous and kind, living full of sympathy for all living beings.",
+    "context_summary": "In a dialogue between Venerable Udena and the brahmin Ghoṭamukha, Udena explains the qualities of individuals who do not harm themselves or others, emphasizing the importance of compassion and ethical conduct.",
+    "problem_summary": "Many people struggle with ethical dilemmas and the impact of their actions on others, leading to feelings of guilt or conflict.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Individuals often face challenges in aligning their actions with their values, particularly regarding kindness and non-violence.",
+    "teaching": "To live ethically, one should refrain from harming others and cultivate kindness and sympathy towards all living beings.",
+    "practice_actions": [
+      "Reflect on your daily actions and identify any that may cause harm to others.",
+      "Commit to a practice of non-violence, whether it be in thought, word, or deed.",
+      "Engage in acts of kindness, such as volunteering or helping those in need."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn94_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 94",
+    "canonical_passage": "They give up stealing. They take only what’s given, and expect only what’s given.",
+    "context_summary": "Udena describes the ethical conduct of individuals who refrain from stealing and are content with what they have.",
+    "problem_summary": "In a consumer-driven society, many people struggle with greed and dissatisfaction, leading to unethical behavior.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "The desire for more can lead to unethical actions, such as stealing or dishonesty.",
+    "teaching": "Cultivate contentment and gratitude for what you have, and refrain from taking what is not given.",
+    "practice_actions": [
+      "Practice gratitude by keeping a daily journal of things you appreciate in your life.",
+      "Set a personal intention to refrain from taking anything that does not belong to you.",
+      "Engage in mindful consumption, being aware of your needs versus wants."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn94_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 95",
+    "canonical_passage": "Striving is helpful for arriving at the truth. If you don’t strive, you won’t arrive at the truth. You arrive at the truth because you strive.",
+    "context_summary": "The Buddha explains the process of arriving at the truth, emphasizing the importance of striving and effort in one's spiritual practice.",
+    "problem_summary": "Many people struggle to find truth or meaning in their lives and may feel lost or confused about their beliefs.",
+    "buddhist_labels": [
+      "delusion_confusion"
+    ],
+    "diagnosis": "People often rely on passive belief systems or external validation instead of actively engaging in their own search for truth.",
+    "teaching": "Active effort and striving are essential for discovering and understanding the truth.",
+    "practice_actions": [
+      "Set aside time each day for self-reflection and contemplation.",
+      "Engage with teachings or philosophies that challenge your current beliefs.",
+      "Take concrete steps towards personal growth, such as learning new skills or volunteering."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn95_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 95",
+    "canonical_passage": "Faith is helpful for approaching a teacher. If you don’t give rise to faith, you won’t approach a teacher.",
+    "context_summary": "The Buddha discusses the role of faith in seeking guidance from teachers or mentors.",
+    "problem_summary": "People often hesitate to seek help or guidance due to doubt or lack of trust in others.",
+    "buddhist_labels": [
+      "doubt_indecision"
+    ],
+    "diagnosis": "Doubt can prevent individuals from seeking wisdom and support from those who can help them grow.",
+    "teaching": "Having faith in a teacher or mentor is a crucial step in the journey of learning and personal development.",
+    "practice_actions": [
+      "Identify a mentor or teacher whose values resonate with you.",
+      "Reflect on what qualities you appreciate in others and seek those in potential guides.",
+      "Practice openness and willingness to learn from others, even if it feels uncomfortable."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn95_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 96",
+    "canonical_passage": "I say that you shouldn’t serve someone if serving them makes you worse, not better. And I say that you should serve someone if serving them makes you better, not worse.",
+    "context_summary": "The Buddha discusses the nature of service and wealth, emphasizing the importance of personal growth and ethical behavior over social status.",
+    "problem_summary": "People often feel pressured to serve or associate with others based on social status or tradition, which can lead to negative consequences for their personal growth and well-being.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Serving others can sometimes lead to personal decline if the relationship is toxic or unproductive.",
+    "teaching": "Choose whom to serve based on whether that service contributes positively to your growth in faith, ethics, learning, generosity, and wisdom.",
+    "practice_actions": [
+      "Reflect on your current relationships and identify those that contribute positively to your growth.",
+      "Set boundaries with individuals whose influence is detrimental to your well-being.",
+      "Seek opportunities to serve those who inspire and uplift you."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn96_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 97",
+    "canonical_passage": "Dhanañjāni, others have livelihoods that are both profitable and legitimate. By means of these it’s possible to provide for your parents, avoid bad deeds, and practice the path of goodness.",
+    "context_summary": "Venerable Sāriputta advises Dhanañjāni on the importance of maintaining ethical conduct while fulfilling familial responsibilities.",
+    "problem_summary": "Many people struggle with the conflict between providing for their families and maintaining ethical integrity in their actions.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Dhanañjāni feels pressured to act unethically to support his family, leading to moral dilemmas.",
+    "teaching": "One can provide for their family while still adhering to ethical principles and avoiding harmful actions.",
+    "practice_actions": [
+      "Reflect on your current means of providing for your family and assess if they align with your ethical values.",
+      "Seek out and explore legitimate and ethical ways to earn a living that do not compromise your integrity.",
+      "Communicate with family members about the importance of ethical conduct and seek their support in making principled choices."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn97_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 97",
+    "canonical_passage": "Firstly, a mendicant meditates spreading a heart full of love... This is a path to company with Divinity.",
+    "context_summary": "Sāriputta teaches Dhanañjāni the practice of loving-kindness and compassion as a way to connect with divine qualities.",
+    "problem_summary": "People often feel disconnected or lack compassion in their daily lives, leading to feelings of isolation or negativity.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Dhanañjāni's suffering and illness may be exacerbated by a lack of loving-kindness and compassion in his life.",
+    "teaching": "Practicing loving-kindness and compassion can help cultivate a sense of connection and well-being.",
+    "practice_actions": [
+      "Set aside time each day for meditation focused on spreading love and compassion to yourself and others.",
+      "Practice kindness in daily interactions, aiming to respond with compassion even in challenging situations.",
+      "Engage in community service or acts of kindness to foster a sense of connection and purpose."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn97_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 98",
+    "canonical_passage": "You’re not a brahmin by birth, nor by birth a non-brahmin. You’re a brahmin by your deeds, and by deeds a non-brahmin.",
+    "context_summary": "The Buddha explains that true worth is determined by one's actions and ethical conduct rather than by birth or social status.",
+    "problem_summary": "Many people struggle with the idea of self-worth and identity based on societal labels and expectations.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "People often feel pressured to conform to societal norms regarding identity and worth, which can lead to feelings of inadequacy or confusion.",
+    "teaching": "True identity and worth come from one's actions and ethical behavior, not from birth or social class.",
+    "practice_actions": [
+      "Reflect on your actions and how they align with your values.",
+      "Engage in ethical behavior in daily life, such as helping others and being honest.",
+      "Challenge societal labels and focus on personal growth and character development."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn98_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 98",
+    "canonical_passage": "By fervor and spiritual practice, by restraint and by self-control: that’s how to become a brahmin, this is the supreme brahmin.",
+    "context_summary": "The Buddha emphasizes the importance of personal effort and discipline in achieving true spiritual status.",
+    "problem_summary": "People often seek shortcuts to success or fulfillment without putting in the necessary effort and discipline.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "Many individuals desire personal growth but struggle to maintain the discipline required for meaningful change.",
+    "teaching": "Achieving true spiritual or personal growth requires consistent effort, self-control, and dedication to practice.",
+    "practice_actions": [
+      "Set specific goals for personal development and create a plan to achieve them.",
+      "Establish a daily routine that includes time for reflection, meditation, or other spiritual practices.",
+      "Practice self-restraint in areas where you feel tempted to stray from your goals."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn98_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 99",
+    "canonical_passage": "I praise right practice for both laypeople and renunciates. Because of right practice, both laypeople and renunciates succeed in the system of the skillful teaching.",
+    "context_summary": "The Buddha discusses the importance of right practice for both laypeople and renunciates, emphasizing that success in skillful teaching is not limited to one group over the other.",
+    "problem_summary": "Many people feel overwhelmed by their obligations and duties in daily life, leading to a sense of failure or lack of fulfillment.",
+    "buddhist_labels": [
+      "discipline_habit_formation"
+    ],
+    "diagnosis": "People often believe that their busy lives prevent them from achieving spiritual or personal growth.",
+    "teaching": "Success in spiritual practice is achievable for everyone, regardless of their lifestyle, as long as they engage in right practice.",
+    "practice_actions": [
+      "Identify one area of your life where you can apply right practice, such as honesty, compassion, or mindfulness.",
+      "Set aside a few minutes each day to reflect on your actions and intentions, ensuring they align with your values.",
+      "Seek out teachings or communities that support your practice, whether you are a layperson or a renunciant."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn99_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 99",
+    "canonical_passage": "I say that the five things prescribed by the brahmins for making merit are prerequisites of the mind for developing a mind free of enmity and ill will.",
+    "context_summary": "The Buddha outlines five qualities that lead to merit and a peaceful mind, emphasizing their importance for both laypeople and renunciates.",
+    "problem_summary": "People often struggle with negative emotions like anger and resentment, which can hinder their relationships and personal happiness.",
+    "buddhist_labels": [
+      "aversion_anger"
+    ],
+    "diagnosis": "Negative emotions can arise from unmet expectations and attachments, leading to conflict and dissatisfaction.",
+    "teaching": "Cultivating qualities such as truthfulness, fervor, chastity, recitation, and generosity can help develop a peaceful and loving mind.",
+    "practice_actions": [
+      "Choose one of the five qualities (truthfulness, fervor, chastity, recitation, generosity) to focus on for a week.",
+      "Practice being truthful in your interactions, even in small matters, to build trust and integrity.",
+      "Engage in acts of generosity, whether through time, resources, or kindness, to foster a sense of connection and compassion."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_mn99_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 99",
+    "canonical_passage": "Firstly, a mendicant meditates spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth.",
+    "context_summary": "The Buddha teaches the practice of loving-kindness meditation as a way to cultivate compassion and equanimity towards all beings.",
+    "problem_summary": "In a world filled with conflict and division, individuals often find it challenging to maintain a compassionate and loving attitude towards others.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Negative feelings towards others can create barriers in relationships and contribute to a lack of peace in one's life.",
+    "teaching": "Practicing loving-kindness meditation can help individuals develop a more compassionate outlook and reduce feelings of enmity.",
+    "practice_actions": [
+      "Set aside time each day to practice loving-kindness meditation, starting with yourself and gradually extending it to others.",
+      "Visualize sending love and goodwill to friends, family, and even those with whom you have conflicts.",
+      "Reflect on the interconnectedness of all beings and cultivate a sense of compassion for their struggles and joys."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_mn99_3",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 100",
+    "canonical_passage": "In the same way, there are ascetics and brahmins who live withdrawn in body and mind from sensual pleasures. And they have internally given up and stilled desire, affection, infatuation, thirst, and passion for sensual pleasures.",
+    "context_summary": "The Buddha discusses the importance of internal detachment from sensual pleasures for achieving spiritual insight and awakening.",
+    "problem_summary": "Many people struggle with attachment to sensual pleasures, which can hinder personal growth and spiritual development.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Attachment to sensual pleasures can prevent individuals from achieving deeper understanding and peace.",
+    "teaching": "To achieve spiritual insight, one must not only withdraw from sensual pleasures externally but also internally relinquish desires and attachments.",
+    "practice_actions": [
+      "Identify and reduce engagement with activities that promote sensual pleasure.",
+      "Practice mindfulness to observe and understand your cravings without acting on them.",
+      "Engage in meditation or reflection to cultivate a sense of inner peace and detachment."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_mn100_1",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "MN 100",
+    "canonical_passage": "Then it occurred to me, ‘I recall sitting in the cool shade of a black plum tree while my father the Sakyan was off working. Quite secluded from sensual pleasures, secluded from unskillful qualities, I entered and remained in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected.'",
+    "context_summary": "The Buddha reflects on his past experiences of meditation and how they led him to discover the path to awakening.",
+    "problem_summary": "Many individuals find it difficult to focus and achieve inner peace due to distractions and unskillful qualities in their lives.",
+    "buddhist_labels": [
+      "restlessness_distraction"
+    ],
+    "diagnosis": "Distractions and unskillful qualities can obstruct one's ability to meditate and find inner peace.",
+    "teaching": "Seclusion from distractions and unskillful qualities is essential for entering states of deep meditation and experiencing inner bliss.",
+    "practice_actions": [
+      "Create a dedicated space for meditation that is free from distractions.",
+      "Set aside regular time for meditation practice to cultivate focus and tranquility.",
+      "Practice mindfulness throughout the day to reduce unskillful qualities and enhance your ability to concentrate."
+    ],
+    "audience": "lay",
+    "confidence": 0.75,
+    "id": "au_mn100_2",
+    "source_collection": "MN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

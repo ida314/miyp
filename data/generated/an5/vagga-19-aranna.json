@@ -1,0 +1,46 @@
+[
+  {
+    "source_ref": "AN 5.181",
+    "canonical_passage": "But the one who dwells in the wilderness for the sake of having few wishes is the foremost, best, chief, highest, and finest of the five.",
+    "context_summary": "The sutta discusses different types of wilderness dwellers, emphasizing the value of simplicity and having few desires.",
+    "problem_summary": "Many people struggle with excessive desires and the complications they bring to life, leading to dissatisfaction and stress.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Excessive desires can lead to a complicated and unfulfilled life.",
+    "teaching": "Living with fewer wishes leads to greater contentment and fulfillment.",
+    "practice_actions": [
+      "Identify and reduce unnecessary desires in your life.",
+      "Practice gratitude for what you have instead of focusing on what you lack.",
+      "Engage in simple living practices, such as decluttering your space or simplifying your schedule."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_181_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.190",
+    "canonical_passage": "But the person who eats only from the almsbowl for the sake of having few wishes is the foremost, best, chief, highest, and finest of the five.",
+    "context_summary": "The sutta discusses the motivations behind why some individuals choose to eat only from the almsbowl, highlighting the importance of having few desires.",
+    "problem_summary": "Many people struggle with excessive desires and cravings, leading to dissatisfaction and a lack of contentment in life.",
+    "buddhist_labels": [
+      "craving_attachment"
+    ],
+    "diagnosis": "Excessive desires can lead to unhappiness and a sense of lack.",
+    "teaching": "Cultivating contentment and reducing desires can lead to a more fulfilling and peaceful life.",
+    "practice_actions": [
+      "Reflect on your current desires and identify which ones are essential and which are not.",
+      "Practice gratitude for what you have, focusing on contentment rather than wanting more.",
+      "Set small, achievable goals to reduce unnecessary cravings in daily life."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_190_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]

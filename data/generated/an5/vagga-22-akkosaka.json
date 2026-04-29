@@ -1,0 +1,222 @@
+[
+  {
+    "source_ref": "AN 5.211",
+    "canonical_passage": "A mendicant who abuses and insults their spiritual companions, denouncing the noble ones, can expect these five drawbacks.",
+    "context_summary": "This teaching addresses the consequences of abusive behavior towards spiritual companions and the importance of maintaining respectful relationships.",
+    "problem_summary": "Engaging in harmful speech and behavior towards others can lead to negative consequences in relationships and personal well-being.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Abusive behavior can damage relationships and lead to personal suffering.",
+    "teaching": "Respect and kindness towards others, especially in spiritual communities, are essential for personal and communal well-being.",
+    "practice_actions": [
+      "Reflect on your words before speaking to ensure they are kind and respectful.",
+      "Apologize to anyone you may have insulted or abused in the past.",
+      "Practice active listening to understand the feelings and perspectives of others."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_211_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.212",
+    "canonical_passage": "A mendicant who starts fights, quarrels, disputes, debates, and disciplinary issues in the Saṅgha can expect five drawbacks.",
+    "context_summary": "The sutta discusses the negative consequences of engaging in conflicts and disputes within a community.",
+    "problem_summary": "Engaging in conflicts and disputes can lead to personal and social consequences, including loss of reputation and inner peace.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Starting fights and disputes can damage relationships and lead to negative outcomes in one's life.",
+    "teaching": "Avoid starting conflicts and disputes to maintain personal peace and positive relationships.",
+    "practice_actions": [
+      "Practice active listening to understand others' perspectives.",
+      "Choose to respond calmly rather than react impulsively in disagreements.",
+      "Seek resolution through dialogue rather than confrontation."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_212_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.213",
+    "canonical_passage": "Firstly, an ethical person gains great wealth on account of diligence. This is the first benefit.",
+    "context_summary": "The sutta discusses the drawbacks of unethical behavior and the benefits of ethical conduct.",
+    "problem_summary": "Many people struggle with the consequences of unethical behavior, which can lead to financial loss, a bad reputation, and feelings of insecurity.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Unethical behavior can lead to negative outcomes in various aspects of life.",
+    "teaching": "Practicing ethics leads to positive outcomes such as wealth, good reputation, and confidence.",
+    "practice_actions": [
+      "Reflect on your daily actions and decisions to ensure they align with ethical principles.",
+      "Set specific goals for ethical behavior in your interactions with others.",
+      "Seek feedback from trusted friends or family about your ethical conduct."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_213_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.213",
+    "canonical_passage": "Furthermore, an ethical person gets a good reputation.",
+    "context_summary": "The sutta highlights the importance of ethics in building a positive reputation.",
+    "problem_summary": "People often face challenges in maintaining a good reputation due to unethical actions.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "A poor reputation can stem from unethical behavior, affecting personal and professional relationships.",
+    "teaching": "Maintaining ethical behavior contributes to a good reputation.",
+    "practice_actions": [
+      "Be honest and transparent in your dealings with others.",
+      "Apologize and make amends when you have acted unethically.",
+      "Engage in community service or acts of kindness to build a positive image."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_213_2",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.213",
+    "canonical_passage": "Furthermore, an ethical person, when their body breaks up, they’re reborn in a good place, a heavenly realm.",
+    "context_summary": "The sutta emphasizes the long-term spiritual benefits of ethical living.",
+    "problem_summary": "People often worry about the consequences of their actions after death.",
+    "buddhist_labels": [
+      "fear_anxiety"
+    ],
+    "diagnosis": "Concerns about the afterlife can create anxiety about living ethically.",
+    "teaching": "Living ethically can lead to positive outcomes in the afterlife.",
+    "practice_actions": [
+      "Study ethical teachings to understand their importance in your life.",
+      "Meditate on the impermanence of life and the impact of your actions.",
+      "Discuss ethical dilemmas with others to gain different perspectives."
+    ],
+    "audience": "lay",
+    "confidence": 0.7,
+    "id": "au_an5_213_3",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.214",
+    "canonical_passage": "They don’t use speech that’s false, backbiting, harsh, and nonsensical.",
+    "context_summary": "The sutta discusses the consequences of speech, highlighting the drawbacks of talking excessively and the benefits of speaking thoughtfully.",
+    "problem_summary": "People often struggle with the impact of their words, leading to misunderstandings and negative consequences in relationships.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Excessive and careless speech can lead to harmful outcomes for oneself and others.",
+    "teaching": "Speaking thoughtfully and avoiding harmful speech can lead to positive outcomes and a better afterlife.",
+    "practice_actions": [
+      "Reflect before speaking to ensure your words are truthful and kind.",
+      "Avoid gossip and harsh criticism in conversations.",
+      "Practice mindful communication by listening more and speaking less."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_214_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.215",
+    "canonical_passage": "There are these five drawbacks of intolerance... There are these five benefits of tolerance.",
+    "context_summary": "The sutta discusses the negative consequences of intolerance and the positive outcomes of being tolerant.",
+    "problem_summary": "Intolerance can lead to social isolation and negative feelings about oneself and others, impacting relationships and overall well-being.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Intolerance creates enmity and social discord, leading to a lack of support and connection with others.",
+    "teaching": "Cultivating tolerance can improve relationships and lead to a more positive life experience.",
+    "practice_actions": [
+      "Reflect on your interactions with others and identify moments of intolerance.",
+      "Practice empathy by trying to understand differing perspectives.",
+      "Engage in conversations with people you disagree with, focusing on listening rather than arguing."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_215_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.216",
+    "canonical_passage": "There are these five drawbacks of intolerance... These are the five benefits of tolerance.",
+    "context_summary": "The sutta discusses the negative consequences of intolerance and the positive outcomes of being tolerant.",
+    "problem_summary": "Many people struggle with being intolerant, which can lead to social isolation and negative feelings about themselves and their future.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Intolerance can create conflict and lead to feelings of remorse and fear of negative consequences after death.",
+    "teaching": "Practicing tolerance can improve relationships and lead to a more positive life experience.",
+    "practice_actions": [
+      "Reflect on situations where you feel intolerant and consider the perspectives of others.",
+      "Practice empathy by actively listening to those you disagree with.",
+      "Make a conscious effort to respond with kindness instead of judgment in challenging interactions."
+    ],
+    "audience": "lay",
+    "confidence": 0.9,
+    "id": "au_an5_216_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.217",
+    "canonical_passage": "You don’t blame yourself. After examination, sensible people praise you. You get a good reputation.",
+    "context_summary": "The sutta discusses the consequences of unimpressive versus impressive conduct, highlighting the benefits of living a commendable life.",
+    "problem_summary": "People often struggle with self-blame and fear of negative judgment from others, which can lead to feelings of loss and anxiety about the future.",
+    "buddhist_labels": [
+      "ethical_conflict"
+    ],
+    "diagnosis": "Unimpressive conduct leads to self-blame and negative reputations, while impressive conduct fosters self-acceptance and positive recognition.",
+    "teaching": "Engaging in impressive conduct can lead to self-approval and a good reputation, alleviating feelings of loss and anxiety.",
+    "practice_actions": [
+      "Reflect on your actions and their impact on yourself and others.",
+      "Seek feedback from trusted friends or mentors to understand how your conduct is perceived.",
+      "Make a conscious effort to act in ways that align with your values and contribute positively to your community."
+    ],
+    "audience": "lay",
+    "confidence": 0.85,
+    "id": "au_an5_217_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  },
+  {
+    "source_ref": "AN 5.218",
+    "canonical_passage": "You inspire confidence in those without it. You increase confidence in those who have it.",
+    "context_summary": "The sutta discusses the impact of one's conduct on others and oneself, highlighting the importance of impressive conduct.",
+    "problem_summary": "People often struggle with how their behavior affects others' trust and confidence, both in themselves and in their community.",
+    "buddhist_labels": [
+      "speech_relationships"
+    ],
+    "diagnosis": "Unimpressive conduct can lead to a lack of trust and clarity, affecting relationships and personal growth.",
+    "teaching": "Engaging in impressive conduct can inspire confidence in others and enhance your own clarity of mind.",
+    "practice_actions": [
+      "Reflect on your actions and their impact on others.",
+      "Strive to follow ethical guidelines and teachings that promote positive behavior.",
+      "Be a role model for others by demonstrating confidence and clarity in your conduct."
+    ],
+    "audience": "lay",
+    "confidence": 0.8,
+    "id": "au_an5_218_1",
+    "source_collection": "AN",
+    "translator": "Bhikkhu Sujato",
+    "review_status": "auto"
+  }
+]
