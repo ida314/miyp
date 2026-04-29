@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Monk in Your Pocket — Practical wisdom from early Buddhist teachings</title>
+  <meta name="description" content="AI guidance grounded in early Buddhist suttas. Every response cites its source."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="/css/site.css"/>
+  <style>
+    /* ── Hero ──────────────────────────────────────────── */
+    .hero {
+      min-height: calc(100vh - 58px);
+      display: grid;
+      grid-template-columns: 1fr 500px;
+      align-items: center;
+      gap: 3rem;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 4rem 2rem 5rem;
+    }
+
+    .hero-text { max-width: 520px; }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--saffron);
+      margin-bottom: 1.25rem;
+    }
+    .hero-eyebrow::before, .hero-eyebrow::after {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 1px;
+      background: var(--saffron);
+      opacity: 0.6;
+    }
+
+    .hero-headline {
+      font-family: var(--font-display);
+      font-size: clamp(2.6rem, 5vw, 3.8rem);
+      font-weight: 300;
+      line-height: 1.1;
+      color: var(--heading);
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.01em;
+    }
+    .hero-headline em {
+      font-style: italic;
+      color: var(--saffron-deep);
+    }
+
+    .hero-body {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      margin-bottom: 2rem;
+      max-width: 460px;
+    }
+
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+    }
+    .hero-actions .btn { padding: 0.8rem 1.75rem; font-size: 0.95rem; }
+    .hero-link {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: color 0.15s;
+    }
+    .hero-link:hover { color: var(--heading); text-decoration: none; }
+    .hero-link::after { content: '→'; }
+
+    /* ── Wheel universe ────────────────────────────────── */
+    .wheel-universe {
+      position: relative;
+      width: 500px;
+      height: 500px;
+      flex-shrink: 0;
+    }
+
+    .wheel-breathe {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 220px;
+      height: 220px;
+      transform: translate(-50%, -50%);
+      animation: breathe 8s ease-in-out infinite;
+    }
+
+    .dharma-wheel-svg {
+      width: 100%;
+      height: 100%;
+      animation: wheelSpin 90s linear infinite;
+      transform-origin: center;
+    }
+
+    .orbit-label {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      font-size: 0.78rem;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      text-align: center;
+      white-space: nowrap;
+      text-decoration: none;
+      padding: 0.3rem 0.6rem;
+      border-radius: 20px;
+      border: 1px solid transparent;
+      transition: all 0.2s;
+      background: transparent;
+      cursor: pointer;
+      line-height: 1.35;
+    }
+    .orbit-label:hover {
+      color: var(--saffron-deep);
+      background: var(--saffron-pale);
+      border-color: var(--saffron-light);
+      text-decoration: none;
+    }
+    .orbit-label .label-name { display: block; font-weight: normal; }
+    .orbit-label .label-sub {
+      display: block;
+      font-size: 0.68rem;
+      opacity: 0.7;
+      font-style: italic;
+    }
+
+    /* ── Divider ───────────────────────────────────────── */
+    .section-divider {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      color: var(--text-light);
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+    }
+    .section-divider::before, .section-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── How it works ──────────────────────────────────── */
+    .how-section {
+      max-width: 1120px;
+      margin: 5rem auto;
+      padding: 0 2rem;
+    }
+    .how-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: var(--heading);
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .how-steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+    }
+    .how-step {
+      text-align: center;
+    }
+    .step-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--saffron-pale);
+      border: 1.5px solid var(--saffron-light);
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--saffron);
+      margin-bottom: 1rem;
+    }
+    .step-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      color: var(--heading);
+      margin-bottom: 0.5rem;
+    }
+    .step-body { font-size: 0.9rem; color: var(--text-muted); line-height: 1.7; }
+
+    /* ── Sutta quote ───────────────────────────────────── */
+    .quote-section {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 4.5rem 2rem;
+      text-align: center;
+    }
+    .sutta-quote {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .sutta-quote .wheel-small {
+      font-size: 1.6rem;
+      color: var(--saffron);
+      opacity: 0.55;
+      display: block;
+      margin-bottom: 1.5rem;
+    }
+    .sutta-quote blockquote {
+      font-family: var(--font-display);
+      font-size: clamp(1.3rem, 2.5vw, 1.65rem);
+      font-weight: 300;
+      font-style: italic;
+      color: var(--heading);
+      line-height: 1.55;
+      margin-bottom: 1.25rem;
+    }
+    .sutta-quote cite {
+      font-size: 0.82rem;
+      color: var(--text-light);
+      letter-spacing: 0.06em;
+    }
+
+    /* ── 8 categories ──────────────────────────────────── */
+    .categories-section {
+      max-width: 1120px;
+      margin: 5rem auto;
+      padding: 0 2rem;
+    }
+    .categories-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: var(--heading);
+      text-align: center;
+      margin-bottom: 0.75rem;
+    }
+    .categories-section .section-sub {
+      text-align: center;
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-bottom: 2.75rem;
+    }
+    .categories-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+    .cat-card {
+      padding: 1.4rem 1.25rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-decoration: none;
+      transition: all 0.2s;
+      display: block;
+    }
+    .cat-card:hover {
+      background: var(--saffron-pale);
+      border-color: var(--saffron-light);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+      text-decoration: none;
+    }
+    .cat-icon { font-size: 1.5rem; display: block; margin-bottom: 0.6rem; }
+    .cat-name {
+      font-size: 0.88rem;
+      font-weight: normal;
+      color: var(--heading);
+      margin-bottom: 0.3rem;
+    }
+    .cat-desc {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-style: italic;
+      line-height: 1.55;
+    }
+
+    /* ── Final CTA ─────────────────────────────────────── */
+    .cta-section {
+      text-align: center;
+      padding: 5rem 2rem 6rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .cta-section h2 {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: var(--heading);
+      line-height: 1.25;
+      margin-bottom: 1rem;
+    }
+    .cta-section p {
+      font-size: 0.97rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+    }
+
+    /* ── Responsive ────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+        padding-top: 3rem;
+        min-height: auto;
+        gap: 2rem;
+      }
+      .wheel-universe { width: 280px; height: 280px; margin: 0 auto; }
+      .orbit-label { display: none; }
+      .how-steps { grid-template-columns: 1fr; gap: 2rem; max-width: 400px; margin: 0 auto; }
+      .categories-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 480px) {
+      .categories-grid { grid-template-columns: 1fr 1fr; }
+      .hero-headline { font-size: 2.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="site-nav">
+    <a href="/" class="nav-brand">
+      <span class="wheel-glyph">☸</span>
+      Monk in Your Pocket
+    </a>
+    <div class="nav-links">
+      <a href="/" class="active nav-hide-sm">Home</a>
+      <a href="/about.html" class="nav-hide-sm">About</a>
+      <a href="/blog" class="nav-hide-sm">Blog</a>
+      <a href="/donate.html" class="nav-hide-sm">Support</a>
+      <a href="/chat.html" class="nav-cta">Begin</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow fade-up">Pāli Canon · AN · MN · SN</p>
+      <h1 class="hero-headline fade-up delay-1">
+        Practical wisdom<br>for <em>everyday</em> struggles.
+      </h1>
+      <p class="hero-body fade-up delay-2">
+        Monk in Your Pocket draws on early Buddhist suttas to offer grounded, practical guidance for
+        the challenges everyone faces — anger, grief, anxiety, doubt, craving.
+        Every response cites the teaching it comes from.
+      </p>
+      <div class="hero-actions fade-up delay-3">
+        <a href="/chat.html" class="btn btn-primary">Begin a conversation</a>
+        <a href="/about.html" class="hero-link">What is this</a>
+      </div>
+    </div>
+
+    <!-- Animated wheel with orbiting category labels -->
+    <div class="wheel-universe fade-up delay-2" id="wheelUniverse" aria-hidden="true">
+      <div class="wheel-breathe">
+        <svg class="dharma-wheel-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Outer double ring -->
+          <circle cx="100" cy="100" r="91" stroke="#C4860A" stroke-width="5"/>
+          <circle cx="100" cy="100" r="85" stroke="#C4860A" stroke-width="1.5" stroke-opacity="0.4"/>
+          <!-- Inner decorative ring -->
+          <circle cx="100" cy="100" r="55" stroke="#C4860A" stroke-width="1.5" stroke-opacity="0.3"/>
+          <!-- 8 Spokes -->
+          <line x1="100" y1="81" x2="100"   y2="18"   stroke="#C4860A" stroke-width="5" stroke-linecap="round"/>
+          <line x1="113.4" y1="86.6" x2="158.0" y2="42.0" stroke="#C4860A" stroke-width="5" stroke-linecap="round"/>
+          <line x1="119"   y1="100" x2="182"   y2="100"  stroke="#C4860A" stroke-width="5" stroke-linecap="round"/>
+          <line x1="113.4" y1="113.4" x2="158.0" y2="158.0" stroke="#C4860A" stroke-width="5" stroke-linecap="round"/>
+          <line x1="100"   y1="119" x2="100"   y2="182"  stroke="#C4860A" stroke-width="5" stroke-linecap="round"/>
+          <line x1="86.6"  y1="113.4" x2="42.0" y2="158.0" stroke="#C4860A" stroke-width="5" stroke-linecap="round"/>
+          <line x1="81"    y1="100" x2="18"    y2="100"  stroke="#C4860A" stroke-width="5" stroke-linecap="round"/>
+          <line x1="86.6"  y1="86.6"  x2="42.0" y2="42.0"  stroke="#C4860A" stroke-width="5" stroke-linecap="round"/>
+          <!-- Hub -->
+          <circle cx="100" cy="100" r="18" fill="#C4860A"/>
+          <circle cx="100" cy="100" r="10" fill="#FAF8F4"/>
+          <circle cx="100" cy="100" r="4"  fill="#C4860A"/>
+        </svg>
+      </div>
+
+      <!-- The 8 categories orbit the wheel. Positioned by JS below. -->
+      <a href="/chat.html" class="orbit-label" data-idx="0">
+        <span class="label-name">Anxiety</span>
+        <span class="label-sub">&amp; Fear</span>
+      </a>
+      <a href="/chat.html" class="orbit-label" data-idx="1">
+        <span class="label-name">Anger</span>
+        <span class="label-sub">&amp; Aversion</span>
+      </a>
+      <a href="/chat.html" class="orbit-label" data-idx="2">
+        <span class="label-name">Craving</span>
+        <span class="label-sub">&amp; Attachment</span>
+      </a>
+      <a href="/chat.html" class="orbit-label" data-idx="3">
+        <span class="label-name">Grief</span>
+        <span class="label-sub">&amp; Loss</span>
+      </a>
+      <a href="/chat.html" class="orbit-label" data-idx="4">
+        <span class="label-name">Restlessness</span>
+        <span class="label-sub">&amp; Distraction</span>
+      </a>
+      <a href="/chat.html" class="orbit-label" data-idx="5">
+        <span class="label-name">Ethical</span>
+        <span class="label-sub">Conflict</span>
+      </a>
+      <a href="/chat.html" class="orbit-label" data-idx="6">
+        <span class="label-name">Doubt</span>
+        <span class="label-sub">&amp; Indecision</span>
+      </a>
+      <a href="/chat.html" class="orbit-label" data-idx="7">
+        <span class="label-name">Speech</span>
+        <span class="label-sub">&amp; Relationships</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="section-divider">☸</div>
+
+  <!-- How it works -->
+  <section class="how-section">
+    <h2 class="fade-up">How it works</h2>
+    <div class="how-steps">
+      <div class="how-step fade-up delay-1">
+        <div class="step-number">1</div>
+        <div class="step-title">Share your struggle</div>
+        <p class="step-body">Describe what's troubling you in plain language. No Buddhist vocabulary required.</p>
+      </div>
+      <div class="how-step fade-up delay-2">
+        <div class="step-number">2</div>
+        <div class="step-title">Teachings are retrieved</div>
+        <p class="step-body">Relevant suttas are matched by problem category and semantic similarity, not keyword search.</p>
+      </div>
+      <div class="how-step fade-up delay-3">
+        <div class="step-number">3</div>
+        <div class="step-title">Grounded guidance</div>
+        <p class="step-body">A practical response is offered in modern language — with citations to the original texts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sutta quote -->
+  <div class="quote-section">
+    <div class="sutta-quote fade-up">
+      <span class="wheel-small">☸</span>
+      <blockquote>
+        "Do not accept anything by mere tradition, or because it has been said by your teacher.
+        When you know for yourselves: these things are wholesome, these things are blameless —
+        then you should accept them and practice them."
+      </blockquote>
+      <cite>— The Kālāma Sutta, AN 3.65</cite>
+    </div>
+  </div>
+
+  <!-- 8 categories -->
+  <section class="categories-section">
+    <h2 class="fade-up">Eight spokes. Eight struggles.</h2>
+    <p class="section-sub fade-up">The dharma wheel's eight spokes correspond to the eight problem categories the system addresses.</p>
+    <div class="categories-grid">
+      <a href="/chat.html" class="cat-card fade-up delay-1">
+        <span class="cat-icon">🌊</span>
+        <div class="cat-name">Anxiety &amp; Fear</div>
+        <div class="cat-desc">Worry, dread, nervous anticipation of what might go wrong</div>
+      </a>
+      <a href="/chat.html" class="cat-card fade-up delay-1">
+        <span class="cat-icon">🔥</span>
+        <div class="cat-name">Anger &amp; Aversion</div>
+        <div class="cat-desc">Irritation, resentment, ill will toward people or situations</div>
+      </a>
+      <a href="/chat.html" class="cat-card fade-up delay-2">
+        <span class="cat-icon">🌙</span>
+        <div class="cat-name">Craving &amp; Attachment</div>
+        <div class="cat-desc">Clinging, compulsion, wanting more of what you already have</div>
+      </a>
+      <a href="/chat.html" class="cat-card fade-up delay-2">
+        <span class="cat-icon">🍂</span>
+        <div class="cat-name">Grief &amp; Loss</div>
+        <div class="cat-desc">Bereavement, mourning change, sorrow over what is gone</div>
+      </a>
+      <a href="/chat.html" class="cat-card fade-up delay-3">
+        <span class="cat-icon">💨</span>
+        <div class="cat-name">Restlessness</div>
+        <div class="cat-desc">Scattered attention, inability to settle, constant seeking</div>
+      </a>
+      <a href="/chat.html" class="cat-card fade-up delay-3">
+        <span class="cat-icon">⚖️</span>
+        <div class="cat-name">Ethical Conflict</div>
+        <div class="cat-desc">Guilt, moral uncertainty, doing right when it costs you</div>
+      </a>
+      <a href="/chat.html" class="cat-card fade-up delay-4">
+        <span class="cat-icon">🪞</span>
+        <div class="cat-name">Doubt &amp; Indecision</div>
+        <div class="cat-desc">Paralysis, second-guessing, inability to commit to a path</div>
+      </a>
+      <a href="/chat.html" class="cat-card fade-up delay-4">
+        <span class="cat-icon">🗣️</span>
+        <div class="cat-name">Speech &amp; Relationships</div>
+        <div class="cat-desc">Conflict, difficult conversations, how we speak and listen</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta-section fade-up">
+    <h2>Which spoke is your struggle<br>turning on today?</h2>
+    <p>Grounded in 2,500 years of practice. Expressed in plain language.</p>
+    <a href="/chat.html" class="btn btn-primary">Begin a conversation</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <span class="footer-wheel">☸</span>
+    Monk in Your Pocket draws on the Bhikkhu Sujato translations of the Pāli Canon via SuttaCentral.<br>
+    Not a substitute for a teacher, community, or mental health care.
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/chat.html">Chat</a>
+      <a href="/about.html">About</a>
+      <a href="/blog">Blog</a>
+      <a href="/donate.html">Support</a>
+    </div>
+  </footer>
+
+  <script>
+    // Position orbit labels in a circle around the wheel
+    function positionLabels() {
+      const universe = document.getElementById('wheelUniverse');
+      if (!universe) return;
+      const labels = universe.querySelectorAll('.orbit-label');
+      const cx = universe.offsetWidth / 2;
+      const cy = universe.offsetHeight / 2;
+      // Radius: 82% of half the container, but capped so labels stay inside
+      const radius = Math.min(cx, cy) * 0.82;
+
+      labels.forEach((label, i) => {
+        // Start at top (−90°), go clockwise
+        const angleDeg = (i * 360 / 8) - 90;
+        const angleRad = angleDeg * Math.PI / 180;
+        const x = cx + Math.cos(angleRad) * radius;
+        const y = cy + Math.sin(angleRad) * radius;
+        label.style.left = x + 'px';
+        label.style.top  = y + 'px';
+      });
+    }
+
+    positionLabels();
+    window.addEventListener('resize', positionLabels);
+
+    // Intersection observer for fade-up on scroll
+    const fadeEls = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.animationPlayState = 'running';
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    fadeEls.forEach(el => {
+      // Pause until in view (except hero elements which show immediately)
+      if (!el.closest('.hero')) {
+        el.style.animationPlayState = 'paused';
+      }
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>

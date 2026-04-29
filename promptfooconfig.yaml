@@ -1,0 +1,121 @@
+# Promptfoo configuration for Monk in Your Pocket prompt A/B testing
+# Run: npx promptfoo eval
+# View: npx promptfoo view
+
+description: "Monk in Your Pocket - Prompt A/B Testing"
+
+prompts:
+  - file://evals/prompts/parser_v1.txt
+  - file://evals/prompts/parser_v2.txt
+
+providers:
+  - id: openai:gpt-4o
+    config:
+      temperature: 0.3
+      response_format:
+        type: json_object
+
+tests:
+  # Anger / Aversion
+  - vars:
+      message: "I feel resentful when my friend succeeds at work and I don't."
+    assert:
+      - type: is-json
+      - type: javascript
+        value: "JSON.parse(output).buddhist_labels?.some(l => l.includes('craving') || l.includes('aversion'))"
+      - type: javascript
+        value: "JSON.parse(output).user_situation?.length > 10"
+      - type: llm-rubric
+        value: "The output correctly identifies envy/resentment and maps it to Buddhist concepts like craving or ill will."
+
+  # Anxiety / Fear
+  - vars:
+      message: "I'm terrified of losing my job and can't stop worrying about it."
+    assert:
+      - type: is-json
+      - type: javascript
+        value: "JSON.parse(output).buddhist_labels?.some(l => l.includes('fear') || l.includes('anxiety'))"
+      - type: javascript
+        value: "JSON.parse(output).urgency !== 'crisis'"
+      - type: llm-rubric
+        value: "The output identifies anxiety/fear without escalating to crisis level, and connects it to Buddhist concepts."
+
+  # Grief / Loss
+  - vars:
+      message: "My mother passed away last month and I can't stop crying every day."
+    assert:
+      - type: is-json
+      - type: javascript
+        value: "JSON.parse(output).buddhist_labels?.some(l => l.includes('grief') || l.includes('loss'))"
+      - type: llm-rubric
+        value: "The output treats grief with sensitivity and identifies attachment/impermanence themes."
+
+  # Restlessness / Distraction
+  - vars:
+      message: "I keep doomscrolling and feel restless all the time. I can't focus on anything."
+    assert:
+      - type: is-json
+      - type: javascript
+        value: "JSON.parse(output).buddhist_labels?.some(l => l.includes('restlessness') || l.includes('distraction'))"
+      - type: llm-rubric
+        value: "The output identifies restlessness/distraction as the core issue and relates to the hindrance of uddhacca."
+
+  # Ethical Conflict
+  - vars:
+      message: "I lied to my partner about something important and now I feel terrible about it."
+    assert:
+      - type: is-json
+      - type: javascript
+        value: "JSON.parse(output).buddhist_labels?.some(l => l.includes('ethical') || l.includes('speech'))"
+      - type: llm-rubric
+        value: "The output identifies an ethical/speech conflict without being judgmental."
+
+  # Crisis Detection
+  - vars:
+      message: "I want to end my life. Nothing matters anymore."
+    assert:
+      - type: is-json
+      - type: javascript
+        value: "JSON.parse(output).urgency === 'crisis'"
+      - type: llm-rubric
+        value: "The output correctly flags this as a crisis situation."
+
+  # Relationships / Speech
+  - vars:
+      message: "I keep getting into arguments with my spouse over small things."
+    assert:
+      - type: is-json
+      - type: javascript
+        value: "JSON.parse(output).buddhist_labels?.some(l => l.includes('speech') || l.includes('aversion'))"
+      - type: llm-rubric
+        value: "The output connects relationship arguments to speech or aversion patterns."
+
+  # Discipline / Habits
+  - vars:
+      message: "I want to meditate every day but I keep skipping it. I have no discipline."
+    assert:
+      - type: is-json
+      - type: javascript
+        value: "JSON.parse(output).buddhist_labels?.some(l => l.includes('discipline') || l.includes('habit'))"
+      - type: llm-rubric
+        value: "The output identifies a habit formation challenge without being preachy."
+
+  # Craving / Addiction
+  - vars:
+      message: "I can't stop buying things online even though I'm in debt."
+    assert:
+      - type: is-json
+      - type: javascript
+        value: "JSON.parse(output).buddhist_labels?.some(l => l.includes('craving') || l.includes('attachment'))"
+      - type: llm-rubric
+        value: "The output identifies craving/attachment patterns and consumer behavior as tanha."
+
+  # Existential Dissatisfaction
+  - vars:
+      message: "I have everything I should want — good job, nice house — but I still feel empty."
+    assert:
+      - type: is-json
+      - type: javascript
+        value: "JSON.parse(output).buddhist_labels?.some(l => l.includes('craving') || l.includes('delusion'))"
+      - type: llm-rubric
+        value: "The output recognizes existential dissatisfaction (dukkha) beyond surface-level situational problems."

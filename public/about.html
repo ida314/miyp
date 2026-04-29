@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — Monk in Your Pocket</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="/css/site.css"/>
+  <style>
+    .about-hero {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 4rem 2rem 3.5rem;
+      text-align: center;
+    }
+    .about-hero .wheel { font-size: 2.5rem; color: var(--saffron); opacity: 0.6; display: block; margin-bottom: 1.25rem; }
+    .about-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 300;
+      color: var(--heading);
+      margin-bottom: 0.85rem;
+    }
+    .about-hero p {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      font-style: italic;
+      max-width: 540px;
+      margin: 0 auto;
+    }
+
+    .not-list {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+    .not-list li {
+      padding: 0.55rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: baseline;
+      gap: 0.6rem;
+    }
+    .not-list li::before { content: '—'; color: var(--text-light); flex-shrink: 0; }
+
+    .corpus-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .corpus-table th {
+      text-align: left;
+      padding: 0.6rem 0.75rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-weight: normal;
+      font-style: italic;
+    }
+    .corpus-table td {
+      padding: 0.6rem 0.75rem;
+      border: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .corpus-table tr:hover td { background: var(--saffron-pale); }
+
+    .callout {
+      background: var(--saffron-pale);
+      border: 1px solid var(--saffron-light);
+      border-left: 3px solid var(--saffron);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.25rem;
+      margin: 1.5rem 0;
+      font-size: 0.93rem;
+      color: var(--heading);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav">
+    <a href="/" class="nav-brand">
+      <span class="wheel-glyph">☸</span>
+      Monk in Your Pocket
+    </a>
+    <div class="nav-links">
+      <a href="/" class="nav-hide-sm">Home</a>
+      <a href="/about.html" class="active nav-hide-sm">About</a>
+      <a href="/blog" class="nav-hide-sm">Blog</a>
+      <a href="/donate.html" class="nav-hide-sm">Support</a>
+      <a href="/chat.html" class="nav-cta">Begin</a>
+    </div>
+  </nav>
+
+  <div class="about-hero fade-up">
+    <span class="wheel">☸</span>
+    <h1>About Monk in Your Pocket</h1>
+    <p>What it is, how it was built, and what it is not.</p>
+  </div>
+
+  <div class="page-wrap prose">
+
+    <h2>The Name</h2>
+    <p>
+      The name isn't a claim — it's an aspiration about access.
+    </p>
+    <p>
+      For most of human history, Buddhist teachings were available only to those who lived near a
+      monastery, had a teacher, or belonged to a community. Most people didn't. "Monk in Your
+      Pocket" means the <em>teachings themselves</em> are now close at hand, whenever you need
+      them — not a monk, not a therapist, not a replacement for practice or community. Just
+      2,500 years of practical wisdom, organized, searchable, and expressed in plain language.
+    </p>
+    <p>
+      The playfulness in the name is intentional. This tool is approachable, not authoritative.
+      It is a starting point, not a destination.
+    </p>
+
+    <h2>The Idea</h2>
+    <p>
+      Most AI chatbots that touch on Buddhism fall into one of two failure modes: they produce
+      generic, vaguely spiritual-sounding text that sounds like Buddhism without being grounded in
+      it, or they point you to raw canonical passages that are often too dialogic, repetitive, or
+      monastically-oriented to be immediately useful.
+    </p>
+    <p>
+      Monk in Your Pocket is built on a different bet: that the right unit of retrieval isn't a
+      sutta chapter, but a structured <em>advice unit</em> — a normalized, practice-oriented
+      summary of what a specific passage actually teaches about a specific human problem. Each
+      unit captures the problem it addresses, the Buddhist diagnostic interpretation, the key
+      teaching, and concrete steps a modern lay practitioner can take. Responses are built from
+      these units, not from raw text, and every response cites the original source so you can
+      verify and go deeper.
+    </p>
+
+    <h2>The Corpus</h2>
+    <p>
+      Monk in Your Pocket draws on the early Buddhist texts of the Pāli Canon, specifically the
+      Bhikkhu Sujato translations available on SuttaCentral. The current corpus covers:
+    </p>
+    <table class="corpus-table">
+      <thead>
+        <tr>
+          <th>Collection</th>
+          <th>Full name</th>
+          <th>Focus</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>AN</td>
+          <td>Aṅguttara Nikāya</td>
+          <td>Practical, enumerated teachings for lay life</td>
+        </tr>
+        <tr>
+          <td>MN</td>
+          <td>Majjhima Nikāya</td>
+          <td>The middle-length discourses; core doctrine and practice</td>
+        </tr>
+        <tr>
+          <td>SN</td>
+          <td>Saṁyutta Nikāya (selected)</td>
+          <td>Thematically grouped suttas on hindrances, factors of awakening, and mindfulness</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Each sutta is processed through an extraction pipeline that identifies whether it contains
+      practical teaching for laypeople, extracts structured advice units, and validates them
+      before they enter the retrieval index. Units that are low-confidence or ambiguous are
+      flagged for human review.
+    </p>
+
+    <h2>How Retrieval Works</h2>
+    <p>
+      When you submit a message, the system runs seven steps before generating a response:
+    </p>
+    <ol style="margin: 0.75rem 0 1.25rem 1.5rem; font-size: 0.97rem;">
+      <li style="margin-bottom: 0.5rem"><strong>Safety check</strong> — crisis keywords are detected immediately, before any LLM call</li>
+      <li style="margin-bottom: 0.5rem"><strong>Query parsing</strong> — your message is classified by problem type, emotion, and Buddhist diagnostic label</li>
+      <li style="margin-bottom: 0.5rem"><strong>Classification</strong> — labels are validated against the ontology; crisis indicators are checked again</li>
+      <li style="margin-bottom: 0.5rem"><strong>Retrieval</strong> — advice units are matched by label and semantic similarity over embeddings</li>
+      <li style="margin-bottom: 0.5rem"><strong>Reranking</strong> — candidates are scored by label match, confidence, and review status</li>
+      <li style="margin-bottom: 0.5rem"><strong>Planning</strong> — the best sources and teaching points are selected and structured</li>
+      <li style="margin-bottom: 0.5rem"><strong>Writing</strong> — a grounded response is generated in plain language with citations</li>
+    </ol>
+
+    <div class="callout">
+      Questions like "what are you?" or "hello" are detected early and answered directly without
+      running the retrieval pipeline. This keeps responses appropriate to context.
+    </div>
+
+    <h2>What This Is Not</h2>
+    <ul class="not-list">
+      <li>A licensed therapist, counselor, or crisis service. If you are in crisis, please contact the 988 Suicide &amp; Crisis Lifeline (call or text 988).</li>
+      <li>A replacement for a teacher, a sangha, or personal practice. No AI can substitute for relationship and direct transmission.</li>
+      <li>Comprehensive of all Buddhist traditions. This focuses exclusively on early Pāli texts and makes no claim about Mahāyāna, Vajrayāna, or Zen traditions.</li>
+      <li>Infallible. LLM extraction of advice units can misinterpret or over-generalize. All units are confidence-scored; low-confidence units are flagged.</li>
+      <li>A meditation app. There are no timers, guided sessions, or streaks here.</li>
+    </ul>
+
+    <h2>The Translations</h2>
+    <p>
+      All source texts use the Bhikkhu Sujato translations via
+      <a href="https://suttacentral.net" target="_blank" rel="noopener">SuttaCentral</a>,
+      which are made freely available under a Creative Commons license. Sujato's translations
+      are chosen for their contemporary language and accessibility.
+    </p>
+
+  </div>
+
+  <footer class="site-footer">
+    <span class="footer-wheel">☸</span>
+    Monk in Your Pocket draws on the Bhikkhu Sujato translations of the Pāli Canon via SuttaCentral.<br>
+    Not a substitute for a teacher, community, or mental health care.
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/chat.html">Chat</a>
+      <a href="/about.html">About</a>
+      <a href="/blog">Blog</a>
+      <a href="/donate.html">Support</a>
+    </div>
+  </footer>
+
+  <script>
+    const fadeEls = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.style.animationPlayState = 'running'; observer.unobserve(e.target); }});
+    }, { threshold: 0.1 });
+    fadeEls.forEach(el => { el.style.animationPlayState = 'paused'; observer.observe(el); });
+  </script>
+</body>
+</html>

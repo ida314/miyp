@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support — Monk in Your Pocket</title>
+  <meta name="description" content="Monk in Your Pocket is free to use. If it has been helpful, consider offering dana — generosity freely given."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="/css/site.css"/>
+  <style>
+    .donate-hero {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 4rem 2rem 3.5rem;
+      text-align: center;
+    }
+    .donate-hero .wheel {
+      font-size: 2.5rem;
+      color: var(--saffron);
+      opacity: 0.6;
+      display: block;
+      margin-bottom: 1.25rem;
+    }
+    .donate-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 300;
+      color: var(--heading);
+      margin-bottom: 0.85rem;
+    }
+    .donate-hero p {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      font-style: italic;
+      max-width: 540px;
+      margin: 0 auto;
+    }
+
+    .callout {
+      background: var(--saffron-pale);
+      border: 1px solid var(--saffron-light);
+      border-left: 3px solid var(--saffron);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.25rem;
+      margin: 1.5rem 0;
+      font-size: 0.93rem;
+      color: var(--heading);
+    }
+
+    /* ── Dana button ────────────────────────────────────── */
+    .dana-cta {
+      text-align: center;
+      margin: 2.5rem 0;
+    }
+    .bmc-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: #FFDD00;
+      color: #000000;
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 0.85rem 1.75rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.18s, transform 0.15s;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    }
+    .bmc-btn:hover {
+      background: #f5d200;
+      transform: translateY(-1px);
+      text-decoration: none;
+    }
+    .bmc-btn svg {
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+    }
+    .bmc-subtext {
+      margin-top: 0.85rem;
+      font-size: 0.83rem;
+      color: var(--text-light);
+      font-style: italic;
+    }
+
+    /* ── Cost table ─────────────────────────────────────── */
+    .cost-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .cost-table th {
+      text-align: left;
+      padding: 0.6rem 0.75rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-weight: normal;
+      font-style: italic;
+    }
+    .cost-table td {
+      padding: 0.6rem 0.75rem;
+      border: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .cost-table tr.total td {
+      font-weight: bold;
+      background: var(--surface);
+      color: var(--heading);
+    }
+    .cost-table tr:hover td { background: var(--saffron-pale); }
+
+    /* ── Charity row ────────────────────────────────────── */
+    .charity-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+    .charity-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.1rem;
+      background: var(--surface);
+      font-size: 0.9rem;
+    }
+    .charity-card strong {
+      display: block;
+      color: var(--heading);
+      margin-bottom: 0.3rem;
+      font-size: 0.95rem;
+    }
+    .charity-card span {
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+    @media (max-width: 540px) {
+      .charity-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ── Principle list ─────────────────────────────────── */
+    .principle-list {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+    .principle-list li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      padding: 0.65rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+    }
+    .principle-list li:last-child { border-bottom: none; }
+    .principle-list .mark {
+      color: var(--saffron);
+      font-size: 1rem;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav">
+    <a href="/" class="nav-brand">
+      <span class="wheel-glyph">☸</span>
+      Monk in Your Pocket
+    </a>
+    <div class="nav-links">
+      <a href="/" class="nav-hide-sm">Home</a>
+      <a href="/about.html" class="nav-hide-sm">About</a>
+      <a href="/blog" class="nav-hide-sm">Blog</a>
+      <a href="/donate.html" class="active nav-hide-sm">Support</a>
+      <a href="/chat.html" class="nav-cta">Begin</a>
+    </div>
+  </nav>
+
+  <div class="donate-hero fade-up">
+    <span class="wheel">☸</span>
+    <h1>Dana — Free to use, freely supported</h1>
+    <p>The teachings of the Buddha were given freely. This tool follows that tradition.</p>
+  </div>
+
+  <div class="page-wrap prose">
+
+    <h2>The Dana Model</h2>
+    <p>
+      <em>Dana</em> (Pāli: dāna) is the practice of generosity — one of the foundational virtues in
+      Buddhist ethics. For 2,500 years, the dhamma has been transmitted without price. Teachers
+      taught freely; communities supported teachers through voluntary offerings. No one was turned
+      away from the teachings because they could not pay.
+    </p>
+    <p>
+      Monk in Your Pocket is free to use for everyone, with no account required and no paywall.
+      Rate limits exist only to prevent abuse, not to meter access. If the tool has been useful to
+      you, you are warmly invited — but never obligated — to offer dana.
+    </p>
+
+    <div class="callout">
+      Conversations are never sold, used for advertising, or shared with third parties.
+      There are no premium tiers. Guidance is not withheld.
+    </div>
+
+    <div class="dana-cta">
+      <a href="https://buymeacoffee.com/monkinyourpocket" target="_blank" rel="noopener" class="bmc-btn">
+        <!-- Buy Me a Coffee cup icon -->
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M20.216 6.415l-.132-.666c-.119-.598-.388-1.163-.766-1.653a3.74 3.74 0 0 0-1.618-1.123c-.605-.222-1.256-.318-1.904-.282H7.183a3.715 3.715 0 0 0-1.904.282 3.74 3.74 0 0 0-1.618 1.123 3.742 3.742 0 0 0-.766 1.653l-.132.666c-.15.758-.228 1.527-.232 2.3v.093c.005 1.413.4 2.792 1.135 3.987.736 1.195 1.792 2.16 3.044 2.785a8.017 8.017 0 0 0 4.29.963 8.017 8.017 0 0 0 4.29-.963c1.252-.624 2.308-1.59 3.044-2.785a8.037 8.037 0 0 0 1.135-3.987v-.093a13.01 13.01 0 0 0-.232-2.3zM12 15.5c-2.485 0-4.5-2.015-4.5-4.5S9.515 6.5 12 6.5s4.5 2.015 4.5 4.5-2.015 4.5-4.5 4.5zm6.344-9.193c-.135.682-.344 1.348-.62 1.985a6.043 6.043 0 0 1-1.035 1.63 5.98 5.98 0 0 1-1.55 1.218 5.957 5.957 0 0 1-1.898.608c-.353.055-.71.08-1.068.075a5.957 5.957 0 0 1-1.068-.075 5.957 5.957 0 0 1-1.898-.608 5.98 5.98 0 0 1-1.55-1.218A6.043 6.043 0 0 1 6.62 8.292a9.01 9.01 0 0 1-.62-1.985l-.015-.075h12.03l-.015.075z"/>
+        </svg>
+        Offer dana — Buy Me a Coffee
+      </a>
+      <p class="bmc-subtext">A one-time gift of any amount. No account needed.</p>
+    </div>
+
+    <h2>What It Actually Costs to Run This</h2>
+    <p>
+      The teaching should be free; the servers are not. Here is what this project costs to keep
+      running. These figures are updated periodically.
+    </p>
+
+    <table class="cost-table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Provider</th>
+          <th>Monthly cost (est.)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hosting (Node.js server)</td>
+          <td>Railway / Fly.io</td>
+          <td>~$5</td>
+        </tr>
+        <tr>
+          <td>Domain name</td>
+          <td>Namecheap / Cloudflare</td>
+          <td>~$1.25 (amortized)</td>
+        </tr>
+        <tr>
+          <td>OpenAI API (chat responses)</td>
+          <td>OpenAI</td>
+          <td>~$0.02 per conversation</td>
+        </tr>
+        <tr>
+          <td>OpenAI API (corpus ingestion)</td>
+          <td>OpenAI</td>
+          <td>one-time / occasional</td>
+        </tr>
+        <tr class="total">
+          <td colspan="2">Baseline monthly at 50 active users</td>
+          <td>~$10–15</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      Any dana received above operating costs is donated in full to one of the charities below,
+      chosen for their direct alignment with the spirit of this project.
+    </p>
+
+    <h2>Where Surplus Goes</h2>
+
+    <div class="charity-grid">
+      <div class="charity-card">
+        <strong>SuttaCentral</strong>
+        <span>
+          Hosts the free, open translations that power this project's corpus.
+          Every response here cites their work.
+        </span>
+      </div>
+      <div class="charity-card">
+        <strong>Buddhist Global Relief</strong>
+        <span>
+          Founded by Bhikkhu Bodhi. Addresses hunger and poverty through a Buddhist ethic of compassion.
+        </span>
+      </div>
+    </div>
+
+    <p>
+      When the monthly math is known, it will be published here. There is no opacity in this
+      model — if you give, you deserve to know where it goes.
+    </p>
+
+    <h2>The Principles Behind This Choice</h2>
+
+    <ul class="principle-list">
+      <li>
+        <span class="mark">☸</span>
+        <span><strong>The teachings are not for sale.</strong> Paywalling guidance on suffering and its end would contradict the very purpose of the project.</span>
+      </li>
+      <li>
+        <span class="mark">☸</span>
+        <span><strong>No advertising.</strong> The attention economy runs on craving and distraction — the opposite of what the dhamma cultivates. There will never be ads here.</span>
+      </li>
+      <li>
+        <span class="mark">☸</span>
+        <span><strong>No dark patterns.</strong> No guilt, no countdown timers, no "you have 3 free responses left." Dana is freely given or not given at all.</span>
+      </li>
+      <li>
+        <span class="mark">☸</span>
+        <span><strong>Surplus is generosity, not profit.</strong> Right livelihood means covering what's needed, then letting the rest flow outward.</span>
+      </li>
+    </ul>
+
+    <blockquote>
+      "If beings knew, as I know, the results of giving and sharing, they would not eat without
+      having given, nor would the stain of miserliness overcome their minds."
+      <cite>— The Buddha, Itivuttaka 26</cite>
+    </blockquote>
+
+    <div class="dana-cta">
+      <a href="https://buymeacoffee.com/monkinyourpocket" target="_blank" rel="noopener" class="bmc-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M20.216 6.415l-.132-.666c-.119-.598-.388-1.163-.766-1.653a3.74 3.74 0 0 0-1.618-1.123c-.605-.222-1.256-.318-1.904-.282H7.183a3.715 3.715 0 0 0-1.904.282 3.74 3.74 0 0 0-1.618 1.123 3.742 3.742 0 0 0-.766 1.653l-.132.666c-.15.758-.228 1.527-.232 2.3v.093c.005 1.413.4 2.792 1.135 3.987.736 1.195 1.792 2.16 3.044 2.785a8.017 8.017 0 0 0 4.29.963 8.017 8.017 0 0 0 4.29-.963c1.252-.624 2.308-1.59 3.044-2.785a8.037 8.037 0 0 0 1.135-3.987v-.093a13.01 13.01 0 0 0-.232-2.3zM12 15.5c-2.485 0-4.5-2.015-4.5-4.5S9.515 6.5 12 6.5s4.5 2.015 4.5 4.5-2.015 4.5-4.5 4.5zm6.344-9.193c-.135.682-.344 1.348-.62 1.985a6.043 6.043 0 0 1-1.035 1.63 5.98 5.98 0 0 1-1.55 1.218 5.957 5.957 0 0 1-1.898.608c-.353.055-.71.08-1.068.075a5.957 5.957 0 0 1-1.068-.075 5.957 5.957 0 0 1-1.898-.608 5.98 5.98 0 0 1-1.55-1.218A6.043 6.043 0 0 1 6.62 8.292a9.01 9.01 0 0 1-.62-1.985l-.015-.075h12.03l-.015.075z"/>
+        </svg>
+        Offer dana — Buy Me a Coffee
+      </a>
+      <p class="bmc-subtext">Every contribution, however small, is genuinely appreciated.</p>
+    </div>
+
+  </div>
+
+  <footer class="site-footer">
+    <span class="footer-wheel">☸</span>
+    Monk in Your Pocket draws on the Bhikkhu Sujato translations of the Pāli Canon via SuttaCentral.<br>
+    Not a substitute for a teacher, community, or mental health care.
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/chat.html">Chat</a>
+      <a href="/about.html">About</a>
+      <a href="/blog">Blog</a>
+      <a href="/donate.html">Support</a>
+    </div>
+  </footer>
+
+  <script>
+    const fadeEls = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.style.animationPlayState = 'running'; observer.unobserve(e.target); }});
+    }, { threshold: 0.1 });
+    fadeEls.forEach(el => { el.style.animationPlayState = 'paused'; observer.observe(el); });
+  </script>
+
+</body>
+</html>

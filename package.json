@@ -1,0 +1,37 @@
+{
+  "name": "miyp",
+  "version": "0.1.0",
+  "description": "Monk in Your Pocket — AI guidance grounded in early Buddhist teachings",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "eval": "promptfoo eval",
+    "eval:view": "promptfoo view",
+    "ingest": "tsx pipeline/ingest/run.ts",
+    "ingest:fetch": "tsx pipeline/ingest/run.ts --fetch-only",
+    "ingest:dry-run": "tsx pipeline/ingest/run.ts --dry-run"
+  },
+  "dependencies": {
+    "@types/marked": "^5.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.4.1",
+    "marked": "^18.0.2",
+    "openai": "^4.85.4",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.10",
+    "@types/uuid": "^10.0.0",
+    "promptfoo": "^0.121.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

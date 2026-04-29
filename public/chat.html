@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Monk in Your Pocket — Chat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="/css/site.css"/>
+  <style>
+    body { height: 100dvh; display: flex; flex-direction: column; overflow: hidden; }
+
+    .chat-shell {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    #chat-window {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.75rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.4rem;
+    }
+
+    .message { max-width: 700px; line-height: 1.7; }
+
+    .message.user {
+      align-self: flex-end;
+      background: var(--heading);
+      color: var(--bg);
+      padding: 0.75rem 1.1rem;
+      border-radius: 14px 14px 3px 14px;
+      font-size: 0.93rem;
+    }
+
+    .message.assistant { align-self: flex-start; }
+
+    .message.assistant .answer {
+      font-size: 0.96rem;
+      white-space: pre-wrap;
+      line-height: 1.75;
+    }
+
+    .message.assistant .meta {
+      margin-top: 0.7rem;
+      padding-top: 0.6rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.77rem;
+      color: var(--text-light);
+    }
+    .message.assistant .meta .citations { font-style: italic; }
+    .message.assistant .meta .labels { margin-top: 0.2rem; }
+
+    .message.system {
+      align-self: center;
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      font-style: italic;
+      max-width: 500px;
+      text-align: center;
+      padding: 1.5rem 0 0.5rem;
+    }
+
+    .message.error {
+      align-self: center;
+      font-size: 0.85rem;
+      color: #b94a37;
+      background: #fdf0ee;
+      padding: 0.55rem 1rem;
+      border-radius: 6px;
+    }
+
+    .typing {
+      align-self: flex-start;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-style: italic;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .typing-dots span {
+      display: inline-block;
+      width: 5px; height: 5px;
+      background: var(--text-light);
+      border-radius: 50%;
+      animation: dotPulse 1.2s ease-in-out infinite;
+    }
+    .typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+    .typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes dotPulse {
+      0%, 80%, 100% { transform: scale(0.7); opacity: 0.4; }
+      40%            { transform: scale(1);   opacity: 1; }
+    }
+
+    #input-area {
+      border-top: 1px solid var(--border);
+      padding: 1rem 1.5rem;
+      background: var(--surface);
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-end;
+    }
+
+    #message-input {
+      flex: 1;
+      font-family: var(--font-body);
+      font-size: 0.93rem;
+      padding: 0.7rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: #fff;
+      color: var(--text);
+      resize: none;
+      min-height: 44px;
+      max-height: 140px;
+      line-height: 1.5;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    #message-input:focus { border-color: var(--saffron); }
+    #message-input::placeholder { color: var(--text-light); }
+
+    #send-btn {
+      padding: 0.7rem 1.2rem;
+      background: var(--heading);
+      color: var(--bg);
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font-body);
+      font-size: 0.88rem;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s;
+      flex-shrink: 0;
+    }
+    #send-btn:hover    { background: #3a3020; }
+    #send-btn:disabled { background: var(--text-light); cursor: not-allowed; }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav">
+    <a href="/" class="nav-brand">
+      <span class="wheel-glyph">☸</span>
+      Monk in Your Pocket
+    </a>
+    <div class="nav-links">
+      <a href="/" class="nav-hide-sm">Home</a>
+      <a href="/about.html" class="nav-hide-sm">About</a>
+      <a href="/blog" class="nav-hide-sm">Blog</a>
+      <a href="/donate.html" class="nav-hide-sm">Support</a>
+      <a href="/chat.html" class="nav-cta active">Chat</a>
+    </div>
+  </nav>
+
+  <div class="chat-shell">
+    <div id="chat-window">
+      <div class="message system">
+        Share what's on your mind. Responses draw on early Buddhist teachings and cite their sources.
+      </div>
+    </div>
+
+    <div id="input-area">
+      <textarea
+        id="message-input"
+        placeholder="What's troubling you today?"
+        rows="1"
+        autofocus
+      ></textarea>
+      <button id="send-btn">Send</button>
+    </div>
+  </div>
+
+  <script>
+    const chatWindow = document.getElementById('chat-window');
+    const input      = document.getElementById('message-input');
+    const sendBtn    = document.getElementById('send-btn');
+
+    function appendMessage(role, content) {
+      const div = document.createElement('div');
+      div.className = `message ${role}`;
+      if (typeof content === 'string') {
+        div.textContent = content;
+      } else {
+        div.innerHTML = content;
+      }
+      chatWindow.appendChild(div);
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+      return div;
+    }
+
+    function escapeHtml(str) {
+      return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function formatAssistantMessage(data) {
+      const citationText = data.citations?.length
+        ? `Sources: ${data.citations.map(c => c.source_ref).join(', ')}`
+        : '';
+      const labelText = data.diagnostic_labels?.length
+        ? `Detected: ${data.diagnostic_labels.join(', ')}`
+        : '';
+      return `
+        <div class="answer">${escapeHtml(data.answer)}</div>
+        ${citationText || labelText ? `
+          <div class="meta">
+            ${citationText ? `<div class="citations">${escapeHtml(citationText)}</div>` : ''}
+            ${labelText   ? `<div class="labels">${escapeHtml(labelText)}</div>` : ''}
+          </div>` : ''}
+      `;
+    }
+
+    function makeTypingIndicator() {
+      const div = document.createElement('div');
+      div.className = 'typing';
+      div.innerHTML = `
+        <span class="status-text">Considering</span>
+        <span class="typing-dots">
+          <span></span><span></span><span></span>
+        </span>`;
+      chatWindow.appendChild(div);
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+      return div;
+    }
+
+    function getSessionId() {
+      let id = sessionStorage.getItem('dharma_session');
+      if (!id) {
+        id = 'session_' + Math.random().toString(36).slice(2, 10);
+        sessionStorage.setItem('dharma_session', id);
+      }
+      return id;
+    }
+
+    async function sendMessage() {
+      const text = input.value.trim();
+      if (!text) return;
+
+      input.value = '';
+      input.style.height = '';
+      sendBtn.disabled = true;
+
+      appendMessage('user', text);
+      const typingEl = makeTypingIndicator();
+
+      let msgDiv = null;
+      let answerEl = null;
+
+      try {
+        const res = await fetch('/chat/stream', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: text, session_id: getSessionId() }),
+        });
+
+        if (!res.ok) {
+          typingEl.remove();
+          const err = await res.json().catch(() => ({}));
+          appendMessage('error', err.error || 'Something went wrong. Please try again.');
+          return;
+        }
+
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = '';
+
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+          const lines = buffer.split('\n');
+          buffer = lines.pop(); // keep incomplete line
+
+          for (const line of lines) {
+            if (!line.startsWith('data: ')) continue;
+            let event;
+            try { event = JSON.parse(line.slice(6)); } catch { continue; }
+
+            if (event.type === 'status') {
+              typingEl.querySelector('span.status-text')
+                ? (typingEl.querySelector('span.status-text').textContent = event.text)
+                : null;
+            } else if (event.type === 'token') {
+              if (!msgDiv) {
+                typingEl.remove();
+                msgDiv = document.createElement('div');
+                msgDiv.className = 'message assistant';
+                answerEl = document.createElement('div');
+                answerEl.className = 'answer';
+                msgDiv.appendChild(answerEl);
+                chatWindow.appendChild(msgDiv);
+              }
+              answerEl.textContent += event.text;
+              chatWindow.scrollTop = chatWindow.scrollHeight;
+            } else if (event.type === 'done') {
+              if (!msgDiv) typingEl.remove();
+              const citations = event.citations || [];
+              const labels = event.diagnostic_labels || [];
+              if ((citations.length || labels.length) && msgDiv) {
+                const metaEl = document.createElement('div');
+                metaEl.className = 'meta';
+                if (citations.length) {
+                  const c = document.createElement('div');
+                  c.className = 'citations';
+                  c.textContent = 'Sources: ' + citations.map(c => c.source_ref).join(', ');
+                  metaEl.appendChild(c);
+                }
+                if (labels.length) {
+                  const l = document.createElement('div');
+                  l.className = 'labels';
+                  l.textContent = 'Detected: ' + labels.join(', ');
+                  metaEl.appendChild(l);
+                }
+                msgDiv.appendChild(metaEl);
+              }
+              chatWindow.scrollTop = chatWindow.scrollHeight;
+            } else if (event.type === 'error') {
+              if (!msgDiv) typingEl.remove();
+              appendMessage('error', event.text || 'Something went wrong.');
+            }
+          }
+        }
+      } catch {
+        if (msgDiv === null) typingEl.remove();
+        appendMessage('error', 'Network error. Please check your connection.');
+      } finally {
+        sendBtn.disabled = false;
+        input.focus();
+      }
+    }
+
+    sendBtn.addEventListener('click', sendMessage);
+
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage();
+      }
+    });
+
+    input.addEventListener('input', () => {
+      input.style.height = 'auto';
+      input.style.height = Math.min(input.scrollHeight, 140) + 'px';
+    });
+  </script>
+</body>
+</html>
