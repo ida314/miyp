@@ -95,6 +95,15 @@ a:hover { text-decoration: underline; }
 }
 .nav-cta:hover { background: var(--saffron-deep) !important; }
 
+.nav-github {
+  display: flex;
+  align-items: center;
+  color: var(--text-muted);
+  transition: color 0.15s;
+}
+.nav-github:hover { color: var(--heading); text-decoration: none; }
+.nav-github svg { width: 17px; height: 17px; display: block; }
+
 /* ── Footer ────────────────────────────────────────────── */
 .site-footer {
   border-top: 1px solid var(--border);
