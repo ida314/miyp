@@ -26,7 +26,6 @@ export async function planResponse(
   topUnits: AdviceUnit[]
 ): Promise<ResponsePlan> {
   log.info("Planning response", {
-    issue: parsedQuery.user_situation,
     unitCount: topUnits.length,
   });
 
@@ -55,7 +54,6 @@ ${unitsContext}`;
     const plan = await callLLMJson<ResponsePlan>(SYSTEM_PROMPT, userMessage);
 
     log.debug("Response plan created", {
-      mainIssue: plan.main_issue,
       sources: plan.selected_sources,
       teachingPoints: plan.key_teaching_points.length,
       actions: plan.recommended_actions.length,

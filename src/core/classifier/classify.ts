@@ -16,7 +16,6 @@ export interface ClassificationResult {
  */
 export function classify(parsedQuery: ParsedQuery, rawMessage: string): ClassificationResult {
   log.info("Classifying parsed query", {
-    situation: parsedQuery.user_situation,
     labels: parsedQuery.buddhist_labels,
   });
 
