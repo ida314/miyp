@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Monk in Your Pocket</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="/css/site.css"/>
+  <style>
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+    }
+
+    .gate {
+      width: 100%;
+      max-width: 380px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+    }
+
+    .gate-wheel {
+      font-size: 2.8rem;
+      color: var(--saffron);
+      opacity: 0.7;
+      display: block;
+      margin-bottom: 1.5rem;
+      animation: wheelSpin 90s linear infinite;
+      display: inline-block;
+    }
+
+    .gate-title {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: var(--heading);
+      margin-bottom: 0.4rem;
+    }
+
+    .gate-sub {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+
+    .gate-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .gate-input {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      font-family: var(--font-body);
+      font-size: 0.97rem;
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.15s;
+      text-align: center;
+      letter-spacing: 0.1em;
+    }
+    .gate-input:focus { border-color: var(--saffron); }
+    .gate-input::placeholder { letter-spacing: 0.04em; color: var(--text-light); }
+
+    .gate-btn {
+      width: 100%;
+      padding: 0.75rem;
+      background: var(--saffron);
+      color: #fff;
+      font-family: var(--font-body);
+      font-size: 0.92rem;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .gate-btn:hover { background: var(--saffron-deep); }
+
+    .gate-error {
+      font-size: 0.85rem;
+      color: var(--maroon);
+      margin-top: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="gate">
+    <span class="gate-wheel">☸</span>
+    <h1 class="gate-title">Monk in Your Pocket</h1>
+    <p class="gate-sub">Early access — password required</p>
+
+    <form class="gate-form" method="POST" action="/access">
+      <input
+        class="gate-input"
+        type="password"
+        name="password"
+        placeholder="Enter password"
+        autocomplete="current-password"
+        autofocus
+      />
+      <button class="gate-btn" type="submit">Enter</button>
+      <p class="gate-error" id="err" style="display:none">Incorrect password. Try again.</p>
+    </form>
+  </div>
+  <script>
+    if (new URLSearchParams(location.search).get('error')) {
+      document.getElementById('err').style.display = 'block';
+    }
+  </script>
+</body>
+</html>

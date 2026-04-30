@@ -53,6 +53,48 @@ app.use((req, res, next) => {
 
 // Middleware
 app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+
+// Password gate — enabled only when SITE_PASSWORD env var is set
+const SITE_PASSWORD = process.env.SITE_PASSWORD;
+const COOKIE_NAME = "site_access";
+const COOKIE_TOKEN = "granted";
+
+function parseCookie(header: string | undefined, name: string): string | undefined {
+  if (!header) return undefined;
+  for (const part of header.split(";")) {
+    const [k, v] = part.trim().split("=");
+    if (k === name) return v;
+  }
+}
+
+if (SITE_PASSWORD) {
+  // POST /access — validate password and set cookie
+  app.post("/access", (req, res) => {
+    if (req.body?.password === SITE_PASSWORD) {
+      res.setHeader("Set-Cookie", `${COOKIE_NAME}=${COOKIE_TOKEN}; Path=/; HttpOnly; Max-Age=${7 * 24 * 60 * 60}; SameSite=Lax`);
+      res.redirect("/");
+    } else {
+      res.redirect("/access?error=1");
+    }
+  });
+
+  // Gate middleware — runs before static files and routes
+  app.use((req, res, next) => {
+    // Allow: the access page itself, health check, and static assets (CSS/fonts so gate page renders)
+    const exempt =
+      req.path === "/access" ||
+      req.path === "/health" ||
+      req.path.startsWith("/css/") ||
+      req.path.startsWith("/fonts/");
+    if (exempt) return next();
+
+    const token = parseCookie(req.headers.cookie, COOKIE_NAME);
+    if (token === COOKIE_TOKEN) return next();
+
+    res.redirect("/access");
+  });
+}
 
 // Serve static files
 app.use(express.static(join(__dirname, "../public")));
