@@ -6,7 +6,7 @@ import { classify } from "./classifier/classify";
 import { retrieveAdvice } from "./retrival/retriveAdvice";
 import { rerank } from "./rerank/reranker";
 import { planResponse } from "./planner/planner";
-import { writeResponse, writeResponseStream } from "./writer/writer";
+import { writeResponse, writeResponseStream, writeConceptResponse, writeConceptResponseStream } from "./writer/writer";
 
 const log = createLogger("handleChat");
 
@@ -66,6 +66,12 @@ export async function handleChatStream(
   }
   if (parsedQuery.query_type === "off_topic") {
     for (const ch of OFF_TOPIC_RESPONSE) onToken(ch);
+    onDone({ citations: [], diagnostic_labels: [], safety_flags: [] });
+    return;
+  }
+  if (parsedQuery.query_type === "concept") {
+    onStatus("Drawing on the teachings…");
+    await writeConceptResponseStream(message, onToken);
     onDone({ citations: [], diagnostic_labels: [], safety_flags: [] });
     return;
   }
@@ -140,6 +146,11 @@ export async function handleChat(
   if (parsedQuery.query_type === "off_topic") {
     log.info("Off-topic query — returning redirect", { sessionId });
     return { answer: OFF_TOPIC_RESPONSE, citations: [], diagnostic_labels: [], safety_flags: [] };
+  }
+  if (parsedQuery.query_type === "concept") {
+    log.info("Concept query — writing doctrinal explanation", { sessionId });
+    const answer = await writeConceptResponse(message);
+    return { answer, citations: [], diagnostic_labels: [], safety_flags: [] };
   }
 
   // Step 4: Classify and validate labels

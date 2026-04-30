@@ -20,6 +20,7 @@ const SYSTEM_PROMPT = `You are a diagnostic parser for a Buddhist guidance syste
 
 First, classify the message type in the "query_type" field:
 - "guidance": The user is describing a personal problem, struggle, emotion, or situation and wants Buddhist-informed help. This is the most common type.
+- "concept": The user is asking a factual or doctrinal question about Buddhist teachings, terminology, or concepts (e.g. "What is the Noble Eightfold Path?", "What are the Three Characteristics of Existence?", "Explain dependent origination", "What are the five aggregates?", "What is nibbana?"). Use this for knowledge questions, not personal struggles.
 - "meta": The user is asking about what this system is, what it does, or how it works (e.g. "what are you?", "how do you work?", "what can you help with?").
 - "greeting": A simple greeting or opener with no specific problem yet (e.g. "hello", "hi there", "good morning").
 - "off_topic": The message is unrelated to personal guidance or Buddhist practice (e.g. weather, coding questions, news).
@@ -27,7 +28,7 @@ First, classify the message type in the "query_type" field:
 Then fill in the remaining fields. For non-"guidance" types, use empty arrays for labels and "low" for urgency.
 
 Output a JSON object with these fields:
-- "query_type": one of "guidance", "meta", "greeting", "off_topic"
+- "query_type": one of "guidance", "concept", "meta", "greeting", "off_topic"
 - "user_situation": A concise 1-2 sentence summary of the user's real-life problem. Use "N/A" for non-guidance queries.
 - "emotion_labels": An array of emotion labels from this set: ${JSON.stringify(EMOTION_LABELS)}. Pick 1-3 that best match. Empty array for non-guidance.
 - "buddhist_labels": An array of Buddhist diagnostic labels from this set: ${JSON.stringify(BUDDHIST_LABELS)}. Pick 1-3 that best match. Empty array for non-guidance.

@@ -1,4 +1,4 @@
-export type QueryType = "guidance" | "meta" | "greeting" | "off_topic";
+export type QueryType = "guidance" | "concept" | "meta" | "greeting" | "off_topic";
 
 export interface ParsedQuery {
   query_type: QueryType;

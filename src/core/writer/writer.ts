@@ -4,6 +4,52 @@ import { ResponsePlan } from "../../types/responsePlan";
 
 const log = createLogger("writer");
 
+const CONCEPT_SYSTEM_PROMPT = `You are a knowledgeable and clear-headed teacher of early Buddhist doctrine (Theravada / Pāli Canon). A student has asked a doctrinal or conceptual question. Explain the concept accurately and accessibly.
+
+Guidelines:
+- Explain the concept in plain modern language. Define Pāli terms when you use them.
+- Ground explanations in the early suttas (Aṅguttara Nikāya, Majjhima Nikāya, Saṁyutta Nikāya, Dhammapada) and cite specific references where you can (e.g. "MN 9", "AN 3.136").
+- Be honest about complexity — if a concept is contested or has nuance, say so briefly.
+- Keep it practical: connect the concept to everyday experience where natural.
+- Do not be preachy or over-formal. Write as a thoughtful teacher, not a textbook.
+- Aim for 150–300 words. Use paragraphs, not bullet lists for the main body.
+- Do not claim to be a monk or authoritative teacher.`;
+
+export async function writeConceptResponse(question: string): Promise<string> {
+  log.info("Writing concept response");
+  try {
+    const response = await callLLM(CONCEPT_SYSTEM_PROMPT, question, {
+      temperature: 0.4,
+      maxTokens: 1024,
+    });
+    return response.trim();
+  } catch (error) {
+    log.error("Concept writing failed", {
+      error: error instanceof Error ? error.message : String(error),
+    });
+    throw error;
+  }
+}
+
+export async function writeConceptResponseStream(
+  question: string,
+  onToken: (token: string) => void
+): Promise<string> {
+  log.info("Writing concept response (stream)");
+  try {
+    const full = await callLLMStream(CONCEPT_SYSTEM_PROMPT, question, onToken, {
+      temperature: 0.4,
+      maxTokens: 1024,
+    });
+    return full.trim();
+  } catch (error) {
+    log.error("Concept stream writing failed", {
+      error: error instanceof Error ? error.message : String(error),
+    });
+    throw error;
+  }
+}
+
 const SYSTEM_PROMPT = `You are a compassionate Buddhist guidance writer. Given a structured response plan with source-grounded teachings, write a warm, practical, and honest response to the user.
 
 Writing guidelines:
