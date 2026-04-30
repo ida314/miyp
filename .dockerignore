@@ -9,7 +9,6 @@ pipeline
 tests
 scripts
 promptfooconfig.yaml
-tsconfig*.json
 design_doc.txt
 TODO.md
 CLAUDE.md
