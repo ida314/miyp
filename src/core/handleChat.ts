@@ -197,8 +197,12 @@ export async function handleChat(
 
   log.info("Chat response complete", {
     sessionId,
+    queryType: classification.parsedQuery.query_type,
+    urgency: classification.parsedQuery.urgency,
+    buddhistLabels: classification.parsedQuery.buddhist_labels,
     citationCount: citations.length,
     answerLength: answer.length,
+    isCrisis: classification.isCrisis,
   });
 
   return {

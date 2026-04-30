@@ -66,8 +66,11 @@ Writing guidelines:
 
 export async function writeResponse(plan: ResponsePlan): Promise<string> {
   log.info("Writing response", {
-    mainIssue: plan.main_issue,
     sources: plan.selected_sources,
+    sourceCount: plan.selected_sources.length,
+    tone: plan.tone,
+    teachingPoints: plan.key_teaching_points.length,
+    actions: plan.recommended_actions.length,
   });
 
   const userMessage = `Response Plan:
@@ -87,7 +90,7 @@ Write the response now.`;
       maxTokens: 1024,
     });
 
-    log.debug("Response written", { responseLength: response.length });
+    log.info("Response written", { responseLength: response.length });
     return response.trim();
   } catch (error) {
     log.error("Writing failed", {
@@ -102,8 +105,11 @@ export async function writeResponseStream(
   onToken: (token: string) => void
 ): Promise<string> {
   log.info("Writing response (stream)", {
-    mainIssue: plan.main_issue,
     sources: plan.selected_sources,
+    sourceCount: plan.selected_sources.length,
+    tone: plan.tone,
+    teachingPoints: plan.key_teaching_points.length,
+    actions: plan.recommended_actions.length,
   });
 
   const userMessage = `Response Plan:

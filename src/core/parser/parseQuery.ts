@@ -62,8 +62,12 @@ export async function parseQuery(message: string): Promise<ParsedQuery> {
     log.debug("Parse result", {
       queryType: parsed.query_type,
       emotionLabels: parsed.emotion_labels,
+      emotionLabelCount: parsed.emotion_labels.length,
       buddhistLabels: parsed.buddhist_labels,
+      buddhistLabelCount: parsed.buddhist_labels.length,
       urgency: parsed.urgency,
+      intent: parsed.intent,
+      toneNeeded: parsed.tone_needed,
     });
 
     return parsed;

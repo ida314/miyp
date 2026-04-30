@@ -15,7 +15,7 @@ export async function retrieveAdvice(
 ): Promise<AdviceUnit[]> {
   log.info("Retrieving advice units", {
     labels: parsedQuery.buddhist_labels,
-    situation: parsedQuery.user_situation,
+    labelCount: parsedQuery.buddhist_labels.length,
   });
 
   // Strategy 1: Label-based retrieval
@@ -38,7 +38,11 @@ export async function retrieveAdvice(
   }
 
   const result = merged.slice(0, topK);
-  log.info("Retrieved advice units", { count: result.length });
+  log.info("Retrieved advice units", {
+    count: result.length,
+    labelMatchCount: labelResults.length,
+    semanticMatchCount: semanticResults.length,
+  });
 
   return result;
 }
