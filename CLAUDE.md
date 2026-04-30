@@ -97,7 +97,7 @@ Processes raw suttas from SuttaCentral API into AdviceUnits:
 2. **Extract** (`extractAdviceUnits.ts`) — LLM converts passages to AdviceUnit schema
 3. **Validate** (`validate.ts`) — rejection gates on vagueness, missing fields, invented practices, label inconsistency
 
-AN5 (11 vaggas) and MN (15 vaggas) are fully configured. SN is planned.
+AN5 (26 vaggas, 242 units) and MN (15 vaggas, 227 units) are fully ingested. SN is planned.
 
 ## Frontend Pages
 
@@ -106,8 +106,10 @@ All static pages are in `public/`. Blog posts are server-rendered via `src/api/b
 | URL | File | Notes |
 |-----|------|-------|
 | `/` | `public/index.html` | Hero page with animated dharma wheel, 8 category orbit labels, how-it-works, sutta quote, category grid |
-| `/chat.html` | `public/chat.html` | Chat UI (moved from old `index.html`) |
+| `/chat.html` | `public/chat.html` | Chat UI with streaming responses and thumbs up/down feedback buttons |
 | `/about.html` | `public/about.html` | Project story, corpus table, retrieval architecture, limitations |
+| `/donate.html` | `public/donate.html` | Dana model explanation, Ko-fi support button (ID: C1C31YNF32) |
+| `/access` | `src/index.ts` | Password gate — served when `SITE_PASSWORD` env var is set |
 | `/blog` | `src/api/blogRoute.ts` | Post listing, server-rendered |
 | `/blog/:slug` | `src/api/blogRoute.ts` | Individual post, Markdown rendered via `marked` |
 
@@ -130,7 +132,21 @@ RATE_LIMIT_PER_MIN=10            # Max chat requests per IP per minute (default:
 RATE_LIMIT_PER_DAY=100           # Max chat requests per IP per day (default: 100)
 MAX_MESSAGE_LENGTH=1000          # Max message length in characters (default: 1000)
 LOG_LEVEL=info                   # debug | info | warn | error (default: info)
+SITE_PASSWORD=secret             # Enables password gate at /access (default: disabled)
 ```
+
+## Feedback
+
+`POST /feedback` (`src/api/feedbackRoute.ts`) accepts thumbs up/down ratings from the chat UI.
+
+**Data stored per record** (no message content — by design):
+```
+timestamp, session_id, rating (up|down), diagnostic_labels, citations, response_index
+```
+
+Records are logged to stdout (captured by Railway) and appended to `data/feedback.jsonl` locally. The file is ephemeral in production without a persistent volume — stdout is the durable record.
+
+**Ethical principle**: user messages contain sensitive personal disclosures. Only signals derived from the pipeline (labels, citations, rating) are stored, never the content itself.
 
 Rate limiting applies to all `/chat/*` routes (both `/chat/respond` and `/chat/stream`). Static pages, blog, and health check are unrestricted.
 

@@ -8,6 +8,7 @@ import chatRoute from "./api/chatRoute";
 import ingestRoute from "./api/ingestRoute";
 import evalRoute from "./api/evalRoute";
 import blogRoute from "./api/blogRoute";
+import feedbackRoute from "./api/feedbackRoute";
 
 const log = createLogger("server");
 
@@ -113,6 +114,7 @@ app.use((req, _res, next) => {
 
 // Routes — rate limiters scoped to the LLM endpoint only
 app.use("/chat", burstLimiter, dailyLimiter, chatRoute);
+app.use("/feedback", feedbackRoute);
 app.use("/blog", blogRoute);
 app.use("/ingest", ingestRoute);
 app.use("/eval", evalRoute);

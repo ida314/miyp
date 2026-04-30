@@ -81,8 +81,8 @@ Design doc requires 100-200 prompts, full pipeline scoring, and baseline compari
 Design doc §5.3 requires logging parsed labels, retrieved units, chosen sources, answer plan, safety flags, user feedback.
 
 - [ ] Structured request/response logging per session (currently console-only)
-- [ ] POST /feedback endpoint for collecting user ratings
-- [ ] Log sink to file or external service (not just stdout)
+- [x] POST /feedback endpoint — thumbs up/down in chat UI; logs session_id, rating, diagnostic_labels, citations, response_index to stdout (Railway) + data/feedback.jsonl (local). No message content stored.
+- [ ] Log sink to external service (stdout captured by Railway logs; file is ephemeral without a volume)
 
 ### 7. Infrastructure
 - [ ] Postgres for AdviceUnit storage (currently in-memory JSON load only)
@@ -100,6 +100,8 @@ Required before any public access:
 - [x] Production build — `tsconfig.build.json` compiles `src/` only to `dist/`; `npm start` runs `node dist/index.js` (no tsx at runtime); `npm run build` uses build config
 - [x] `Dockerfile` — multi-stage build; runner image installs prod deps only, copies `dist/`, `public/`, `content/`, `data/`
 - [x] `.gitignore` — covers `node_modules/`, `dist/`, `data/sources/`, `.DS_Store`
+- [x] `trust proxy` set in `src/index.ts` — fixes rate-limit IP detection behind Railway's proxy
+- [x] Password gate — `SITE_PASSWORD` env var enables cookie-based gate at `/access` before any page loads
 - [ ] Email-based authentication with per-user monthly request quota (required for public launch)
 
 ### 8. Tests

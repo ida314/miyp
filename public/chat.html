@@ -139,6 +139,41 @@
     }
     #send-btn:hover    { background: #3a3020; }
     #send-btn:disabled { background: var(--text-light); cursor: not-allowed; }
+
+    .feedback {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.6rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border);
+    }
+    .feedback-label {
+      font-size: 0.72rem;
+      color: var(--text-light);
+      font-style: italic;
+      margin-right: 0.15rem;
+    }
+    .feedback-btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.22rem 0.55rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: all 0.15s;
+      line-height: 1.4;
+    }
+    .feedback-btn:hover { border-color: var(--saffron); color: var(--saffron-deep); }
+    .feedback-btn.selected-up   { background: #f0faf0; border-color: #6aaa6a; color: #3a7a3a; }
+    .feedback-btn.selected-down { background: #fdf0ee; border-color: #c47060; color: #8a3020; }
+    .feedback-btn:disabled { cursor: default; opacity: 0.7; }
+    .feedback-thanks {
+      font-size: 0.72rem;
+      color: var(--text-light);
+      font-style: italic;
+    }
   </style>
 </head>
 <body>
@@ -182,6 +217,7 @@
     const chatWindow = document.getElementById('chat-window');
     const input      = document.getElementById('message-input');
     const sendBtn    = document.getElementById('send-btn');
+    let responseIndex = 0;
 
     function appendMessage(role, content) {
       const div = document.createElement('div');
@@ -232,6 +268,48 @@
       chatWindow.appendChild(div);
       chatWindow.scrollTop = chatWindow.scrollHeight;
       return div;
+    }
+
+    function addFeedbackBar(msgDiv, citations, diagnosticLabels, index) {
+      const bar = document.createElement('div');
+      bar.className = 'feedback';
+
+      const label = document.createElement('span');
+      label.className = 'feedback-label';
+      label.textContent = 'Helpful?';
+      bar.appendChild(label);
+
+      ['up', 'down'].forEach(rating => {
+        const btn = document.createElement('button');
+        btn.className = 'feedback-btn';
+        btn.textContent = rating === 'up' ? '👍' : '👎';
+        btn.setAttribute('aria-label', rating === 'up' ? 'Helpful' : 'Not helpful');
+        btn.addEventListener('click', async () => {
+          btn.classList.add(rating === 'up' ? 'selected-up' : 'selected-down');
+          bar.querySelectorAll('.feedback-btn').forEach(b => b.disabled = true);
+          const thanks = document.createElement('span');
+          thanks.className = 'feedback-thanks';
+          thanks.textContent = 'Thank you.';
+          bar.appendChild(thanks);
+
+          try {
+            await fetch('/feedback', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                session_id: getSessionId(),
+                rating,
+                diagnostic_labels: diagnosticLabels,
+                citations: citations.map(c => c.source_ref),
+                response_index: index,
+              }),
+            });
+          } catch { /* non-fatal */ }
+        });
+        bar.appendChild(btn);
+      });
+
+      msgDiv.appendChild(bar);
     }
 
     function getSessionId() {
@@ -325,6 +403,7 @@
                 }
                 msgDiv.appendChild(metaEl);
               }
+              if (msgDiv) addFeedbackBar(msgDiv, citations, labels, responseIndex++);
               chatWindow.scrollTop = chatWindow.scrollHeight;
             } else if (event.type === 'error') {
               if (!msgDiv) typingEl.remove();
