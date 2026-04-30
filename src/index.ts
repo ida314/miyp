@@ -69,6 +69,11 @@ function parseCookie(header: string | undefined, name: string): string | undefin
 }
 
 if (SITE_PASSWORD) {
+  // GET /access — serve the gate page
+  app.get("/access", (_req, res) => {
+    res.sendFile(join(__dirname, "../public/access.html"));
+  });
+
   // POST /access — validate password and set cookie
   app.post("/access", (req, res) => {
     if (req.body?.password === SITE_PASSWORD) {
