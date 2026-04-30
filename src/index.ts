@@ -12,6 +12,7 @@ import blogRoute from "./api/blogRoute";
 const log = createLogger("server");
 
 const app = express();
+app.set("trust proxy", 1);
 const PORT = parseInt(process.env.PORT || "3000", 10);
 
 // Rate limiters — applied only to /chat/respond (the LLM endpoint)
