@@ -1,4 +1,4 @@
-import { callLLMJson } from "../../utils/llm";
+import { callLLMJson, ConversationMessage } from "../../utils/llm";
 import { createLogger } from "../../utils/logger";
 import { ParsedQuery, QueryType } from "../../types/parsedQuery";
 import { BUDDHIST_LABELS, EMOTION_LABELS } from "../../types/labels";
@@ -21,7 +21,7 @@ const SYSTEM_PROMPT = `You are a diagnostic parser for a Buddhist guidance syste
 First, classify the message type in the "query_type" field:
 - "guidance": The user is describing a personal problem, struggle, emotion, or situation and wants Buddhist-informed help. This is the most common type.
 - "concept": The user is asking a factual or doctrinal question about Buddhist teachings, terminology, or concepts (e.g. "What is the Noble Eightfold Path?", "What are the Three Characteristics of Existence?", "Explain dependent origination", "What are the five aggregates?", "What is nibbana?"). Use this for knowledge questions, not personal struggles.
-- "meta": The user is asking about what this system is, what it does, or how it works (e.g. "what are you?", "how do you work?", "what can you help with?").
+- "meta": The user is asking about what this system is, what it does, or how it works (e.g. "what are you?", "how do you work?", "what can you help with?", "what sources did you use?", "can you elaborate on that?", "tell me more about what you just said").
 - "greeting": A simple greeting or opener with no specific problem yet (e.g. "hello", "hi there", "good morning").
 - "off_topic": The message is unrelated to personal guidance or Buddhist practice (e.g. weather, coding questions, news).
 
@@ -38,11 +38,12 @@ Output a JSON object with these fields:
 
 Be practical and grounded. Do not over-interpret.`;
 
-export async function parseQuery(message: string): Promise<ParsedQuery> {
-  log.info("Parsing user query", { messageLength: message.length });
+export async function parseQuery(message: string, history: ConversationMessage[] = []): Promise<ParsedQuery> {
+  log.info("Parsing user query", { messageLength: message.length, historyLength: history.length });
 
-  // Fast path: skip the LLM call for obvious greetings and meta questions
-  const shortCircuit = regexShortCircuit(message);
+  // Fast path: skip the LLM call for obvious greetings and meta questions.
+  // Only applies when there's no prior history — a short message after a prior turn might be a follow-up.
+  const shortCircuit = history.length === 0 ? regexShortCircuit(message) : null;
   if (shortCircuit) {
     log.debug("Short-circuit parse", { queryType: shortCircuit });
     return {
@@ -57,7 +58,7 @@ export async function parseQuery(message: string): Promise<ParsedQuery> {
   }
 
   try {
-    const parsed = await callLLMJson<ParsedQuery>(SYSTEM_PROMPT, message);
+    const parsed = await callLLMJson<ParsedQuery>(SYSTEM_PROMPT, message, { responseFormat: "json", history });
 
     log.debug("Parse result", {
       queryType: parsed.query_type,

@@ -14,11 +14,17 @@ function getClient(): OpenAI {
   return client;
 }
 
+export interface ConversationMessage {
+  role: "user" | "assistant";
+  content: string;
+}
+
 export interface LLMOptions {
   model?: string;
   temperature?: number;
   maxTokens?: number;
   responseFormat?: "text" | "json";
+  history?: ConversationMessage[];
 }
 
 /**
@@ -35,6 +41,7 @@ export async function callLLM(
     temperature = 0.3,
     maxTokens = 2048,
     responseFormat = "text",
+    history = [],
   } = options;
 
   log.debug("Calling LLM", {
@@ -54,6 +61,7 @@ export async function callLLM(
         responseFormat === "json" ? { type: "json_object" } : { type: "text" },
       messages: [
         { role: "system", content: systemPrompt },
+        ...history,
         { role: "user", content: userMessage },
       ],
     });
@@ -106,6 +114,7 @@ export async function callLLMStream(
     model = "gpt-4o",
     temperature = 0.3,
     maxTokens = 2048,
+    history = [],
   } = options;
 
   log.debug("Calling LLM (stream)", { model, temperature, maxTokens });
@@ -118,6 +127,7 @@ export async function callLLMStream(
       stream: true,
       messages: [
         { role: "system", content: systemPrompt },
+        ...history,
         { role: "user", content: userMessage },
       ],
     });

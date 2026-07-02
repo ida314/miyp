@@ -1,0 +1,529 @@
+
+Below is a concrete design doc containing context and scope, goals and non-goals, actual design, alternatives considered, and cross-cutting concerns.
+
+Design Doc: Dharma Guide MVP
+Last updated: March 23, 2026
+
+1. Context and scope
+
+We want to build an AI chatbot that gives accurate, practically useful, early-Buddhist-aligned guidance for everyday user problems. The target experience is not “a monk persona” or aesthetic roleplay. The target is a system that can:
+understand a user’s real-life problem,
+map it to relevant Buddhist categories,
+retrieve grounded teachings from a curated early Buddhist corpus,
+synthesize a helpful answer in modern language,
+and remain transparent about what is grounded in source texts versus what is interpretive synthesis.
+The initial product is an MVP advice assistant, not a general-purpose religious assistant, meditation app, or academic textual search engine.
+The main constraint is that the system must work well without expensive training infrastructure. That pushes the design toward a retrieval-first architecture rather than fine-tuning as the core strategy. The project is also greenfield enough that the document should constrain the solution space and make explicit trade-offs, which matches the design-doc guidance in the attached outline.
+In scope for MVP
+English-only chatbot
+Early Buddhist source corpus, primarily AN, MN, and selected SN
+Practical advice for common lay concerns:
+anger
+craving/attachment
+anxiety/fear
+grief/loss
+distraction/restlessness
+ethical conflict
+relationships/speech
+discipline/habit formation
+Retrieval-augmented generation over a structured corpus
+Internal evaluation set and basic observability
+Out of scope for MVP
+Full coverage of all Buddhist traditions
+Monastic disciplinary guidance as a first-class feature
+Voice mode
+Long-term memory or deep user profiles
+Autonomous agent behavior with web browsing or tool loops
+Medical, psychiatric, legal, or crisis counseling beyond safe redirection
+
+
+
+2. Goals and non-goals
+Goals
+Ground responses in foundational Buddhist texts rather than style imitation.
+Optimize for practical usefulness, not merely doctrinal recitation.
+Make retrieval reliable by storing teachings in a structured, advice-oriented representation.
+Preserve source traceability so answers can cite the teachings they draw from.
+Keep the system simple enough to ship quickly with modest engineering effort and API budget.
+Support evaluation on accuracy, relevance, tone, and practical helpfulness.
+Non-goals
+Not a Buddhist “all-knowing oracle.”
+Not an imitation of a specific monk, teacher, or influencer.
+Not a pure semantic search engine over raw scriptures.
+Not a fine-tuned model in V1.
+Not a therapy substitute or clinical mental health product.
+Not a debate bot for comparative religion or advanced doctrinal disputes.
+Not optimized for maximum canonical coverage at launch.
+
+
+
+3. The actual design
+
+3.1 Overview
+The selected design is a workflow-based RAG system with a small diagnostic layer in front of retrieval.
+The key design decision is that we will not retrieve raw suttas directly as the primary unit. Instead, we will build a structured “advice unit” layer derived from source passages. Each advice unit captures:
+the kind of human problem being addressed,
+the Buddhist diagnosis,
+the relevant teaching,
+the recommended practice/action,
+and the source passage.
+This is the central bet of the design.
+Why this design
+Raw canonical passages are often dialogic, story-based, repetitive, and not phrased in modern user language. If we embed them as-is, retrieval quality will be weak. The system will either miss practical teachings or generate generic “Buddhist-sounding” answers. A structured advice layer improves both recall and usability.
+Chosen architecture
+User query
+  -> Query parser (/src/core/parser/parseQuery.ts)
+  -> Diagnostic classifier (/src/core/classifier/classify.ts)
+  -> Retrieval over structured advice units (/src/core/retrival/)
+  -> Reranker / selector (/src/core/rerank)
+  -> Response planner (/src/core/planner)
+  -> Final writer (src/core/writer)
+  -> Grounded answer with citations
+
+This is a workflow, not a full agent. The model does not freely decide which tools to call or wander through multi-step reasoning loops. That is deliberate: controllability and reliability matter more than flexibility in the MVP.
+
+
+
+3.2 System context diagram
+               +----------------------+
+                |   Curated Source     |
+                |  Early Buddhist Texts|
+                |  AN / MN / selected  |
+                |  SN                  |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                | Ingestion Pipeline |
+      | (/pipeline/ingest)  |
+                | - chunking            |
+                | - extraction          |
+                | - tagging             |
+                | - validation          |
+                +----------+-----------+
+                           |
+          +----------------+----------------+
+          |                                 |
+          v                                 v
++----------------------+        +----------------------+
+| Structured Advice DB |        | Vector Index         |
+| JSON / Postgres      |        | embeddings on        |
+| metadata + sources   |        | normalized fields    |
++----------+-----------+        +----------+-----------+
+           |                                 |
+           +----------------+----------------+
+                            |
+                            v
+                +----------------------+
+                | Runtime App          |
+      | (/src)                 |
+                | - parser             |
+                | - classifier         |
+                | - retriever          |
+                | - planner            |
+                | - writer             |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                | User-facing Chat UI  |
+                +----------------------+
+
+
+
+3.3 Corpus design
+Primary corpus for MVP
+We will start with:
+Aṅguttara Nikāya (AN) — highest priority
+Majjhima Nikāya (MN)
+Selected Saṁyutta Nikāya (SN)
+Why this corpus
+AN contains compact, advice-shaped teachings and lists that map well to modern user problems.
+MN contains richer case-based dialogues that support nuanced personalized answers.
+SN provides doctrinal grounding but is broader and less immediately advice-shaped.
+Why not include more at launch
+Adding DN, Snp, Dhammapada, Vinaya, and parallel-text corpora would increase coverage but also increase noise, inconsistency, and retrieval complexity. The MVP should bias toward high signal, low ambiguity.
+Source passage strategy
+We will not treat every paragraph as a retrieval unit. Instead, we will extract only passages that fit at least one of the following:
+direct instruction
+problem-response dialogue
+practical ethical teaching
+structured framework relevant to lay guidance
+
+
+
+3.4 Data model
+The main storage unit is an AdviceUnit.
+```
+AdviceUnit schema
+{
+  "id": "au_000123",
+  "source_collection": "AN",
+  "source_ref": "AN 5.57",
+  "translator": "TBD",
+  "canonical_passage": "...",
+  "context_summary": "...",
+  "problem_summary": "jealousy toward others' success",
+  "buddhist_labels": ["craving", "ill_will", "comparison"],
+  "diagnosis": "suffering is intensified by attachment to status and self-view",
+  "teaching": "one should cultivate sympathetic joy and examine attachment to praise and gain",
+  "practice_actions": [
+    "notice envy as a conditioned state",
+    "reflect on impermanence of praise and status",
+    "cultivate mudita toward the other person"
+  ],
+  "audience": "lay",
+  "confidence": 0.82,
+  "review_status": "human_reviewed"
+}
+`````
+
+Design trade-off
+This schema is intentionally interpretive. That is both a strength and a risk.
+Strength: modern user queries are easier to match against normalized summaries than against literal canon phrasing.
+Risk: interpretation can drift from the text.
+Mitigation:
+store the original passage and citation alongside the normalized fields,
+review high-value entries manually,
+and require the final answer to remain anchored to the retrieved evidence.
+
+
+
+3.5 Ingestion pipeline
+Step 1: Source import
+Import selected texts into a clean canonical text store with:
+source reference
+text body
+translator/version
+collection metadata
+Step 2: Passage selection
+Split text into candidate passages using section boundaries, speaker changes, or short discourse subsections.
+Exclude:
+genealogical repetition
+purely cosmological passages
+purely formal repetition with low practical value
+passages that are mainly administrative or monastic rule-oriented
+Step 3: Structured extraction
+For each candidate passage, run an LLM extraction prompt that outputs:
+problem summary
+Buddhist labels
+diagnosis
+teaching
+practice actions
+audience
+confidence
+Step 4: Validation
+Reject or flag units if:
+no clear practical teaching exists,
+extraction is too vague,
+diagnosis is not text-supported,
+action list is invented rather than inferred,
+or labels are inconsistent.
+Step 5: Human review
+Human-review:
+the ontology,
+a seed set of 200–500 AdviceUnits,
+low-confidence items,
+and the highest-traffic topics after launch.
+Why not manually tag everything
+Manual annotation of the full corpus is too slow and will block shipping. The right compromise is LLM-assisted extraction with selective review, not raw automation and not full hand-curation.
+
+
+
+3.6 Diagnostic engine
+The diagnostic engine maps raw user language into a compact set of labels that guide retrieval.
+Inputs
+A raw user message such as:
+“I feel resentful when my friend succeeds.”
+“I keep doomscrolling and feel restless.”
+“I’m scared of losing my job.”
+Outputs
+A structured parse like:
+{
+  "user_situation": "user compares self to a friend and feels resentment",
+  "emotion_labels": ["envy", "resentment"],
+  "buddhist_labels": ["craving", "ill_will", "comparison"],
+  "urgency": "low",
+  "intent": "wants practical advice",
+  "tone_needed": "clear and compassionate"
+}
+
+Label ontology for MVP
+We will use a deliberately small label set:
+craving / attachment
+aversion / anger
+delusion / confusion
+grief / loss
+fear / anxiety
+restlessness / distraction
+doubt / indecision
+ethical conflict
+speech / relationships
+discipline / habit formation
+A second layer maps these to canonical structures where relevant:
+three poisons
+five hindrances
+right speech
+generosity
+sense restraint
+impermanence
+non-self
+gradual training
+Design trade-off
+A small ontology reduces expressiveness but improves consistency and evaluation. For V1, consistency matters more.
+
+
+
+3.7 Retrieval and ranking
+Retrieval strategy
+For each user query:
+Use the diagnostic labels as metadata filters or soft boosts.
+Embed the user situation summary.
+Retrieve top candidate AdviceUnits using semantic similarity over:
+problem summary
+diagnosis
+teaching
+practice actions
+Rerank candidates using:
+label match
+practical relevance
+source confidence
+human-review status
+Why retrieval is over normalized fields
+Users describe problems in modern language. Canonical text does not. Matching “I feel empty after success” to a doctrinally relevant teaching works better if the system retrieves against “attachment to gain/status; dissatisfaction after acquisition” than against raw scripture phrasing.
+Source grounding rule
+The final answer must cite at least one retrieved AdviceUnit and must not introduce core recommendations unsupported by retrieved evidence.
+
+
+
+3.8 Response planning and writing
+The system should not jump directly from retrieval to freeform prose.
+Response planner
+The planner produces an internal structured response plan:
+{
+  "main_issue": "envy linked to comparison and craving",
+  "selected_sources": ["AN 5.57", "MN xx"],
+  "key_teaching_points": [
+    "comparison deepens suffering",
+    "envy can be met by observing it as conditioned",
+    "mudita is the corrective practice"
+  ],
+  "recommended_actions": [
+    "pause and name envy when it arises",
+    "reflect on impermanence of praise and success",
+    "practice deliberate sympathetic joy"
+  ],
+  "tone": "plain, grounded, non-performative"
+}
+
+Final writer
+The writer turns the plan into a response that:
+addresses the user directly,
+explains the Buddhist framing in plain language,
+gives a small number of practical next steps,
+avoids fake certainty,
+and includes source references.
+Important constraint
+“Action” is not a separate unguided generation step. It must be synthesized from retrieved evidence. This is one of the most important anti-drift decisions in the system.
+
+
+
+3.9 API sketch
+
+Internal endpoint
+POST /chat/respond
+Request:
+{
+  "message": "I feel bitter when people around me do better than me",
+  "session_id": "abc123"
+}
+
+Response:
+{
+  "answer": "...",
+  "citations": [
+    {"source_ref": "AN 5.57"},
+    {"source_ref": "MN 21"}
+  ],
+  "diagnostic_labels": ["craving", "ill_will", "comparison"],
+  "safety_flags": []
+}
+
+Internal endpoint
+POST /ingest/advice-units
+Used by ingestion jobs to write validated AdviceUnits into storage.
+
+Internal endpoint
+GET /eval/run
+Runs benchmark prompts against the current retrieval and response stack.
+
+
+
+3.10 Data storage
+Recommended storage layout
+Postgres for AdviceUnit records and metadata
+pgvector or Qdrant for embeddings
+object storage for raw text files if needed
+application logs for observability
+Why not a more elaborate knowledge graph first
+A graph could eventually help represent doctrinal relationships, but it is unnecessary complexity in the MVP. The retrieval quality bottleneck is not graph traversal; it is source normalization and classification quality.
+
+
+
+3.11 Evaluation plan
+The MVP succeeds only if it is measurably better than naive prompting over raw texts.
+Build an eval set of 100–200 prompts
+Cover:
+anger
+jealousy
+anxiety
+grief
+habit loops
+speech conflict
+indecision
+existential dissatisfaction
+Score on:
+Groundedness: is the answer supported by sources?
+Relevance: does it actually address the user’s problem?
+Practicality: does it give usable next steps?
+Doctrinal alignment: does it distort early Buddhist teaching?
+Tone quality: clear, serious, not theatrical
+Safety: avoids overreach on crisis, medical, or psychiatric content
+Baselines
+Compare against:
+raw LLM prompting with no RAG,
+raw text RAG over canonical passages,
+structured AdviceUnit RAG.
+If structured RAG is not clearly better than raw passage RAG, the extraction layer is not paying for itself.
+
+
+
+4. Alternatives considered
+The outline emphasizes alternatives and trade-offs, and this project especially needs them explicit.
+Alternative A: Prompt-only system with a long system prompt
+Pros
+fastest to build
+no ingestion pipeline
+low engineering cost
+Cons
+weak grounding
+poor consistency
+difficult to trace outputs back to sources
+degrades into monk cosplay easily
+Decision
+Rejected for MVP because it optimizes speed over trustworthiness.
+
+Alternative B: Raw-text RAG over canonical passages
+Pros
+simpler than structured extraction
+more “pure” use of source text
+less interpretive preprocessing
+Cons
+weak semantic match to modern user queries
+poor practical answer synthesis
+story/dialogue structure obscures actionable teaching
+Decision
+Rejected as primary architecture, though raw passages are still stored as evidence.
+
+Alternative C: Fine-tune a model on Buddhist advice examples
+Pros
+can improve tone and consistency
+may reduce latency at inference later
+Cons
+expensive to do well
+hard to guarantee doctrinal faithfulness
+bakes errors into weights
+harder to update than retrieval
+Decision
+Rejected for MVP. Revisit only after data and evals are mature.
+
+Alternative D: Full agent architecture
+Pros
+flexible
+can do multi-step reasoning and tool use
+Cons
+unnecessary complexity
+harder to debug
+greater drift risk
+weakens predictability
+Decision
+Rejected for MVP. Use a constrained workflow instead.
+
+
+
+5. Cross-cutting concerns
+5.1 Safety
+This system will receive messages involving suffering, distress, and possible crisis. The product must:
+detect self-harm, suicidality, abuse, psychosis, and crisis indicators,
+avoid presenting itself as a substitute for emergency or medical care,
+escalate or redirect appropriately,
+avoid shame-based or absolutist prescriptions.
+The chatbot should be honest when Buddhist guidance is interpretive rather than directly source-backed.
+
+5.2 Privacy
+The system may process deeply personal user reflections. Therefore:
+minimize stored user data,
+avoid retaining sensitive content longer than needed,
+separate chat logs from evaluation datasets,
+redact personal information before annotation or review.
+The MVP should launch without long-term memory by default.
+
+5.3 Observability
+We need enough visibility to debug doctrinal and retrieval failures.
+Log:
+parsed labels,
+retrieved units,
+chosen sources,
+answer plan,
+safety flags,
+user feedback.
+Do not log more personal data than needed to support quality and safety review.
+
+5.4 Bias and doctrinal overreach
+Even within “early Buddhism,” interpretation choices exist. The system must avoid implying it is the sole authoritative voice of Buddhism. For MVP copy and product framing, describe it as:
+guidance grounded in selected early Buddhist texts
+not:
+the definitive Buddhist answer
+
+5.5 Maintainability
+The ingestion pipeline must support:
+re-running extraction prompts,
+versioning advice units,
+swapping label ontologies,
+and re-indexing embeddings without rebuilding the full app.
+
+
+
+6. Rollout plan
+Phase 1: Offline prototype
+ingest AN and MN subset
+generate AdviceUnits
+build eval set
+test structured RAG against raw passage RAG
+Phase 2: Internal MVP
+add selected SN
+human review top advice units
+basic chat UI
+logging and feedback collection
+Phase 3: Public beta
+improve tone and safety handling
+add source citation UX
+expand corpus selectively based on failure cases
+
+
+
+7. Open questions
+Which translation/version should be canonical for source text display?
+Bhikku Sujato translations (modern, free licence) 
+How much paraphrasing is acceptable before doctrinal drift becomes too high?
+Should one answer ever combine multiple teachings with mild tension between them?
+At what point does the ontology need to split “fear,” “anxiety,” and “existential uncertainty”?
+When should the bot refuse to answer and instead encourage a human teacher, therapist, or emergency resource?
+
+8. Decision summary
+We will build the MVP as a structured RAG workflow over a curated early Buddhist corpus, centered on AN, MN, and selected SN. The primary retrieval object will be a normalized AdviceUnit, not a raw scripture chunk. A small diagnostic classifier will map user problems into a compact Buddhist-oriented label set to improve retrieval and consistency. The system will remain source-grounded, traceable, and intentionally simpler than a fine-tuned or agentic design.
+The real bet is this: accuracy and usefulness will come more from corpus design, structured representation, and evaluation than from model sophistication.
+If you want, I can turn this into a version that is even more “real doc” style with sections like Risks, Metrics, Milestones, and Implementation Plan.
+
+
+````

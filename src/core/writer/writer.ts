@@ -1,8 +1,52 @@
-import { callLLM, callLLMStream } from "../../utils/llm";
+import { callLLM, callLLMStream, ConversationMessage } from "../../utils/llm";
 import { createLogger } from "../../utils/logger";
 import { ResponsePlan } from "../../types/responsePlan";
 
 const log = createLogger("writer");
+
+const META_SYSTEM_PROMPT = `You are Monk in Your Pocket — a tool that brings early Buddhist teachings close at hand for everyday struggles. You draw on teachings from the Pāli Canon (Aṅguttara Nikāya, Majjhima Nikāya, Saṁyutta Nikāya). You are not a monk, a therapist, or a replacement for a teacher.
+
+If the user is asking about a previous response (sources used, concepts mentioned, advice given), answer specifically from the conversation history provided. Be concise — 50–200 words.`;
+
+export async function writeMetaResponse(question: string, history: ConversationMessage[]): Promise<string> {
+  log.info("Writing meta response with history");
+  try {
+    const response = await callLLM(META_SYSTEM_PROMPT, question, {
+      model: "gpt-4o-mini",
+      temperature: 0.3,
+      maxTokens: 512,
+      history,
+    });
+    return response.trim();
+  } catch (error) {
+    log.error("Meta writing failed", {
+      error: error instanceof Error ? error.message : String(error),
+    });
+    throw error;
+  }
+}
+
+export async function writeMetaResponseStream(
+  question: string,
+  history: ConversationMessage[],
+  onToken: (token: string) => void
+): Promise<string> {
+  log.info("Writing meta response with history (stream)");
+  try {
+    const full = await callLLMStream(META_SYSTEM_PROMPT, question, onToken, {
+      model: "gpt-4o-mini",
+      temperature: 0.3,
+      maxTokens: 512,
+      history,
+    });
+    return full.trim();
+  } catch (error) {
+    log.error("Meta stream writing failed", {
+      error: error instanceof Error ? error.message : String(error),
+    });
+    throw error;
+  }
+}
 
 const CONCEPT_SYSTEM_PROMPT = `You are a knowledgeable and clear-headed teacher of early Buddhist doctrine (Theravada / Pāli Canon). A student has asked a doctrinal or conceptual question. Explain the concept accurately and accessibly.
 
@@ -15,12 +59,13 @@ Guidelines:
 - Aim for 150–300 words. Use paragraphs, not bullet lists for the main body.
 - Do not claim to be a monk or authoritative teacher.`;
 
-export async function writeConceptResponse(question: string): Promise<string> {
+export async function writeConceptResponse(question: string, history: ConversationMessage[] = []): Promise<string> {
   log.info("Writing concept response");
   try {
     const response = await callLLM(CONCEPT_SYSTEM_PROMPT, question, {
       temperature: 0.4,
       maxTokens: 1024,
+      history,
     });
     return response.trim();
   } catch (error) {
@@ -33,13 +78,15 @@ export async function writeConceptResponse(question: string): Promise<string> {
 
 export async function writeConceptResponseStream(
   question: string,
-  onToken: (token: string) => void
+  onToken: (token: string) => void,
+  history: ConversationMessage[] = []
 ): Promise<string> {
   log.info("Writing concept response (stream)");
   try {
     const full = await callLLMStream(CONCEPT_SYSTEM_PROMPT, question, onToken, {
       temperature: 0.4,
       maxTokens: 1024,
+      history,
     });
     return full.trim();
   } catch (error) {
@@ -50,7 +97,7 @@ export async function writeConceptResponseStream(
   }
 }
 
-const SYSTEM_PROMPT = `You are a compassionate Buddhist guidance writer. Given a structured response plan with source-grounded teachings, write a warm, practical, and honest response to the user.
+const GUIDANCE_SYSTEM_PROMPT = `You are a compassionate Buddhist guidance writer. Given a structured response plan with source-grounded teachings, write a warm, practical, and honest response to the user.
 
 Writing guidelines:
 - Address the user directly and naturally. Do not use "Dear seeker" or similar formalities.
@@ -64,7 +111,7 @@ Writing guidelines:
 - Use paragraphs, not bullet lists for the main body. Action steps can be a short list at the end.
 - End with an encouraging but honest note — not a platitude.`;
 
-export async function writeResponse(plan: ResponsePlan): Promise<string> {
+export async function writeResponse(plan: ResponsePlan, history: ConversationMessage[] = []): Promise<string> {
   log.info("Writing response", {
     sources: plan.selected_sources,
     sourceCount: plan.selected_sources.length,
@@ -85,9 +132,10 @@ Tone: ${plan.tone}
 Write the response now.`;
 
   try {
-    const response = await callLLM(SYSTEM_PROMPT, userMessage, {
+    const response = await callLLM(GUIDANCE_SYSTEM_PROMPT, userMessage, {
       temperature: 0.5,
       maxTokens: 1024,
+      history,
     });
 
     log.info("Response written", { responseLength: response.length });
@@ -102,7 +150,8 @@ Write the response now.`;
 
 export async function writeResponseStream(
   plan: ResponsePlan,
-  onToken: (token: string) => void
+  onToken: (token: string) => void,
+  history: ConversationMessage[] = []
 ): Promise<string> {
   log.info("Writing response (stream)", {
     sources: plan.selected_sources,
@@ -124,9 +173,10 @@ Tone: ${plan.tone}
 Write the response now.`;
 
   try {
-    const full = await callLLMStream(SYSTEM_PROMPT, userMessage, onToken, {
+    const full = await callLLMStream(GUIDANCE_SYSTEM_PROMPT, userMessage, onToken, {
       temperature: 0.5,
       maxTokens: 1024,
+      history,
     });
     return full.trim();
   } catch (error) {

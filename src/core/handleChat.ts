@@ -6,7 +6,8 @@ import { classify } from "./classifier/classify";
 import { retrieveAdvice } from "./retrival/retriveAdvice";
 import { rerank } from "./rerank/reranker";
 import { planResponse } from "./planner/planner";
-import { writeResponse, writeResponseStream, writeConceptResponse, writeConceptResponseStream } from "./writer/writer";
+import { writeResponse, writeResponseStream, writeConceptResponse, writeConceptResponseStream, writeMetaResponse, writeMetaResponseStream } from "./writer/writer";
+import { appendToHistory, getHistory } from "./sessionStore";
 
 const log = createLogger("handleChat");
 
@@ -52,26 +53,37 @@ export async function handleChatStream(
   }
 
   onStatus("Reflecting on your message…");
-  const parsedQuery = await parseQuery(message);
+  const history = getHistory(sessionId);
+  const parsedQuery = await parseQuery(message, history);
 
   if (parsedQuery.query_type === "meta") {
-    for (const ch of META_RESPONSE) onToken(ch);
-    onDone({ citations: [], diagnostic_labels: [], safety_flags: [] });
+    if (history.length === 0) {
+      appendToHistory(sessionId, message, META_RESPONSE);
+      for (const ch of META_RESPONSE) onToken(ch);
+      onDone({ citations: [], diagnostic_labels: [], safety_flags: [] });
+    } else {
+      const answer = await writeMetaResponseStream(message, history, onToken);
+      appendToHistory(sessionId, message, answer);
+      onDone({ citations: [], diagnostic_labels: [], safety_flags: [] });
+    }
     return;
   }
   if (parsedQuery.query_type === "greeting") {
+    appendToHistory(sessionId, message, GREETING_RESPONSE);
     for (const ch of GREETING_RESPONSE) onToken(ch);
     onDone({ citations: [], diagnostic_labels: [], safety_flags: [] });
     return;
   }
   if (parsedQuery.query_type === "off_topic") {
+    appendToHistory(sessionId, message, OFF_TOPIC_RESPONSE);
     for (const ch of OFF_TOPIC_RESPONSE) onToken(ch);
     onDone({ citations: [], diagnostic_labels: [], safety_flags: [] });
     return;
   }
   if (parsedQuery.query_type === "concept") {
     onStatus("Drawing on the teachings…");
-    await writeConceptResponseStream(message, onToken);
+    const answer = await writeConceptResponseStream(message, onToken, history);
+    appendToHistory(sessionId, message, answer);
     onDone({ citations: [], diagnostic_labels: [], safety_flags: [] });
     return;
   }
@@ -91,6 +103,7 @@ export async function handleChatStream(
 
   if (topUnits.length === 0) {
     const fallback = "I appreciate you sharing this with me. Unfortunately, I don't have specific teachings in my current collection that directly address your situation. I'd encourage you to explore the early Buddhist suttas — particularly the Aṅguttara Nikāya — or speak with a knowledgeable teacher who can offer more tailored guidance.";
+    appendToHistory(sessionId, message, fallback);
     for (const ch of fallback) onToken(ch);
     onDone({ citations: [], diagnostic_labels: classification.parsedQuery.buddhist_labels, safety_flags: [] });
     return;
@@ -100,9 +113,10 @@ export async function handleChatStream(
   const plan = await planResponse(classification.parsedQuery, topUnits);
 
   onStatus("Writing…");
-  await writeResponseStream(plan, onToken);
+  const guidanceAnswer = await writeResponseStream(plan, onToken, history);
 
   const citations = plan.selected_sources.map((ref) => ({ source_ref: ref }));
+  appendToHistory(sessionId, message, guidanceAnswer);
   onDone({ citations, diagnostic_labels: classification.parsedQuery.buddhist_labels, safety_flags: [] });
 }
 
@@ -132,24 +146,34 @@ export async function handleChat(
   }
 
   // Step 2: Parse the user query (includes query_type classification)
-  const parsedQuery = await parseQuery(message);
+  const history = getHistory(sessionId);
+  const parsedQuery = await parseQuery(message, history);
 
   // Step 3: Branch on query type — only "guidance" proceeds to retrieval
   if (parsedQuery.query_type === "meta") {
     log.info("Meta query — returning direct response", { sessionId });
-    return { answer: META_RESPONSE, citations: [], diagnostic_labels: [], safety_flags: [] };
+    if (history.length === 0) {
+      appendToHistory(sessionId, message, META_RESPONSE);
+      return { answer: META_RESPONSE, citations: [], diagnostic_labels: [], safety_flags: [] };
+    }
+    const answer = await writeMetaResponse(message, history);
+    appendToHistory(sessionId, message, answer);
+    return { answer, citations: [], diagnostic_labels: [], safety_flags: [] };
   }
   if (parsedQuery.query_type === "greeting") {
     log.info("Greeting — returning direct response", { sessionId });
+    appendToHistory(sessionId, message, GREETING_RESPONSE);
     return { answer: GREETING_RESPONSE, citations: [], diagnostic_labels: [], safety_flags: [] };
   }
   if (parsedQuery.query_type === "off_topic") {
     log.info("Off-topic query — returning redirect", { sessionId });
+    appendToHistory(sessionId, message, OFF_TOPIC_RESPONSE);
     return { answer: OFF_TOPIC_RESPONSE, citations: [], diagnostic_labels: [], safety_flags: [] };
   }
   if (parsedQuery.query_type === "concept") {
     log.info("Concept query — writing doctrinal explanation", { sessionId });
-    const answer = await writeConceptResponse(message);
+    const answer = await writeConceptResponse(message, history);
+    appendToHistory(sessionId, message, answer);
     return { answer, citations: [], diagnostic_labels: [], safety_flags: [] };
   }
 
@@ -175,9 +199,10 @@ export async function handleChat(
 
   if (topUnits.length === 0) {
     log.warn("No advice units found", { sessionId });
+    const fallback = "I appreciate you sharing this with me. Unfortunately, I don't have specific teachings in my current collection that directly address your situation. I'd encourage you to explore the early Buddhist suttas — particularly the Aṅguttara Nikāya — or speak with a knowledgeable teacher who can offer more tailored guidance.";
+    appendToHistory(sessionId, message, fallback);
     return {
-      answer:
-        "I appreciate you sharing this with me. Unfortunately, I don't have specific teachings in my current collection that directly address your situation. I'd encourage you to explore the early Buddhist suttas — particularly the Aṅguttara Nikāya — or speak with a knowledgeable teacher who can offer more tailored guidance.",
+      answer: fallback,
       citations: [],
       diagnostic_labels: classification.parsedQuery.buddhist_labels,
       safety_flags: [],
@@ -188,12 +213,13 @@ export async function handleChat(
   const plan = await planResponse(classification.parsedQuery, topUnits);
 
   // Step 8: Write the final response
-  const answer = await writeResponse(plan);
+  const answer = await writeResponse(plan, history);
 
-  // Build citations from the selected sources
   const citations = plan.selected_sources.map((ref) => ({
     source_ref: ref,
   }));
+
+  appendToHistory(sessionId, message, answer);
 
   log.info("Chat response complete", {
     sessionId,
